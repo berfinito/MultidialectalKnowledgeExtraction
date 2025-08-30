@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/mdke/__init__.py
+src/mdke/data/ingest_commonvoice.py
+src/mdke/utils/io.py
+src/mdke/utils/langmap.py
+src/multidialectalknowledgeextraction.egg-info/PKG-INFO
+src/multidialectalknowledgeextraction.egg-info/SOURCES.txt
+src/multidialectalknowledgeextraction.egg-info/dependency_links.txt
+src/multidialectalknowledgeextraction.egg-info/requires.txt
+src/multidialectalknowledgeextraction.egg-info/top_level.txt

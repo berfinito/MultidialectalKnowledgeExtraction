@@ -1,0 +1,16 @@
+torch
+torchaudio
+transformers
+datasets
+accelerate
+evaluate
+peft
+soundfile
+librosa
+spacy
+sentence-transformers
+jiwer
+tqdm
+matplotlib
+pandas
+pyyaml

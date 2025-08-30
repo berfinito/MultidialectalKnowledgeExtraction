@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: multidialectalknowledgeextraction
+Version: 0.1.0
+Summary: Multidialect ASR → Topic → Knowledge Graph (TR/KMR/ZZA)
+Author: Berfin Çelik
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: torchaudio
+Requires-Dist: transformers
+Requires-Dist: datasets
+Requires-Dist: accelerate
+Requires-Dist: evaluate
+Requires-Dist: peft
+Requires-Dist: soundfile
+Requires-Dist: librosa
+Requires-Dist: spacy
+Requires-Dist: sentence-transformers
+Requires-Dist: jiwer
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+
+# Multidialectal Knowledge Extraction (TR/KMR/ZZA)
+
+Pipeline: **Common Voice v16 → ASR (Whisper/W2V2) → Topic/Keywords → Knowledge Graph**  
+Ek metin: Wikipedia (tr/ku/diq), ZazaGorani (ZZA).
+
+## Quickstart
+```bash
+conda activate mdke
+pip install -e .

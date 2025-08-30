@@ -1,0 +1,34 @@
+# Derin veri ve ara çıktılar
+data/
+reports/
+artifacts/
+models/
+runs/
+
+# Ara ve büyük dosyalar
+*.parquet
+*.jsonl
+*.json
+*.log
+*.ckpt
+*.pt
+*.bin
+*.wav
+*.flac
+
+# CT2/Faster-Whisper modelleri ve ara çıktılar
+data/interim/asr/ct2_whisper_kmr/
+data/interim/asr/ct2_whisper_zza/
+data/interim/asr_post/
+
+# Python cache ve notebooklar
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Ortam dosyaları
+.env
+
+# Gereksiz tekrarları kaldırdım, hem ana dizinleri hem de alt klasörleri ignore ediyor.
