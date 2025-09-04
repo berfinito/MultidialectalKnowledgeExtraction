@@ -1,0 +1,251 @@
+# mode: strong
+# Turkish alphabet: a b c ç d e f g ğ h ı i j k l m n o ö p r s ş t u ü v y z
+
+# Top 1-gram list
+ve
+bir
+bu
+ile
+için
+ama
+gibi
+çok
+daha
+de
+da
+mi
+ne
+niye
+neden
+nasıl
+hangi
+kim
+nerede
+ne zaman
+şimdi
+sonra
+önce
+hep
+hiç
+bazı
+her
+bazısı
+bazıları
+bazen
+yine
+yani
+çünkü
+ancak
+fakat
+veya
+ya da
+hem
+hem de
+sadece
+yalnız
+özellikle
+aslında
+elbette
+tabii
+mutlaka
+kesinlikle
+belki
+sanırım
+galiba
+bence
+bana göre
+bunu
+bunu da
+bunu hiç
+bunu hep
+bunu şimdi
+bunu sonra
+bunu önce
+bunu bazen
+bunu yine
+bunu yani
+bunu çünkü
+bunu ancak
+bunu fakat
+bunu veya
+bunu ya da
+bunu hem
+bunu hem de
+bunu sadece
+bunu yalnız
+bunu özellikle
+bunu aslında
+bunu elbette
+bunu tabii
+bunu mutlaka
+bunu kesinlikle
+bunu belki
+bunu sanırım
+bunu galiba
+bunu bence
+bunu bana göre
+
+# Top Turkish names
+Ahmet
+Mehmet
+Ayşe
+Fatma
+Mustafa
+Emre
+Zeynep
+Elif
+Yusuf
+Murat
+Hüseyin
+Hasan
+Ali
+Kemal
+Cem
+Can
+Deniz
+Ece
+Selin
+Burak
+Oğuz
+Gökhan
+Seda
+Büşra
+Melis
+Cansu
+Sibel
+Serkan
+Özge
+Barış
+Berk
+Bora
+Derya
+Ezgi
+Gizem
+İrem
+Kaan
+Merve
+Nil
+Onur
+Pelin
+Sinem
+Tuba
+Uğur
+Yasemin
+
+# Top Turkish places
+İstanbul
+Ankara
+İzmir
+Bursa
+Adana
+Antalya
+Konya
+Gaziantep
+Şanlıurfa
+Mersin
+Diyarbakır
+Kayseri
+Samsun
+Eskişehir
+Denizli
+Trabzon
+Erzurum
+Malatya
+Sakarya
+Manisa
+Balıkesir
+Kahramanmaraş
+Van
+Aydın
+Tekirdağ
+Hatay
+Sivas
+Muğla
+Elazığ
+Ordu
+Çanakkale
+Kocaeli
+Afyonkarahisar
+Kütahya
+Zonguldak
+Çorum
+Edirne
+Şırnak
+Batman
+Aksaray
+Yozgat
+Kırıkkale
+Kırşehir
+Kilis
+Bartın
+Ardahan
+Iğdır
+Bayburt
+
+# Top Turkish verbs
+yapmak
+etmek
+olmak
+gelmek
+gitmek
+almak
+vermek
+bulmak
+görmek
+istemek
+sevmek
+bilmek
+anlamak
+söylemek
+demek
+yazmak
+okumak
+çalışmak
+düşünmek
+başlamak
+bitirmek
+kullanmak
+beklemek
+aramak
+bulmak
+göstermek
+öğrenmek
+öğretmek
+kazanmak
+kaybetmek
+açmak
+kapatmak
+gülmek
+ağlamak
+koşmak
+yüzmek
+oturmak
+kalkmak
+uyumak
+uyanmak
+dinlemek
+izlemek
+gezmek
+gezmek
+
+
+Merhaba, nasılsın?
+Bugün hava çok güzel.
+Türkiye'nin başkenti Ankara'dır.
+Kediler ve köpekler evcil hayvanlardır.
+Yarın okula gideceğim.
+Çocuklar parkta oynuyor.
+Dün akşam sinemaya gittik.
+Kitap okumak çok faydalıdır.
+Bilgisayarımı tamir ettirdim.
+Arkadaşlarımla buluşacağım.
+Sabah kahvaltıda peynir ve zeytin yedim.
+İstanbul büyük bir şehirdir.
+Öğretmenimiz ödev verdi.
+Spor yapmak sağlıklıdır.
+Telefonumun şarjı bitti.
+Yeni bir araba aldım.
+Müzik dinlemeyi seviyorum.
+Tatilde denize girdik.
+Evde yemek pişirdim.
+Film izlemek eğlencelidir.

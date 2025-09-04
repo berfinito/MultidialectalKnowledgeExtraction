@@ -45,11 +45,12 @@ def load_audio_16k(path: str) -> np.ndarray:
         return audio.astype(np.float32)
 
 
-def get_prompt_ids_if_any(processor: WhisperProcessor, lang: str) -> Optional[List[int]]:
+def get_prompt_ids_if_any(processor: WhisperProcessor, lang: str, max_tokens: int = 224) -> Optional[List[int]]:
     """
-    Bias prompt desteği:
-      - kmr -> configs/prompts/kmr_bias.txt (varsa)
-      - zza -> configs/prompts/zza_bias.txt (varsa)
+    Bias prompt:
+      - kmr -> configs/prompts/kmr_bias.txt (if exists)
+      - zza -> configs/prompts/zza_bias.txt (if exists)
+    Tokenize → truncate (max_tokens) → return List[int].
     """
     if lang not in ("kmr", "zza"):
         return None
@@ -59,8 +60,28 @@ def get_prompt_ids_if_any(processor: WhisperProcessor, lang: str) -> Optional[Li
     bias_text = bias_path.read_text(encoding="utf-8").strip()
     if not bias_text:
         return None
-    # Yeni API (task arg yok)
-    return processor.get_prompt_ids(bias_text)
+
+    # Güvenilir truncation: tokenizer ile tokenlara çevir, özel token ekleme.
+    try:
+        toks = processor.tokenizer(
+            bias_text,
+            add_special_tokens=False,
+            return_attention_mask=False,
+            truncation=False
+        )["input_ids"]
+    except Exception:
+        return None
+
+    if not isinstance(toks, list):
+        try:
+            toks = list(toks)
+        except Exception:
+            return None
+
+    if len(toks) > max_tokens:
+        toks = toks[:max_tokens]
+
+    return toks
 
 
 def infer_split(
@@ -69,7 +90,8 @@ def infer_split(
     split: str,
     limit: Optional[int] = None,
     batch_size: int = 8,
-    beam_size: int = 1
+    beam_size: int = 1,
+    gen_lang: Optional[str] = None,  # <-- added
 ) -> Dict[str, Any]:
     logger = get_logger(f"whisper_{std_lang}_{split}")
     paths = Paths(
@@ -107,11 +129,15 @@ def infer_split(
             model.generation_config.use_dynamic_input_length = True
         logger.info("Enabled dynamic input length for Whisper (no 3000-frame requirement).")
 
-    gen_lang = "tr" if std_lang == "tr" else None
+    if gen_lang is None:
+        gen_lang = "tr" if std_lang == "tr" else None
 
     prompt_ids = get_prompt_ids_if_any(processor, std_lang)
     if prompt_ids is not None:
+        # Burada artık 224 civarı görmelisin
         logger.info(f"Using {std_lang.upper()} prompt bias with {len(prompt_ids)} tokens.")
+    if gen_lang:
+        logger.info(f"Forcing generation language: {gen_lang}")
 
     outputs = []
     total_audio_s = 0.0
@@ -159,10 +185,10 @@ def infer_split(
                 predicted_ids = model.generate(
                     input_features=input_features,
                     attention_mask=attention_mask,
-                    num_beams=beam_size,  # <--- EKLENDİ
+                    num_beams=beam_size,
                     task="transcribe",
                     **({"language": gen_lang} if gen_lang is not None else {}),
-                    **({"prompt_ids": torch.tensor(prompt_ids, device=device, dtype=torch.long)} if prompt_ids is not None else {}),
+                    **({"prompt_ids": prompt_ids} if prompt_ids is not None else {}),
                 )
             texts = processor.batch_decode(predicted_ids, skip_special_tokens=True)
         except Exception as e:
@@ -176,7 +202,7 @@ def infer_split(
                             num_beams=beam_size,
                             task="transcribe",
                             **({"language": gen_lang} if gen_lang is not None else {}),
-                            **({"prompt_ids": torch.tensor(prompt_ids, device=device, dtype=torch.long)} if prompt_ids is not None else {}),
+                            **({"prompt_ids": prompt_ids} if prompt_ids is not None else {}),
                         )
                     txt = processor.batch_decode(single_ids, skip_special_tokens=True)[0]
                 except Exception as ee:
@@ -258,14 +284,20 @@ def main():
                     help="Alias for --limit (first N examples).")
     ap.add_argument("--batch_size", type=int, default=8)
     ap.add_argument("--beam_size", type=int, default=1)
+    ap.add_argument("--gen_lang", type=str, default=None,
+                    help="Force Whisper generation language (e.g., ku, diq, tr). Use 'auto' to disable.")
     args = ap.parse_args()
 
     cfg = load_yaml(args.config)
     std_lang = normalize_lang(args.lang)
 
+    # Resolve generation language preference for infer_split
+    resolved_gen_lang = None if (args.gen_lang and args.gen_lang.strip().lower() == "auto") else (args.gen_lang.strip().lower() if args.gen_lang else None)
+
     rep = infer_split(
         cfg, std_lang, args.split,
-        limit=args.limit, batch_size=args.batch_size, beam_size=args.beam_size
+        limit=args.limit, batch_size=args.batch_size, beam_size=args.beam_size,
+        gen_lang=resolved_gen_lang,  # <-- pass through
     )
     print(rep)
 

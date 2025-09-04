@@ -1,15 +1,10 @@
 import json
 import pathlib
-from collections import Counter
+from collections import Counter, defaultdict
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 ASR_POST_DIR = ROOT / "data" / "interim" / "asr_post"
 REPORTS_DIR = ROOT / "reports"
-
-ALLOWED_BASELINE_SUFFIXES = {
-    "",  # truly suffixless
-    "DEC-none_FL-auto_beam1_vad0_translit-none",  # baseline-like
-}
 
 def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
@@ -41,32 +36,26 @@ def detected_lang_stats(jsonl_path: pathlib.Path):
         "detected_language_avg_prob": (prob_sum / n) if n else None,
     }
 
-def parse_variant(name: str):
-    stem = name.replace(".jsonl", "")
-    parts = stem.split("_")
-    lang = parts[1] if len(parts) > 1 else "unk"
-    split = parts[2] if len(parts) > 2 else "unk"
-    suffix = "_".join(parts[3:]) if len(parts) > 3 else ""
-    return stem, lang, split, suffix
-
 def score(metrics: dict):
+    # Lower is better. Prefer wer_translit > wer_raw > wer (HF)
     if not isinstance(metrics, dict):
         return float("inf")
-    wr = metrics.get("wer_raw")
-    return wr if isinstance(wr, (int, float)) else float("inf")
+    for k in ("wer_translit", "wer_raw", "wer"):
+        v = metrics.get(k)
+        if isinstance(v, (int, float)):
+            return v
+    return float("inf")
 
-def main():
-    summary = {}
+def parse_lang_from_run(run_name: str) -> str:
+    parts = run_name.split("_")
+    return parts[1] if len(parts) > 1 else "unk"
 
-    for jsonl in sorted(ASR_POST_DIR.glob("whisperct2_*.jsonl")):
-        stem, lang, split, suffix = parse_variant(jsonl.name)
-        if suffix not in ALLOWED_BASELINE_SUFFIXES:
-            continue
+def add_runs_from_glob(summary: dict, pattern: str):
+    for jsonl in sorted(ASR_POST_DIR.glob(pattern)):
         report = REPORTS_DIR / f"asr_{jsonl.stem}.json"
         entry = {
             "jsonl": str(jsonl.relative_to(ROOT)),
             "report": str(report.relative_to(ROOT)) if report.exists() else None,
-            "variant_suffix": suffix or "default",
         }
         if report.exists():
             try:
@@ -78,6 +67,13 @@ def main():
         entry["detected_language"] = detected_lang_stats(jsonl)
         summary[jsonl.stem] = entry
 
+def main():
+    summary = {}
+
+    # CT2 runs (all splits)
+    add_runs_from_glob(summary, "whisperct2_*.jsonl")
+
+    # Best combo across all runs by WER
     best = None
     for run_name, entry in summary.items():
         sc = score(entry.get("metrics", {}))
@@ -85,11 +81,24 @@ def main():
             if best is None or sc < best[1]:
                 best = (run_name, sc)
     if best:
-        summary["_best_baseline"] = {"run": best[0], "score": best[1]}
+        summary["_best_combo"] = {"run": best[0], "score": best[1]}
 
-    out_path = REPORTS_DIR / "sprint-1-summary.json"
+    # Best per language
+    best_per_lang = {}
+    for run_name, entry in summary.items():
+        lang = parse_lang_from_run(run_name)
+        sc = score(entry.get("metrics", {}))
+        if sc == float("inf"):
+            continue
+        cur = best_per_lang.get(lang)
+        if cur is None or sc < cur["score"]:
+            best_per_lang[lang] = {"run": run_name, "score": sc}
+    if best_per_lang:
+        summary["_best_per_lang"] = best_per_lang
+
+    out_path = REPORTS_DIR / "sprint-2-summary.json"
     out_path.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Sprint-1 summary saved to {out_path}")
+    print(f"Sprint-2 summary saved to {out_path}")
 
 if __name__ == "__main__":
     main()

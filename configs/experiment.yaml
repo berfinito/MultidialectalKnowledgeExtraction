@@ -53,6 +53,7 @@ asr:
     model: "openai/whisper-small"
     lang_map: { tr: "tr", kmr: "ku", zza: "auto" }
     batch_size: 8   # Sadece HF için, CT2 kodunda kullanılmıyor CT2 için: float16 (GPU), CPU'daysan int8 olabilir
+    ct2_tr_model: "data/interim/asr/ct2_whisper_tr"   # <-- EKLENDİ
     ct2_kmr_model: "data/interim/asr/ct2_whisper_kmr"
     ct2_zza_model: "data/interim/asr/ct2_whisper_zza"
     ct2_compute_type: "float16"
