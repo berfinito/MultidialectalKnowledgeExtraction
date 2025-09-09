@@ -1,4 +1,4 @@
-project:
+﻿project:
   seed: 42
   device: "cuda"
 
@@ -29,9 +29,9 @@ lid:
 
 asr:
   whisper:
-    model: "openai/whisper-medium"
+    model: "openai/whisper-large-v2"
     lang_map: { tr: "tr", kmr: "ku", zza: "auto" }
-    batch_size: 8   # HF için
+    batch_size: 8   # HF iÃ§in
     ct2_tr_model: "data/interim/asr/ct2_whisper_tr"
     ct2_kmr_model: "data/interim/asr/ct2_whisper_kmr"
     ct2_zza_model: "data/interim/asr/ct2_whisper_zza"
@@ -45,11 +45,11 @@ paths:
 
 #asr:
 #  whisper:
-    # TR için HuggingFace modeli
+    # TR iÃ§in HuggingFace modeli
 #    model: "openai/whisper-small"
 #    lang_map: { tr: "tr", kmr: "ku", zza: "auto" }
-#    batch_size: 8   # Sadece HF için, CT2 kodunda kullanılmıyor CT2 için: float16 (GPU), CPU'daysan int8 olabilir
-#    ct2_tr_model: "data/interim/asr/ct2_whisper_tr"   # <-- EKLENDİ
+#    batch_size: 8   # Sadece HF iÃ§in, CT2 kodunda kullanÄ±lmÄ±yor CT2 iÃ§in: float16 (GPU), CPU'daysan int8 olabilir
+#    ct2_tr_model: "data/interim/asr/ct2_whisper_tr"   # <-- EKLENDÄ°
 #    ct2_kmr_model: "data/interim/asr/ct2_whisper_kmr"
 #    ct2_zza_model: "data/interim/asr/ct2_whisper_zza"
 #    ct2_compute_type: "float16"

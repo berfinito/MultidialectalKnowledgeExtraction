@@ -32,3 +32,54 @@ __pycache__/
 .env
 
 # Gereksiz tekrarları kaldırdım, hem ana dizinleri hem de alt klasörleri ignore ediyor.
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Virtual env / secrets
+.venv/
+venv/
+.env
+
+# Data: heavy/intermediate
+data/raw/**
+data/interim/**
+data/tmp/**
+
+# Keep processed data unless you choose otherwise:
+# data/processed/**
+
+# Models / runs (if created)
+models/
+runs/
+
+# Reports: keep results; only ignore temp and zips
+reports/_trash/**
+reports/_inspect/**
+reports/logs/**
+# If you DON'T want to commit the zipped bundle, keep next line.
+# If you DO want to commit thesis_bundle_ml.zip, add an exception below.
+reports/*.zip
+!reports/thesis_bundle_ml.zip
+
+# Audio files (do not push)
+*.wav
+*.flac
+
+# Checkpoints
+*.ckpt
+*.pt
+*.bin
+
+# Notebooks cache
+.ipynb_checkpoints/
