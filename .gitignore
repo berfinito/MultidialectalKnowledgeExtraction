@@ -83,3 +83,12 @@ reports/*.zip
 
 # Notebooks cache
 .ipynb_checkpoints/
+
+# reports klasörünü genelde ignore et
+reports/
+
+# ama aşağıdakileri dahil et
+!reports/ngrams/
+!reports/ngrams/*.txt
+!reports/text_stats/
+!reports/text_stats/*.txt

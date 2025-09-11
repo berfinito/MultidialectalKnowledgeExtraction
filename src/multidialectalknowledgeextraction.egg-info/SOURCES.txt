@@ -5,6 +5,9 @@ src/mdke/asr/whisper_infer.py
 src/mdke/asr/whisper_infer_ct2.py
 src/mdke/data/check_speaker_leak.py
 src/mdke/data/ingest_commonvoice.py
+src/mdke/text/__init__.py
+src/mdke/text/ingest_wikipedia.py
+src/mdke/text/ingest_zazagorani.py
 src/mdke/text/transliterate_kmrzza.py
 src/mdke/utils/io.py
 src/mdke/utils/langmap.py
