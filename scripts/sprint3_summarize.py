@@ -2,17 +2,25 @@ from __future__ import annotations
 import json
 from pathlib import Path
 from datetime import datetime
-import pandas as pd  # row sayısı fallback için
+import pandas as pd
 
 LANGS = ["tr", "kmr", "zza"]
 
-def parse_residual_report(path: Path):
-    if not path.exists():
+def parquet_len(p: Path) -> int | None:
+    if not p.exists():
+        return None
+    try:
+        return len(pd.read_parquet(p))
+    except Exception:
+        return None
+
+def parse_residual_report(p: Path):
+    if not p.exists():
         return None
     data = {}
-    for line in path.read_text(encoding="utf-8").splitlines():
-        if "=" in line:
-            k, v = line.split("=", 1)
+    for ln in p.read_text(encoding="utf-8").splitlines():
+        if "=" in ln:
+            k, v = ln.split("=", 1)
             data[k.strip()] = v.strip()
     try:
         return {
@@ -25,14 +33,6 @@ def parse_residual_report(path: Path):
     except Exception:
         return None
 
-def parquet_len(p: Path) -> int | None:
-    if not p.exists():
-        return None
-    try:
-        return len(pd.read_parquet(p))
-    except Exception:
-        return None
-
 def main():
     root = Path(".").resolve()
     reports_dir = root / "reports"
@@ -42,16 +42,32 @@ def main():
     summary = {"_generated_at": datetime.utcnow().isoformat() + "Z"}
 
     for lang in LANGS:
+        # Prefer residual report (doğru kaynak-clean çifti için)
         res_file = reports_dir / "text_stats" / f"residual_media_{lang}.txt"
         res = parse_residual_report(res_file)
 
-        base = processed / f"text_corpus_{lang}.parquet"
-        clean = processed / f"text_corpus_{lang}_clean.parquet"
+        if res:
+            input_n = res["input"]
+            kept_n = res["kept"]
+            dropped_n = res["dropped"]
+        else:
+            base = processed / f"text_corpus_{lang}.parquet"
+            clean = processed / f"text_corpus_{lang}_clean.parquet"
+            input_n = parquet_len(base)
+            kept_n = parquet_len(clean)
+            dropped_n = (input_n - kept_n) if (input_n is not None and kept_n is not None) else None
 
-        input_n = res["input"] if res else parquet_len(base)
-        kept_n = res["kept"] if res else parquet_len(clean)
-        dropped_n = res["dropped"] if res else (input_n - kept_n if (input_n is not None and kept_n is not None) else None)
+        # Kaynak kırılımı
+        sources = {}
+        wiki = processed / f"wiki_{lang}.parquet"
+        if wiki.exists():
+            sources["wiki"] = parquet_len(wiki)
+        if lang == "zza":
+            zaza = processed / "zazagorani_zza.parquet"
+            if zaza.exists():
+                sources["zazagorani"] = parquet_len(zaza)
 
+        # N-gram yolları (clean varsa clean’i tercih et)
         uni_clean = reports_dir / "ngrams" / f"{lang}_clean_unigram.txt"
         bi_clean = reports_dir / "ngrams" / f"{lang}_clean_bigram.txt"
         uni = uni_clean if uni_clean.exists() else (reports_dir / "ngrams" / f"{lang}_unigram.txt")
@@ -61,12 +77,13 @@ def main():
             "input": input_n,
             "dropped": dropped_n,
             "kept": kept_n,
-            "has_clean": clean.exists(),
+            "has_clean": (processed / f"text_corpus_{lang}_clean.parquet").exists(),
+            "sources": sources,
+            "residual_report": str(res_file.relative_to(root)) if res_file.exists() else None,
             "ngrams": {
                 "unigram": str(uni.relative_to(root)) if uni.exists() else None,
                 "bigram": str(bi.relative_to(root)) if bi.exists() else None,
             },
-            "residual_report": str(res_file.relative_to(root)) if res_file.exists() else None,
         }
 
     out_json.parent.mkdir(parents=True, exist_ok=True)
