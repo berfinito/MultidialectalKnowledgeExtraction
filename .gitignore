@@ -92,3 +92,9 @@ reports/
 !reports/ngrams/*.txt
 !reports/text_stats/
 !reports/text_stats/*.txt
+!reports/sprint-1-summary.json
+!reports/sprint-1-summary.md
+!reports/sprint-2-summary.json
+!reports/sprint-2-summary.md
+!reports/sprint-3-summary.json
+!reports/sprint-3-summary.md
