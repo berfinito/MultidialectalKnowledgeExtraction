@@ -3,12 +3,12 @@ import argparse, bz2, html, re
 from pathlib import Path
 import xml.etree.ElementTree as ET
 from typing import Dict, Any, Iterable, Optional
-
+from mdke.utils.textnorm import normalize_text
 import pandas as pd
 from tqdm import tqdm
 
 from mdke.utils.io import Paths, ensure_dirs, load_yaml, save_jsonl, get_logger
-from mdke.utils.metrics import token_split, normalize_text_basic, latin_hawar_ratio
+from mdke.utils.metrics import token_split, latin_hawar_ratio  # normalize_text_basic kaldırıldı
 
 WIKI_PREFIX = {"tr": "trwiki", "kmr": "kuwiki", "zza": "diqwiki"}
 
@@ -110,7 +110,8 @@ def clean_wikitext(text: str, max_template_passes: int = 8) -> str:
     s = _style_freeform.sub(" ", s)
     s = _hex_color.sub(" ", s)
 
-    s = _heading.sub(r"\1", s)
+    s = _heading.sub(" ", s)
+
     s = _html.sub(" ", s)
 
     s = _ns_plain_line.sub(" ", s)
@@ -120,7 +121,6 @@ def clean_wikitext(text: str, max_template_passes: int = 8) -> str:
     s = _bare_url.sub(" ", s)
     s = _bracket_tokens.sub(" ", s)
 
-    # Remove residual media/control tokens
     s = _residual_media.sub(" ", s)
 
     s = re.sub(r"[^\S\r\n]+", " ", s)
@@ -213,7 +213,7 @@ def run(cfg, lang: str, limit_pages: Optional[int], min_tokens: int,
                 "lang": lang,
                 "source": "wiki",
                 "text": para,
-                "text_norm": normalize_text_basic(para),
+                "text_norm": normalize_text(para, lang),  # normalize_text_basic -> normalize_text
                 "n_chars": len(para),
                 "n_tokens": len(toks),
             })
@@ -258,4 +258,4 @@ def main():
     print(res)
 
 if __name__ == "__main__":
-    main() 
+    main()

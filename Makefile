@@ -11,3 +11,11 @@ ensure_dirs(paths); print('OK')"
 ingest_cv:
 \t@echo "Ingest Common Voice (local) for LANG=$(LANG)"
 \t@python -m mdke.data.ingest_commonvoice --mode local --lang $(LANG)
+
+.PHONY: final
+
+final:
+\tpython scripts/materialize_final_aliases.py --config configs/experiment.yaml
+\tpython scripts/sprint4_summarize.py --config configs/experiment.yaml --tag_base normh
+\tpython scripts/sprint4_make_markdown.py --config configs/experiment.yaml
+\t@echo "Final artefaktlar hazır. Rapor: reports/sprint-4-summary.{json,md}"

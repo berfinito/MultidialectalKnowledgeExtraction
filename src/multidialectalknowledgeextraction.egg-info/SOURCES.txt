@@ -12,8 +12,10 @@ src/mdke/text/transliterate_kmrzza.py
 src/mdke/utils/io.py
 src/mdke/utils/langmap.py
 src/mdke/utils/metrics.py
+src/mdke/utils/textnorm.py
 src/multidialectalknowledgeextraction.egg-info/PKG-INFO
 src/multidialectalknowledgeextraction.egg-info/SOURCES.txt
 src/multidialectalknowledgeextraction.egg-info/dependency_links.txt
 src/multidialectalknowledgeextraction.egg-info/requires.txt
 src/multidialectalknowledgeextraction.egg-info/top_level.txt
+tests/test_textnorm.py

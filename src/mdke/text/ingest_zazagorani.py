@@ -6,7 +6,8 @@ import pandas as pd
 from tqdm import tqdm
 
 from mdke.utils.io import Paths, ensure_dirs, load_yaml, save_jsonl, get_logger
-from mdke.utils.metrics import token_split, normalize_text_basic, latin_hawar_ratio
+from mdke.utils.metrics import token_split, latin_hawar_ratio
+from mdke.utils.textnorm import normalize_text  # <-- yeni
 
 def run(cfg, lang: str = "zza", limit_files: int | None = None, min_tokens: int = 5, tag: str = ""):
     assert lang == "zza", "Zazagorani ingestor only supports ZZA."
@@ -43,7 +44,7 @@ def run(cfg, lang: str = "zza", limit_files: int | None = None, min_tokens: int 
             "lang": lang,
             "source": "zazagorani",
             "text": txt,
-            "text_norm": normalize_text_basic(txt),
+            "text_norm": normalize_text(txt, "zza"),  # <-- güncellendi
             "n_chars": len(txt),
             "n_tokens": len(toks),
             "path": str(p),
@@ -78,4 +79,4 @@ def main():
     print(res)
 
 if __name__ == "__main__":
-    main() 
+    main()
