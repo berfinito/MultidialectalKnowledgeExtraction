@@ -12,7 +12,7 @@ for i, line in enumerate(lines):
     if line.startswith("# Representatives "):
         out.append(line)
         out.append("")
-        continue
+        continue 
     if line.startswith("## Topic "):
         count += 1
         in_topic = True
