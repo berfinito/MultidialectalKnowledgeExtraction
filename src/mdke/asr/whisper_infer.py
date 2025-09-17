@@ -62,7 +62,6 @@ def std_to_whisper_lang(std_lang: str) -> Optional[str]:
     return None
 
 
-# Eski destek kontrolünü sadeleştir: önce dene, olmazsa transcribe-only.
 def build_forced_decoder_ids(processor: WhisperProcessor, lang_choice: Optional[str]) -> tuple[Optional[List[List[int]]], str]:
     """
     Güvenli forced_decoder_ids üret:
@@ -121,10 +120,9 @@ def get_prompt_ids_if_any(processor: WhisperProcessor, std_lang: str, max_tokens
     except Exception:
         return None
 
-    # Her türlü çıktıyı düz listeye çevir (list[int])
     def to_flat_list(x):
         try:
-            import torch as _torch  # local import in case
+            import torch as _torch
             if isinstance(x, _torch.Tensor):
                 x = x.tolist()
         except Exception:
@@ -132,14 +130,12 @@ def get_prompt_ids_if_any(processor: WhisperProcessor, std_lang: str, max_tokens
         if isinstance(x, (tuple, np.ndarray)):
             x = x.tolist()
         if isinstance(x, list) and len(x) > 0 and isinstance(x[0], list):
-            # batch boyutu gibi iç içe liste geldiyse ilkini al
             x = x[0]
         if not isinstance(x, list):
             try:
                 x = list(x)
             except Exception:
                 return None
-        # sadece int’lerden oluşsun
         x = [int(t) for t in x if isinstance(t, (int, np.integer))]
         return x
 
@@ -163,6 +159,7 @@ def infer_split(
     min_new_tokens: int = 8,
     max_new_tokens: int = 160,
     tag: str = "",  # outputs/logs için ek son ek
+    dump_beams: bool = False,  # beam adaylarını JSONL'e dök
 ) -> Dict[str, Any]:
     logger = get_logger(f"whisper_{std_lang}_{split}")
     paths = Paths(
@@ -225,6 +222,19 @@ def infer_split(
     if prompt_ids is not None:
         logger.info(f"Using {std_lang.upper()} prompt bias with {len(prompt_ids)} tokens.")
 
+    # ÖNEMLİ: forced_decoder_ids'ı bir kere generation_config'e yaz, generate çağrılarında geçme
+    try:
+        if forced_decoder_ids is not None:
+            if hasattr(model, "generation_config"):
+                model.generation_config.forced_decoder_ids = forced_decoder_ids
+            else:
+                model.config.forced_decoder_ids = forced_decoder_ids
+    except Exception as e:
+        logger.warning(f"Failed to set forced_decoder_ids on generation_config: {e}")
+
+    # Beam dump modu tek bayrak
+    beams_mode = bool(dump_beams and beam_size > 1)
+
     outputs = []
     total_audio_s = 0.0
     t0 = time.time()
@@ -249,6 +259,9 @@ def infer_split(
     disable_threshold = 0.5
 
     for i in tqdm(range(0, n, batch_size), desc=f"infer[{std_lang}/{split}]"):
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+
         batch = df.iloc[i:i + batch_size]
         audios = []
         for p in batch["path"].tolist():
@@ -265,44 +278,137 @@ def infer_split(
             return_attention_mask=True,
         )
         input_features = proc_out["input_features"].to(device=device, dtype=dtype)
+        # attention_mask üretsek de generate'te kullanmayacağız (Whisper + input_features ile sorun çıkarabiliyor)
         attention_mask = proc_out.get("attention_mask")
         if attention_mask is not None:
             attention_mask = attention_mask.to(device)
 
+        # Toplu generate
         try:
-            with torch.inference_mode():
-                predicted_ids = model.generate(
-                    input_features=input_features,
-                    attention_mask=attention_mask,
-                    num_beams=beam_size,
-                    do_sample=False,
-                    min_new_tokens=min_new_tokens,
-                    max_new_tokens=max_new_tokens,
-                    **({"forced_decoder_ids": forced_decoder_ids} if forced_decoder_ids is not None else {}),
-                    **({"prompt_ids": prompt_ids} if prompt_ids is not None else {}),
-                )
-            texts = processor.batch_decode(predicted_ids, skip_special_tokens=True)
-        except Exception:
+            if beams_mode:
+                with torch.inference_mode():
+                    gen_kwargs = dict(
+                        input_features=input_features,
+                        # attention_mask yok
+                        num_beams=int(beam_size),
+                        num_return_sequences=int(beam_size),
+                        min_new_tokens=int(min_new_tokens),
+                        max_new_tokens=int(max_new_tokens),
+                        return_dict_in_generate=True,
+                        output_scores=True,
+                    )
+                    if prompt_ids is not None:
+                        gen_kwargs["prompt_ids"] = prompt_ids
+                    gen_out = model.generate(**gen_kwargs)
+
+                sequences = gen_out.sequences  # [batch*beam, T]
+                seq_scores = getattr(gen_out, "sequences_scores", None)  # [batch*beam] (log-benzeri)
+                decoded_all = processor.batch_decode(sequences, skip_special_tokens=True)
+
+                texts = []
+                grouped = []
+                for bi in range(len(batch)):
+                    start = bi * beam_size
+                    end = start + beam_size
+                    cand_txts = decoded_all[start:end]
+                    if seq_scores is not None:
+                        cand_scores = [float(s) for s in seq_scores[start:end].tolist()]
+                    else:
+                        cand_scores = [float("nan")] * len(cand_txts)
+                    best_i = max(
+                        range(len(cand_txts)),
+                        key=lambda k: cand_scores[k] if not np.isnan(cand_scores[k]) else -1e9
+                    )
+                    texts.append(cand_txts[best_i])
+                    alt_txts = [t for j, t in enumerate(cand_txts) if j != best_i]
+                    alt_scores = [s for j, s in enumerate(cand_scores) if j != best_i]
+                    grouped.append({
+                        "best_index": int(best_i),
+                        "all_hyps": cand_txts,
+                        "all_scores": cand_scores,
+                        "alt_hyps": alt_txts,
+                        "alt_scores": alt_scores,
+                    })
+
+                # bellek temizliği
+                try:
+                    del gen_out, sequences, seq_scores, decoded_all
+                except Exception:
+                    pass
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+
+            else:
+                with torch.inference_mode():
+                    predicted_ids = model.generate(
+                        input_features=input_features,
+                        # attention_mask yok
+                        min_new_tokens=int(min_new_tokens),
+                        max_new_tokens=int(max_new_tokens),
+                        num_beams=1,
+                        **({"prompt_ids": prompt_ids} if prompt_ids is not None else {}),
+                    )
+                texts = processor.batch_decode(predicted_ids, skip_special_tokens=True)
+                grouped = None
+
+        except Exception as e:
+            logger.warning(f"Batch generate failed; falling back to single items. Reason: {e}")
             texts = []
-            for j, pth in enumerate(batch["path"].tolist()):
+            grouped = [] if beams_mode else None
+            for j in range(len(batch)):
                 try:
                     with torch.inference_mode():
-                        single_ids = model.generate(
-                            input_features=input_features[j:j+1],
-                            attention_mask=None if attention_mask is None else attention_mask[j:j+1],
-                            num_beams=beam_size,
-                            do_sample=False,
-                            min_new_tokens=min_new_tokens,
-                            max_new_tokens=max_new_tokens,
-                            **({"forced_decoder_ids": forced_decoder_ids} if forced_decoder_ids is not None else {}),
-                            **({"prompt_ids": prompt_ids} if prompt_ids is not None else {}),
-                        )
-                    txt = processor.batch_decode(single_ids, skip_special_tokens=True)[0]
+                        if beams_mode:
+                            gen_out = model.generate(
+                                input_features=input_features[j:j+1],
+                                num_beams=int(beam_size),
+                                num_return_sequences=int(beam_size),
+                                min_new_tokens=int(min_new_tokens),
+                                max_new_tokens=int(max_new_tokens),
+                                return_dict_in_generate=True,
+                                output_scores=True,
+                                **({"prompt_ids": prompt_ids} if prompt_ids is not None else {}),
+                            )
+                            seq = gen_out.sequences
+                            sc = getattr(gen_out, "sequences_scores", None)
+                            cand_txts = processor.batch_decode(seq, skip_special_tokens=True)
+                            if sc is not None:
+                                cand_scores = [float(s) for s in sc.tolist()]
+                            else:
+                                cand_scores = [float("nan")] * len(cand_txts)
+                            best_i = max(
+                                range(len(cand_txts)),
+                                key=lambda k: cand_scores[k] if not np.isnan(cand_scores[k]) else -1e9
+                            )
+                            txt = cand_txts[best_i]
+                            alt_txts = [t for k, t in enumerate(cand_txts) if k != best_i]
+                            alt_scores = [s for k, s in enumerate(cand_scores) if k != best_i]
+                            grouped.append({
+                                "best_index": int(best_i),
+                                "all_hyps": cand_txts,
+                                "all_scores": cand_scores,
+                                "alt_hyps": alt_txts,
+                                "alt_scores": alt_scores,
+                            })
+                            # bellek temizliği
+                            del gen_out, seq, sc
+                        else:
+                            single_ids = model.generate(
+                                input_features=input_features[j:j+1],
+                                num_beams=int(beam_size),
+                                do_sample=False,
+                                min_new_tokens=int(min_new_tokens),
+                                max_new_tokens=int(max_new_tokens),
+                            )
+                            txt = processor.batch_decode(single_ids, skip_special_tokens=True)[0]
+                    texts.append(txt)
+                    if torch.cuda.is_available():
+                        torch.cuda.empty_cache()
                 except Exception as ee:
                     txt = ""
+                    texts.append(txt)
                     with err_log.open("a", encoding="utf-8") as ef:
-                        ef.write(f"{pth}\t{str(ee)}\n")
-                texts.append(txt)
+                        ef.write(f"{batch['path'].iloc[j]}\t{str(ee)}\n")
 
         # Bias toplu fallback (yüksek boş oranı) + erken kapatma istatistiği
         retried_this_batch = False
@@ -315,13 +421,11 @@ def infer_split(
                     with torch.inference_mode():
                         predicted_ids2 = model.generate(
                             input_features=input_features,
-                            attention_mask=attention_mask,
-                            num_beams=beam_size,
+                            # attention_mask yok
+                            num_beams=int(beam_size),
                             do_sample=False,
-                            min_new_tokens=min_new_tokens,
-                            max_new_tokens=max_new_tokens,
-                            **({"forced_decoder_ids": forced_decoder_ids} if forced_decoder_ids is not None else {}),
-                            # no prompt_ids
+                            min_new_tokens=int(min_new_tokens),
+                            max_new_tokens=int(max_new_tokens),
                         )
                     texts2 = processor.batch_decode(predicted_ids2, skip_special_tokens=True)
                     for k in empty_idx:
@@ -338,13 +442,10 @@ def infer_split(
                         with torch.inference_mode():
                             single_ids = model.generate(
                                 input_features=input_features[k:k+1],
-                                attention_mask=None if attention_mask is None else attention_mask[k:k+1],
-                                num_beams=beam_size,
+                                num_beams=int(beam_size),
                                 do_sample=False,
-                                min_new_tokens=min_new_tokens,
-                                max_new_tokens=max_new_tokens,
-                                **({"forced_decoder_ids": forced_decoder_ids} if forced_decoder_ids is not None else {}),
-                                # no prompt_ids
+                                min_new_tokens=int(min_new_tokens),
+                                max_new_tokens=int(max_new_tokens),
                             )
                         txt = processor.batch_decode(single_ids, skip_special_tokens=True)[0]
                         if str(txt).strip():
@@ -364,15 +465,34 @@ def infer_split(
                 prompt_ids = None
                 use_bias = False
 
-        for (idx, text) in zip(batch.index.tolist(), texts):
-            outputs.append({
+        for local_idx, (idx, text) in enumerate(zip(batch.index.tolist(), texts)):
+            record = {
+                "utt_id": f"{split}_{idx}",
                 "path": df.at[idx, "path"],
                 "gt_text": df.at[idx, "text"],
                 "pred_text": text,
                 "duration_s": float(df.at[idx, "duration_s"]),
                 "split": split,
                 "lang": std_lang,
-            })
+            }
+            if beams_mode:
+                if grouped is not None and local_idx < len(grouped):
+                    g = grouped[local_idx]
+                    best_score = g["all_scores"][g["best_index"]]
+                    record["logp_acoustic"] = (
+                        None
+                        if (best_score is None or (isinstance(best_score, float) and np.isnan(best_score)))
+                        else float(best_score)
+                    )
+                    record["alt_hyps"] = g["alt_hyps"]
+                    record["beam_scores"] = g["alt_scores"]
+                    record["beam_size"] = int(beam_size)
+                else:
+                    record["logp_acoustic"] = None
+                    record["alt_hyps"] = []
+                    record["beam_scores"] = []
+                    record["beam_size"] = int(beam_size)
+            outputs.append(record)
 
     wall = time.time() - t0
     rtf = compute_rtf(total_audio_s, wall)
@@ -399,7 +519,10 @@ def infer_split(
     if std_lang in ("kmr", "zza"):
         latin_ratio = float(latin_hawar_ratio(hyps))
 
+    # Çıktı dosya adı: beams_mode ise her zaman _beams.jsonl
     interim_out = paths.interim / f"asr/whisper_{std_lang}_{split}{tag_suffix}.jsonl"
+    if beams_mode:
+        interim_out = paths.interim / f"asr/whisper_{std_lang}_{split}{tag_suffix}_beams.jsonl"
     save_jsonl(outputs, interim_out)
 
     rep = {
@@ -423,6 +546,7 @@ def infer_split(
         "bias_fallback_batch_retries": int(batch_fallback_retries),
         "bias_fallback_single_fixes": int(single_fallback_fixes),
         "tag": (tag if tag else None),
+        "dump_beams": bool(dump_beams),
     }
     rep_path = paths.reports / f"asr_whisper_{std_lang}_{split}{tag_suffix}.json"
     rep_path.parent.mkdir(parents=True, exist_ok=True)
@@ -449,6 +573,8 @@ def main():
     ap.add_argument("--min_new", type=int, default=8, help="min_new_tokens for generation.")
     ap.add_argument("--max_new", type=int, default=160, help="max_new_tokens for generation.")
     ap.add_argument("--tag", type=str, default="", help="Çıktı dosyaları için ek son ek, örn: 'small', 'medium'.")
+    ap.add_argument("--dump_beams", action="store_true",
+                    help="Beam>1 ise beam hip'lerini ve skorları JSONL olarak kaydet.")
     args = ap.parse_args()
 
     cfg = load_yaml(args.config)
@@ -473,6 +599,7 @@ def main():
         min_new_tokens=args.min_new,
         max_new_tokens=args.max_new,
         tag=args.tag,
+        dump_beams=args.dump_beams,
     )
     print(rep)
 

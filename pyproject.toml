@@ -30,6 +30,7 @@ dependencies = [
   "keybert",
   "yake",
   "gensim>=4.3.2",
+  "networkx>=3.2",
 ]
 
 [tool.ruff]
