@@ -39,3 +39,36 @@ python scripts\asr_compare_models.py --patterns "reports/asr_whisper_*_*_medium.
 
 ## Notlar
 - “Small” sadece 512 örnekli pilot olarak koşuldu ve WER/CER çok yüksekti; final kararlar medium/large tam validation+test raporlarına dayandırıldı.
+
+## Thesis Consolidation
+
+Ana bulgular `reports/analysis/thesis_tables.md` içinde konsolide:
+- Topic Coherence: Çok-kaynak (text vs cv vs both) varyantları; lehçe/dil bazında kalite / outlier dengesi.
+- Keyword Overlap & Coverage: Düşük J(text,cv) + yüksek cv coverage → kaynak tamamlayıcılığı.
+- Representatives: TR/KMR/ZZA both top15 nitel doğrulama.
+- Case Studies:
+  - CS-1 (Tema, Çok-Dilli, CV): Ortak temalar + lehçe farklılığı.
+  - CS-2 (Aynı Konu, Çok Konuşmacı): Çekirdek kavram sabit; çevresel kültürel halo.
+  - CS-3 (Orijinal vs MT): Deferred (metodoloji dokümante).
+  - CS-4 (Speech vs Text): Speech ek kaynağı terminolojik çeşitlilik artırıyor.
+- Knowledge Graph: Mini (top15) vs Full — hub gelişimi (ZZA max degree 56), density düşüşü, zengin topoloji.
+- Execution Summary: Sprint, test case, ablation, risk izlenebilirliği.
+
+Future work ve reproducibility komutları: `reports/analysis/future_work.md`
+
+Hızlı Repro (örnek):
+```powershell
+conda activate mdke
+python scripts/topics_bertopic.py --lang tr --sources text,cv --cv-weight 0.5
+python scripts/keywords_extract.py --lang tr --sources text,cv,both --topk 200
+python scripts/compute_topic_coherence.py --langs tr,kmr,zza --variants text,cv,both --topn 10
+python scripts/topic_representatives.py --lang tr --variant both --topk_docs 2
+python scripts/kg_from_reps_terms.py --langs tr,kmr,zza --mode top15 --top_terms 5
+python scripts/kg_from_reps_terms.py --langs tr,kmr,zza --mode full --top_terms 5 --summary_md reports/analysis/kg_examples_full.md
+```
+
+Deferred:
+- Shallow Fusion (TC-3)
+- MT Drift (CS-3)
+- Entity Linking + PMI / TF-IDF edge weighting
+- Bipartite Topic–Term KG

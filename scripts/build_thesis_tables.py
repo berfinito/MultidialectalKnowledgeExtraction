@@ -1,48 +1,175 @@
-import argparse, subprocess, sys
+import argparse
+import datetime
+import subprocess
+import sys
 from pathlib import Path
+from typing import List, Tuple, Dict, Set
 
-def extract_body(markdown: str) -> str:
-    # En üstteki başlık satır(lar)ını düşür (ör. "# Topic Coherence")
-    lines = markdown.splitlines()
-    i = 0
-    # Başlangıçtaki boş satırları atla
-    while i < len(lines) and lines[i].strip() == "":
-        i += 1
-    # Üstte ardışık başlık satırları varsa (# veya ## ile başlayan), atla
-    while i < len(lines) and lines[i].lstrip().startswith("#"):
-        i += 1
-    # Bir sonraki tek boş satırı da atla (varsa)
-    if i < len(lines) and lines[i].strip() == "":
-        i += 1
-    return "\n".join(lines[i:])
+def git_commit_hash() -> str:
+    try:
+        return subprocess.check_output(["git", "rev-parse", "--short", "HEAD"], stderr=subprocess.DEVNULL).decode().strip()
+    except Exception:
+        return "unknown"
 
-def append_if_exists(lines, path: Path, title: str):
-    if path.exists():
-        # Kendi başlığımızı tek sefer ekleyelim
-        lines.append(f"## {title}")
-        lines.append("")
-        body = extract_body(path.read_text(encoding="utf-8"))
-        lines.extend(body.splitlines())
-        lines.append("")
-    else:
-        lines.append(f"<!-- Missing: {path} -->")
+def expand_items(analysis_dir: Path, include_raw: List[str]) -> List[Path]:
+    """
+    Her kalem:
+      - Direkt dosya adı (topic_coherence.md)
+      - Glob pattern (representatives_*_both_top15.md)
+    Sıra korunur; pattern genişlemesi alfabetik.
+    """
+    out: List[Path] = []
+    seen: Set[Path] = set()
+    for item in include_raw:
+        if any(ch in item for ch in ["*", "?", "["]):
+            for p in sorted(analysis_dir.glob(item)):
+                if p.is_file() and p not in seen:
+                    out.append(p)
+                    seen.add(p)
+        else:
+            p = analysis_dir / item
+            if p.is_file() and p not in seen:
+                out.append(p)
+                seen.add(p)
+            else:
+                # Yine de listede göstermek için placeholder
+                if p not in seen:
+                    out.append(p)
+                    seen.add(p)
+    return out
+
+def derive_title(path: Path) -> str:
+    name = path.name.replace(".md", "")
+    return name.replace("_", " ").title()
+
+def parse_file(path: Path) -> Tuple[str, List[str]]:
+    """
+    İlk başlık satırı (# ...) varsa başlık olarak al, gövdeyi geri döndür.
+    Yoksa başlığı dosya adından türet.
+    """
+    if not path.exists():
+        return f"Missing: {path.name}", [f"<!-- Missing file: {path.name} -->"]
+    lines = path.read_text(encoding="utf-8").splitlines()
+    title = None
+    body_start = 0
+    # Skip initial empties
+    while body_start < len(lines) and lines[body_start].strip() == "":
+        body_start += 1
+    if body_start < len(lines) and lines[body_start].lstrip().startswith("#"):
+        raw = lines[body_start].lstrip()
+        # Normalize to level 2 heading later
+        title = raw.lstrip("# ").strip()
+        body_start += 1
+        # Skip one blank line after heading
+        if body_start < len(lines) and lines[body_start].strip() == "":
+            body_start += 1
+    if title is None:
+        title = derive_title(path)
+    body = lines[body_start:]
+    return title, body
+
+def normalize_heading_levels(body: List[str], base_level: int = 3) -> List[str]:
+    """
+    Dosya içi alt başlıkların (#, ## ...) hepsini base_level veya daha derinine indir.
+    Örn: base_level=3 → tüm '#' → '###'
+    """
+    norm: List[str] = []
+    for line in body:
+        if line.lstrip().startswith("#"):
+            hashes = 0
+            for c in line:
+                if c == "#":
+                    hashes += 1
+                else:
+                    break
+            # Replace with desired level (min 1)
+            line = "#" * base_level + " " + line.lstrip("# ").strip()
+        norm.append(line)
+    return norm
+
+def make_toc(sections: List[Tuple[str, str]]) -> List[str]:
+    """
+    sections: (anchor, title)
+    """
+    lines = ["## İçindekiler", ""]
+    for anchor, title in sections:
+        lines.append(f"- [{title}](#{anchor})")
+    lines.append("")
+    return lines
+
+def anchor_slug(title: str) -> str:
+    return (
+        title.lower()
+        .replace(" ", "-")
+        .replace("/", "-")
+        .replace("(", "")
+        .replace(")", "")
+        .replace(",", "")
+        .replace(".", "")
+        .replace("?", "")
+        .replace(":", "")
+        .replace("á", "a")
+        .replace("î", "i")
+    )
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--analysis_dir", type=Path, default=Path("reports/analysis"))
     ap.add_argument("--out", type=Path, default=Path("reports/analysis/thesis_tables.md"))
-    # İsterseniz coverage'ı varsayılanlara dahil edin:
-    ap.add_argument("--include", type=str, default="topic_coherence.md,keyword_overlap.md,keyword_coverage.md")
+    ap.add_argument("--include", type=str,
+                    default="topic_coherence.md,keyword_overlap.md,keyword_coverage.md,representatives_tr_both_top15.md,representatives_kmr_both_top15.md,representatives_zza_both_top15.md,case1_*,case2_*,case3_*,case4_*,kg_examples_*.md,kg_interpretation.md,project_execution_summary.md")
+    ap.add_argument("--toc", action="store_true", help="İçindekiler tablosu ekle")
+    ap.add_argument("--no_metadata", action="store_true", help="Üst metadata bloğunu yazma")
+    ap.add_argument("--drop_duplicates", action="store_true", help="Aynı başlık ikinci kez gelirse atla")
+    ap.add_argument("--normalize_level", type=int, default=3, help="İç gövde alt başlıkları bu seviyeye çek")
     args = ap.parse_args()
+
     args.analysis_dir.mkdir(parents=True, exist_ok=True)
-    files = [f.strip() for f in args.include.split(",") if f.strip()]
-    lines = ["# Tez Tabloları", ""]
-    for f in files:
-        # Görsel başlık: dosya adından türet
-        title = f.replace(".md","").replace("_"," ").title()
-        append_if_exists(lines, args.analysis_dir / f, title)
+
+    include_items = [x.strip() for x in args.include.split(",") if x.strip()]
+    files = expand_items(args.analysis_dir, include_items)
+
+    lines: List[str] = ["# Tez Tabloları", ""]
+    if not args.no_metadata:
+        lines += [
+            "> Build Metadata:",
+            f"> - Timestamp: {datetime.datetime.utcnow().isoformat()}Z",
+            f"> - Git Commit: {git_commit_hash()}",
+            f"> - Source Patterns: {args.include}",
+            ""
+        ]
+
+    collected_sections: List[Tuple[str, str]] = []
+    seen_titles: Set[str] = set()
+
+    for path in files:
+        title, body = parse_file(path)
+        if args.drop_duplicates and title in seen_titles:
+            continue
+        seen_titles.add(title)
+        anchor = anchor_slug(title)
+        collected_sections.append((anchor, title))
+        lines.append(f"## {title}")
+        lines.append("")
+        normalized_body = normalize_heading_levels(body, base_level=args.normalize_level)
+        lines.extend(normalized_body)
+        lines.append("")
+
+    if args.toc:
+        # TOC başta olsun diye sonradan en başına ekliyoruz (metadata'dan sonra)
+        # Metadata + başlık sonrası ekleme:
+        insertion_index = 2  # Başlık (# Tez Tabloları) ve boş satırdan sonra
+        # Eğer metadata yazıldıysa onu atlayıp sonrasına koyalım
+        for i, l in enumerate(lines):
+            if l.startswith("> Build Metadata"):
+                # Metadata bitişini bul
+                pass
+        # Basit: başlıktan hemen sonra ekleyelim
+        toc_block = make_toc(collected_sections)
+        lines[2:2] = toc_block  # başlıktan sonra
+
     args.out.write_text("\n".join(lines), encoding="utf-8")
-    print(f"[thesis] -> {args.out}")
+    print(f"[thesis] wrote {args.out} (sections={len(collected_sections)})")
 
 if __name__ == "__main__":
     main()
