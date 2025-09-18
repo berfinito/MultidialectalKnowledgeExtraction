@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="komun" />
+    <node id="parêzgeha" />
+    <node id="îtalyayê" />
+    <node id="şaredariyeke" />
+    <node id="şaredariyên" />
+    <node id="jdb" />
+    <node id="output" />
+    <node id="parser" />
+    <node id="paşa" />
+    <node id="the" />
+    <node id="ji" />
+    <node id="jî" />
+    <node id="ku" />
+    <node id="mirov" />
+    <node id="xwe" />
+    <node id="bûm" />
+    <node id="ez" />
+    <node id="me" />
+    <node id="min" />
+    <node id="te" />
+    <node id="kurd" />
+    <node id="kurdistanê" />
+    <node id="kurdî" />
+    <node id="kurmancî" />
+    <node id="zimanê" />
+    <node id="almanyayê" />
+    <node id="bavyera" />
+    <node id="landkreis" />
+    <node id="navçeya" />
+    <node id="girêdayî" />
+    <node id="gund" />
+    <node id="gundekî" />
+    <node id="ser" />
+    <node id="ziman" />
+    <node id="zimanekî" />
+    <node id="zimanên" />
+    <node id="zimanî" />
+    <node id="pirtûk" />
+    <node id="pirtûka" />
+    <node id="pirtûkê" />
+    <node id="pirtûkên" />
+    <node id="azerbaycana" />
+    <node id="bajarê" />
+    <node id="navenda" />
+    <node id="rojhilat" />
+    <node id="îranê" />
+    <node id="bo" />
+    <node id="ew" />
+    <node id="re" />
+    <node id="wê" />
+    <node id="bûye" />
+    <node id="dayik" />
+    <node id="de" />
+    <node id="di" />
+    <node id="sala" />
+    <node id="hey" />
+    <node id="tune" />
+    <node id="wan" />
+    <node id="wey" />
+    <node id="bavê" />
+    <node id="malbata" />
+    <node id="pîrê" />
+    <node id="wî" />
+    <node id="dikî" />
+    <node id="hûn" />
+    <node id="tu" />
+    <edge source="komun" target="parêzgeha">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="komun" target="îtalyayê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="komun" target="şaredariyeke">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="komun" target="şaredariyên">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="parêzgeha" target="îtalyayê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="parêzgeha" target="şaredariyeke">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="parêzgeha" target="şaredariyên">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="îtalyayê" target="şaredariyeke">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="îtalyayê" target="şaredariyên">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="şaredariyeke" target="şaredariyên">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="şaredariyeke" target="almanyayê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="şaredariyeke" target="bavyera">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="şaredariyeke" target="landkreis">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="şaredariyeke" target="navçeya">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="jdb" target="output">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="jdb" target="parser">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="jdb" target="paşa">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="jdb" target="the">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="output" target="parser">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="output" target="paşa">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="output" target="the">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="parser" target="paşa">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="parser" target="the">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="paşa" target="the">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ji" target="jî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ji" target="ku">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ji" target="mirov">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ji" target="xwe">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ji" target="bo">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ji" target="ew">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ji" target="re">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ji" target="wê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="jî" target="ku">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="jî" target="mirov">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="jî" target="xwe">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ku" target="mirov">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ku" target="xwe">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="mirov" target="xwe">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="xwe" target="dikî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="xwe" target="hûn">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="xwe" target="te">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="xwe" target="tu">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bûm" target="ez">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bûm" target="me">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bûm" target="min">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bûm" target="te">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ez" target="me">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ez" target="min">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ez" target="te">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="me" target="min">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="me" target="te">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="min" target="te">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="min" target="pirtûk">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="min" target="pirtûka">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="min" target="pirtûkê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="min" target="pirtûkên">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="min" target="bavê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="min" target="malbata">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="min" target="pîrê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="min" target="wî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="te" target="hey">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="te" target="tune">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="te" target="wan">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="te" target="wey">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="te" target="dikî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="te" target="hûn">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="te" target="tu">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kurd" target="kurdistanê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kurd" target="kurdî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kurd" target="kurmancî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kurd" target="zimanê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kurdistanê" target="kurdî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kurdistanê" target="kurmancî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kurdistanê" target="zimanê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kurdî" target="kurmancî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kurdî" target="zimanê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kurmancî" target="zimanê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="zimanê" target="ziman">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="zimanê" target="zimanekî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="zimanê" target="zimanên">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="zimanê" target="zimanî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="almanyayê" target="bavyera">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="almanyayê" target="landkreis">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="almanyayê" target="navçeya">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bavyera" target="landkreis">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bavyera" target="navçeya">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="landkreis" target="navçeya">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="navçeya" target="girêdayî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="navçeya" target="gund">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="navçeya" target="gundekî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="navçeya" target="ser">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="girêdayî" target="gund">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="girêdayî" target="gundekî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="girêdayî" target="ser">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="gund" target="gundekî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="gund" target="ser">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="gundekî" target="ser">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ziman" target="zimanekî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ziman" target="zimanên">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ziman" target="zimanî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="zimanekî" target="zimanên">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="zimanekî" target="zimanî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="zimanên" target="zimanî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="pirtûk" target="pirtûka">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="pirtûk" target="pirtûkê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="pirtûk" target="pirtûkên">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="pirtûka" target="pirtûkê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="pirtûka" target="pirtûkên">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="pirtûkê" target="pirtûkên">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="azerbaycana" target="bajarê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="azerbaycana" target="navenda">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="azerbaycana" target="rojhilat">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="azerbaycana" target="îranê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bajarê" target="navenda">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bajarê" target="rojhilat">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bajarê" target="îranê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="navenda" target="rojhilat">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="navenda" target="îranê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="rojhilat" target="îranê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bo" target="ew">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bo" target="re">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bo" target="wê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ew" target="re">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ew" target="wê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="re" target="wê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bûye" target="dayik">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bûye" target="de">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bûye" target="di">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bûye" target="sala">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="dayik" target="de">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="dayik" target="di">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="dayik" target="sala">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="de" target="di">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="de" target="sala">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="di" target="sala">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="hey" target="tune">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="hey" target="wan">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="hey" target="wey">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="tune" target="wan">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="tune" target="wey">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="wan" target="wey">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bavê" target="malbata">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bavê" target="pîrê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bavê" target="wî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="malbata" target="pîrê">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="malbata" target="wî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="pîrê" target="wî">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="dikî" target="hûn">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="dikî" target="tu">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="hûn" target="tu">
+      <data key="d0">2.70805</data>
+    </edge>
+  </graph>
+</graphml>

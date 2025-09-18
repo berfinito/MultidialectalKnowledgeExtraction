@@ -487,3 +487,15 @@ Sprint/Case/Env/Util
 
 - Env snapshot: `reports/env_snapshot.json`, `reports/env_freeze.txt`
 - Tüm raporlar Git’te izlenir (sadece `_trash`, `_inspect`, `logs`, `*.zip` ignore).
+
+## KG Bundle
+
+- [reports/analysis/kg_bundle_v1.zip](reports/analysis/kg_bundle_v1.zip): Tüm KG artefaktları (TSV, GEXF, GraphML, PNG, centrality JSON/MD).
+
+## Sprint-6 Summary
+
+- [reports/sprint-6-summary.md](reports/sprint-6-summary.md): Kapanış, docstring coverage, deprecated scriptler, env snapshot.
+
+## Future Work / Vitrin
+
+- CS-3 mini pilot, LDA baseline, NER+Wikidata+Louvain/Leiden (v2 için öneri).

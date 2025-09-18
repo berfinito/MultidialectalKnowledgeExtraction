@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="albüm" />
+    <node id="albümü" />
+    <node id="gitar" />
+    <node id="müzik" />
+    <node id="şarkı" />
+    <node id="anadolu" />
+    <node id="bantia" />
+    <node id="john" />
+    <node id="lisesi" />
+    <node id="william" />
+    <node id="için" />
+    <node id="kullanıcı" />
+    <node id="microsoft" />
+    <node id="veya" />
+    <node id="windows" />
+    <node id="fakültesi" />
+    <node id="mezun" />
+    <node id="nde" />
+    <node id="üniversitesi" />
+    <node id="başkanı" />
+    <node id="genel" />
+    <node id="milletvekili" />
+    <node id="parti" />
+    <node id="partisi" />
+    <node id="bağlı" />
+    <node id="ilinin" />
+    <node id="ilçesine" />
+    <node id="köydür" />
+    <node id="mahalledir" />
+    <node id="kan" />
+    <node id="neden" />
+    <node id="psychotria" />
+    <node id="tedavi" />
+    <node id="film" />
+    <node id="filmde" />
+    <node id="filmi" />
+    <node id="tiyatrosu" />
+    <node id="yapımı" />
+    <node id="babasıdır" />
+    <node id="evlendi" />
+    <node id="evli" />
+    <node id="oğlu" />
+    <node id="çocuk" />
+    <node id="2019" />
+    <node id="2021" />
+    <node id="bölüm" />
+    <node id="tarihinde" />
+    <node id="televizyon" />
+    <node id="gazetesi" />
+    <node id="kitabı" />
+    <node id="kitap" />
+    <node id="roman" />
+    <node id="şiir" />
+    <node id="attı" />
+    <node id="gol" />
+    <node id="maçta" />
+    <node id="maçı" />
+    <node id="maçında" />
+    <node id="dalga" />
+    <node id="enerji" />
+    <node id="hidrojen" />
+    <node id="kuantum" />
+    <node id="manyetik" />
+    <node id="itibarıyla" />
+    <node id="nüfus" />
+    <node id="nüfusu" />
+    <node id="sayımına" />
+    <node id="şehrin" />
+    <node id="karşı" />
+    <node id="ordu" />
+    <node id="ordusu" />
+    <node id="savaş" />
+    <node id="savaşı" />
+    <edge source="albüm" target="albümü">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="albüm" target="gitar">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="albüm" target="müzik">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="albüm" target="şarkı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="albümü" target="gitar">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="albümü" target="müzik">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="albümü" target="şarkı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="gitar" target="müzik">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="gitar" target="şarkı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="müzik" target="şarkı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="anadolu" target="bantia">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="anadolu" target="john">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="anadolu" target="lisesi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="anadolu" target="william">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bantia" target="john">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bantia" target="lisesi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bantia" target="william">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="john" target="lisesi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="john" target="william">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="lisesi" target="william">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="lisesi" target="fakültesi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="lisesi" target="mezun">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="lisesi" target="nde">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="lisesi" target="üniversitesi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="için" target="kullanıcı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="için" target="microsoft">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="için" target="veya">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="için" target="windows">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kullanıcı" target="microsoft">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kullanıcı" target="veya">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kullanıcı" target="windows">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="microsoft" target="veya">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="microsoft" target="windows">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="veya" target="windows">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="veya" target="kan">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="veya" target="neden">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="veya" target="psychotria">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="veya" target="tedavi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="fakültesi" target="mezun">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="fakültesi" target="nde">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="fakültesi" target="üniversitesi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="mezun" target="nde">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="mezun" target="üniversitesi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="nde" target="üniversitesi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="başkanı" target="genel">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="başkanı" target="milletvekili">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="başkanı" target="parti">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="başkanı" target="partisi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="genel" target="milletvekili">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="genel" target="parti">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="genel" target="partisi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="milletvekili" target="parti">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="milletvekili" target="partisi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="parti" target="partisi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bağlı" target="ilinin">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bağlı" target="ilçesine">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bağlı" target="köydür">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bağlı" target="mahalledir">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ilinin" target="ilçesine">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ilinin" target="köydür">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ilinin" target="mahalledir">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ilçesine" target="köydür">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ilçesine" target="mahalledir">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="köydür" target="mahalledir">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kan" target="neden">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kan" target="psychotria">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kan" target="tedavi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="neden" target="psychotria">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="neden" target="tedavi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="psychotria" target="tedavi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="film" target="filmde">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="film" target="filmi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="film" target="tiyatrosu">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="film" target="yapımı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="filmde" target="filmi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="filmde" target="tiyatrosu">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="filmde" target="yapımı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="filmi" target="tiyatrosu">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="filmi" target="yapımı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="tiyatrosu" target="yapımı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="babasıdır" target="evlendi">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="babasıdır" target="evli">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="babasıdır" target="oğlu">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="babasıdır" target="çocuk">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="evlendi" target="evli">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="evlendi" target="oğlu">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="evlendi" target="çocuk">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="evli" target="oğlu">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="evli" target="çocuk">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="oğlu" target="çocuk">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="2019" target="2021">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="2019" target="bölüm">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="2019" target="tarihinde">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="2019" target="televizyon">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="2021" target="bölüm">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="2021" target="tarihinde">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="2021" target="televizyon">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bölüm" target="tarihinde">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="bölüm" target="televizyon">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="tarihinde" target="televizyon">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="gazetesi" target="kitabı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="gazetesi" target="kitap">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="gazetesi" target="roman">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="gazetesi" target="şiir">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kitabı" target="kitap">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kitabı" target="roman">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kitabı" target="şiir">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kitap" target="roman">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kitap" target="şiir">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="roman" target="şiir">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="attı" target="gol">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="attı" target="maçta">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="attı" target="maçı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="attı" target="maçında">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="gol" target="maçta">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="gol" target="maçı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="gol" target="maçında">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="maçta" target="maçı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="maçta" target="maçında">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="maçı" target="maçında">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="dalga" target="enerji">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="dalga" target="hidrojen">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="dalga" target="kuantum">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="dalga" target="manyetik">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="enerji" target="hidrojen">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="enerji" target="kuantum">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="enerji" target="manyetik">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="hidrojen" target="kuantum">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="hidrojen" target="manyetik">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="kuantum" target="manyetik">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="itibarıyla" target="nüfus">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="itibarıyla" target="nüfusu">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="itibarıyla" target="sayımına">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="itibarıyla" target="şehrin">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="nüfus" target="nüfusu">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="nüfus" target="sayımına">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="nüfus" target="şehrin">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="nüfusu" target="sayımına">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="nüfusu" target="şehrin">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="sayımına" target="şehrin">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="karşı" target="ordu">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="karşı" target="ordusu">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="karşı" target="savaş">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="karşı" target="savaşı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ordu" target="ordusu">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ordu" target="savaş">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ordu" target="savaşı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ordusu" target="savaş">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="ordusu" target="savaşı">
+      <data key="d0">2.70805</data>
+    </edge>
+    <edge source="savaş" target="savaşı">
+      <data key="d0">2.70805</data>
+    </edge>
+  </graph>
+</graphml>

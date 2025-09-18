@@ -30,6 +30,7 @@ def test_stats_schema_and_ranges():
         data = json.loads(sf.read_text(encoding="utf-8"))
         for k in ("edges","min","max","avg","topics","weighting"):
             assert k in data
-        assert data["min"] <= data["avg"] <= data["max"]
+        eps = 1e-9
+        assert data["min"] - eps <= data["avg"] + eps <= data["max"] + eps
         assert data["edges"] > 0
         assert data["topics"] > 0

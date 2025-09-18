@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2025-09-18T19:01:23.752701Z",
+  "_generated_at": "2025-09-18T23:06:17.525307Z",
   "project_map": true,
   "env_snapshot": {
     "env_snapshot_json": true,
@@ -31,8 +31,8 @@
     ]
   },
   "deprecated_present": [
-    "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\scripts\\kg_centrality.py",
     "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\scripts\\ct2_smoketest.py",
+    "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\scripts\\kg_centrality.py",
     "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\scripts\\trim_reps.py"
   ]
 }

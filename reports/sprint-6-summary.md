@@ -1,6 +1,6 @@
 # Sprint-6 Summary
 
-_generated_at: 2025-09-18T19:01:23.752701Z_
+_generated_at: 2025-09-18T23:06:17.525307Z_
 
 - PROJECT_MAP.md: exists
 - env_snapshot.json: exists
@@ -33,6 +33,6 @@ _generated_at: 2025-09-18T19:01:23.752701Z_
 - C:\Users\berfi\Documents\GitHub\MultidialectalKnowledgeExtraction\src\mdke\utils\textnorm.py
 
 ## Deprecated Scripts Present
-- C:\Users\berfi\Documents\GitHub\MultidialectalKnowledgeExtraction\scripts\kg_centrality.py
 - C:\Users\berfi\Documents\GitHub\MultidialectalKnowledgeExtraction\scripts\ct2_smoketest.py
+- C:\Users\berfi\Documents\GitHub\MultidialectalKnowledgeExtraction\scripts\kg_centrality.py
 - C:\Users\berfi\Documents\GitHub\MultidialectalKnowledgeExtraction\scripts\trim_reps.py

@@ -151,3 +151,41 @@ Bu bölüm depodaki her dosyanın amacını ve etkilediği çıktıları özetle
 ## Code comments & style
 
 Kodlar progressive olarak docstring + inline yorumlarla güncellenmektedir. Örnek bir iyileştirme: `scripts/export_kg.py` dosyası (aşağıda önerilen sürüm).
+
+
+## Knowledge Graph artefacts
+
+| Dil | Set   | Ağırlık | Edges TSV | Export | Plot | Stats JSON |
+|-----|-------|---------|-----------|--------|------|------------|
+| TR  | full  | PMI     | reports/analysis/tr_kg_full_pmi.tsv | reports/analysis/exports/tr_kg_full_pmi.gexf | reports/analysis/plots/tr_kg_full_pmi.png | reports/analysis/tr_kg_full_pmi_stats.json |
+| KMR | full  | PMI     | reports/analysis/kmr_kg_full_pmi.tsv | reports/analysis/exports/kmr_kg_full_pmi.gexf | reports/analysis/plots/kmr_kg_full_pmi.png | reports/analysis/kmr_kg_full_pmi_stats.json |
+| ZZA | full  | PMI     | reports/analysis/zza_kg_full_pmi.tsv | reports/analysis/exports/zza_kg_full_pmi.gexf | reports/analysis/plots/zza_kg_full_pmi.png | reports/analysis/zza_kg_full_pmi_stats.json |
+| TR  | top15 | TF-IDF  | reports/analysis/tr_kg_top15_tfidf.tsv | reports/analysis/exports/tr_kg_top15_tfidf.graphml | reports/analysis/plots/tr_kg_top15_tfidf.png | reports/analysis/tr_kg_top15_tfidf_stats.json |
+| KMR | top15 | TF-IDF  | reports/analysis/kmr_kg_top15_tfidf.tsv | reports/analysis/exports/kmr_kg_top15_tfidf.graphml | reports/analysis/plots/kmr_kg_top15_tfidf.png | reports/analysis/kmr_kg_top15_tfidf_stats.json |
+| ZZA | top15 | TF-IDF  | reports/analysis/zza_kg_top15_tfidf.tsv | reports/analysis/exports/zza_kg_top15_tfidf.graphml | reports/analysis/plots/zza_kg_top15_tfidf.png | reports/analysis/zza_kg_top15_tfidf_stats.json |
+
+**KG bundle:** [reports/analysis/kg_bundle_v1.zip](reports/analysis/kg_bundle_v1.zip)
+
+## Project Map & Sprint Summaries
+
+- [PROJECT_MAP.md](reports/docs/PROJECT_MAP.md): Tüm dosya/fonksiyon/artefakt haritası.
+- [Thesis Tables](reports/analysis/thesis_tables.md): Konsolide bulgular.
+- [Sprint-6 Summary](reports/sprint-6-summary.md): Kapanış ve dokümantasyon durumu.
+
+## How to reproduce (v1)
+
+- KG pipeline: `scripts/kg_weighting.py` → `scripts/export_kg.py` → `scripts/plot_kg.py` → `scripts/kg_centrality_analysis.py`
+- KG bundle: [reports/analysis/kg_bundle_v1.zip](reports/analysis/kg_bundle_v1.zip)
+- Project map: [reports/docs/PROJECT_MAP.md](reports/docs/PROJECT_MAP.md)
+- Sprint-6 summary: [reports/sprint-6-summary.md](reports/sprint-6-summary.md)
+- Thesis tables: [reports/analysis/thesis_tables.md](reports/analysis/thesis_tables.md)
+
+## Appendix / Deferred Work
+
+Aşağıdaki adımlar opsiyonel olup v1’de uygulanmamıştır, future work olarak bırakılmıştır:
+
+- CS-3 mini pilot (Deferred, not implemented)
+- LDA baseline (Deferred, not implemented)
+- NER+Wikidata+Louvain (Deferred, not implemented)
+
+KG bundle arşivi için: [reports/analysis/kg_bundle_v1.zip](reports/analysis/kg_bundle_v1.zip) dosyasına bakınız.

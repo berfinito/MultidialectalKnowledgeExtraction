@@ -52,3 +52,15 @@ final_v1:
 \t$(MAKE) kg_exports
 \tpytest -q
 \t@echo "v1 finalized. See README and reports/analysis/final_summary.md"
+
+.PHONY: kg_bundle
+
+kg_bundle:
+\t@echo "Archiving KG artefacts for thesis appendix..."
+\t@powershell -NoProfile -Command "New-Item -ItemType Directory -Force reports/analysis/kg_bundle_v1 | Out-Null"
+\t@powershell -NoProfile -Command "Copy-Item reports/analysis/*_kg_*_pmi.tsv, reports/analysis/*_kg_*_tfidf.tsv reports/analysis/kg_bundle_v1/"
+\t@powershell -NoProfile -Command "Copy-Item reports/analysis/exports/*.gexf, reports/analysis/exports/*.graphml reports/analysis/kg_bundle_v1/"
+\t@powershell -NoProfile -Command "Copy-Item reports/analysis/plots/*full_pmi*.png, reports/analysis/plots/*top15_tfidf*.png reports/analysis/kg_bundle_v1/"
+\t@powershell -NoProfile -Command "Copy-Item reports/analysis/centrality/* reports/analysis/kg_bundle_v1/ -Recurse"
+\t@powershell -NoProfile -Command "Copy-Item reports/analysis/*_kg_*_stats.json reports/analysis/kg_bundle_v1/"
+\t@powershell -NoProfile -Command "Compress-Archive -Path reports/analysis/kg_bundle_v1/* -DestinationPath reports/analysis/kg_bundle_v1.zip -Force"
