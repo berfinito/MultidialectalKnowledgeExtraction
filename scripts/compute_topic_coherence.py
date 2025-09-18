@@ -1,3 +1,15 @@
+#!/usr/bin/env python
+"""
+Compute topic coherence (c_v, c_npmi) for BERTopic outputs across variants.
+
+Inputs:
+  - reports/topics/*_bertopic_topics{_text,_cv,_both}.json
+Outputs:
+  - reports/analysis/topic_coherence.md
+
+Notes:
+- Assumes precomputed doc-topic assignments where needed.
+"""
 import argparse, json, math, random, re
 from pathlib import Path
 from typing import List

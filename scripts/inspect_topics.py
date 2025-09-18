@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+"""Lightweight viewer/inspector for topic outputs."""
 from pathlib import Path
 import json
 import sys

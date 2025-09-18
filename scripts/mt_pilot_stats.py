@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+"""Aggregate MT pilot stats; ready for case3_original_vs_mt.md."""
 import argparse, statistics as st
 from pathlib import Path
 

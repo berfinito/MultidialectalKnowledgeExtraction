@@ -1,3 +1,17 @@
+#!/usr/bin/env python
+"""
+Compare ASR model variants (e.g., medium vs large-v2) over existing JSON reports.
+
+Inputs:
+  - Glob patterns for reports/asr_whisper_*_{medium,large}.json
+Outputs:
+  - reports/asr_compare_medium_large.md  (detailed deltas)
+  - reports/asr_best_medium_large.md     (short best-per-lang summary)
+
+Notes:
+- WER/CER/RTF pulled from per-run JSONs.
+- Baseline can be chosen via CLI (default: medium).
+"""
 import argparse
 import glob
 import json

@@ -1,3 +1,15 @@
+"""Export random samples from corpora for qualitative checks.
+
+Inputs:
+- data/processed/text_corpus_{lang}{_tag}.{parquet|csv}
+
+Output:
+- reports/samples/{lang}{_tag}_sample_{N}.csv
+
+Notes:
+- Samples with fixed seed (42) for reproducibility
+- Falls back to head(0) if table is empty
+"""
 from __future__ import annotations
 import argparse
 from pathlib import Path
@@ -5,6 +17,7 @@ import pandas as pd
 from mdke.utils.io import Paths, ensure_dirs, load_yaml
 
 def run(cfg, lang: str, n: int = 100, tag: str = "") -> str:
+    """Read corpus, sample N rows, and write CSV; returns output path."""
     paths = Paths(
         raw=Path(cfg["paths"]["raw"]),
         interim=Path(cfg["paths"]["interim"]),
@@ -28,6 +41,7 @@ def run(cfg, lang: str, n: int = 100, tag: str = "") -> str:
     return str(out)
 
 def main():
+    """CLI wrapper: choose language, sample size, and optional tag."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", type=Path, default=Path("configs/experiment.yaml"))
     ap.add_argument("--lang", type=str, required=True, choices=["tr","kmr","zza"])

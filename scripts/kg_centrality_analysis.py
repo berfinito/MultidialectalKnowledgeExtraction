@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 """
 Compute centrality & clustering stats for KG TSVs.
 
@@ -15,6 +14,10 @@ Metrics:
 - eigenvector (numpy-based; fallback empty if fails)
 - clustering (unweighted)
 - connected components (count + size stats)
+
+Notes:
+- TSV schema is: source<TAB>target<TAB>weight with a header row.
+- Graph is undirected; weights aggregated where multiple edges occur.
 """
 from __future__ import annotations
 import argparse
@@ -27,6 +30,7 @@ import networkx as nx
 from typing import List, Dict, Any
 
 def load_graph(path: str):
+    """Load an undirected weighted graph from a TSV edge list with header."""
     G = nx.Graph()
     with open(path, "r", encoding="utf-8") as f:
         next(f)
@@ -43,12 +47,14 @@ def load_graph(path: str):
     return G
 
 def safe_eigenvector(G: nx.Graph):
+    """Compute eigenvector centrality with a safe fallback if it fails."""
     try:
         return nx.eigenvector_centrality_numpy(G, weight="weight")
     except Exception:
         return {}
 
 def maybe_betweenness(G: nx.Graph):
+    """Compute betweenness centrality; sample k nodes if graph is large."""
     n = G.number_of_nodes()
     if n <= 300:
         return nx.betweenness_centrality(G, weight="weight", normalized=True)
@@ -57,6 +63,7 @@ def maybe_betweenness(G: nx.Graph):
     return nx.betweenness_centrality(G, weight="weight", normalized=True, k=k, seed=42)
 
 def percentile(vals: List[float], p: float):
+    """Return p-th percentile (0-100) for a list of floats; empty=>None."""
     if not vals:
         return None
     vals_sorted = sorted(vals)
@@ -70,9 +77,7 @@ def percentile(vals: List[float], p: float):
     return float(d0 + d1)
 
 def summarize(vals: List[float]) -> Dict[str, Any]:
-    """
-    Özet istatistikler; mean ve p90 değerleri yoksa None dönebilir.
-    """
+    """Summarize a numeric list with min/max/avg/std and selected percentiles."""
     if not vals:
         return {}
     mn = float(min(vals))
@@ -83,6 +88,7 @@ def summarize(vals: List[float]) -> Dict[str, Any]:
     return {"min": mn, "max": mx, "mean": mean, "median": med, "p90": (None if p90 is None else float(p90))}
 
 def main():
+    """Drive the analysis across input patterns and write JSON + summary.md."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--patterns", nargs="+", required=False,
                     default=["reports/analysis/*_kg_full_*.tsv","reports/analysis/*_kg_top15_*.tsv"])

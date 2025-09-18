@@ -1,12 +1,29 @@
+"""
+Select representative terms and sample sentences per topic and variant.
+
+Inputs:
+- reports/topics/{lang}_bertopic_topics.json
+- reports/topics/{lang}_bertopic_doc_topics_{variant}.parquet
+- reports/topics/{lang}_bertopic_docs_{variant}.txt
+
+Outputs:
+- reports/analysis/representatives_{lang}_{variant}.md
+- Optionally limits to top-k docs per topic for readability.
+
+Notes:
+- The selection ties topic top terms with sample sentences assigned to the topic.
+"""
 import argparse, json, random
 from pathlib import Path
 import pandas as pd
 
 def load_docs(topics_dir: Path, lang: str, variant: str):
+    """Read per-variant raw docs for sampling sentences."""
     fp = topics_dir / f"{lang}_bertopic_docs_{variant}.txt"
     return [l.rstrip("\n") for l in fp.read_text(encoding="utf-8").splitlines()]
 
 def load_map(topics_dir: Path, lang: str, variant: str) -> pd.DataFrame:
+    """Load doc→topic mapping (parquet) and ensure expected columns exist."""
     fp = topics_dir / f"{lang}_bertopic_doc_topics_{variant}.parquet"
     df = pd.read_parquet(fp)
     if "prob" not in df.columns or df["prob"].isna().all():
@@ -14,6 +31,7 @@ def load_map(topics_dir: Path, lang: str, variant: str) -> pd.DataFrame:
     return df
 
 def load_topics(topics_dir: Path, lang: str, variant: str):
+    """Load topics JSON; returns list/dict depending on upstream exporter."""
     fp = topics_dir / f"{lang}_bertopic_topics_{variant}.json"
     return json.loads(fp.read_text(encoding="utf-8"))
 
@@ -24,6 +42,7 @@ def representatives(lang: str,
                     topk_docs: int = 2,
                     seed: int | None = None,
                     include_header: bool = True):
+    """Render representatives as markdown for a given language/variant."""
     if seed is not None:
         random.seed(seed)
     docs = load_docs(topics_dir, lang, variant)
@@ -70,6 +89,7 @@ def representatives(lang: str,
     print(f"[repr] -> {out_md} (topics={len(topics_sorted)} seed={seed})")
 
 def main():
+    """CLI wrapper to render representatives for requested languages/variants."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--topics_dir", type=Path, default=Path("reports/topics"))
     ap.add_argument("--lang", type=str, required=True)

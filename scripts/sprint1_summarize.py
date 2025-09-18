@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+"""Summarize Sprint-1 results as JSON and MD."""
 import json
 import pathlib
 from collections import Counter

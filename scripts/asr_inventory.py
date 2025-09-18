@@ -1,5 +1,11 @@
-#Purpose: One-pass index of all runs. For each JSONL, it links the matching report, computes detected_language distribution and avg prob, checks for a confusion file, and prints missing-confusion commands. Outputs reports/asr_index.json and reports/asr_index.md.
+#!/usr/bin/env python
+"""
+Inventory and sanity checks for ASR runs.
 
+- Enumerates data/interim/asr/*.jsonl and reports/asr_whisper_*.json
+- Optionally prints summary tables and missing runs
+- Serves as an entrypoint for cleanup/export helpers
+"""
 
 import json
 import pathlib

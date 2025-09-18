@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+"""Build bias prompt from corpus snippets (KMR/ZZA) if needed."""
 import pandas as pd
 from collections import Counter
 import re, argparse, pathlib

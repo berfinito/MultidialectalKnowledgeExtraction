@@ -1,3 +1,9 @@
+"""Shallow fusion pilot: rescore beam JSONL candidates with a dummy LM score over a lambda grid.
+
+- Input: JSONL (*_beams.jsonl) with fields pred_text, alt_hyps, beam_scores
+- Output: Markdown table of AvgWER per lambda
+- Note: Dummy LM; real KenLM integration is deferred.
+"""
 import argparse, json, math
 from pathlib import Path
 from typing import List, Dict

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+"""Generate Sprint-4 markdown report."""
 from __future__ import annotations
 import argparse, json
 from pathlib import Path

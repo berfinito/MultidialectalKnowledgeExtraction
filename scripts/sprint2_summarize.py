@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+"""Summarize Sprint-2 results."""
 import json
 import pathlib
 from collections import Counter, defaultdict

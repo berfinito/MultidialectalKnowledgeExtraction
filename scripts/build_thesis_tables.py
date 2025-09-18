@@ -1,3 +1,18 @@
+"""
+Consolidate project results into thesis-ready tables (topics, keywords, KG, case studies).
+
+Inputs:
+- reports/analysis/* (case studies, centrality, coverage/overlap)
+- reports/topics/*
+- reports/keywords/*
+
+Output:
+- reports/analysis/thesis_tables.md
+
+Notes:
+- This script stitches together selected sections with normalized heading levels.
+- It also annotates with the current git commit hash when available.
+"""
 import argparse
 import datetime
 import subprocess
@@ -6,18 +21,14 @@ from pathlib import Path
 from typing import List, Tuple, Dict, Set
 
 def git_commit_hash() -> str:
+    """Return short git commit hash if available, else 'unknown'."""
     try:
         return subprocess.check_output(["git", "rev-parse", "--short", "HEAD"], stderr=subprocess.DEVNULL).decode().strip()
     except Exception:
         return "unknown"
 
 def expand_items(analysis_dir: Path, include_raw: List[str]) -> List[Path]:
-    """
-    Her kalem:
-      - Direkt dosya adı (topic_coherence.md)
-      - Glob pattern (representatives_*_both_top15.md)
-    Sıra korunur; pattern genişlemesi alfabetik.
-    """
+    """Resolve a mixed list of file names and glob patterns into Path list."""
     out: List[Path] = []
     seen: Set[Path] = set()
     for item in include_raw:
@@ -39,14 +50,12 @@ def expand_items(analysis_dir: Path, include_raw: List[str]) -> List[Path]:
     return out
 
 def derive_title(path: Path) -> str:
+    """Derive a title from filename for markdown section anchors."""
     name = path.name.replace(".md", "")
     return name.replace("_", " ").title()
 
 def parse_file(path: Path) -> Tuple[str, List[str]]:
-    """
-    İlk başlık satırı (# ...) varsa başlık olarak al, gövdeyi geri döndür.
-    Yoksa başlığı dosya adından türet.
-    """
+    """Read a file and split into title + body lines."""
     if not path.exists():
         return f"Missing: {path.name}", [f"<!-- Missing file: {path.name} -->"]
     lines = path.read_text(encoding="utf-8").splitlines()
@@ -69,10 +78,7 @@ def parse_file(path: Path) -> Tuple[str, List[str]]:
     return title, body
 
 def normalize_heading_levels(body: List[str], base_level: int = 3) -> List[str]:
-    """
-    Dosya içi alt başlıkların (#, ## ...) hepsini base_level veya daha derinine indir.
-    Örn: base_level=3 → tüm '#' → '###'
-    """
+    """Shift heading levels so stitched doc remains consistent (### by default)."""
     norm: List[str] = []
     for line in body:
         if line.lstrip().startswith("#"):
@@ -88,9 +94,7 @@ def normalize_heading_levels(body: List[str], base_level: int = 3) -> List[str]:
     return norm
 
 def make_toc(sections: List[Tuple[str, str]]) -> List[str]:
-    """
-    sections: (anchor, title)
-    """
+    """Build a small Table of Contents list of bullet links."""
     lines = ["## İçindekiler", ""]
     for anchor, title in sections:
         lines.append(f"- [{title}](#{anchor})")
@@ -98,6 +102,7 @@ def make_toc(sections: List[Tuple[str, str]]) -> List[str]:
     return lines
 
 def anchor_slug(title: str) -> str:
+    """Create a markdown anchor slug from a title string."""
     return (
         title.lower()
         .replace(" ", "-")
@@ -113,6 +118,7 @@ def anchor_slug(title: str) -> str:
     )
 
 def main():
+    """Build and write the consolidated thesis_tables.md."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--analysis_dir", type=Path, default=Path("reports/analysis"))
     ap.add_argument("--out", type=Path, default=Path("reports/analysis/thesis_tables.md"))

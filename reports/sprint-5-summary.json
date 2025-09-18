@@ -1,0 +1,279 @@
+{
+  "_generated_at": "2025-09-18T17:26:48.464249Z",
+  "artefacts": {
+    "keyword_overlap_md": {
+      "exists": true,
+      "size_bytes": 2827,
+      "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\analysis\\keyword_overlap.md",
+      "n_lines": 67
+    },
+    "keyword_coverage_md": {
+      "exists": true,
+      "size_bytes": 1134,
+      "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\analysis\\keyword_coverage.md",
+      "n_lines": 22
+    },
+    "centrality_summary_md": {
+      "exists": true,
+      "size_bytes": 1200,
+      "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\analysis\\centrality\\summary.md",
+      "n_lines": 16
+    },
+    "cases": {
+      "case1_same_theme_multi_dialect.md": {
+        "exists": true,
+        "size_bytes": 722,
+        "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\analysis\\case1_same_theme_multi_dialect.md",
+        "n_lines": 16
+      },
+      "case2_same_topic_multi_speakers.md": {
+        "exists": true,
+        "size_bytes": 723,
+        "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\analysis\\case2_same_topic_multi_speakers.md",
+        "n_lines": 15
+      },
+      "case3_original_vs_mt.md": {
+        "exists": true,
+        "size_bytes": 3797,
+        "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\analysis\\case3_original_vs_mt.md",
+        "n_lines": 68
+      },
+      "case4_speech_vs_text.md": {
+        "exists": true,
+        "size_bytes": 1421,
+        "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\analysis\\case4_speech_vs_text.md",
+        "n_lines": 41
+      }
+    },
+    "topics_keywords": {
+      "topics": {
+        "tr": {
+          "topics_json": {
+            "exists": true,
+            "size_bytes": 2050,
+            "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\topics\\tr_bertopic_topics.json"
+          },
+          "docs_txt": {
+            "exists": true,
+            "size_bytes": 5822513,
+            "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\topics\\tr_bertopic_docs_text.txt"
+          },
+          "docs_cv_txt": {
+            "exists": true,
+            "size_bytes": 1923840,
+            "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\topics\\tr_bertopic_docs_cv.txt"
+          },
+          "docs_both_txt": {
+            "exists": true,
+            "size_bytes": 5753842,
+            "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\topics\\tr_bertopic_docs_both.txt"
+          }
+        },
+        "kmr": {
+          "topics_json": {
+            "exists": true,
+            "size_bytes": 206915,
+            "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\topics\\kmr_bertopic_topics.json"
+          },
+          "docs_txt": {
+            "exists": true,
+            "size_bytes": 5377389,
+            "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\topics\\kmr_bertopic_docs_text.txt"
+          },
+          "docs_cv_txt": {
+            "exists": true,
+            "size_bytes": 1872032,
+            "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\topics\\kmr_bertopic_docs_cv.txt"
+          },
+          "docs_both_txt": {
+            "exists": true,
+            "size_bytes": 4365571,
+            "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\topics\\kmr_bertopic_docs_both.txt"
+          }
+        },
+        "zza": {
+          "topics_json": {
+            "exists": true,
+            "size_bytes": 251905,
+            "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\topics\\zza_bertopic_topics.json"
+          },
+          "docs_txt": {
+            "exists": true,
+            "size_bytes": 4341856,
+            "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\topics\\zza_bertopic_docs_text.txt"
+          },
+          "docs_cv_txt": {
+            "exists": true,
+            "size_bytes": 70993,
+            "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\topics\\zza_bertopic_docs_cv.txt"
+          },
+          "docs_both_txt": {
+            "exists": true,
+            "size_bytes": 4290086,
+            "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\topics\\zza_bertopic_docs_both.txt"
+          }
+        }
+      },
+      "keywords": {
+        "tr": {
+          "yake": {
+            "text": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 10618,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\tr_yake_text.json"
+            },
+            "cv": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 10391,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\tr_yake_cv.json"
+            },
+            "both": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 10639,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\tr_yake_both.json"
+            }
+          },
+          "keybert": {
+            "text": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 10579,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\tr_keybert_text.json"
+            },
+            "cv": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 9573,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\tr_keybert_cv.json"
+            },
+            "both": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 10255,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\tr_keybert_both.json"
+            }
+          }
+        },
+        "kmr": {
+          "yake": {
+            "text": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 10550,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\kmr_yake_text.json"
+            },
+            "cv": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 10231,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\kmr_yake_cv.json"
+            },
+            "both": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 10495,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\kmr_yake_both.json"
+            }
+          },
+          "keybert": {
+            "text": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 10281,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\kmr_keybert_text.json"
+            },
+            "cv": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 9149,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\kmr_keybert_cv.json"
+            },
+            "both": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 9315,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\kmr_keybert_both.json"
+            }
+          }
+        },
+        "zza": {
+          "yake": {
+            "text": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 10475,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\zza_yake_text.json"
+            },
+            "cv": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 10060,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\zza_yake_cv.json"
+            },
+            "both": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 10486,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\zza_yake_both.json"
+            }
+          },
+          "keybert": {
+            "text": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 10440,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\zza_keybert_text.json"
+            },
+            "cv": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 9387,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\zza_keybert_cv.json"
+            },
+            "both": {
+              "count": 200,
+              "exists": true,
+              "size_bytes": 10188,
+              "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\keywords\\zza_keybert_both.json"
+            }
+          }
+        }
+      }
+    },
+    "kg_exports": {
+      "kmr_kg_full_pmi.gexf": {
+        "exists": true,
+        "size_bytes": 108304,
+        "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\analysis\\exports\\kmr_kg_full_pmi.gexf"
+      },
+      "tr_kg_full_pmi.gexf": {
+        "exists": true,
+        "size_bytes": 107193,
+        "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\analysis\\exports\\tr_kg_full_pmi.gexf"
+      },
+      "zza_kg_full_pmi.gexf": {
+        "exists": true,
+        "size_bytes": 103023,
+        "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\analysis\\exports\\zza_kg_full_pmi.gexf"
+      },
+      "kmr_kg_top15_tfidf.graphml": {
+        "exists": true,
+        "size_bytes": 15527,
+        "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\analysis\\exports\\kmr_kg_top15_tfidf.graphml"
+      },
+      "tr_kg_top15_tfidf.graphml": {
+        "exists": true,
+        "size_bytes": 16138,
+        "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\analysis\\exports\\tr_kg_top15_tfidf.graphml"
+      },
+      "zza_kg_top15_tfidf.graphml": {
+        "exists": true,
+        "size_bytes": 15056,
+        "path": "C:\\Users\\berfi\\Documents\\GitHub\\MultidialectalKnowledgeExtraction\\reports\\analysis\\exports\\zza_kg_top15_tfidf.graphml"
+      }
+    }
+  }
+}

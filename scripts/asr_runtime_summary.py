@@ -1,4 +1,12 @@
-# scripts/asr_runtime_summary.py
+#!/usr/bin/env python
+"""
+Aggregate runtime metrics (RTF, wall time, item counts) from ASR reports.
+
+Input:
+  - reports/asr_whisper_*_*.json
+Output:
+  - reports/asr_runtime_summary_validation.csv (or similar)
+"""
 import json, glob, pandas as pd, pathlib
 
 def load_reports(patterns):

@@ -1,3 +1,12 @@
+"""
+Sentence segmentation (regex-based) and paragraph splitting.
+
+Uses a simple regex on [.?!…] boundaries and trims whitespace.
+Optionally normalizes text before splitting if upstream hasn't done so.
+
+Outputs:
+- text_sentences_{lang}{_tag}.parquet with one sentence per row
+"""
 from __future__ import annotations
 import re, argparse
 from pathlib import Path
@@ -8,6 +17,7 @@ from mdke.utils.textnorm import normalize_text
 SPLIT_RE = re.compile(r"(?<=[\.\?\!…])\s+")
 
 def sent_tokenize(txt: str) -> list[str]:
+    """Split by punctuation regex and clean artifacts; returns list of sentences."""
     parts = SPLIT_RE.split(txt or "")
     out = []
     for p in parts:
@@ -20,6 +30,7 @@ def sent_tokenize(txt: str) -> list[str]:
     return out
 
 def run(cfg, lang: str, tag: str):
+    """Read corpus, segment into sentences, and write sentence parquet."""
     paths = Paths(
         raw=Path(cfg["paths"]["raw"]),
         interim=Path(cfg["paths"]["interim"]),
@@ -45,6 +56,7 @@ def run(cfg, lang: str, tag: str):
     return str(out_pq)
 
 def main():
+    """CLI wrapper to segment sentences for specified language/tag."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", type=Path, default=Path("configs/experiment.yaml"))
     ap.add_argument("--lang", required=True, choices=["tr","kmr","zza"])

@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+"""
+Trim representative term lists (e.g., keep top-15) for interpretable summaries.
+
+Outputs:
+  - reports/analysis/representatives_{lang}_{variant}_top15.md
+"""
 import argparse, re
 from pathlib import Path
 

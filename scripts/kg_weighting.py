@@ -1,4 +1,20 @@
-# scripts/kg_weighting.py
+"""
+Compute weighted co-occurrence edges from topic representative terms.
+
+Weights:
+  - PMI (natural log): log(p(u,v)/(p(u)p(v)))
+  - TF-IDF (tf = cofreq, idf = log(T/cofreq))
+
+Inputs:
+  - reports/analysis/representatives_{lang}_{variant}.md (terms per topic)
+
+Outputs:
+  - TSV edge list and JSON stats: reports/analysis/{lang}_kg_{set}_{weight}.tsv/json
+
+Notes:
+- Terms are case-sensitive as they appear in representatives.
+- PMI uses natural logarithm; zero-safe with small epsilon if implemented upstream.
+"""
 from __future__ import annotations
 
 import argparse, json, math, re
@@ -12,10 +28,7 @@ __all__ = ["compute_stats", "parse_topics", "export_edge_list", "summarize"]
 TOPIC_HEADER_RE = re.compile(r"^##\s+Topic\s+\d+\s+\|\s+(.+)$")
 
 def parse_topics(md_file: Path, top_terms: int) -> List[List[str]]:
-    """
-    representatives.md tarzı bir dosyadan, her topic başlığındaki terimleri çekip
-    ilk top_terms kadarını döndürür.
-    """
+    """Parse top-N terms per topic from the representatives markdown."""
     topics: List[List[str]] = []
     for line in md_file.read_text(encoding="utf-8").splitlines():
         m = TOPIC_HEADER_RE.match(line.strip())
@@ -26,20 +39,7 @@ def parse_topics(md_file: Path, top_terms: int) -> List[List[str]]:
 
 
 def compute_stats(topic_terms: List[List[str]], weighting: str):
-    """
-    Testlerde de kullanılan basit istatistik hesaplayıcı.
-
-    weighting:
-      - 'pmi':  PMI(u,v) = log( p(u,v) / (p(u) * p(v)) ), p(x) = freq(x)/T
-                (log tabanı doğal log; işaret ve 0 değerleri tabandan bağımsızdır)
-      - 'tfidf': tf-idf benzeri kenar ağırlığı (tf = birlikte görünme sayısı,
-                 idf = log(T/df) ve burada df(u,v) = birlikte görünme sayısı)
-
-    Dönüş:
-      term_freq  : Dict[token, int]
-      edge_weights: Dict[(u,v), float]   # u < v sıralı
-      T          : int                   # topic sayısı
-    """
+    """Compute edge weights (PMI/TF-IDF) and return edge map + stats dict."""
     if weighting not in {"pmi", "tfidf"}:
         raise ValueError(f"Unsupported weighting: {weighting}")
 
@@ -75,9 +75,7 @@ def compute_stats(topic_terms: List[List[str]], weighting: str):
 
 
 def export_edge_list(edge_weights: Dict[Tuple[str, str], float], out_path: Path, min_weight: float):
-    """
-    Edge listesini TSV'ye yazar (source, target, weight).
-    """
+    """Write 'source<TAB>target<TAB>weight' TSV with header and threshold."""
     out_path.parent.mkdir(parents=True, exist_ok=True)
     lines = ["source\ttarget\tweight"]
     for (a, b), w in edge_weights.items():
@@ -88,11 +86,7 @@ def export_edge_list(edge_weights: Dict[Tuple[str, str], float], out_path: Path,
 
 
 def summarize(edge_weights: Dict[Tuple[str, str], float]) -> Dict[str, float]:
-    """
-    min/avg/max özetini döndürür. IEEE yuvarlama farklarından doğan sınır
-    ihlallerini önlemek için avg değerini min/max içine çok küçük bir epsilon ile
-    kısıtlarız.
-    """
+    """Summarize weight distribution with min/avg/max/stats for stability."""
     if not edge_weights:
         return {"edges": 0, "min": 0.0, "max": 0.0, "avg": 0.0}
     vals = list(edge_weights.values())
@@ -115,6 +109,7 @@ def summarize(edge_weights: Dict[Tuple[str, str], float]) -> Dict[str, float]:
 
 
 def main():
+    """CLI: choose language, set (top15/full), weighting, and export."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--reps_md", type=Path, required=True, help="Representatives markdown (top15 veya full).")
     ap.add_argument("--top_terms", type=int, default=5)

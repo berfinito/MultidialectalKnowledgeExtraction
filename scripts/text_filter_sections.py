@@ -1,3 +1,14 @@
+"""Filter out navigation/headers/templates/refs from wiki sources.
+
+Removes common non-content sections per language via regex matching.
+Writes a new processed corpus with filtered text.
+
+Output suffix:
+- e.g., text_corpus_{lang}_{tag}_nofn.parquet
+
+Caveats:
+- Patterns are heuristic; check reports/samples for regressions.
+"""
 from __future__ import annotations
 import argparse, re
 from pathlib import Path
@@ -21,6 +32,7 @@ HEADINGS = {
 }
 
 def build_pattern(lang: str):
+    """Compile a language-specific regex to match non-content headings."""
     items = [re.escape(h) for h in HEADINGS.get(lang, [])]
     if not items:
         return None
@@ -29,6 +41,7 @@ def build_pattern(lang: str):
     return re.compile(pat, flags=re.IGNORECASE)
 
 def run(cfg, lang: str, tag: str):
+    """Load corpus, remove matched sections, save filtered table."""
     paths = Paths(
         raw=Path(cfg["paths"]["raw"]),
         interim=Path(cfg["paths"]["interim"]),
@@ -53,6 +66,7 @@ def run(cfg, lang: str, tag: str):
     return str(out_pq)
 
 def main():
+    """CLI wrapper to run filtering for selected language and tag."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", type=Path, default=Path("configs/experiment.yaml"))
     ap.add_argument("--lang", required=True, choices=["tr","kmr","zza"])

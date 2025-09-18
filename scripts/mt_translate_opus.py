@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+"""Translate segments using OPUS-MT/Helsinki models for pilot experiments."""
 import argparse
 from pathlib import Path
 from typing import List

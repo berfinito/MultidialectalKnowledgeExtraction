@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 """
 Export environment snapshot:
   - python version
@@ -6,14 +5,19 @@ Export environment snapshot:
   - torch/transformers versions
   - GPU name(s) if available
   - pip freeze
+
 Outputs:
-  reports/env_snapshot.json
-  reports/env_freeze.txt
+  - reports/env_snapshot.json
+  - reports/env_freeze.txt
+
+Notes:
+- Best effort: each section is wrapped with try/except to avoid failing the run.
 """
 import json, subprocess, sys, platform
 from pathlib import Path
 
 def get_gpu():
+    """Return a list of detected GPU names if torch.cuda is available, else []."""
     try:
         import torch
         if torch.cuda.is_available():
@@ -23,6 +27,7 @@ def get_gpu():
     return []
 
 def main():
+    """Collect and write environment snapshot + freeze into reports/."""
     out_dir = Path("reports")
     out_dir.mkdir(parents=True, exist_ok=True)
     snap = {

@@ -1,3 +1,13 @@
+"""
+Case Study 4: Compare topic/keywords between speech-derived and text corpora.
+
+Combines:
+- reports/analysis/keyword_overlap.md
+- reports/analysis/keyword_coverage.md
+
+Output:
+- reports/analysis/case4_speech_vs_text.md
+"""
 import re
 from pathlib import Path
 
@@ -7,6 +17,7 @@ OUT = AN_DIR / "case4_speech_vs_text.md"
 def read(p): return Path(p).read_text(encoding="utf-8").splitlines()
 
 def parse_overlap(lines):
+    """Parse the overlap MD into a structured dict keyed by (lang, method)."""
     res, cur_lang, cur_method = {}, None, None
     for i,l in enumerate(lines):
         m = re.match(r"##\s+(\w+)\s+-\s+(keybert|yake)", l.strip(), flags=re.I)
@@ -23,6 +34,7 @@ def parse_overlap(lines):
     return res
 
 def parse_coverage(lines):
+    """Parse the coverage MD into a structured dict keyed by (lang, method, variant)."""
     res = {}
     header = None
     for l in lines:
@@ -45,6 +57,7 @@ def parse_coverage(lines):
     return res
 
 def main():
+    """Load inputs, synthesize observations, and write the case study MD."""
     ol = parse_overlap(read(AN_DIR/"keyword_overlap.md"))
     cvg = parse_coverage(read(AN_DIR/"keyword_coverage.md"))
     lines = ["# Case Study 4 — Speech (CV) vs Text", ""]

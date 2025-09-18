@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+"""Normalize min/avg/max ranges in KG stats JSONs for numeric stability."""
 from pathlib import Path
 import json
 import math

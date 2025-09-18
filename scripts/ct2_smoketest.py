@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+"""CT2/Faster-Whisper smoketest (legacy). Mark deprecated if CT2 not used."""
 import sys, numpy as np
 import librosa
 from faster_whisper import WhisperModel

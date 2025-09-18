@@ -1,3 +1,16 @@
+"""Compute and export uni/bi-gram frequency lists for QC.
+
+Inputs:
+- data/processed/text_corpus_{lang}{_tag}.{parquet|csv}
+
+Outputs:
+- reports/ngrams/{lang}{_tag}_uni.csv
+- reports/ngrams/{lang}{_tag}_bi.csv
+
+Notes:
+- Applies stopword filtering per language
+- Can drop numeric-only tokens; optionally keep years (e.g., '1995')
+"""
 from __future__ import annotations
 import argparse, re
 from pathlib import Path
@@ -6,6 +19,7 @@ import pandas as pd
 from mdke.utils.io import Paths, ensure_dirs, load_yaml
 
 def load_stopwords(lang: str) -> set[str]:
+    """Load stopwords from configs/stopwords/{lang}.txt; return empty set if missing."""
     p = Path(f"configs/stopwords/{lang}.txt")
     if not p.exists():
         return set()
@@ -16,12 +30,15 @@ def load_stopwords(lang: str) -> set[str]:
     }
 
 def tokenize(txt: str) -> list[str]:
+    """Simple whitespace tokenizer; assumes upstream normalization."""
     return re.findall(r"\w+", (txt or "").lower(), flags=re.UNICODE)
 
 def is_numeric_token(t: str) -> bool:
+    """Return True if token is purely numeric or punctuation-like numeric."""
     return bool(re.fullmatch(r"\d+", t))
 
 def looks_like_year(t: str) -> bool:
+    """Heuristic for four-digit years between 1800 and 2100."""
     if not re.fullmatch(r"\d{3,4}", t):
         return False
     v = int(t)
@@ -31,6 +48,7 @@ def top_ngrams(df: pd.DataFrame, sw: set[str], n: int = 100,
                drop_numeric: bool = True,
                keep_years: bool = False,
                min_freq: int = 1):
+    """Compute top-N unigrams and bigrams after stopword/numeric filtering."""
     uni = Counter()
     bi = Counter()
     series = df["text_norm"] if "text_norm" in df.columns else df["text"]
@@ -59,6 +77,7 @@ def run(cfg, lang: str, tag: str, top_n: int,
         drop_numeric: bool,
         keep_years: bool,
         min_freq: int):
+    """Load corpus and write ngram frequency CSVs into reports/ngrams/."""
     paths = Paths(
         raw=Path(cfg["paths"]["raw"]),
         interim=Path(cfg["paths"]["interim"]),
@@ -93,6 +112,7 @@ def run(cfg, lang: str, tag: str, top_n: int,
     return str(out_dir)
 
 def main():
+    """CLI wrapper with options for N, numeric filtering, and year handling."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", type=Path, default=Path("configs/experiment.yaml"))
     ap.add_argument("--lang", type=str, required=True, choices=["tr","kmr","zza"])

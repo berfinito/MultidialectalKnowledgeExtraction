@@ -1,4 +1,10 @@
 #!/usr/bin/env python
+"""Plot a KG TSV as a PNG by keeping top-N edges and largest connected component.
+
+- Input: reports/analysis/*_kg_*.tsv (columns: source, target, weight)
+- Output: PNG figure; node size ~ weighted degree, edge width ~ normalized weight
+- Uses Agg backend for headless environments.
+"""
 from __future__ import annotations
 import argparse
 from pathlib import Path

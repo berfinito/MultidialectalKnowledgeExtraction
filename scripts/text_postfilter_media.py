@@ -1,3 +1,14 @@
+"""
+Remove residual media artifacts and non-textual snippets.
+
+Filters out template-like tokens (thumb/upright/table attrs) often left after HTML→text.
+
+Output:
+- text_corpus_{lang}{src_sfx}_clean.parquet (example)
+
+Report:
+- prints kept/dropped counts and a quick preview of removals
+"""
 from __future__ import annotations
 import argparse, re
 from pathlib import Path
@@ -13,6 +24,7 @@ RESIDUAL_RE = re.compile(
 )
 
 def run(cfg, lang: str, src_sfx: str, dst_sfx: str, write_report: bool) -> str:
+    """Apply residual media regex filter and persist the cleaned corpus."""
     paths = Paths(
         raw=Path(cfg["paths"]["raw"]),
         interim=Path(cfg["paths"]["interim"]),
@@ -46,6 +58,7 @@ def run(cfg, lang: str, src_sfx: str, dst_sfx: str, write_report: bool) -> str:
 
 
 def main():
+    """CLI wrapper: choose language and src/dst suffixes."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", type=Path, default=Path("configs/experiment.yaml"))
     ap.add_argument("--lang", required=True, choices=["tr","kmr","zza"])

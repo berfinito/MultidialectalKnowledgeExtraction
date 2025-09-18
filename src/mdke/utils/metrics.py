@@ -1,3 +1,10 @@
+"""Evaluation and analysis metrics used across the project.
+
+- Text normalization for WER/CER
+- RTF computation
+- Proxy TR token bias ratio
+- latin_hawar_ratio to gauge script drift
+"""
 from __future__ import annotations
 from typing import List, Dict, Any
 from collections import Counter

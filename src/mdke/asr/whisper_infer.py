@@ -1,3 +1,15 @@
+"""Whisper ASR inference for TR/KMR/ZZA with reproducible reports and optional beam dump.
+
+Key features:
+- Final policy: TR=whisper-medium (forced 'tr'), KMR/ZZA=whisper-large-v2 (auto), bias=OFF, beam=1
+- Optional beam dump: emits *_beams.jsonl with alt hypotheses and scores
+- Robust generate(): forced_decoder_ids on generation_config; no attention_mask; dynamic input length
+- Metrics: WER/CER (jiwer), RTF, tr_token_bias (proxy), latin_hawar_ratio
+
+Outputs:
+- data/interim/asr/whisper_{lang}_{split}[_tag][_beams].jsonl
+- reports/asr_whisper_{lang}_{split}[_tag].json
+"""
 from __future__ import annotations
 import argparse
 from pathlib import Path
@@ -35,7 +47,7 @@ hf_logging.set_verbosity_error()
 
 
 def load_audio_16k(path: str) -> np.ndarray:
-    """Mono 16 kHz float32 ses yükler."""
+    """Load mono 16 kHz float32 audio. Resample if needed; downmix to mono."""
     try:
         audio, sr = sf.read(path)
         if sr != 16000:
@@ -49,10 +61,7 @@ def load_audio_16k(path: str) -> np.ndarray:
 
 
 def std_to_whisper_lang(std_lang: str) -> Optional[str]:
-    """
-    Proje dilleri → Whisper dil kodu:
-    tr -> tr, kmr -> ku, zza -> diq (diq/ku destekli değilse auto'ya düşeriz).
-    """
+    """Project language codes to Whisper codes (tr->tr, kmr->ku, zza->diq)."""
     if std_lang == "tr":
         return "tr"
     if std_lang == "kmr":
@@ -64,6 +73,7 @@ def std_to_whisper_lang(std_lang: str) -> Optional[str]:
 
 def build_forced_decoder_ids(processor: WhisperProcessor, lang_choice: Optional[str]) -> tuple[Optional[List[List[int]]], str]:
     """
+    Safely build forced_decoder_ids on generation_config; fallback to transcribe-only if needed.
     Güvenli forced_decoder_ids üret:
       - lang_choice None/'auto' → task='transcribe' (dil autodetect)
       - lang_choice verilmişse → dene; hata olursa task='transcribe'
@@ -110,6 +120,7 @@ def read_bias_text(std_lang: str, max_chars: int = 1200, max_words: int = 400) -
 
 def get_prompt_ids_if_any(processor: WhisperProcessor, std_lang: str, max_tokens: int = 224) -> Optional[List[int]]:
     """
+    Return trimmed prompt_ids for bias text (KMR/ZZA only); None if missing/empty.
     get_prompt_ids ile prompt hazırla; aşırı uzunlukları kes (her durumda ≤ max_tokens).
     """
     bias_text = read_bias_text(std_lang)

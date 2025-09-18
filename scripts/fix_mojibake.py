@@ -1,38 +1,48 @@
-﻿# scripts/fix_mojibake.py
+﻿"""Fix mojibake / Unicode inconsistencies in source corpora or samples.
+
+Heuristics:
+- Detect common mojibake patterns (e.g., 'ÅŸ'→'ş', 'Ã¶'→'ö', etc.)
+- Prefer preserving valid TR/KMR/ZZA diacritics listed in GOOD set
+- Apply pair-mapped replacements first, then a light cleanup pass
+
+Usage:
+  python scripts/fix_mojibake.py IN.txt > OUT.txt
+"""
 from pathlib import Path
 import unicodedata as u
 import sys, re
 
-_BAD_RE = re.compile(r"[ÃÅÂ¤Ÿ�]")  # tipik mojibake izleri
-_GOOD = set("şŞçÇğĞıİöÖüÜâÂêÊîÎûÛ’ʻʼ`´ʿ’")  # TR+KMR+ZZA’daki diakritikler
+_BAD_RE = re.compile(r"[ÃÅÂ¤Ÿ�]")
+_GOOD = set("şŞçÇğĞıİöÖüÜâÂêÊîÎûÛ’ʻʼ`´ʿ’")
 
-# Son-çare düzeltme haritası (sık rastlanan ikililer)
 _PAIR_MAP = {
     "ÅŸ": "ş", "Å": "Ş",
     "Ã§": "ç", "Ã": "Ç",
     "ÄŸ": "ğ", "Ä": "Ğ",
-    "Ä±": "ı", "I\u0307": "İ",  # noktalı I birleşimi
+    "Ä±": "ı", "I\u0307": "İ",
     "Ã¶": "ö", "Ã": "Ö",
     "Ã¼": "ü", "Ã": "Ü",
     "Ã¢": "â", "Ã": "Â",
     "Ãª": "ê", "Ã": "Ê",
     "Ã®": "î", "Ã": "Î",
     "Ã»": "û", "Ã": "Û",
-    "Â·": "·", "Â": "",  # yalın 'Â' zayiatı
+    "Â·": "·", "Â": "",
 }
 
 def _pair_cleanup(s: str) -> str:
+    """Apply pair replacements once; do not loop to avoid overfixing."""
     for k, v in _PAIR_MAP.items():
         s = s.replace(k, v)
     return s
 
 def _score(s: str) -> float:
-    # iyi harf çok, kötü iz az → yüksek skor
+    """Score a string by 'good' vs 'bad' character presence; higher is better."""
     bad = len(_BAD_RE.findall(s))
     good = sum(ch in _GOOD for ch in s)
     return good - 2.0 * bad
 
 def _once(s: str):
+    """Single pass: try pair cleanup and pick the better scoring variant."""
     cands = [("orig", s)]
     for enc, dec in [("cp1252","utf-8"), ("latin1","utf-8"),
                      ("utf-8","cp1252"), ("utf-8","latin1")]:
@@ -41,7 +51,6 @@ def _once(s: str):
             cands.append((f"{enc}->{dec}", t))
         except Exception:
             pass
-    # en iyi adayı seç
     best = s; best_sc = float("-inf")
     for _, t in cands:
         t = u.normalize("NFC", t)
@@ -51,18 +60,18 @@ def _once(s: str):
     return best
 
 def fix_line(s: str) -> str:
-    # 1) birden çok tur dene (karışık satırlar için)
+    """Fix mojibake in one line; idempotent by design."""
     prev = s
-    for _ in range(4):           # 4 tur genelde yeter
+    for _ in range(4):
         cur = _once(prev)
         if cur == prev:
             break
         prev = cur
-    # 2) son-çare ikili harita temizlik
     cur2 = _pair_cleanup(prev)
     return u.normalize("NFC", cur2)
 
 def fix_file(inp: Path, outp: Path):
+    """Process a file line-by-line and write the fixed output."""
     lines = inp.read_text(encoding="utf-8", errors="replace").splitlines()
     fixed = [fix_line(s) for s in lines]
     outp.write_text("\n".join(fixed), encoding="utf-8")

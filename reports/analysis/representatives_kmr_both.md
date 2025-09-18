@@ -465,9 +465,9 @@
 - li gor serjimariya giştiya mirovan û malana îranê ku di sala 2006 an de hat encam dan, hejmara rûniştvanên gundê kawllanî serê 201 kese.
 
 ## Topic 116 | aubeê, navnedî, est, grand, bakur
-- la saulsotte, komuneke li departmena aubeê ya herêma grand est e ku li bakur a navnedî ya fransayê ye.
-- chapelle-vallon, komuneke li departmena aubeê ya herêma grand est e ku li bakura navnedî ya fransayê ye.
+- turgy, komuneke li departmena aubeê ya herêma grand est e ku li bakur a navnedî ya fransayê ye.
+- saint-benoît-sur-seine, komuneke li departmena aubeê ya herêma grand est e ku li bakur a navnedî ya fransayê ye.
 
 ## Topic 117 | linux, teknolojiye, dos, kompîter, teknolojiyê
-- Ji bajarvaniyê û ragihandina teknolojiye nabe.
-- demên barkirinê yên modulan li gorî yên konsolên sony û sega, yên ku cd-rom bikar dianîn, kêmtir bûn.
+- linux (mandriva û ubuntu) û programên girêdayî linux hîn tê wergerandin.
+- qada xebata kompîturê ye.

@@ -1,11 +1,26 @@
+#!/usr/bin/env python
+"""
+Build simple co-occurrence graphs from representatives_{lang}_both(_top15).md and export GraphML + stats.
+
+- Use top-N terms per topic; edges increment on co-appearance
+- Modes: top15 or full
+
+Inputs:
+  - reports/analysis/representatives_{lang}_both{_top15}.md
+
+Outputs:
+  - reports/kg/{lang}_{mode}_terms.graphml
+  - reports/kg/{lang}_{mode}_terms_stats.json
+  - reports/analysis/kg_examples_{all|full}.md (summary)
+
+Notes:
+- This is a light, interpretable KG using only selected representative terms.
+"""
 import re, itertools, json, argparse, statistics
 from pathlib import Path
 
 def parse_terms(md_path, top_terms_per_topic=5):
-    """
-    representatives_*.md içinden '## Topic k | term1, term2, ...' satırlarını alır
-    ve her topic için ilk N terimi döndürür.
-    """
+    """Parse representative terms per topic from the markdown file."""
     lines = Path(md_path).read_text(encoding="utf-8").splitlines()
     topics = []
     for l in lines:
@@ -16,9 +31,7 @@ def parse_terms(md_path, top_terms_per_topic=5):
     return topics
 
 def build_graph(topics):
-    """
-    Her topic içindeki (unique) terim çiftleri için edge ağırlığını 1 artırır.
-    """
+    """Create an undirected multigraph-like edge map based on co-appearance."""
     edge_w = {}
     nodes = set()
     for terms in topics:
@@ -29,6 +42,7 @@ def build_graph(topics):
     return sorted(nodes), edge_w
 
 def graph_stats(nodes, edges):
+    """Return simple stats dict: n_nodes, n_edges, degree stats, etc."""
     if not nodes:
         return {}
     deg_w = {n: 0 for n in nodes}
@@ -53,6 +67,7 @@ def graph_stats(nodes, edges):
     }
 
 def to_graphml(nodes, edges, out_path: Path):
+    """Serialize the term graph to GraphML with node/edge attributes."""
     idx = {n: i for i, n in enumerate(nodes)}
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with out_path.open("w", encoding="utf-8") as f:
@@ -68,10 +83,7 @@ def to_graphml(nodes, edges, out_path: Path):
         f.write('</graph>\n</graphml>\n')
 
 def process_lang(lang, reps_dir: Path, out_dir: Path, top_terms: int, mode: str):
-    """
-    mode == 'top15' => representatives_{lang}_both_top15.md
-    mode == 'full'  => representatives_{lang}_both.md
-    """
+    """Pipeline for one language: parse, build, export graph and stats."""
     reps_filename = f"representatives_{lang}_both_top15.md" if mode == "top15" else f"representatives_{lang}_both.md"
     reps_file = reps_dir / reps_filename
     if not reps_file.exists():
@@ -90,6 +102,7 @@ def process_lang(lang, reps_dir: Path, out_dir: Path, top_terms: int, mode: str)
     return stats
 
 def write_summary_md(stats_list, out_md: Path, mode: str):
+    """Write a small markdown listing of per-language stats and examples."""
     header_mode = "Both Top15" if mode == "top15" else "Both FULL"
     lines = [f"# KG Examples — {header_mode} (TR/KMR/ZZA)", ""]
     lines.append("| Lang | Nodes | Edges | WeightedSum | AvgWeightedDeg | Density | AvgEdgeW | MedDeg | MaxDeg | MinDeg |")
@@ -115,6 +128,7 @@ def write_summary_md(stats_list, out_md: Path, mode: str):
     print(f"[kg-summary:{mode}] -> {out_md}")
 
 def main():
+    """CLI wrapper for batch processing across languages."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--langs", type=str, default="tr,kmr,zza")
     ap.add_argument("--reps_dir", type=Path, default=Path("reports/analysis"))

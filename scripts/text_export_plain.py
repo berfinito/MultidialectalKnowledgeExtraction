@@ -1,3 +1,15 @@
+"""Export final sentences/documents into plain TXT for sampling/inspection.
+
+Inputs:
+- data/processed/text_corpus_{lang}_{tag}.parquet or .csv
+
+Outputs:
+- reports/exports/{lang}_{tag}.txt
+
+Notes:
+- Chooses the most specific available column in ['sentence', 'text_norm', 'text']
+- Useful for manual reading, lexicon building, or external tools
+"""
 from __future__ import annotations
 import argparse
 from pathlib import Path
@@ -8,12 +20,14 @@ from mdke.utils.io import Paths, ensure_dirs, load_yaml
 LANGS = ["tr", "kmr", "zza"]
 
 def choose_col(df: pd.DataFrame) -> str:
+    """Pick the best text column available in order of preference."""
     for c in ["sentence", "text_norm", "text"]:
         if c in df.columns:
             return c
     raise ValueError(f"Uygun kolon bulunamadı. Var olan kolonlar: {list(df.columns)}")
 
 def run(cfg_path: Path, use_final: bool = True, tag_base: str = "normh_clean_nonav"):
+    """Batch export TXT per language based on final tag pipeline."""
     cfg = load_yaml(cfg_path)
     paths = Paths(
         raw=Path(cfg["paths"]["raw"]),
@@ -45,24 +59,15 @@ def run(cfg_path: Path, use_final: bool = True, tag_base: str = "normh_clean_non
         s = df[col].astype(str).map(str.strip)
         s = s[s.str.len() > 0]
 
-        # 1) Wikitext kalın/italik işaretleri: '''bold''', ''italic''
-        # 2 veya daha fazla tek tırnak grubunu tamamen kaldır
         s = s.str.replace(r"'{2,}", "", regex=True)
 
-        # 2) Hafif biçim parlatma (yalnızca TXT export için):
-        # - Noktalama öncesi boşlukları kaldır: " sözcük ," -> " sözcük,"
         s = s.str.replace(r"\s+([,;:.!?])", r"\1", regex=True)
-        # - Parantez içindeki/çevresindeki gereksiz boşlukları toparla: "(  )" -> "", "(  x  )" -> "(x)"
-        s = s.str.replace(r"\(\s+\)", "", regex=True)          # tamamen boş parantezleri kaldır
-        s = s.str.replace(r"\(\s+", "(", regex=True)           # açılıştan sonra boşluğu sil
-        s = s.str.replace(r"\s+\)", ")", regex=True)           # kapanıştan önce boşluğu sil
-        # - Art arda virgüller: ", ," -> ", "
+        s = s.str.replace(r"\(\s+\)", "", regex=True)
+        s = s.str.replace(r"\(\s+", "(", regex=True)
+        s = s.str.replace(r"\s+\)", ")", regex=True)
         s = s.str.replace(r",\s*,", ", ", regex=True)
-        # - Çift ve üzeri boşlukları tek boşluk yap
         s = s.str.replace(r"\s{2,}", " ", regex=True)
-        # - Virgül + kapatan parantez: ", )" -> ")"
         s = s.str.replace(r",\s*\)", ")", regex=True)
-        # - Kenarlardaki boşlukları yenile
         s = s.str.strip()
 
         out = outdir / f"sentences_{lang}_{label}.txt"

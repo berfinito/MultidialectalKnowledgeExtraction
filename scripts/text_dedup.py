@@ -1,3 +1,27 @@
+"""
+Exact deduplication of sentences/documents via hashing.
+
+Purpose:
+- Remove exact duplicates after normalization to keep the corpus clean and compact.
+
+Normalization:
+- Uses mdke.utils.textnorm.normalize_text(lang), then squashes whitespace.
+- Hash function: SHA1 over normalized text (UTF-8), stable and idempotent.
+
+Inputs:
+- data/processed/text_corpus_{lang}{_tag}.parquet (or CSV if adapted)
+
+Outputs:
+- data/processed/text_corpus_{lang}{_tag}_dedup.parquet
+- (Optional) reports/analysis/text_dedup_{lang}{_tag}.md with keep/drop counts
+
+CLI:
+  python scripts/text_dedup.py --config configs/experiment.yaml --lang kmr --tag normh_clean_nonav
+
+Notes:
+- Idempotent: running dedup twice produces the same output.
+- Keeps the first occurrence per normalized hash; drops subsequent duplicates.
+"""
 from __future__ import annotations
 import argparse, hashlib
 from pathlib import Path
@@ -6,11 +30,13 @@ from mdke.utils.io import Paths, ensure_dirs, load_yaml
 from mdke.utils.textnorm import normalize_text
 
 def normhash(s: str, lang: str) -> str:
+    """Return SHA1 hex digest of normalized text for the given language."""
     t = normalize_text(s or "", lang)
     t = " ".join(t.split())
     return hashlib.sha1(t.encode("utf-8")).hexdigest()
 
 def run(cfg, lang: str, tag: str):
+    """Load corpus, compute normalized hashes, drop duplicates, write outputs."""
     paths = Paths(
         raw=Path(cfg["paths"]["raw"]),
         interim=Path(cfg["paths"]["interim"]),
@@ -32,6 +58,7 @@ def run(cfg, lang: str, tag: str):
     return str(out_pq)
 
 def main():
+    """CLI entrypoint: parse args and run dedup for a language/tag."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", type=Path, default=Path("configs/experiment.yaml"))
     ap.add_argument("--lang", required=True, choices=["tr","kmr","zza"])

@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-from __future__ import annotations
 """
 Export a weighted co-occurrence edge list (TSV) to a graph file (GEXF or GraphML).
 
@@ -13,6 +11,7 @@ Notes:
 - Undirected graph is used; edges are treated as symmetric.
 - Weight is preserved on the edge attribute 'weight'.
 """
+from __future__ import annotations
 import argparse
 from pathlib import Path
 from typing import Iterable, Tuple

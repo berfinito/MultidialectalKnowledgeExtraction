@@ -1,3 +1,14 @@
+#!/usr/bin/env python
+"""
+Run BERTopic for a given language and source variant (text/cv/both).
+
+Inputs:
+  - Processed corpora (data/processed/*)
+Outputs:
+  - reports/topics/{lang}_bertopic_topics_{variant}.json
+  - reports/topics/{lang}_bertopic_doc_topics_{variant}.parquet
+  - reports/topics/{lang}_bertopic_info_{variant}.md
+"""
 from __future__ import annotations
 import argparse, json, random
 from pathlib import Path

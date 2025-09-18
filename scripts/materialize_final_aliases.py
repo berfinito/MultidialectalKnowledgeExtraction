@@ -1,3 +1,15 @@
+"""
+Produce final alias lists / symbol maps for Sprint-4 finalization.
+
+Reads config paths from configs/experiment.yaml and copies selected
+artefacts into stable alias file names for the final write-up.
+
+Outputs:
+- reports/... final alias files (e.g., final_topics.json, final_keywords.json)
+
+Warnings:
+- Prints missing inputs and proceeds with existing ones.
+"""
 from __future__ import annotations
 import argparse
 from pathlib import Path
@@ -7,6 +19,7 @@ from mdke.utils.io import Paths, ensure_dirs, load_yaml
 LANGS = ["tr", "kmr", "zza"]
 
 def materialize(cfg_path: Path):
+    
     cfg = load_yaml(cfg_path)
     paths = Paths(
         raw=Path(cfg["paths"]["raw"]),

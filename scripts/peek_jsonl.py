@@ -1,6 +1,5 @@
-# scripts/peek_jsonl.py
-# Örnek tahminleri kontrol et (kalite ve alfabetik düzgünlük). İlk 10 örneği görelim.
-
+#!/usr/bin/env python
+"""Peek and pretty-print a few JSONL records for quick sanity checks."""
 import json
 from pathlib import Path
 import sys

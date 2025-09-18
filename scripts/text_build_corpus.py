@@ -1,3 +1,16 @@
+"""Ingest and build cleaned text corpora (wiki + Zazagorani) for a language.
+
+Inputs:
+- data/processed/wiki_{lang}{_tag}.{parquet|csv}
+- data/processed/zazagorani_{lang}{_tag}.{parquet|csv} (if applicable)
+
+Output:
+- data/processed/text_corpus_{lang}{_tag}.{parquet|csv}
+
+Notes:
+- Merges sources, applies light normalization/column unification, and dedup earlier in pipeline
+- Logging via mdke.utils.io.get_logger
+"""
 from __future__ import annotations
 import argparse
 from pathlib import Path
@@ -7,6 +20,7 @@ import pandas as pd
 from mdke.utils.io import Paths, ensure_dirs, load_yaml, get_logger
 
 def load_table_or_csv(path_parquet: Path, path_csv: Path) -> pd.DataFrame:
+    """Load a table from parquet or CSV; return empty DataFrame if missing."""
     if path_parquet.exists():
         return pd.read_parquet(path_parquet)
     if path_csv.exists():
@@ -14,6 +28,7 @@ def load_table_or_csv(path_parquet: Path, path_csv: Path) -> pd.DataFrame:
     return pd.DataFrame([])
 
 def run(cfg, lang: str, tag: str = ""):
+    """Build the combined corpus for a language and write to processed/."""
     logger = get_logger(f"text_build_{lang}")
     paths = Paths(
         raw=Path(cfg["paths"]["raw"]),
@@ -69,6 +84,7 @@ def run(cfg, lang: str, tag: str = ""):
     return {"n": n, "out": written}
 
 def main():
+    """CLI wrapper: choose language and optional tag, then build corpus."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", type=Path, default=Path("configs/experiment.yaml"))
     ap.add_argument("--lang", type=str, required=True, choices=["tr","kmr","zza"])

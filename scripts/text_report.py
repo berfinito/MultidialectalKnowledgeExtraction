@@ -1,3 +1,13 @@
+"""Build textual QC reports (retention %, distribution stats, unicode issues).
+
+Outputs:
+- reports/analysis/text_report_{lang}{_tag}.md
+
+Includes:
+- Basic retention and length distributions
+- Latin vs Hawar script ratio (for KMR/ZZA)
+- Top TF-IDF terms as a proxy for diversity and topic balance
+"""
 from __future__ import annotations
 import argparse
 from pathlib import Path
@@ -9,6 +19,7 @@ from mdke.utils.io import Paths, ensure_dirs, load_yaml, get_logger
 from mdke.utils.metrics import latin_hawar_ratio
 
 def load_table(paths: Paths, lang: str, tag: str = "") -> pd.DataFrame:
+    """Load parquet or CSV table for the given language and optional tag."""
     sfx = f"_{tag}" if tag else ""
     p_parquet = paths.processed / f"text_corpus_{lang}{sfx}.parquet"
     p_csv = paths.processed / f"text_corpus_{lang}{sfx}.csv"
@@ -19,6 +30,7 @@ def load_table(paths: Paths, lang: str, tag: str = "") -> pd.DataFrame:
     return pd.DataFrame([])
 
 def tf_idf_top(df: pd.DataFrame, top_n: int = 50) -> list[tuple[str, float]]:
+    """Compute TF-IDF top terms across documents for a simple qualitative view."""
     from collections import Counter, defaultdict
     docs = (df["text_norm"].fillna("") + "").tolist()
     if not any(docs):
@@ -44,6 +56,7 @@ def tf_idf_top(df: pd.DataFrame, top_n: int = 50) -> list[tuple[str, float]]:
     return top
 
 def write_md_stats(out_path: Path, lang: str, df: pd.DataFrame, top_terms: list[tuple[str,float]], lh_ratio: float):
+    """Write markdown report with headline metrics and top terms list."""
     out_path.parent.mkdir(parents=True, exist_ok=True)
     n = len(df)
     n_tok = int(df["n_tokens"].sum()) if "n_tokens" in df.columns else None
@@ -66,6 +79,7 @@ def write_md_stats(out_path: Path, lang: str, df: pd.DataFrame, top_terms: list[
     out_path.write_text("\n".join(lines), encoding="utf-8")
 
 def run(cfg, lang: str, tag: str = "", top_n: int = 50):
+    """End-to-end: load, compute metrics/terms, and write markdown to reports/."""
     logger = get_logger(f"text_report_{lang}")
     paths = Paths(
         raw=Path(cfg["paths"]["raw"]),
@@ -86,6 +100,7 @@ def run(cfg, lang: str, tag: str = "", top_n: int = 50):
     return str(out_md)
 
 def main():
+    """CLI wrapper: pick language(s) and tag and generate reports."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", type=Path, default=Path("configs/experiment.yaml"))
     ap.add_argument("--lang", type=str, required=True, choices=["tr","kmr","zza"])

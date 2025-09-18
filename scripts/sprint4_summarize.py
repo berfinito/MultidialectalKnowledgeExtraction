@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+"""Summarize Sprint-4 results."""
 from __future__ import annotations
 import argparse, json
 from pathlib import Path

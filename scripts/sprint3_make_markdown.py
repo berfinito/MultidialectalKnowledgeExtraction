@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+"""Generate Sprint-3 markdown report."""
 import json
 from pathlib import Path
 

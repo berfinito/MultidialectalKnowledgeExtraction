@@ -1,3 +1,24 @@
+"""
+Extract keywords per language and variant (text/cv/both) using supported methods.
+
+Methods:
+- YAKE
+- KeyBERT
+
+Inputs:
+- reports/topics/{lang}_bertopic_docs_{variant}.txt (when methods need docs)
+- Or any method-specific inputs already used in the script
+
+Outputs:
+- reports/keywords/{lang}_{method}_{variant}.json
+  Each file is a JSON array of [term, score] pairs in descending importance.
+
+Usage:
+  python scripts/keywords_extract.py --lang tr --method yake --variant both
+Notes:
+  - Normalization is assumed to be handled earlier in the pipeline (textnorm).
+  - Keep method parameters stable across variants for fair comparisons.
+"""
 from __future__ import annotations
 import argparse, json, random
 from pathlib import Path

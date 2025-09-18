@@ -513,5 +513,5 @@
 - zereyê xo de pê maseyan huyayêne.
 
 ## Topic 128 | parsonsi, keşıf, terefê, biyo, herscheli
-- 5 keşkelun 1826 de terefê james dunlopi ra keşıf biyo.
-- sherlock holmes, 6ê çeleyê serra 1854ıne de londra de ameyo riyê dınya.
+- hema kı heta serra 1858ıne fıkırê xo nêvato, çunkê verapeyan (reaksiyon) ra tersao.
+- 29 tışrino peyên 1864 de terefê albert marthi ra keşıf biyo.

@@ -441,8 +441,8 @@
 - morton by gainsborough, ingiltere'nin lincolnshire kontluğunda bulunan bir civil parish.
 
 ## Topic 110 | formula, yarışı, yol, prix, grand
-- ulusal yol yarışı 3.
-- 1968'de düzenlenen ve dünya şampiyonası için sayılmayan diğer formula 1 yarışları.
+- yol yarışı 4.
+- 2018 monako grand prix'sini yaşadığı motor sorununa rağmen sebastian vettel'in önünde bitirmiştir.
 
 ## Topic 111 | ses, sesleri, kulaklık, yeteneğine, sesini
 - alınan helyum, tekrar verildikten sonra bu ses incelmesi etkisini kaybeder.
@@ -453,5 +453,5 @@
 - yugur kızları onun anısına bugün de çok süslü şapkalar, elbiseler dikerler ve giyerler.
 
 ## Topic 113 | lig, amatör, süper, mücadele, sezonunda
-- lig'i lider tamamlayıp süper lig'e yükselmesinde önemli katkıda bulundu.
-- ligi'ne yükseldi.
+- ligi'nde yarışmaya başlamıştır.
+- lig'i lider tamamlayıp süper lig'e yükselmesinde önemli katkısı oldu.
