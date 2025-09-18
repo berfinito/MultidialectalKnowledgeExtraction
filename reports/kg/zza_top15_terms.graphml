@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key id="label" for="node" attr.name="label" attr.type="string"/>
+<key id="weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph edgedefault="undirected">
+<node id="n0"><data key="label">000</data></node>
+<node id="n1"><data key="label">975</data></node>
+<node id="n2"><data key="label">abdullah</data></node>
+<node id="n3"><data key="label">amardışê</data></node>
+<node id="n4"><data key="label">anciyao</data></node>
+<node id="n5"><data key="label">awe</data></node>
+<node id="n6"><data key="label">biyo</data></node>
+<node id="n7"><data key="label">cinîyan</data></node>
+<node id="n8"><data key="label">cısım</data></node>
+<node id="n9"><data key="label">de</data></node>
+<node id="n10"><data key="label">diagrami</data></node>
+<node id="n11"><data key="label">elektrik</data></node>
+<node id="n12"><data key="label">elmanya</data></node>
+<node id="n13"><data key="label">estareyanê</data></node>
+<node id="n14"><data key="label">ez</data></node>
+<node id="n15"><data key="label">gorey</data></node>
+<node id="n16"><data key="label">grafikê</data></node>
+<node id="n17"><data key="label">gêno</data></node>
+<node id="n18"><data key="label">hezar</data></node>
+<node id="n19"><data key="label">hunermend</data></node>
+<node id="n20"><data key="label">hêrişê</data></node>
+<node id="n21"><data key="label">internet</data></node>
+<node id="n22"><data key="label">james</data></node>
+<node id="n23"><data key="label">john</data></node>
+<node id="n24"><data key="label">kanalizasyoni</data></node>
+<node id="n25"><data key="label">katalogê</data></node>
+<node id="n26"><data key="label">ke</data></node>
+<node id="n27"><data key="label">keşıf</data></node>
+<node id="n28"><data key="label">komê</data></node>
+<node id="n29"><data key="label">kurdan</data></node>
+<node id="n30"><data key="label">kurdî</data></node>
+<node id="n31"><data key="label">kurdîstanî</data></node>
+<node id="n32"><data key="label">ma</data></node>
+<node id="n33"><data key="label">mi</data></node>
+<node id="n34"><data key="label">nahiyeyê</data></node>
+<node id="n35"><data key="label">nefero</data></node>
+<node id="n36"><data key="label">neweyê</data></node>
+<node id="n37"><data key="label">nêkenê</data></node>
+<node id="n38"><data key="label">nêzana</data></node>
+<node id="n39"><data key="label">nıfusê</data></node>
+<node id="n40"><data key="label">peyêni</data></node>
+<node id="n41"><data key="label">philadelphia</data></node>
+<node id="n42"><data key="label">pittsburgh</data></node>
+<node id="n43"><data key="label">pêroyi</data></node>
+<node id="n44"><data key="label">ra</data></node>
+<node id="n45"><data key="label">ratneyao</data></node>
+<node id="n46"><data key="label">rayberê</data></node>
+<node id="n47"><data key="label">sar</data></node>
+<node id="n48"><data key="label">sero</data></node>
+<node id="n49"><data key="label">sistemê</data></node>
+<node id="n50"><data key="label">stanbul</data></node>
+<node id="n51"><data key="label">terefê</data></node>
+<node id="n52"><data key="label">tirke</data></node>
+<node id="n53"><data key="label">tirkî</data></node>
+<node id="n54"><data key="label">tirkîya</data></node>
+<node id="n55"><data key="label">to</data></node>
+<node id="n56"><data key="label">vera</data></node>
+<node id="n57"><data key="label">william</data></node>
+<node id="n58"><data key="label">xo</data></node>
+<node id="n59"><data key="label">yê</data></node>
+<node id="n60"><data key="label">zazaki</data></node>
+<node id="n61"><data key="label">zî</data></node>
+<node id="n62"><data key="label">îstanbul</data></node>
+<node id="n63"><data key="label">şarê</data></node>
+<node id="n64"><data key="label">şebekey</data></node>
+<edge source="n7" target="n26"><data key="weight">1</data></edge>
+<edge source="n7" target="n29"><data key="weight">1</data></edge>
+<edge source="n7" target="n59"><data key="weight">2</data></edge>
+<edge source="n7" target="n61"><data key="weight">1</data></edge>
+<edge source="n26" target="n29"><data key="weight">1</data></edge>
+<edge source="n26" target="n59"><data key="weight">1</data></edge>
+<edge source="n26" target="n61"><data key="weight">1</data></edge>
+<edge source="n29" target="n59"><data key="weight">1</data></edge>
+<edge source="n29" target="n61"><data key="weight">1</data></edge>
+<edge source="n59" target="n61"><data key="weight">1</data></edge>
+<edge source="n14" target="n32"><data key="weight">2</data></edge>
+<edge source="n14" target="n33"><data key="weight">2</data></edge>
+<edge source="n14" target="n55"><data key="weight">1</data></edge>
+<edge source="n14" target="n58"><data key="weight">1</data></edge>
+<edge source="n32" target="n33"><data key="weight">2</data></edge>
+<edge source="n32" target="n55"><data key="weight">1</data></edge>
+<edge source="n32" target="n58"><data key="weight">1</data></edge>
+<edge source="n33" target="n55"><data key="weight">1</data></edge>
+<edge source="n33" target="n58"><data key="weight">1</data></edge>
+<edge source="n55" target="n58"><data key="weight">1</data></edge>
+<edge source="n7" target="n20"><data key="weight">1</data></edge>
+<edge source="n7" target="n52"><data key="weight">1</data></edge>
+<edge source="n7" target="n56"><data key="weight">1</data></edge>
+<edge source="n20" target="n52"><data key="weight">1</data></edge>
+<edge source="n20" target="n56"><data key="weight">1</data></edge>
+<edge source="n20" target="n59"><data key="weight">1</data></edge>
+<edge source="n52" target="n56"><data key="weight">1</data></edge>
+<edge source="n52" target="n59"><data key="weight">1</data></edge>
+<edge source="n56" target="n59"><data key="weight">1</data></edge>
+<edge source="n0" target="n3"><data key="weight">1</data></edge>
+<edge source="n0" target="n18"><data key="weight">1</data></edge>
+<edge source="n0" target="n35"><data key="weight">1</data></edge>
+<edge source="n0" target="n40"><data key="weight">1</data></edge>
+<edge source="n3" target="n18"><data key="weight">1</data></edge>
+<edge source="n3" target="n35"><data key="weight">1</data></edge>
+<edge source="n3" target="n40"><data key="weight">1</data></edge>
+<edge source="n18" target="n35"><data key="weight">1</data></edge>
+<edge source="n18" target="n40"><data key="weight">1</data></edge>
+<edge source="n35" target="n40"><data key="weight">1</data></edge>
+<edge source="n10" target="n15"><data key="weight">1</data></edge>
+<edge source="n10" target="n16"><data key="weight">1</data></edge>
+<edge source="n10" target="n39"><data key="weight">1</data></edge>
+<edge source="n10" target="n48"><data key="weight">1</data></edge>
+<edge source="n15" target="n16"><data key="weight">1</data></edge>
+<edge source="n15" target="n39"><data key="weight">1</data></edge>
+<edge source="n15" target="n48"><data key="weight">1</data></edge>
+<edge source="n16" target="n39"><data key="weight">1</data></edge>
+<edge source="n16" target="n48"><data key="weight">1</data></edge>
+<edge source="n39" target="n48"><data key="weight">1</data></edge>
+<edge source="n12" target="n19"><data key="weight">1</data></edge>
+<edge source="n12" target="n34"><data key="weight">1</data></edge>
+<edge source="n12" target="n47"><data key="weight">1</data></edge>
+<edge source="n12" target="n60"><data key="weight">1</data></edge>
+<edge source="n19" target="n34"><data key="weight">1</data></edge>
+<edge source="n19" target="n47"><data key="weight">1</data></edge>
+<edge source="n19" target="n60"><data key="weight">1</data></edge>
+<edge source="n34" target="n47"><data key="weight">1</data></edge>
+<edge source="n34" target="n60"><data key="weight">1</data></edge>
+<edge source="n47" target="n60"><data key="weight">1</data></edge>
+<edge source="n6" target="n9"><data key="weight">1</data></edge>
+<edge source="n6" target="n27"><data key="weight">1</data></edge>
+<edge source="n6" target="n44"><data key="weight">1</data></edge>
+<edge source="n6" target="n51"><data key="weight">1</data></edge>
+<edge source="n9" target="n27"><data key="weight">1</data></edge>
+<edge source="n9" target="n44"><data key="weight">1</data></edge>
+<edge source="n9" target="n51"><data key="weight">1</data></edge>
+<edge source="n27" target="n44"><data key="weight">1</data></edge>
+<edge source="n27" target="n51"><data key="weight">1</data></edge>
+<edge source="n44" target="n51"><data key="weight">1</data></edge>
+<edge source="n14" target="n37"><data key="weight">1</data></edge>
+<edge source="n14" target="n38"><data key="weight">1</data></edge>
+<edge source="n32" target="n37"><data key="weight">1</data></edge>
+<edge source="n32" target="n38"><data key="weight">1</data></edge>
+<edge source="n33" target="n37"><data key="weight">1</data></edge>
+<edge source="n33" target="n38"><data key="weight">1</data></edge>
+<edge source="n37" target="n38"><data key="weight">1</data></edge>
+<edge source="n5" target="n24"><data key="weight">1</data></edge>
+<edge source="n5" target="n45"><data key="weight">1</data></edge>
+<edge source="n5" target="n49"><data key="weight">1</data></edge>
+<edge source="n5" target="n64"><data key="weight">1</data></edge>
+<edge source="n24" target="n45"><data key="weight">1</data></edge>
+<edge source="n24" target="n49"><data key="weight">1</data></edge>
+<edge source="n24" target="n64"><data key="weight">2</data></edge>
+<edge source="n45" target="n49"><data key="weight">1</data></edge>
+<edge source="n45" target="n64"><data key="weight">1</data></edge>
+<edge source="n49" target="n64"><data key="weight">1</data></edge>
+<edge source="n8" target="n13"><data key="weight">1</data></edge>
+<edge source="n8" target="n25"><data key="weight">2</data></edge>
+<edge source="n8" target="n28"><data key="weight">1</data></edge>
+<edge source="n8" target="n36"><data key="weight">2</data></edge>
+<edge source="n13" target="n25"><data key="weight">1</data></edge>
+<edge source="n13" target="n28"><data key="weight">1</data></edge>
+<edge source="n13" target="n36"><data key="weight">1</data></edge>
+<edge source="n25" target="n28"><data key="weight">1</data></edge>
+<edge source="n25" target="n36"><data key="weight">2</data></edge>
+<edge source="n28" target="n36"><data key="weight">1</data></edge>
+<edge source="n1" target="n50"><data key="weight">1</data></edge>
+<edge source="n1" target="n53"><data key="weight">1</data></edge>
+<edge source="n1" target="n54"><data key="weight">1</data></edge>
+<edge source="n1" target="n62"><data key="weight">1</data></edge>
+<edge source="n50" target="n53"><data key="weight">1</data></edge>
+<edge source="n50" target="n54"><data key="weight">1</data></edge>
+<edge source="n50" target="n62"><data key="weight">1</data></edge>
+<edge source="n53" target="n54"><data key="weight">1</data></edge>
+<edge source="n53" target="n62"><data key="weight">1</data></edge>
+<edge source="n54" target="n62"><data key="weight">1</data></edge>
+<edge source="n22" target="n23"><data key="weight">1</data></edge>
+<edge source="n22" target="n41"><data key="weight">1</data></edge>
+<edge source="n22" target="n42"><data key="weight">1</data></edge>
+<edge source="n22" target="n57"><data key="weight">1</data></edge>
+<edge source="n23" target="n41"><data key="weight">1</data></edge>
+<edge source="n23" target="n42"><data key="weight">1</data></edge>
+<edge source="n23" target="n57"><data key="weight">1</data></edge>
+<edge source="n41" target="n42"><data key="weight">1</data></edge>
+<edge source="n41" target="n57"><data key="weight">1</data></edge>
+<edge source="n42" target="n57"><data key="weight">1</data></edge>
+<edge source="n8" target="n17"><data key="weight">1</data></edge>
+<edge source="n8" target="n43"><data key="weight">1</data></edge>
+<edge source="n17" target="n25"><data key="weight">1</data></edge>
+<edge source="n17" target="n36"><data key="weight">1</data></edge>
+<edge source="n17" target="n43"><data key="weight">1</data></edge>
+<edge source="n25" target="n43"><data key="weight">1</data></edge>
+<edge source="n36" target="n43"><data key="weight">1</data></edge>
+<edge source="n2" target="n30"><data key="weight">1</data></edge>
+<edge source="n2" target="n31"><data key="weight">1</data></edge>
+<edge source="n2" target="n46"><data key="weight">1</data></edge>
+<edge source="n2" target="n63"><data key="weight">1</data></edge>
+<edge source="n30" target="n31"><data key="weight">1</data></edge>
+<edge source="n30" target="n46"><data key="weight">1</data></edge>
+<edge source="n30" target="n63"><data key="weight">1</data></edge>
+<edge source="n31" target="n46"><data key="weight">1</data></edge>
+<edge source="n31" target="n63"><data key="weight">1</data></edge>
+<edge source="n46" target="n63"><data key="weight">1</data></edge>
+<edge source="n4" target="n11"><data key="weight">1</data></edge>
+<edge source="n4" target="n21"><data key="weight">1</data></edge>
+<edge source="n4" target="n24"><data key="weight">1</data></edge>
+<edge source="n4" target="n64"><data key="weight">1</data></edge>
+<edge source="n11" target="n21"><data key="weight">1</data></edge>
+<edge source="n11" target="n24"><data key="weight">1</data></edge>
+<edge source="n11" target="n64"><data key="weight">1</data></edge>
+<edge source="n21" target="n24"><data key="weight">1</data></edge>
+<edge source="n21" target="n64"><data key="weight">1</data></edge>
+</graph>
+</graphml>

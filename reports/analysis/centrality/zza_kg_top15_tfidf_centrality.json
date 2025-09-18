@@ -1,0 +1,44 @@
+{
+  "file": "reports/analysis\\zza_kg_top15_tfidf.tsv",
+  "nodes": 65,
+  "edges": 142,
+  "degree": {
+    "min": 4.0,
+    "max": 7.0,
+    "mean": 4.369230769230769,
+    "median": 4.0,
+    "p90": 6.0
+  },
+  "weighted_degree": {
+    "min": 10.8322,
+    "max": 20.278106,
+    "mean": 12.157450707692309,
+    "median": 10.8322,
+    "p90": 18.891812
+  },
+  "eigenvector": {},
+  "betweenness": {
+    "min": 0.0,
+    "max": 0.002232142857142857,
+    "mean": 0.0001984126984126984,
+    "median": 0.0,
+    "p90": 0.0006613756613756613
+  },
+  "clustering": {
+    "min": 0.5714285714285714,
+    "max": 1.0,
+    "mean": 0.949010989010989,
+    "median": 1.0,
+    "p90": 1.0
+  },
+  "components": {
+    "count": 11,
+    "sizes": {
+      "min": 5.0,
+      "max": 8.0,
+      "mean": 5.909090909090909,
+      "median": 5.0,
+      "p90": 8.0
+    }
+  }
+}

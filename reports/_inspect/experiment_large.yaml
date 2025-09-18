@@ -1,0 +1,55 @@
+﻿project:
+  seed: 42
+  device: "cuda"
+
+data:
+  commonvoice:
+    mode: "local"                # "local" | "hf"
+    local_root: "data/raw/commonvoice"
+    # data/raw/commonvoice/<tr|kmr|zza>/cv-corpus-22.0-2025-06-20-<lang>/
+    # <lang>/{train.tsv,validated.tsv,test.tsv,clips/}
+    splits: ["train","validation","test"]
+    min_dur: 0.6
+    max_dur: 20.0
+  wikipedia:
+    source: "dump"
+    dedup_jaccard: 0.85
+  zazagorani:
+    use: true
+
+preprocess:
+  lowercase: true
+  remove_punct: true
+  keep_diacritics: true
+
+lid:
+  use_fasttext_for: ["tr","kmr"]
+  threshold: 0.7
+  zza_lexicon_threshold: 0.5
+
+asr:
+  whisper:
+    model: "openai/whisper-large-v2"
+    lang_map: { tr: "tr", kmr: "ku", zza: "auto" }
+    batch_size: 8   # HF iÃ§in
+    ct2_tr_model: "data/interim/asr/ct2_whisper_tr"
+    ct2_kmr_model: "data/interim/asr/ct2_whisper_kmr"
+    ct2_zza_model: "data/interim/asr/ct2_whisper_zza"
+    ct2_compute_type: "float16"
+
+paths:
+  raw: "data/raw"
+  interim: "data/interim"
+  processed: "data/processed"
+  reports: "reports"
+
+#asr:
+#  whisper:
+    # TR iÃ§in HuggingFace modeli
+#    model: "openai/whisper-small"
+#    lang_map: { tr: "tr", kmr: "ku", zza: "auto" }
+#    batch_size: 8   # Sadece HF iÃ§in, CT2 kodunda kullanÄ±lmÄ±yor CT2 iÃ§in: float16 (GPU), CPU'daysan int8 olabilir
+#    ct2_tr_model: "data/interim/asr/ct2_whisper_tr"   # <-- EKLENDÄ°
+#    ct2_kmr_model: "data/interim/asr/ct2_whisper_kmr"
+#    ct2_zza_model: "data/interim/asr/ct2_whisper_zza"
+#    ct2_compute_type: "float16"

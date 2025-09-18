@@ -1,0 +1,2 @@
+﻿NVIDIA GeForce RTX 4070 Laptop GPU
+Intel(R) UHD Graphics

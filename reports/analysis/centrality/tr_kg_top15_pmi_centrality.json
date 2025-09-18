@@ -1,0 +1,44 @@
+{
+  "file": "reports/analysis\\tr_kg_top15_pmi.tsv",
+  "nodes": 73,
+  "edges": 150,
+  "degree": {
+    "min": 4.0,
+    "max": 8.0,
+    "mean": 4.109589041095891,
+    "median": 4.0,
+    "p90": 4.0
+  },
+  "weighted_degree": {
+    "min": 14.627564,
+    "max": 23.255128,
+    "mean": 15.617360273972603,
+    "median": 15.627564,
+    "p90": 15.627564
+  },
+  "eigenvector": {},
+  "betweenness": {
+    "min": 0.0,
+    "max": 0.006259780907668232,
+    "mean": 0.000171500846785431,
+    "median": 0.0,
+    "p90": 0.0
+  },
+  "clustering": {
+    "min": 0.42857142857142855,
+    "max": 1.0,
+    "mean": 0.9843444227005871,
+    "median": 1.0,
+    "p90": 1.0
+  },
+  "components": {
+    "count": 13,
+    "sizes": {
+      "min": 5.0,
+      "max": 9.0,
+      "mean": 5.615384615384615,
+      "median": 5.0,
+      "p90": 8.200000000000003
+    }
+  }
+}

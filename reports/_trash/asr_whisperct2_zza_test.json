@@ -1,0 +1,16 @@
+{
+  "model": "openai/whisper-small (faster-whisper:small)",
+  "lang": "zza",
+  "split": "test",
+  "n": 392,
+  "wer": 1.3208585580627408,
+  "cer": 0.8696403872752421,
+  "rtf": 0.19071947333004866,
+  "total_audio_s": 1749.2759999999992,
+  "wall_s": 333.62099742889404,
+  "tr_token_bias": 0.0,
+  "latin_hawar_ratio": 0.7611456599807305,
+  "beam_size": 5,
+  "force_lang_requested": "auto",
+  "force_lang_effective": "auto"
+}

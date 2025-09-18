@@ -1,100 +1,75 @@
-# Derin veri ve ara çıktılar
-data/
-reports/
-artifacts/
+# --- Core: keep heavy data/models out of Git ---
+# Raw & intermediate data (never commit)
+data/raw/**
+data/interim/**
+data/tmp/**
+# Optionally keep processed datasets out as well; uncomment if desired:
+# data/processed/**
+
+# Models / runs / checkpoints
 models/
 runs/
-
-# Ara ve büyük dosyalar
-*.parquet
-*.jsonl
-*.json
-*.log
 *.ckpt
 *.pt
 *.bin
+
+# Audio/media (large)
 *.wav
 *.flac
 
-# CT2/Faster-Whisper modelleri ve ara çıktılar
-data/interim/asr/ct2_whisper_kmr/
-data/interim/asr/ct2_whisper_zza/
-data/interim/asr_post/
+# Large archives
+*.zip
+*.7z
+*.tar
+*.tar.gz
 
-# Python cache ve notebooklar
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.ipynb_checkpoints/
-
-# Ortam dosyaları
-.env
-
-# Gereksiz tekrarları kaldırdım, hem ana dizinleri hem de alt klasörleri ignore ediyor.
-
-# Python caches
+# --- Python / build / tools ---
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .pytest_cache/
 .mypy_cache/
-
-# IDE/OS
-.vscode/
-.idea/
-.DS_Store
-
-# Virtual env / secrets
+.ipynb_checkpoints/
 .venv/
 venv/
 .env
 
-# Data: heavy/intermediate
-data/raw/**
-data/interim/**
-data/tmp/**
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
 
-# Keep processed data unless you choose otherwise:
-# data/processed/**
-
-# Models / runs (if created)
-models/
-runs/
-
-# Reports: keep results; only ignore temp and zips
+# --- Reports policy ---
+# We DO want to version analysis and summary markdowns, tables, and exports.
+# Ignore only ephemeral or bulky subfolders.
 reports/_trash/**
 reports/_inspect/**
 reports/logs/**
-# If you DON'T want to commit the zipped bundle, keep next line.
-# If you DO want to commit thesis_bundle_ml.zip, add an exception below.
+# If you do NOT want to commit bigger bundles by default, keep this:
 reports/*.zip
-!reports/thesis_bundle_ml.zip
 
-# Audio files (do not push)
-*.wav
-*.flac
+# Allow all other reports (JSON/MD/TSV/PNG/GEXF/GraphML) to be tracked
+!reports/**
+!reports/**/*.md
+!reports/**/*.json
+!reports/**/*.jsonl
+!reports/**/*.csv
+!reports/**/*.tsv
+!reports/**/*.png
+!reports/**/*.gexf
+!reports/**/*.graphml
+!reports/**/README.md
 
-# Checkpoints
-*.ckpt
-*.pt
-*.bin
+# --- Artifacts bundle (optional) ---
+artifacts/
 
-# Notebooks cache
-.ipynb_checkpoints/
+# --- CT2/Faster-Whisper scratch (redundant with data/interim but explicit) ---
+data/interim/asr/ct2_whisper_kmr/
+data/interim/asr/ct2_whisper_zza/
+data/interim/asr_post/
 
-# reports klasörünü genelde ignore et
-reports/
-
-# ama aşağıdakileri dahil et
-!reports/ngrams/
-!reports/ngrams/*.txt
-!reports/text_stats/
-!reports/text_stats/*.txt
-!reports/sprint-1-summary.json
-!reports/sprint-1-summary.md
-!reports/sprint-2-summary.json
-!reports/sprint-2-summary.md
-!reports/sprint-3-summary.json
-!reports/sprint-3-summary.md
+# --- Parquet & local caches (outside data/ for safety) ---
+*.parquet
+*.log

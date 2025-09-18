@@ -1,0 +1,22 @@
+{
+  "model": "openai/whisper-medium",
+  "lang": "kmr",
+  "split": "test",
+  "n": 3991,
+  "wer": 3.4855659812337794,
+  "cer": 2.4532101190523528,
+  "rtf": 0.07863767584509082,
+  "total_audio_s": 18531.431999999964,
+  "wall_s": 1457.2687425613403,
+  "tr_token_bias": 0.0,
+  "latin_hawar_ratio": 0.9980456935461356,
+  "beam_size": 1,
+  "batch_size": 8,
+  "forced_language": "auto",
+  "prompt_tokens": null,
+  "min_new_tokens": 12,
+  "max_new_tokens": 160,
+  "bias_fallback_batch_retries": 0,
+  "bias_fallback_single_fixes": 0,
+  "tag": "medium"
+}

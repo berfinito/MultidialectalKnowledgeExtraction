@@ -1,0 +1,46 @@
+{
+  "_generated_at": "2025-09-12T23:21:19.751424Z",
+  "tr": {
+    "input": 2472160,
+    "dropped": 29741,
+    "kept": 2442419,
+    "has_clean": true,
+    "sources": {
+      "wiki": 2551730
+    },
+    "residual_report": "reports\\text_stats\\residual_media_tr.txt",
+    "ngrams": {
+      "unigram": "reports\\ngrams\\tr_clean_unigram.txt",
+      "bigram": "reports\\ngrams\\tr_clean_bigram.txt"
+    }
+  },
+  "kmr": {
+    "input": 185017,
+    "dropped": 2503,
+    "kept": 182514,
+    "has_clean": true,
+    "sources": {
+      "wiki": 206071
+    },
+    "residual_report": "reports\\text_stats\\residual_media_kmr.txt",
+    "ngrams": {
+      "unigram": "reports\\ngrams\\kmr_clean_unigram.txt",
+      "bigram": "reports\\ngrams\\kmr_clean_bigram.txt"
+    }
+  },
+  "zza": {
+    "input": 95155,
+    "dropped": 601,
+    "kept": 94554,
+    "has_clean": true,
+    "sources": {
+      "wiki": 96599,
+      "zazagorani": 4855
+    },
+    "residual_report": "reports\\text_stats\\residual_media_zza.txt",
+    "ngrams": {
+      "unigram": "reports\\ngrams\\zza_clean_unigram.txt",
+      "bigram": "reports\\ngrams\\zza_clean_bigram.txt"
+    }
+  }
+}

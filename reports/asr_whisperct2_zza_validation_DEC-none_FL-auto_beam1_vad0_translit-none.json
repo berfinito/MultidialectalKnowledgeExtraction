@@ -1,0 +1,21 @@
+{
+  "model": "data/interim/asr/ct2_whisper_zza (faster-whisper:data/interim/asr/ct2_whisper_zza)",
+  "lang": "zza",
+  "split": "validation",
+  "n": 1589,
+  "wer_raw": 0.9673565773024031,
+  "cer_raw": 0.45575583199345576,
+  "latin_hawar_ratio_raw": 0.8037212303721231,
+  "tr_token_bias_raw": 0.7384652613465261,
+  "wer_translit": 0.9673565773024031,
+  "cer_translit": 0.45575583199345576,
+  "latin_hawar_ratio_translit": 0.8037212303721231,
+  "tr_token_bias_translit": 0.7384652613465261,
+  "rtf": 0.11537560729038465,
+  "total_audio_s": 6608.246499999988,
+  "wall_s": 762.4304530620575,
+  "beam_size": 1,
+  "force_lang_requested": "zza",
+  "force_lang_effective": "tr",
+  "postproc": "none"
+}

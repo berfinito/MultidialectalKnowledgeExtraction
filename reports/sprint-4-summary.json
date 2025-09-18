@@ -1,0 +1,59 @@
+{
+  "tag_base": "normh",
+  "langs": {
+    "tr": {
+      "src_wiki": 2501560,
+      "src_zazagorani": null,
+      "src_total": 2501560,
+      "n_normh": 2438107,
+      "n_clean": 2435911,
+      "n_nonav": 2435911,
+      "n_dedup": 2435179,
+      "n_sentences": 7323391,
+      "drop_postfilter": 2196,
+      "drop_dedup": 732,
+      "retain_postfilter_pct": 99.91,
+      "retain_nonav_pct": 100.0,
+      "retain_dedup_pct": 99.97,
+      "retain_overall_pct": 97.35,
+      "ngrams_unigram": "reports\\ngrams\\tr_normh_clean_nonav_dedup_unigram.txt",
+      "ngrams_bigram": "reports\\ngrams\\tr_normh_clean_nonav_dedup_bigram.txt"
+    },
+    "kmr": {
+      "src_wiki": 179004,
+      "src_zazagorani": null,
+      "src_total": 179004,
+      "n_normh": 167960,
+      "n_clean": 167777,
+      "n_nonav": 167777,
+      "n_dedup": 167737,
+      "n_sentences": 370211,
+      "drop_postfilter": 183,
+      "drop_dedup": 40,
+      "retain_postfilter_pct": 99.89,
+      "retain_nonav_pct": 100.0,
+      "retain_dedup_pct": 99.98,
+      "retain_overall_pct": 93.71,
+      "ngrams_unigram": "reports\\ngrams\\kmr_normh_clean_nonav_dedup_unigram.txt",
+      "ngrams_bigram": "reports\\ngrams\\kmr_normh_clean_nonav_dedup_bigram.txt"
+    },
+    "zza": {
+      "src_wiki": 93236,
+      "src_zazagorani": 4855,
+      "src_total": 98091,
+      "n_normh": 78189,
+      "n_clean": 78141,
+      "n_nonav": 78141,
+      "n_dedup": 78098,
+      "n_sentences": 268111,
+      "drop_postfilter": 48,
+      "drop_dedup": 43,
+      "retain_postfilter_pct": 99.94,
+      "retain_nonav_pct": 100.0,
+      "retain_dedup_pct": 99.94,
+      "retain_overall_pct": 79.62,
+      "ngrams_unigram": "reports\\ngrams\\zza_normh_clean_nonav_dedup_unigram.txt",
+      "ngrams_bigram": "reports\\ngrams\\zza_normh_clean_nonav_dedup_bigram.txt"
+    }
+  }
+}

@@ -1,0 +1,802 @@
+[
+  [
+    "bir",
+    1.0
+  ],
+  [
+    "hayır",
+    1.0
+  ],
+  [
+    "evet",
+    1.0
+  ],
+  [
+    "altı",
+    1.0
+  ],
+  [
+    "yedi",
+    1.0
+  ],
+  [
+    "dört",
+    1.0
+  ],
+  [
+    "iki",
+    1.0
+  ],
+  [
+    "dokuz",
+    1.0
+  ],
+  [
+    "beş",
+    1.0
+  ],
+  [
+    "sıfır",
+    1.0
+  ],
+  [
+    "sekiz",
+    1.0
+  ],
+  [
+    "seni seviyorum",
+    0.9995
+  ],
+  [
+    "sana söylemeliyim",
+    0.9995
+  ],
+  [
+    "hey",
+    0.9988
+  ],
+  [
+    "bir ayağı çukurda",
+    0.9987
+  ],
+  [
+    "ve işte buradayız",
+    0.9985
+  ],
+  [
+    "ve işte buradasın",
+    0.9984
+  ],
+  [
+    "bu bir silah",
+    0.9982
+  ],
+  [
+    "ben burada çalışıyorum",
+    0.9981
+  ],
+  [
+    "ben iyiyim",
+    0.998
+  ],
+  [
+    "senin için endişelendim",
+    0.9979
+  ],
+  [
+    "bu bir düğün",
+    0.9979
+  ],
+  [
+    "ama sen farklısın",
+    0.9978
+  ],
+  [
+    "seni yarın ararım",
+    0.9978
+  ],
+  [
+    "bu bir risk",
+    0.9977
+  ],
+  [
+    "sen benim babamsın",
+    0.9977
+  ],
+  [
+    "bu gerçekten harikaydı",
+    0.9976
+  ],
+  [
+    "sen bir polissin",
+    0.9975
+  ],
+  [
+    "seni özledim",
+    0.9975
+  ],
+  [
+    "her şey yolundaydı",
+    0.9973
+  ],
+  [
+    "ayağa kalk",
+    0.9973
+  ],
+  [
+    "bu bir tesadüf",
+    0.9973
+  ],
+  [
+    "ama ben değilim",
+    0.9972
+  ],
+  [
+    "seni öldürebilirdim",
+    0.9972
+  ],
+  [
+    "bu yanlış",
+    0.9972
+  ],
+  [
+    "bir dakika dur",
+    0.9972
+  ],
+  [
+    "sana birşey söylemeliyim",
+    0.9972
+  ],
+  [
+    "dün gece neredeydin",
+    0.9972
+  ],
+  [
+    "seni arıyordum",
+    0.9971
+  ],
+  [
+    "bu bir bomba",
+    0.9971
+  ],
+  [
+    "ama anlayamıyorum",
+    0.9971
+  ],
+  [
+    "seninle konuşmak istiyorlar",
+    0.9971
+  ],
+  [
+    "ben fahişe değilim",
+    0.9971
+  ],
+  [
+    "bu adamı tanıyorum",
+    0.997
+  ],
+  [
+    "bu çok korkutucu",
+    0.997
+  ],
+  [
+    "uyuyamıyorum",
+    0.997
+  ],
+  [
+    "bu da seninki",
+    0.997
+  ],
+  [
+    "ben bir işadamıyım",
+    0.997
+  ],
+  [
+    "yarın seni ararım",
+    0.9969
+  ],
+  [
+    "bu bir başlangıç",
+    0.9969
+  ],
+  [
+    "biz iyiyiz",
+    0.9969
+  ],
+  [
+    "seni görmem gerekiyordu",
+    0.9969
+  ],
+  [
+    "sen bir kahramansın",
+    0.9969
+  ],
+  [
+    "bu daha iyi",
+    0.9968
+  ],
+  [
+    "bir hayalim var",
+    0.9968
+  ],
+  [
+    "bu zor olacak",
+    0.9968
+  ],
+  [
+    "fakat zaman ilerliyor",
+    0.9968
+  ],
+  [
+    "ben yatağa gidiyorum",
+    0.9967
+  ],
+  [
+    "bu sen değilsin",
+    0.9967
+  ],
+  [
+    "sen benim kardeşimsin",
+    0.9967
+  ],
+  [
+    "bu çok kötü",
+    0.9967
+  ],
+  [
+    "bu korkunç",
+    0.9967
+  ],
+  [
+    "hastaneye gidiyorum",
+    0.9967
+  ],
+  [
+    "seni görüyorum",
+    0.9967
+  ],
+  [
+    "seni görmeliydim",
+    0.9967
+  ],
+  [
+    "bir bira",
+    0.9966
+  ],
+  [
+    "hemen şimdi burada",
+    0.9966
+  ],
+  [
+    "yatağa gidiyorum",
+    0.9966
+  ],
+  [
+    "ben deli değilim",
+    0.9966
+  ],
+  [
+    "biz evleniyoruz",
+    0.9966
+  ],
+  [
+    "bu bir rüya",
+    0.9966
+  ],
+  [
+    "hâlâ inanamıyorum",
+    0.9965
+  ],
+  [
+    "bu harika",
+    0.9965
+  ],
+  [
+    "belki de öyleyim",
+    0.9965
+  ],
+  [
+    "seninle konuşmak istiyorum",
+    0.9965
+  ],
+  [
+    "bir dakika lütfen",
+    0.9965
+  ],
+  [
+    "ben şimdi gidiyorum",
+    0.9965
+  ],
+  [
+    "sen bir domuzsun",
+    0.9964
+  ],
+  [
+    "bu kötü",
+    0.9964
+  ],
+  [
+    "bir şey oluyor",
+    0.9964
+  ],
+  [
+    "sen haklıydın",
+    0.9964
+  ],
+  [
+    "acıkmış olmalısın",
+    0.9963
+  ],
+  [
+    "bu iyi geldi",
+    0.9963
+  ],
+  [
+    "bu bir ilk",
+    0.9963
+  ],
+  [
+    "bu mükemmeldi",
+    0.9963
+  ],
+  [
+    "ama haklıydın",
+    0.9963
+  ],
+  [
+    "ben haklıyım",
+    0.9963
+  ],
+  [
+    "sen yapmalısın",
+    0.9963
+  ],
+  [
+    "evli değilim",
+    0.9962
+  ],
+  [
+    "beni korkutuyorsun",
+    0.9962
+  ],
+  [
+    "bir şey oldu",
+    0.9962
+  ],
+  [
+    "evet demiştim",
+    0.9962
+  ],
+  [
+    "bu bizim işimiz",
+    0.9962
+  ],
+  [
+    "benimle konuşmalısın",
+    0.9962
+  ],
+  [
+    "bir tane daha",
+    0.9962
+  ],
+  [
+    "ben gidiyorum",
+    0.9961
+  ],
+  [
+    "ben de öyleyim",
+    0.9961
+  ],
+  [
+    "bu bir klasik",
+    0.9961
+  ],
+  [
+    "bu benim seçimim",
+    0.9961
+  ],
+  [
+    "ben de yalnızım",
+    0.996
+  ],
+  [
+    "bu biraz karmaşık",
+    0.996
+  ],
+  [
+    "ben de bilmiyorum",
+    0.996
+  ],
+  [
+    "umarım iyisindir",
+    0.996
+  ],
+  [
+    "siz gidebilirsiniz",
+    0.996
+  ],
+  [
+    "bu bir hastalık",
+    0.996
+  ],
+  [
+    "kuş",
+    0.9959
+  ],
+  [
+    "şuna bir bakın",
+    0.9959
+  ],
+  [
+    "hoşça kalın",
+    0.9959
+  ],
+  [
+    "şimdi bekleyebilirdik",
+    0.9959
+  ],
+  [
+    "al bakalım",
+    0.9959
+  ],
+  [
+    "geri dönmem gerek",
+    0.9958
+  ],
+  [
+    "bir sorunumuz var",
+    0.9958
+  ],
+  [
+    "bir şeyler oluyor",
+    0.9958
+  ],
+  [
+    "burası senin evin",
+    0.9958
+  ],
+  [
+    "bu kolay",
+    0.9958
+  ],
+  [
+    "burası bir bodrumdu",
+    0.9958
+  ],
+  [
+    "sen şanslısın",
+    0.9958
+  ],
+  [
+    "bu değildi",
+    0.9957
+  ],
+  [
+    "tabii ki haklıyım",
+    0.9957
+  ],
+  [
+    "babam",
+    0.9957
+  ],
+  [
+    "öyle de yaptım",
+    0.9957
+  ],
+  [
+    "burada çalışıyorum",
+    0.9957
+  ],
+  [
+    "seni anlayamıyorum",
+    0.9957
+  ],
+  [
+    "eve gitmeliyim",
+    0.9957
+  ],
+  [
+    "telefondayım",
+    0.9957
+  ],
+  [
+    "seni öpüyorum",
+    0.9957
+  ],
+  [
+    "bu benim fikrim",
+    0.9956
+  ],
+  [
+    "hadi gel",
+    0.9956
+  ],
+  [
+    "pekala tatlım",
+    0.9956
+  ],
+  [
+    "şimdi gitmem gerekiyor",
+    0.9956
+  ],
+  [
+    "ben ödedim",
+    0.9956
+  ],
+  [
+    "ben senin kardeşinim",
+    0.9956
+  ],
+  [
+    "bu senin sorunun",
+    0.9956
+  ],
+  [
+    "ne yapacağımı bilemedim",
+    0.9956
+  ],
+  [
+    "bir saniye efendim",
+    0.9955
+  ],
+  [
+    "geri gel",
+    0.9955
+  ],
+  [
+    "korkmaya başladım",
+    0.9955
+  ],
+  [
+    "seni iyi tanıyorum",
+    0.9955
+  ],
+  [
+    "kardeş gibiydik",
+    0.9955
+  ],
+  [
+    "bu çok fazla",
+    0.9955
+  ],
+  [
+    "bildiğinizi sanıyordum",
+    0.9955
+  ],
+  [
+    "bu yüzden buradayız",
+    0.9955
+  ],
+  [
+    "çay ister misiniz",
+    0.9955
+  ],
+  [
+    "seni sonra ararım",
+    0.9954
+  ],
+  [
+    "bu bir kural",
+    0.9954
+  ],
+  [
+    "sana güvenemem",
+    0.9954
+  ],
+  [
+    "seni korumaya çalışıyorum",
+    0.9954
+  ],
+  [
+    "bu tehlikeli olabilir",
+    0.9954
+  ],
+  [
+    "sonra da bekliyorlar",
+    0.9954
+  ],
+  [
+    "etrafına bir bak",
+    0.9953
+  ],
+  [
+    "bir ailem vardı",
+    0.9953
+  ],
+  [
+    "defol git buradan",
+    0.9953
+  ],
+  [
+    "seni gördüğüme sevindim",
+    0.9953
+  ],
+  [
+    "bu senin seçimin",
+    0.9953
+  ],
+  [
+    "bu çok güzel",
+    0.9953
+  ],
+  [
+    "bunu bildiğimi sanmıyorum",
+    0.9953
+  ],
+  [
+    "bir türlü uyuyamıyordum",
+    0.9953
+  ],
+  [
+    "bir oğlum var",
+    0.9952
+  ],
+  [
+    "çok güzel olurdu",
+    0.9952
+  ],
+  [
+    "sen de yapabilirsin",
+    0.9952
+  ],
+  [
+    "bir şey duydum",
+    0.9952
+  ],
+  [
+    "bu önemli",
+    0.9952
+  ],
+  [
+    "bu önemli değil",
+    0.9952
+  ],
+  [
+    "bana söz verdin",
+    0.9952
+  ],
+  [
+    "bir hata yaptık",
+    0.9952
+  ],
+  [
+    "bak şimdi",
+    0.9952
+  ],
+  [
+    "sadece bir tane",
+    0.9952
+  ],
+  [
+    "bu bir görev",
+    0.9952
+  ],
+  [
+    "bu anda hatırladım",
+    0.9952
+  ],
+  [
+    "burada olmana sevindim",
+    0.9952
+  ],
+  [
+    "bu tuhaf",
+    0.9952
+  ],
+  [
+    "bunu anlayamıyordum",
+    0.9952
+  ],
+  [
+    "seni korkutmak istememiştim",
+    0.9952
+  ],
+  [
+    "bu gerçek değil",
+    0.9952
+  ],
+  [
+    "evet oğlum",
+    0.9951
+  ],
+  [
+    "üzgünüm geciktim",
+    0.9951
+  ],
+  [
+    "senin yaptığını biliyorum",
+    0.9951
+  ],
+  [
+    "beni burada bekle",
+    0.9951
+  ],
+  [
+    "bu onların sorunu",
+    0.9951
+  ],
+  [
+    "güle güle canım",
+    0.9951
+  ],
+  [
+    "geri dönmeliyiz",
+    0.9951
+  ],
+  [
+    "pek emin değilim",
+    0.9951
+  ],
+  [
+    "babana gel",
+    0.9951
+  ],
+  [
+    "bir planım var",
+    0.9951
+  ],
+  [
+    "eve gitmem lazım",
+    0.9951
+  ],
+  [
+    "bu çok yanlış",
+    0.9951
+  ],
+  [
+    "ben seninle gelirim",
+    0.9951
+  ],
+  [
+    "ben de gitmeliyim",
+    0.9951
+  ],
+  [
+    "her şey yolunda",
+    0.995
+  ],
+  [
+    "gel bakalım",
+    0.995
+  ],
+  [
+    "evet sanırım öyleydi",
+    0.995
+  ],
+  [
+    "hâlâ vaktimiz var",
+    0.995
+  ],
+  [
+    "benim işim bu",
+    0.995
+  ],
+  [
+    "restoranlar insanlarla doluydu",
+    0.995
+  ],
+  [
+    "görebiliyorum",
+    0.995
+  ],
+  [
+    "baban nerede",
+    0.995
+  ],
+  [
+    "seni bırakmak istemiyorum",
+    0.995
+  ],
+  [
+    "şimdi konuşabiliriz",
+    0.995
+  ],
+  [
+    "onu evvelden tanımıyordum",
+    0.995
+  ],
+  [
+    "benim efendim",
+    0.995
+  ]
+]

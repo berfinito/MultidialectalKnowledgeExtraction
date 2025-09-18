@@ -1,0 +1,21 @@
+{
+  "model": "data/interim/asr/ct2_whisper_kmr (faster-whisper:data/interim/asr/ct2_whisper_kmr)",
+  "lang": "kmr",
+  "split": "validation",
+  "n": 50,
+  "wer_raw": 1.0262295081967212,
+  "cer_raw": 0.48705599036724867,
+  "latin_hawar_ratio_raw": 0.7546955036994878,
+  "tr_token_bias_raw": 0.6715993170176437,
+  "wer_translit": 1.0262295081967212,
+  "cer_translit": 0.48705599036724867,
+  "latin_hawar_ratio_translit": 0.7546955036994878,
+  "tr_token_bias_translit": 0.6715993170176437,
+  "rtf": 0.09865174186480262,
+  "total_audio_s": 248.18793749999998,
+  "wall_s": 24.484172344207764,
+  "beam_size": 5,
+  "force_lang_requested": "auto",
+  "force_lang_effective": "tr",
+  "postproc": "none"
+}

@@ -1,0 +1,8 @@
+=== tr ===
+train speakers = 25
+validation speakers = 1227
+test speakers = 1049
+
+train ∩ validation = 25
+train ∩ test        = 0
+validation ∩ test   = 1049

@@ -1,0 +1,6071 @@
+[
+  {
+    "topic_id": -1,
+    "size": 21395,
+    "name": "-1_ke_xo_ra_ma",
+    "top_terms": []
+  },
+  {
+    "topic_id": 0,
+    "size": 1976,
+    "name": "0_yê_ke_zî_kurdan",
+    "top_terms": [
+      {
+        "term": "yê",
+        "weight": 0.016868099669804695
+      },
+      {
+        "term": "ke",
+        "weight": 0.009967886577207838
+      },
+      {
+        "term": "zî",
+        "weight": 0.0094510751347054
+      },
+      {
+        "term": "kurdan",
+        "weight": 0.008653363593268982
+      },
+      {
+        "term": "cinîyan",
+        "weight": 0.008248453526738626
+      },
+      {
+        "term": "ya",
+        "weight": 0.00822165097879288
+      },
+      {
+        "term": "bi",
+        "weight": 0.008173964715417278
+      },
+      {
+        "term": "vera",
+        "weight": 0.008101973732731084
+      },
+      {
+        "term": "seba",
+        "weight": 0.007460474172073899
+      },
+      {
+        "term": "dı",
+        "weight": 0.0073575293992967855
+      }
+    ]
+  },
+  {
+    "topic_id": 1,
+    "size": 1785,
+    "name": "1_ez_mi_ma_xo",
+    "top_terms": [
+      {
+        "term": "ez",
+        "weight": 0.03209470671715117
+      },
+      {
+        "term": "mi",
+        "weight": 0.020134867543530176
+      },
+      {
+        "term": "ma",
+        "weight": 0.019964515700972643
+      },
+      {
+        "term": "xo",
+        "weight": 0.014216787624901596
+      },
+      {
+        "term": "to",
+        "weight": 0.012297444073523685
+      },
+      {
+        "term": "ti",
+        "weight": 0.010464913386854183
+      },
+      {
+        "term": "kena",
+        "weight": 0.009345806878460884
+      },
+      {
+        "term": "bi",
+        "weight": 0.008992727670211156
+      },
+      {
+        "term": "min",
+        "weight": 0.008905390705289905
+      },
+      {
+        "term": "rê",
+        "weight": 0.00849476779127861
+      }
+    ]
+  },
+  {
+    "topic_id": 2,
+    "size": 1438,
+    "name": "2_yê_vera_hêrişê_tirke",
+    "top_terms": [
+      {
+        "term": "yê",
+        "weight": 0.01941976202279681
+      },
+      {
+        "term": "vera",
+        "weight": 0.01563953383257243
+      },
+      {
+        "term": "hêrişê",
+        "weight": 0.015009450411885984
+      },
+      {
+        "term": "tirke",
+        "weight": 0.014826785662474067
+      },
+      {
+        "term": "cinîyan",
+        "weight": 0.012164233282361213
+      },
+      {
+        "term": "bi",
+        "weight": 0.0110733614492452
+      },
+      {
+        "term": "nê",
+        "weight": 0.010960156814989427
+      },
+      {
+        "term": "ciwanan",
+        "weight": 0.010882047750256536
+      },
+      {
+        "term": "ameyî",
+        "weight": 0.010187615559885618
+      },
+      {
+        "term": "kerd",
+        "weight": 0.009750457637175915
+      }
+    ]
+  },
+  {
+    "topic_id": 3,
+    "size": 1418,
+    "name": "3_nefero_amardışê_peyêni_000",
+    "top_terms": [
+      {
+        "term": "nefero",
+        "weight": 0.021865104213990127
+      },
+      {
+        "term": "amardışê",
+        "weight": 0.01977457201482955
+      },
+      {
+        "term": "peyêni",
+        "weight": 0.018953693677760623
+      },
+      {
+        "term": "000",
+        "weight": 0.017172592690572214
+      },
+      {
+        "term": "hezar",
+        "weight": 0.01565526231641519
+      },
+      {
+        "term": "hûmara",
+        "weight": 0.014285790801283055
+      },
+      {
+        "term": "nıfusê",
+        "weight": 0.014120197808324016
+      },
+      {
+        "term": "kesî",
+        "weight": 0.013171739699903736
+      },
+      {
+        "term": "milyon",
+        "weight": 0.010776727314037088
+      },
+      {
+        "term": "goreyê",
+        "weight": 0.010198428414263145
+      }
+    ]
+  },
+  {
+    "topic_id": 4,
+    "size": 1088,
+    "name": "4_grafikê_diagrami_gorey_nıfusê",
+    "top_terms": [
+      {
+        "term": "grafikê",
+        "weight": 0.1711665629493509
+      },
+      {
+        "term": "diagrami",
+        "weight": 0.16257499463737576
+      },
+      {
+        "term": "gorey",
+        "weight": 0.15898335124363006
+      },
+      {
+        "term": "nıfusê",
+        "weight": 0.15741561255446948
+      },
+      {
+        "term": "sero",
+        "weight": 0.14639108581296964
+      },
+      {
+        "term": "seran",
+        "weight": 0.1291539510799496
+      },
+      {
+        "term": "serran",
+        "weight": 0.097429581901114
+      },
+      {
+        "term": "diyagrami",
+        "weight": 0.05356482132944708
+      },
+      {
+        "term": "ra",
+        "weight": 0.03518469927915165
+      },
+      {
+        "term": "sur",
+        "weight": 0.017638776855104957
+      }
+    ]
+  },
+  {
+    "topic_id": 5,
+    "size": 1013,
+    "name": "5_nahiyeyê_hunermend_zazaki_sar",
+    "top_terms": [
+      {
+        "term": "nahiyeyê",
+        "weight": 0.018062876211572886
+      },
+      {
+        "term": "hunermend",
+        "weight": 0.013110557603004386
+      },
+      {
+        "term": "zazaki",
+        "weight": 0.011385043536502848
+      },
+      {
+        "term": "sar",
+        "weight": 0.011062019147218171
+      },
+      {
+        "term": "elmanya",
+        "weight": 0.010797877509979
+      },
+      {
+        "term": "tırki",
+        "weight": 0.010596331345471086
+      },
+      {
+        "term": "siyasî",
+        "weight": 0.010495788524448213
+      },
+      {
+        "term": "be",
+        "weight": 0.010381281084715146
+      },
+      {
+        "term": "zi",
+        "weight": 0.009785587444852658
+      },
+      {
+        "term": "cı",
+        "weight": 0.0094013421497962
+      }
+    ]
+  },
+  {
+    "topic_id": 6,
+    "size": 985,
+    "name": "6_keşıf_terefê_biyo_ra",
+    "top_terms": [
+      {
+        "term": "keşıf",
+        "weight": 0.3097875637292738
+      },
+      {
+        "term": "terefê",
+        "weight": 0.2943592232843621
+      },
+      {
+        "term": "biyo",
+        "weight": 0.25028080770196265
+      },
+      {
+        "term": "ra",
+        "weight": 0.06146439751562344
+      },
+      {
+        "term": "de",
+        "weight": 0.02939945567827269
+      },
+      {
+        "term": "zafê",
+        "weight": 0.0021809374860215593
+      },
+      {
+        "term": "kemi",
+        "weight": 0.002133074949995169
+      },
+      {
+        "term": "nuştoxan",
+        "weight": 0.002017615858667341
+      },
+      {
+        "term": "wilhelm",
+        "weight": 0.0017405000002110275
+      },
+      {
+        "term": "medreseyanê",
+        "weight": 0.0017070662174810541
+      }
+    ]
+  },
+  {
+    "topic_id": 7,
+    "size": 890,
+    "name": "7_ez_nêkenê_mi_nêzana",
+    "top_terms": [
+      {
+        "term": "ez",
+        "weight": 0.02196433914741278
+      },
+      {
+        "term": "nêkenê",
+        "weight": 0.018359941622918062
+      },
+      {
+        "term": "mi",
+        "weight": 0.01608484084273683
+      },
+      {
+        "term": "nêzana",
+        "weight": 0.014815241212285332
+      },
+      {
+        "term": "ma",
+        "weight": 0.014278541716562917
+      },
+      {
+        "term": "nê",
+        "weight": 0.013290696945779166
+      },
+      {
+        "term": "şî",
+        "weight": 0.012796550402380305
+      },
+      {
+        "term": "nêkena",
+        "weight": 0.012743374415293633
+      },
+      {
+        "term": "ke",
+        "weight": 0.011630983318098493
+      },
+      {
+        "term": "zî",
+        "weight": 0.01119454039344281
+      }
+    ]
+  },
+  {
+    "topic_id": 8,
+    "size": 543,
+    "name": "8_kanalizasyoni_şebekey_sistemê_awe",
+    "top_terms": [
+      {
+        "term": "kanalizasyoni",
+        "weight": 0.192961102807735
+      },
+      {
+        "term": "şebekey",
+        "weight": 0.18278331436654469
+      },
+      {
+        "term": "sistemê",
+        "weight": 0.18098785817444554
+      },
+      {
+        "term": "awe",
+        "weight": 0.1765866292937783
+      },
+      {
+        "term": "ratneyao",
+        "weight": 0.1681581717247576
+      },
+      {
+        "term": "esto",
+        "weight": 0.1481161209251155
+      },
+      {
+        "term": "vıraziyao",
+        "weight": 0.0808279998036943
+      },
+      {
+        "term": "vıraziyayo",
+        "weight": 0.07074829233272933
+      },
+      {
+        "term": "şebekeyê",
+        "weight": 0.025627438094978253
+      },
+      {
+        "term": "de",
+        "weight": 0.016858734489922474
+      }
+    ]
+  },
+  {
+    "topic_id": 9,
+    "size": 532,
+    "name": "9_estareyanê_komê_neweyê_katalogê",
+    "top_terms": [
+      {
+        "term": "estareyanê",
+        "weight": 0.16351880962870924
+      },
+      {
+        "term": "komê",
+        "weight": 0.1617502542409267
+      },
+      {
+        "term": "neweyê",
+        "weight": 0.12759469328567805
+      },
+      {
+        "term": "katalogê",
+        "weight": 0.12560134724920394
+      },
+      {
+        "term": "cısım",
+        "weight": 0.12358602518123427
+      },
+      {
+        "term": "pêroyi",
+        "weight": 0.12293107399709813
+      },
+      {
+        "term": "miyan",
+        "weight": 0.10370879817817685
+      },
+      {
+        "term": "gêno",
+        "weight": 0.09169000241481007
+      },
+      {
+        "term": "no",
+        "weight": 0.07678992920982249
+      },
+      {
+        "term": "ca",
+        "weight": 0.06867779056177106
+      }
+    ]
+  },
+  {
+    "topic_id": 10,
+    "size": 527,
+    "name": "10_tirkî_tirkîya_îstanbul_stanbul",
+    "top_terms": [
+      {
+        "term": "tirkî",
+        "weight": 0.055457822724336685
+      },
+      {
+        "term": "tirkîya",
+        "weight": 0.052091509249675594
+      },
+      {
+        "term": "îstanbul",
+        "weight": 0.02676223607016139
+      },
+      {
+        "term": "stanbul",
+        "weight": 0.02469639809574282
+      },
+      {
+        "term": "975",
+        "weight": 0.013626238480650824
+      },
+      {
+        "term": "vateyî",
+        "weight": 0.012651211271314388
+      },
+      {
+        "term": "the",
+        "weight": 0.012176469418839589
+      },
+      {
+        "term": "bi",
+        "weight": 0.01123603940361395
+      },
+      {
+        "term": "isbn",
+        "weight": 0.01075177370538597
+      },
+      {
+        "term": "weşanxaneyê",
+        "weight": 0.010009432923493366
+      }
+    ]
+  },
+  {
+    "topic_id": 11,
+    "size": 507,
+    "name": "11_philadelphia_pittsburgh_john_william",
+    "top_terms": [
+      {
+        "term": "philadelphia",
+        "weight": 0.049845271277074645
+      },
+      {
+        "term": "pittsburgh",
+        "weight": 0.039684479174119915
+      },
+      {
+        "term": "john",
+        "weight": 0.031265377465849876
+      },
+      {
+        "term": "william",
+        "weight": 0.025578018660987262
+      },
+      {
+        "term": "james",
+        "weight": 0.022090312102517315
+      },
+      {
+        "term": "paul",
+        "weight": 0.02134926029011441
+      },
+      {
+        "term": "jr",
+        "weight": 0.021164181069748916
+      },
+      {
+        "term": "richard",
+        "weight": 0.016779356521424118
+      },
+      {
+        "term": "reading",
+        "weight": 0.015198288356505845
+      },
+      {
+        "term": "as",
+        "weight": 0.014065917090827459
+      }
+    ]
+  },
+  {
+    "topic_id": 12,
+    "size": 426,
+    "name": "12_katalogê_neweyê_cısım_pêroyi",
+    "top_terms": [
+      {
+        "term": "katalogê",
+        "weight": 0.1893427203722646
+      },
+      {
+        "term": "neweyê",
+        "weight": 0.1869166757231638
+      },
+      {
+        "term": "cısım",
+        "weight": 0.18630464338397773
+      },
+      {
+        "term": "pêroyi",
+        "weight": 0.18008482251820274
+      },
+      {
+        "term": "gêno",
+        "weight": 0.13822172188737952
+      },
+      {
+        "term": "no",
+        "weight": 0.11576001700788735
+      },
+      {
+        "term": "ca",
+        "weight": 0.10353105264326526
+      },
+      {
+        "term": "de",
+        "weight": 0.018501229933884544
+      },
+      {
+        "term": "pêroyiyê",
+        "weight": 0.016822464277834247
+      },
+      {
+        "term": "neweyi",
+        "weight": 0.016411322259172065
+      }
+    ]
+  },
+  {
+    "topic_id": 13,
+    "size": 419,
+    "name": "13_kurdî_kurdîstanî_şarê_rayberê",
+    "top_terms": [
+      {
+        "term": "kurdî",
+        "weight": 0.0884700354570735
+      },
+      {
+        "term": "kurdîstanî",
+        "weight": 0.04807405716232606
+      },
+      {
+        "term": "şarê",
+        "weight": 0.03329818731772268
+      },
+      {
+        "term": "rayberê",
+        "weight": 0.018092510615955938
+      },
+      {
+        "term": "abdullah",
+        "weight": 0.017930987477754554
+      },
+      {
+        "term": "ocalanî",
+        "weight": 0.017646238072305066
+      },
+      {
+        "term": "partîya",
+        "weight": 0.013052616389066747
+      },
+      {
+        "term": "bi",
+        "weight": 0.012966447915153641
+      },
+      {
+        "term": "kurdan",
+        "weight": 0.012326217018516087
+      },
+      {
+        "term": "ya",
+        "weight": 0.012164565170614268
+      }
+    ]
+  },
+  {
+    "topic_id": 14,
+    "size": 407,
+    "name": "14_elektrik_internet_anciyao_kanalizasyoni",
+    "top_terms": [
+      {
+        "term": "elektrik",
+        "weight": 0.23090680752771586
+      },
+      {
+        "term": "internet",
+        "weight": 0.18626437041277952
+      },
+      {
+        "term": "anciyao",
+        "weight": 0.18175031445811518
+      },
+      {
+        "term": "kanalizasyoni",
+        "weight": 0.1648979073877065
+      },
+      {
+        "term": "şebekey",
+        "weight": 0.1593669136909787
+      },
+      {
+        "term": "sistemê",
+        "weight": 0.15466598522338426
+      },
+      {
+        "term": "awe",
+        "weight": 0.15081897024604102
+      },
+      {
+        "term": "esto",
+        "weight": 0.11782407213901099
+      },
+      {
+        "term": "saint",
+        "weight": 0.023871902868279712
+      },
+      {
+        "term": "anciyayo",
+        "weight": 0.019752007650508805
+      }
+    ]
+  },
+  {
+    "topic_id": 15,
+    "size": 389,
+    "name": "15_hîrê_wayîrê_tesîrê_vîrê",
+    "top_terms": [
+      {
+        "term": "hîrê",
+        "weight": 0.04771691320633581
+      },
+      {
+        "term": "wayîrê",
+        "weight": 0.03801365360621622
+      },
+      {
+        "term": "tesîrê",
+        "weight": 0.022942183901844968
+      },
+      {
+        "term": "vîrê",
+        "weight": 0.02231858870505501
+      },
+      {
+        "term": "rayîrê",
+        "weight": 0.02166279477634711
+      },
+      {
+        "term": "mi",
+        "weight": 0.020042699544093837
+      },
+      {
+        "term": "ma",
+        "weight": 0.015775349867071214
+      },
+      {
+        "term": "wezîrê",
+        "weight": 0.014252746656912348
+      },
+      {
+        "term": "zî",
+        "weight": 0.01344414059759702
+      },
+      {
+        "term": "pîre",
+        "weight": 0.013258068429854906
+      }
+    ]
+  },
+  {
+    "topic_id": 16,
+    "size": 367,
+    "name": "16_şarê_wina_şarî_şaran",
+    "top_terms": [
+      {
+        "term": "şarê",
+        "weight": 0.06996786379771082
+      },
+      {
+        "term": "wina",
+        "weight": 0.031397713484395635
+      },
+      {
+        "term": "şarî",
+        "weight": 0.024944491208757913
+      },
+      {
+        "term": "şaran",
+        "weight": 0.01912352928962283
+      },
+      {
+        "term": "şaro",
+        "weight": 0.01616618217971652
+      },
+      {
+        "term": "ma",
+        "weight": 0.015113401139188059
+      },
+      {
+        "term": "şari",
+        "weight": 0.010726176189270903
+      },
+      {
+        "term": "ke",
+        "weight": 0.010501443028057982
+      },
+      {
+        "term": "keno",
+        "weight": 0.010192022291839515
+      },
+      {
+        "term": "verê",
+        "weight": 0.010139463861970632
+      }
+    ]
+  },
+  {
+    "topic_id": 17,
+    "size": 365,
+    "name": "17_euphorbia_dianthus_var_boiss",
+    "top_terms": [
+      {
+        "term": "euphorbia",
+        "weight": 0.4058012930037551
+      },
+      {
+        "term": "dianthus",
+        "weight": 0.11218857239098223
+      },
+      {
+        "term": "var",
+        "weight": 0.08559549943732897
+      },
+      {
+        "term": "boiss",
+        "weight": 0.0712758405016536
+      },
+      {
+        "term": "amorphoscelis",
+        "weight": 0.0685395744991438
+      },
+      {
+        "term": "hibiscus",
+        "weight": 0.06288540832702953
+      },
+      {
+        "term": "ssp",
+        "weight": 0.055225169455768
+      },
+      {
+        "term": "carter",
+        "weight": 0.04916852828017931
+      },
+      {
+        "term": "oudejans",
+        "weight": 0.04641546106417013
+      },
+      {
+        "term": "salix",
+        "weight": 0.04448148351982971
+      }
+    ]
+  },
+  {
+    "topic_id": 18,
+    "size": 352,
+    "name": "18_serra_tışrino_fransız_tebaxe",
+    "top_terms": [
+      {
+        "term": "serra",
+        "weight": 0.032534743839698586
+      },
+      {
+        "term": "tışrino",
+        "weight": 0.021816599793969823
+      },
+      {
+        "term": "fransız",
+        "weight": 0.021551330852491023
+      },
+      {
+        "term": "tebaxe",
+        "weight": 0.021034255808575795
+      },
+      {
+        "term": "ilan",
+        "weight": 0.020397973166200012
+      },
+      {
+        "term": "lewis",
+        "weight": 0.019792423938937393
+      },
+      {
+        "term": "xoser",
+        "weight": 0.01788410586697533
+      },
+      {
+        "term": "dı",
+        "weight": 0.016492385909501535
+      },
+      {
+        "term": "1923",
+        "weight": 0.01602383297717734
+      },
+      {
+        "term": "21",
+        "weight": 0.015048788110763718
+      }
+    ]
+  },
+  {
+    "topic_id": 19,
+    "size": 321,
+    "name": "19_filmê_sinema_kay_fîlmê",
+    "top_terms": [
+      {
+        "term": "filmê",
+        "weight": 0.07020045755806134
+      },
+      {
+        "term": "sinema",
+        "weight": 0.04626260824445883
+      },
+      {
+        "term": "kay",
+        "weight": 0.041759798670352774
+      },
+      {
+        "term": "fîlmê",
+        "weight": 0.03885817060317106
+      },
+      {
+        "term": "têatro",
+        "weight": 0.03788957150810465
+      },
+      {
+        "term": "film",
+        "weight": 0.03532032574316727
+      },
+      {
+        "term": "filmi",
+        "weight": 0.03138251896763359
+      },
+      {
+        "term": "animasyoniyê",
+        "weight": 0.02670521430951748
+      },
+      {
+        "term": "kerdo",
+        "weight": 0.02580307299735004
+      },
+      {
+        "term": "fîlman",
+        "weight": 0.025174957029187768
+      }
+    ]
+  },
+  {
+    "topic_id": 20,
+    "size": 316,
+    "name": "20_dormey_gênê_komunê_sur",
+    "top_terms": [
+      {
+        "term": "dormey",
+        "weight": 0.13700704239206818
+      },
+      {
+        "term": "gênê",
+        "weight": 0.124579743867214
+      },
+      {
+        "term": "komunê",
+        "weight": 0.0819895334418358
+      },
+      {
+        "term": "sur",
+        "weight": 0.07255178230406573
+      },
+      {
+        "term": "saint",
+        "weight": 0.0522305097892194
+      },
+      {
+        "term": "lès",
+        "weight": 0.0474633100584632
+      },
+      {
+        "term": "ca",
+        "weight": 0.04376430213234613
+      },
+      {
+        "term": "le",
+        "weight": 0.03780705136221931
+      },
+      {
+        "term": "les",
+        "weight": 0.03653805834521203
+      },
+      {
+        "term": "en",
+        "weight": 0.033433691623901356
+      }
+    ]
+  },
+  {
+    "topic_id": 21,
+    "size": 313,
+    "name": "21_siyasetkaro_wali_serdar_tırko",
+    "top_terms": [
+      {
+        "term": "siyasetkaro",
+        "weight": 0.10490138475382889
+      },
+      {
+        "term": "wali",
+        "weight": 0.07312829056743704
+      },
+      {
+        "term": "serdar",
+        "weight": 0.06536662210223457
+      },
+      {
+        "term": "tırko",
+        "weight": 0.05774773597743982
+      },
+      {
+        "term": "partiya",
+        "weight": 0.029543036682180987
+      },
+      {
+        "term": "parlamento",
+        "weight": 0.02309198105996984
+      },
+      {
+        "term": "parlamentoyê",
+        "weight": 0.01709240069531702
+      },
+      {
+        "term": "siyaset",
+        "weight": 0.01709240069531702
+      },
+      {
+        "term": "galiçyayıc",
+        "weight": 0.015873666636501985
+      },
+      {
+        "term": "yew",
+        "weight": 0.015171059037482618
+      }
+    ]
+  },
+  {
+    "topic_id": 22,
+    "size": 280,
+    "name": "22_the_on_to_and",
+    "top_terms": [
+      {
+        "term": "the",
+        "weight": 0.06017453110483925
+      },
+      {
+        "term": "on",
+        "weight": 0.044733366435257514
+      },
+      {
+        "term": "to",
+        "weight": 0.04349236511117815
+      },
+      {
+        "term": "and",
+        "weight": 0.04081118582591079
+      },
+      {
+        "term": "you",
+        "weight": 0.038115986849688956
+      },
+      {
+        "term": "karber",
+        "weight": 0.037180170194485995
+      },
+      {
+        "term": "is",
+        "weight": 0.03549276693900225
+      },
+      {
+        "term": "for",
+        "weight": 0.03347097694880487
+      },
+      {
+        "term": "wikimedia",
+        "weight": 0.02923731759812451
+      },
+      {
+        "term": "of",
+        "weight": 0.028805820871096028
+      }
+    ]
+  },
+  {
+    "topic_id": 23,
+    "size": 253,
+    "name": "23_vêşêr_şêx_şêro_ziwan",
+    "top_terms": [
+      {
+        "term": "vêşêr",
+        "weight": 0.04696229647150017
+      },
+      {
+        "term": "şêx",
+        "weight": 0.03928563809407381
+      },
+      {
+        "term": "şêro",
+        "weight": 0.030222621802381913
+      },
+      {
+        "term": "ziwan",
+        "weight": 0.017675504326804568
+      },
+      {
+        "term": "ganî",
+        "weight": 0.016936948458963087
+      },
+      {
+        "term": "şorişê",
+        "weight": 0.015906643053885217
+      },
+      {
+        "term": "şêr",
+        "weight": 0.0147148611088168
+      },
+      {
+        "term": "şêrawa",
+        "weight": 0.013460842818209022
+      },
+      {
+        "term": "vêşêri",
+        "weight": 0.011566403234725377
+      },
+      {
+        "term": "bi",
+        "weight": 0.00986988343459509
+      }
+    ]
+  },
+  {
+    "topic_id": 24,
+    "size": 243,
+    "name": "24_utc_mesac_2013_2020î",
+    "top_terms": [
+      {
+        "term": "utc",
+        "weight": 0.1056059367510248
+      },
+      {
+        "term": "mesac",
+        "weight": 0.06549216798498815
+      },
+      {
+        "term": "2013",
+        "weight": 0.05175829778285417
+      },
+      {
+        "term": "2020î",
+        "weight": 0.045073256700523354
+      },
+      {
+        "term": "2012",
+        "weight": 0.037913376871849695
+      },
+      {
+        "term": "hezirane",
+        "weight": 0.03356070414882254
+      },
+      {
+        "term": "12",
+        "weight": 0.02975389249463715
+      },
+      {
+        "term": "11",
+        "weight": 0.028802774887696777
+      },
+      {
+        "term": "tişrino",
+        "weight": 0.02721637787588827
+      },
+      {
+        "term": "text",
+        "weight": 0.026951427553544866
+      }
+    ]
+  },
+  {
+    "topic_id": 25,
+    "size": 218,
+    "name": "25_sereyê_keyeyê_dormeyê_endustriye",
+    "top_terms": [
+      {
+        "term": "sereyê",
+        "weight": 0.06096902726243571
+      },
+      {
+        "term": "keyeyê",
+        "weight": 0.044826558611957404
+      },
+      {
+        "term": "dormeyê",
+        "weight": 0.038143351702786266
+      },
+      {
+        "term": "endustriye",
+        "weight": 0.024835151266335606
+      },
+      {
+        "term": "wareyê",
+        "weight": 0.019653710040192018
+      },
+      {
+        "term": "pereyê",
+        "weight": 0.019523793630071253
+      },
+      {
+        "term": "ameyê",
+        "weight": 0.017334567657866014
+      },
+      {
+        "term": "mi",
+        "weight": 0.015173094113766546
+      },
+      {
+        "term": "vateyê",
+        "weight": 0.01492595183571716
+      },
+      {
+        "term": "estê",
+        "weight": 0.013963628196860277
+      }
+    ]
+  },
+  {
+    "topic_id": 26,
+    "size": 217,
+    "name": "26_cısmê_ngc_asmêniyo_asmênio",
+    "top_terms": [
+      {
+        "term": "cısmê",
+        "weight": 0.27062160637317845
+      },
+      {
+        "term": "ngc",
+        "weight": 0.2539301139759249
+      },
+      {
+        "term": "asmêniyo",
+        "weight": 0.22389545564892377
+      },
+      {
+        "term": "asmênio",
+        "weight": 0.10187770174649344
+      },
+      {
+        "term": "yew",
+        "weight": 0.080665860125994
+      },
+      {
+        "term": "1321",
+        "weight": 0.012611171485133582
+      },
+      {
+        "term": "taburê",
+        "weight": 0.012611171485133582
+      },
+      {
+        "term": "çıniyao",
+        "weight": 0.011736448271235546
+      },
+      {
+        "term": "1968",
+        "weight": 0.01120462362733037
+      },
+      {
+        "term": "armenîyan",
+        "weight": 0.00912763466446397
+      }
+    ]
+  },
+  {
+    "topic_id": 27,
+    "size": 216,
+    "name": "27_hetê_yewbînî_mêrdînî_bînî",
+    "top_terms": [
+      {
+        "term": "hetê",
+        "weight": 0.05299109646089259
+      },
+      {
+        "term": "yewbînî",
+        "weight": 0.02538445195205731
+      },
+      {
+        "term": "mêrdînî",
+        "weight": 0.024246525120995642
+      },
+      {
+        "term": "bînî",
+        "weight": 0.019928034645973102
+      },
+      {
+        "term": "efrînî",
+        "weight": 0.017923345977181936
+      },
+      {
+        "term": "ra",
+        "weight": 0.013311793999151599
+      },
+      {
+        "term": "zî",
+        "weight": 0.012758425252719878
+      },
+      {
+        "term": "zînî",
+        "weight": 0.012354342944320713
+      },
+      {
+        "term": "rojan",
+        "weight": 0.012182926165072603
+      },
+      {
+        "term": "ez",
+        "weight": 0.012058976627636634
+      }
+    ]
+  },
+  {
+    "topic_id": 28,
+    "size": 200,
+    "name": "28_nika_ne_no_zî",
+    "top_terms": [
+      {
+        "term": "nika",
+        "weight": 0.09958737601997288
+      },
+      {
+        "term": "ne",
+        "weight": 0.08146107277573852
+      },
+      {
+        "term": "no",
+        "weight": 0.030809653772820262
+      },
+      {
+        "term": "zî",
+        "weight": 0.022601787346613927
+      },
+      {
+        "term": "ni",
+        "weight": 0.021081559127460618
+      },
+      {
+        "term": "ma",
+        "weight": 0.015082169290387935
+      },
+      {
+        "term": "nêxelesneno",
+        "weight": 0.014658602712301683
+      },
+      {
+        "term": "ez",
+        "weight": 0.01425407815691518
+      },
+      {
+        "term": "yo",
+        "weight": 0.013984915805450318
+      },
+      {
+        "term": "zor",
+        "weight": 0.013838415445821156
+      }
+    ]
+  },
+  {
+    "topic_id": 29,
+    "size": 192,
+    "name": "29_kitabê_kitabî_kitab_roman",
+    "top_terms": [
+      {
+        "term": "kitabê",
+        "weight": 0.0669036292798148
+      },
+      {
+        "term": "kitabî",
+        "weight": 0.03879515852670902
+      },
+      {
+        "term": "kitab",
+        "weight": 0.03557051420345478
+      },
+      {
+        "term": "roman",
+        "weight": 0.021721802707060096
+      },
+      {
+        "term": "romanê",
+        "weight": 0.01695684934760366
+      },
+      {
+        "term": "edebiyat",
+        "weight": 0.016498443875528596
+      },
+      {
+        "term": "edebiyatê",
+        "weight": 0.016132639075415827
+      },
+      {
+        "term": "ey",
+        "weight": 0.014171202296824548
+      },
+      {
+        "term": "kitabêko",
+        "weight": 0.012448966709243248
+      },
+      {
+        "term": "zî",
+        "weight": 0.010960808231381918
+      }
+    ]
+  },
+  {
+    "topic_id": 30,
+    "size": 192,
+    "name": "30_cısmê_asmêniyo_ngc_yew",
+    "top_terms": [
+      {
+        "term": "cısmê",
+        "weight": 0.3080103359669238
+      },
+      {
+        "term": "asmêniyo",
+        "weight": 0.29127276683625614
+      },
+      {
+        "term": "ngc",
+        "weight": 0.2877052844756353
+      },
+      {
+        "term": "yew",
+        "weight": 0.09051640266061058
+      },
+      {
+        "term": "asmênio",
+        "weight": 0.03184587801914942
+      },
+      {
+        "term": "6739",
+        "weight": 0.008809172959792857
+      },
+      {
+        "term": "6758",
+        "weight": 0.008809172959792857
+      },
+      {
+        "term": "6752",
+        "weight": 0.008809172959792857
+      },
+      {
+        "term": "6747",
+        "weight": 0.008809172959792857
+      },
+      {
+        "term": "6743",
+        "weight": 0.008809172959792857
+      }
+    ]
+  },
+  {
+    "topic_id": 31,
+    "size": 190,
+    "name": "31_cısmê_ngc_asmêniyo_asmênio",
+    "top_terms": [
+      {
+        "term": "cısmê",
+        "weight": 0.30962295552696006
+      },
+      {
+        "term": "ngc",
+        "weight": 0.2877052844756353
+      },
+      {
+        "term": "asmêniyo",
+        "weight": 0.2605622128178002
+      },
+      {
+        "term": "asmênio",
+        "weight": 0.10011897089529082
+      },
+      {
+        "term": "yew",
+        "weight": 0.09051640266061058
+      },
+      {
+        "term": "2963",
+        "weight": 0.008901901096211728
+      },
+      {
+        "term": "2997",
+        "weight": 0.008901901096211728
+      },
+      {
+        "term": "2991",
+        "weight": 0.008901901096211728
+      },
+      {
+        "term": "2980",
+        "weight": 0.008901901096211728
+      },
+      {
+        "term": "2974",
+        "weight": 0.008901901096211728
+      }
+    ]
+  },
+  {
+    "topic_id": 32,
+    "size": 189,
+    "name": "32_jû_qezay_komuna_verduniya",
+    "top_terms": [
+      {
+        "term": "jû",
+        "weight": 0.2547617164973173
+      },
+      {
+        "term": "qezay",
+        "weight": 0.2393317986424981
+      },
+      {
+        "term": "komuna",
+        "weight": 0.2166089458409442
+      },
+      {
+        "term": "verduniya",
+        "weight": 0.16068272353889138
+      },
+      {
+        "term": "yû",
+        "weight": 0.14739214090987793
+      },
+      {
+        "term": "neufchâteauya",
+        "weight": 0.12398312288302298
+      },
+      {
+        "term": "commercyiya",
+        "weight": 0.10804888811019156
+      },
+      {
+        "term": "metziya",
+        "weight": 0.08175311494108163
+      },
+      {
+        "term": "brieyiya",
+        "weight": 0.07820648170794041
+      },
+      {
+        "term": "fontenay",
+        "weight": 0.07540083611786048
+      }
+    ]
+  },
+  {
+    "topic_id": 33,
+    "size": 187,
+    "name": "33_gêna_komune_auvergne_rhône",
+    "top_terms": [
+      {
+        "term": "gêna",
+        "weight": 0.11710031369511022
+      },
+      {
+        "term": "komune",
+        "weight": 0.11086152972395483
+      },
+      {
+        "term": "auvergne",
+        "weight": 0.09716659624559738
+      },
+      {
+        "term": "rhône",
+        "weight": 0.09664649632272197
+      },
+      {
+        "term": "alpes",
+        "weight": 0.09292624593121122
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.09051442749334541
+      },
+      {
+        "term": "fransa",
+        "weight": 0.08805479631146101
+      },
+      {
+        "term": "alpan",
+        "weight": 0.07435716148160726
+      },
+      {
+        "term": "overn",
+        "weight": 0.07435716148160726
+      },
+      {
+        "term": "ron",
+        "weight": 0.07343391815374366
+      }
+    ]
+  },
+  {
+    "topic_id": 34,
+    "size": 185,
+    "name": "34_elektriki_xeta_interneti_anciyao",
+    "top_terms": [
+      {
+        "term": "elektriki",
+        "weight": 0.5765291166607392
+      },
+      {
+        "term": "xeta",
+        "weight": 0.5417034267924766
+      },
+      {
+        "term": "interneti",
+        "weight": 0.5207001834090642
+      },
+      {
+        "term": "anciyao",
+        "weight": 0.5123422141726651
+      },
+      {
+        "term": "kabloyu",
+        "weight": 0.05361481171128714
+      },
+      {
+        "term": "internetê",
+        "weight": 0.019728199896985106
+      },
+      {
+        "term": "mahla",
+        "weight": 0.00893580195188119
+      },
+      {
+        "term": "elektrik",
+        "weight": 0.006760671298415167
+      },
+      {
+        "term": "anciyayo",
+        "weight": 0.006506041840795385
+      },
+      {
+        "term": "qeza",
+        "weight": 0.005042379774637697
+      }
+    ]
+  },
+  {
+    "topic_id": 35,
+    "size": 182,
+    "name": "35_rojnameyê_newepelî_edîtorî_nameyê",
+    "top_terms": [
+      {
+        "term": "rojnameyê",
+        "weight": 0.13786654640671295
+      },
+      {
+        "term": "newepelî",
+        "weight": 0.080748822100066
+      },
+      {
+        "term": "edîtorî",
+        "weight": 0.04040261931192614
+      },
+      {
+        "term": "nameyê",
+        "weight": 0.039782783631656396
+      },
+      {
+        "term": "vejîya",
+        "weight": 0.035268186290089355
+      },
+      {
+        "term": "sernameyê",
+        "weight": 0.03225129071477472
+      },
+      {
+        "term": "nuşteyê",
+        "weight": 0.03052424307238627
+      },
+      {
+        "term": "calendar",
+        "weight": 0.022480530543845783
+      },
+      {
+        "term": "muhtewayêka",
+        "weight": 0.019670464225865058
+      },
+      {
+        "term": "dewlemende",
+        "weight": 0.019307910715471086
+      }
+    ]
+  },
+  {
+    "topic_id": 36,
+    "size": 181,
+    "name": "36_pan_yo_xwu_yow",
+    "top_terms": [
+      {
+        "term": "pan",
+        "weight": 0.02962051885483504
+      },
+      {
+        "term": "yo",
+        "weight": 0.02477135688137824
+      },
+      {
+        "term": "xwu",
+        "weight": 0.019654445565052112
+      },
+      {
+        "term": "yow",
+        "weight": 0.018863228680254848
+      },
+      {
+        "term": "to",
+        "weight": 0.018165109850385427
+      },
+      {
+        "term": "ge",
+        "weight": 0.017400042155312434
+      },
+      {
+        "term": "roce",
+        "weight": 0.017084121336695193
+      },
+      {
+        "term": "keno",
+        "weight": 0.01593126692161474
+      },
+      {
+        "term": "mi",
+        "weight": 0.015295948408140372
+      },
+      {
+        "term": "weno",
+        "weight": 0.015165386166627715
+      }
+    ]
+  },
+  {
+    "topic_id": 37,
+    "size": 180,
+    "name": "37_estareyanê_komê_neweyê_katalogê",
+    "top_terms": [
+      {
+        "term": "estareyanê",
+        "weight": 0.16377118847958594
+      },
+      {
+        "term": "komê",
+        "weight": 0.1619999034610197
+      },
+      {
+        "term": "neweyê",
+        "weight": 0.12755096379832315
+      },
+      {
+        "term": "katalogê",
+        "weight": 0.12555830092505946
+      },
+      {
+        "term": "cısım",
+        "weight": 0.12354366955196601
+      },
+      {
+        "term": "pêroyi",
+        "weight": 0.12288894283390121
+      },
+      {
+        "term": "miyan",
+        "weight": 0.1036732549086118
+      },
+      {
+        "term": "gêno",
+        "weight": 0.09165857824897747
+      },
+      {
+        "term": "no",
+        "weight": 0.07676361162441284
+      },
+      {
+        "term": "ca",
+        "weight": 0.06865425318340057
+      }
+    ]
+  },
+  {
+    "topic_id": 38,
+    "size": 178,
+    "name": "38_km_erdê_gêno_komune",
+    "top_terms": [
+      {
+        "term": "km",
+        "weight": 0.45343586963683336
+      },
+      {
+        "term": "erdê",
+        "weight": 0.4019739838714114
+      },
+      {
+        "term": "gêno",
+        "weight": 0.17724754518185368
+      },
+      {
+        "term": "komune",
+        "weight": 0.16920012109450994
+      },
+      {
+        "term": "komuni",
+        "weight": 0.14796340907783703
+      },
+      {
+        "term": "ca",
+        "weight": 0.1342795192062416
+      },
+      {
+        "term": "11",
+        "weight": 0.05909872052890826
+      },
+      {
+        "term": "10",
+        "weight": 0.035907327066345245
+      },
+      {
+        "term": "sûke",
+        "weight": 0.03376064082521051
+      },
+      {
+        "term": "62",
+        "weight": 0.025717486863984923
+      }
+    ]
+  },
+  {
+    "topic_id": 39,
+    "size": 176,
+    "name": "39_klubê_futboliyê_klub_tırkiyayo",
+    "top_terms": [
+      {
+        "term": "klubê",
+        "weight": 0.2667321808999237
+      },
+      {
+        "term": "futboliyê",
+        "weight": 0.23426231124053765
+      },
+      {
+        "term": "klub",
+        "weight": 0.10158340608984164
+      },
+      {
+        "term": "tırkiyayo",
+        "weight": 0.07869638611606408
+      },
+      {
+        "term": "fc",
+        "weight": 0.0548432161366254
+      },
+      {
+        "term": "futbol",
+        "weight": 0.05162311972473918
+      },
+      {
+        "term": "spanyayo",
+        "weight": 0.05101308842079003
+      },
+      {
+        "term": "talyayo",
+        "weight": 0.05101308842079003
+      },
+      {
+        "term": "ngıltereyo",
+        "weight": 0.04549986081790995
+      },
+      {
+        "term": "kay",
+        "weight": 0.04274592251922031
+      }
+    ]
+  },
+  {
+    "topic_id": 40,
+    "size": 174,
+    "name": "40_yenê_yen_yenî_kerdene",
+    "top_terms": [
+      {
+        "term": "yenê",
+        "weight": 0.17856084168966996
+      },
+      {
+        "term": "yen",
+        "weight": 0.01899404599439629
+      },
+      {
+        "term": "yenî",
+        "weight": 0.013595481280323085
+      },
+      {
+        "term": "kerdene",
+        "weight": 0.013343407976751482
+      },
+      {
+        "term": "ke",
+        "weight": 0.012681137763055938
+      },
+      {
+        "term": "heme",
+        "weight": 0.01009009710362216
+      },
+      {
+        "term": "înan",
+        "weight": 0.01008309979270686
+      },
+      {
+        "term": "hetê",
+        "weight": 0.010043821058654463
+      },
+      {
+        "term": "kenê",
+        "weight": 0.00972817931067489
+      },
+      {
+        "term": "rotene",
+        "weight": 0.009497022997198144
+      }
+    ]
+  },
+  {
+    "topic_id": 41,
+    "size": 174,
+    "name": "41_stockholm_domanî_swêdkî_apecê",
+    "top_terms": [
+      {
+        "term": "stockholm",
+        "weight": 0.07158095233315703
+      },
+      {
+        "term": "domanî",
+        "weight": 0.06744700320776713
+      },
+      {
+        "term": "swêdkî",
+        "weight": 0.05391959611282838
+      },
+      {
+        "term": "apecê",
+        "weight": 0.049258511147848384
+      },
+      {
+        "term": "weşanxaneya",
+        "weight": 0.04725678603628843
+      },
+      {
+        "term": "frankfurt",
+        "weight": 0.027611512091861207
+      },
+      {
+        "term": "kirmanckî",
+        "weight": 0.026956020614652867
+      },
+      {
+        "term": "karlsruheyo",
+        "weight": 0.024208161449017992
+      },
+      {
+        "term": "württembergi",
+        "weight": 0.024208161449017992
+      },
+      {
+        "term": "baden",
+        "weight": 0.022672613321364783
+      }
+    ]
+  },
+  {
+    "topic_id": 42,
+    "size": 170,
+    "name": "42_ti_se_çi_qey",
+    "top_terms": [
+      {
+        "term": "ti",
+        "weight": 0.1236042075207003
+      },
+      {
+        "term": "se",
+        "weight": 0.11089178536080266
+      },
+      {
+        "term": "çi",
+        "weight": 0.0717625196727838
+      },
+      {
+        "term": "qey",
+        "weight": 0.0690158099272672
+      },
+      {
+        "term": "to",
+        "weight": 0.05928521347898965
+      },
+      {
+        "term": "kam",
+        "weight": 0.043632711471901696
+      },
+      {
+        "term": "ça",
+        "weight": 0.04154699417137059
+      },
+      {
+        "term": "çıko",
+        "weight": 0.03823682209301581
+      },
+      {
+        "term": "kenî",
+        "weight": 0.037256325063330785
+      },
+      {
+        "term": "eşnawıto",
+        "weight": 0.033703596465231044
+      }
+    ]
+  },
+  {
+    "topic_id": 43,
+    "size": 170,
+    "name": "43_rhini_bas_esti_ardennesi",
+    "top_terms": [
+      {
+        "term": "rhini",
+        "weight": 0.13142007742209638
+      },
+      {
+        "term": "bas",
+        "weight": 0.12941766007370137
+      },
+      {
+        "term": "esti",
+        "weight": 0.12906387079106585
+      },
+      {
+        "term": "ardennesi",
+        "weight": 0.12647579285674762
+      },
+      {
+        "term": "grand",
+        "weight": 0.12428961961629141
+      },
+      {
+        "term": "komuna",
+        "weight": 0.10308486462006075
+      },
+      {
+        "term": "fransa",
+        "weight": 0.07668293813073179
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.07386025329156375
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.06456924797817357
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.057789973766814835
+      }
+    ]
+  },
+  {
+    "topic_id": 44,
+    "size": 167,
+    "name": "44_cısmê_asmêniyo_ngc_yew",
+    "top_terms": [
+      {
+        "term": "cısmê",
+        "weight": 0.30962295552696006
+      },
+      {
+        "term": "asmêniyo",
+        "weight": 0.3019378048287881
+      },
+      {
+        "term": "ngc",
+        "weight": 0.2877052844756353
+      },
+      {
+        "term": "yew",
+        "weight": 0.09051640266061058
+      },
+      {
+        "term": "5655",
+        "weight": 0.010127911426827715
+      },
+      {
+        "term": "5620",
+        "weight": 0.010127911426827715
+      },
+      {
+        "term": "554a",
+        "weight": 0.010127911426827715
+      },
+      {
+        "term": "5546",
+        "weight": 0.010127911426827715
+      },
+      {
+        "term": "5547",
+        "weight": 0.010127911426827715
+      },
+      {
+        "term": "5745",
+        "weight": 0.010127911426827715
+      }
+    ]
+  },
+  {
+    "topic_id": 45,
+    "size": 163,
+    "name": "45_the_2005_2002_tv",
+    "top_terms": [
+      {
+        "term": "the",
+        "weight": 0.025794479604397777
+      },
+      {
+        "term": "2005",
+        "weight": 0.022661937936603517
+      },
+      {
+        "term": "2002",
+        "weight": 0.022279475784555226
+      },
+      {
+        "term": "tv",
+        "weight": 0.02199955113819869
+      },
+      {
+        "term": "2004",
+        "weight": 0.021136938564834448
+      },
+      {
+        "term": "2007",
+        "weight": 0.02024049865176227
+      },
+      {
+        "term": "1987",
+        "weight": 0.019896445410648476
+      },
+      {
+        "term": "1993",
+        "weight": 0.018959893921451962
+      },
+      {
+        "term": "2003",
+        "weight": 0.018904200493280843
+      },
+      {
+        "term": "bir",
+        "weight": 0.017923504631765733
+      }
+    ]
+  },
+  {
+    "topic_id": 46,
+    "size": 163,
+    "name": "46_têlefoni_ceyran_esta_xeta",
+    "top_terms": [
+      {
+        "term": "têlefoni",
+        "weight": 0.10469015164023796
+      },
+      {
+        "term": "ceyran",
+        "weight": 0.10215192051653398
+      },
+      {
+        "term": "esta",
+        "weight": 0.05982070724349367
+      },
+      {
+        "term": "xeta",
+        "weight": 0.05097127425596763
+      },
+      {
+        "term": "çimanê",
+        "weight": 0.03528254365696511
+      },
+      {
+        "term": "çimeyê",
+        "weight": 0.016567193917750307
+      },
+      {
+        "term": "koka",
+        "weight": 0.015805856752109552
+      },
+      {
+        "term": "baxçeyan",
+        "weight": 0.014987003180398053
+      },
+      {
+        "term": "lesa",
+        "weight": 0.01357659522627977
+      },
+      {
+        "term": "çina",
+        "weight": 0.012991548965002526
+      }
+    ]
+  },
+  {
+    "topic_id": 47,
+    "size": 158,
+    "name": "47_cısmê_asmêniyo_ngc_yew",
+    "top_terms": [
+      {
+        "term": "cısmê",
+        "weight": 0.30962295552696006
+      },
+      {
+        "term": "asmêniyo",
+        "weight": 0.3036634946224011
+      },
+      {
+        "term": "ngc",
+        "weight": 0.2858843649536376
+      },
+      {
+        "term": "yew",
+        "weight": 0.09051640266061058
+      },
+      {
+        "term": "4597",
+        "weight": 0.010704817773925497
+      },
+      {
+        "term": "4497",
+        "weight": 0.010704817773925497
+      },
+      {
+        "term": "4493",
+        "weight": 0.010704817773925497
+      },
+      {
+        "term": "4571",
+        "weight": 0.010704817773925497
+      },
+      {
+        "term": "4510",
+        "weight": 0.010704817773925497
+      },
+      {
+        "term": "4522",
+        "weight": 0.010704817773925497
+      }
+    ]
+  },
+  {
+    "topic_id": 48,
+    "size": 156,
+    "name": "48_domains_generic_level_jeneriko",
+    "top_terms": [
+      {
+        "term": "domains",
+        "weight": 0.17478166166559894
+      },
+      {
+        "term": "generic",
+        "weight": 0.17393521941109333
+      },
+      {
+        "term": "level",
+        "weight": 0.16332668431999
+      },
+      {
+        "term": "jeneriko",
+        "weight": 0.16183832723065658
+      },
+      {
+        "term": "kodê",
+        "weight": 0.1609395529026587
+      },
+      {
+        "term": "top",
+        "weight": 0.1581510380618534
+      },
+      {
+        "term": "bandıra",
+        "weight": 0.15334771160823832
+      },
+      {
+        "term": "ngılızki",
+        "weight": 0.14095075467394064
+      },
+      {
+        "term": "interneti",
+        "weight": 0.11035109249500763
+      },
+      {
+        "term": "zıwanê",
+        "weight": 0.10681407768402255
+      }
+    ]
+  },
+  {
+    "topic_id": 49,
+    "size": 153,
+    "name": "49_calaisiya_pas_hauts_france",
+    "top_terms": [
+      {
+        "term": "calaisiya",
+        "weight": 0.21726535386862053
+      },
+      {
+        "term": "pas",
+        "weight": 0.2155988146221765
+      },
+      {
+        "term": "hauts",
+        "weight": 0.1771116764446563
+      },
+      {
+        "term": "france",
+        "weight": 0.16107959539885086
+      },
+      {
+        "term": "fransa",
+        "weight": 0.07053721965675222
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.07053721965675222
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.05981931094728643
+      },
+      {
+        "term": "komunê",
+        "weight": 0.056368658536206276
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.053158423150118095
+      },
+      {
+        "term": "komuna",
+        "weight": 0.044540383017480756
+      }
+    ]
+  },
+  {
+    "topic_id": 50,
+    "size": 153,
+    "name": "50_alfabey_alfabeyê_language_alfabeya",
+    "top_terms": [
+      {
+        "term": "alfabey",
+        "weight": 0.06650376097181523
+      },
+      {
+        "term": "alfabeyê",
+        "weight": 0.05728919976591264
+      },
+      {
+        "term": "language",
+        "weight": 0.05388040515385935
+      },
+      {
+        "term": "alfabeya",
+        "weight": 0.05140884725013468
+      },
+      {
+        "term": "herfa",
+        "weight": 0.04799963960355894
+      },
+      {
+        "term": "alfabe",
+        "weight": 0.04538240565903737
+      },
+      {
+        "term": "the",
+        "weight": 0.028477661056078178
+      },
+      {
+        "term": "it",
+        "weight": 0.02554312667748161
+      },
+      {
+        "term": "nusiyeno",
+        "weight": 0.025227496776072496
+      },
+      {
+        "term": "and",
+        "weight": 0.023489293238377337
+      }
+    ]
+  },
+  {
+    "topic_id": 51,
+    "size": 150,
+    "name": "51_anciyaya_elektriki_xeta_interneti",
+    "top_terms": [
+      {
+        "term": "anciyaya",
+        "weight": 0.8340598417566197
+      },
+      {
+        "term": "elektriki",
+        "weight": 0.5758823391622236
+      },
+      {
+        "term": "xeta",
+        "weight": 0.5484078226945874
+      },
+      {
+        "term": "interneti",
+        "weight": 0.5271446325360464
+      },
+      {
+        "term": "esta",
+        "weight": 0.00858160321091412
+      },
+      {
+        "term": "dewe",
+        "weight": 0.008510147212345389
+      },
+      {
+        "term": "elektrik",
+        "weight": 0.008350100643406813
+      },
+      {
+        "term": "anciyayo",
+        "weight": 0.0080356079689294
+      },
+      {
+        "term": "de",
+        "weight": 0.0004911078331495492
+      },
+      {
+        "term": "",
+        "weight": 1e-05
+      }
+    ]
+  },
+  {
+    "topic_id": 52,
+    "size": 149,
+    "name": "52_aisneyo_hauts_france_qezay",
+    "top_terms": [
+      {
+        "term": "aisneyo",
+        "weight": 0.20808533063668827
+      },
+      {
+        "term": "hauts",
+        "weight": 0.18188080259799533
+      },
+      {
+        "term": "france",
+        "weight": 0.1654170220813089
+      },
+      {
+        "term": "qezay",
+        "weight": 0.10744727405161729
+      },
+      {
+        "term": "komunê",
+        "weight": 0.08949235551803239
+      },
+      {
+        "term": "miyan",
+        "weight": 0.08125817296033833
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.07245335904709774
+      },
+      {
+        "term": "fransa",
+        "weight": 0.0719536807088419
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.054602468563621234
+      },
+      {
+        "term": "aisne",
+        "weight": 0.04389798499561308
+      }
+    ]
+  },
+  {
+    "topic_id": 53,
+    "size": 145,
+    "name": "53_spanya_eyaletê_belediyaya_endulusi",
+    "top_terms": [
+      {
+        "term": "spanya",
+        "weight": 0.2001662305931818
+      },
+      {
+        "term": "eyaletê",
+        "weight": 0.1826043208481272
+      },
+      {
+        "term": "belediyaya",
+        "weight": 0.1642275245550778
+      },
+      {
+        "term": "endulusi",
+        "weight": 0.13336165215340232
+      },
+      {
+        "term": "galiçya",
+        "weight": 0.12943208667842976
+      },
+      {
+        "term": "belediyay",
+        "weight": 0.10576381079106482
+      },
+      {
+        "term": "valensiya",
+        "weight": 0.09924809809396032
+      },
+      {
+        "term": "granada",
+        "weight": 0.08687603655255209
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.0736541424087496
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.06585505440119617
+      }
+    ]
+  },
+  {
+    "topic_id": 54,
+    "size": 136,
+    "name": "54_seine_marnea_et_komunê",
+    "top_terms": [
+      {
+        "term": "seine",
+        "weight": 0.333753184411566
+      },
+      {
+        "term": "marnea",
+        "weight": 0.3098777561190076
+      },
+      {
+        "term": "et",
+        "weight": 0.30558226740892497
+      },
+      {
+        "term": "komunê",
+        "weight": 0.17568485222531904
+      },
+      {
+        "term": "cherio",
+        "weight": 0.15719829492236048
+      },
+      {
+        "term": "loir",
+        "weight": 0.14962634995998106
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.11642249823968455
+      },
+      {
+        "term": "yew",
+        "weight": 0.05715488474828076
+      },
+      {
+        "term": "marneya",
+        "weight": 0.05588618905687203
+      },
+      {
+        "term": "brie",
+        "weight": 0.03516511294676645
+      }
+    ]
+  },
+  {
+    "topic_id": 55,
+    "size": 133,
+    "name": "55_amerîka_hîkaye_hîkayeyî_hîkayeyan",
+    "top_terms": [
+      {
+        "term": "amerîka",
+        "weight": 0.0634350029680643
+      },
+      {
+        "term": "hîkaye",
+        "weight": 0.05742569016631199
+      },
+      {
+        "term": "hîkayeyî",
+        "weight": 0.0485115273605814
+      },
+      {
+        "term": "hîkayeyan",
+        "weight": 0.04013893224105929
+      },
+      {
+        "term": "dayîka",
+        "weight": 0.028155687222078896
+      },
+      {
+        "term": "meksîka",
+        "weight": 0.018344140219347656
+      },
+      {
+        "term": "hîkayan",
+        "weight": 0.015648141446252036
+      },
+      {
+        "term": "kitabê",
+        "weight": 0.015183550200627649
+      },
+      {
+        "term": "mi",
+        "weight": 0.013432427933064116
+      },
+      {
+        "term": "ke",
+        "weight": 0.012584593128392399
+      }
+    ]
+  },
+  {
+    "topic_id": 56,
+    "size": 132,
+    "name": "56_audea_aubea_komuna_wılayetê",
+    "top_terms": [
+      {
+        "term": "audea",
+        "weight": 0.2981420311096955
+      },
+      {
+        "term": "aubea",
+        "weight": 0.24323336512872376
+      },
+      {
+        "term": "komuna",
+        "weight": 0.19982017458821996
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.15460038284245925
+      },
+      {
+        "term": "aubeya",
+        "weight": 0.1171585588036301
+      },
+      {
+        "term": "audeya",
+        "weight": 0.08407485890964037
+      },
+      {
+        "term": "yew",
+        "weight": 0.07476449400088263
+      },
+      {
+        "term": "komunê",
+        "weight": 0.061181382071194286
+      },
+      {
+        "term": "sur",
+        "weight": 0.033118528829925366
+      },
+      {
+        "term": "razès",
+        "weight": 0.0328482712628924
+      }
+    ]
+  },
+  {
+    "topic_id": 57,
+    "size": 132,
+    "name": "57_pê_violation_çar_girdîya",
+    "top_terms": [
+      {
+        "term": "pê",
+        "weight": 0.07095056591539234
+      },
+      {
+        "term": "violation",
+        "weight": 0.058989404807885344
+      },
+      {
+        "term": "çar",
+        "weight": 0.041758761677587776
+      },
+      {
+        "term": "girdîya",
+        "weight": 0.02635957492789046
+      },
+      {
+        "term": "pêro",
+        "weight": 0.02630469062503717
+      },
+      {
+        "term": "one",
+        "weight": 0.025351366150876763
+      },
+      {
+        "term": "kenê",
+        "weight": 0.021552201937044504
+      },
+      {
+        "term": "yps",
+        "weight": 0.021087659942312365
+      },
+      {
+        "term": "erdlerz",
+        "weight": 0.021035805173952513
+      },
+      {
+        "term": "second",
+        "weight": 0.020052870755560948
+      }
+    ]
+  },
+  {
+    "topic_id": 58,
+    "size": 131,
+    "name": "58_taxımestareyê_balina_esta_elektriki",
+    "top_terms": [
+      {
+        "term": "taxımestareyê",
+        "weight": 0.2272314608951091
+      },
+      {
+        "term": "balina",
+        "weight": 0.18398006243083256
+      },
+      {
+        "term": "esta",
+        "weight": 0.13272571219467713
+      },
+      {
+        "term": "elektriki",
+        "weight": 0.12036180017894803
+      },
+      {
+        "term": "xeta",
+        "weight": 0.11309125198999255
+      },
+      {
+        "term": "interneti",
+        "weight": 0.10870641155406412
+      },
+      {
+        "term": "maseyan",
+        "weight": 0.10515970941398081
+      },
+      {
+        "term": "neweyê",
+        "weight": 0.10113414943314385
+      },
+      {
+        "term": "katalogê",
+        "weight": 0.09955418281593215
+      },
+      {
+        "term": "cısım",
+        "weight": 0.09795679754912
+      }
+    ]
+  },
+  {
+    "topic_id": 59,
+    "size": 122,
+    "name": "59_dr_doktor_prof_mezun",
+    "top_terms": [
+      {
+        "term": "dr",
+        "weight": 0.11383377790281801
+      },
+      {
+        "term": "doktor",
+        "weight": 0.06108368214481104
+      },
+      {
+        "term": "prof",
+        "weight": 0.04980894446503616
+      },
+      {
+        "term": "mezun",
+        "weight": 0.04207008615976554
+      },
+      {
+        "term": "doktora",
+        "weight": 0.04119148647903033
+      },
+      {
+        "term": "washington",
+        "weight": 0.027608732987406195
+      },
+      {
+        "term": "tıfaqê",
+        "weight": 0.02528997971987735
+      },
+      {
+        "term": "mektebo",
+        "weight": 0.024112009031558773
+      },
+      {
+        "term": "profesor",
+        "weight": 0.023537992273731614
+      },
+      {
+        "term": "university",
+        "weight": 0.02261867918163399
+      }
+    ]
+  },
+  {
+    "topic_id": 60,
+    "size": 122,
+    "name": "60_muzîkî_muzikê_muzik_music",
+    "top_terms": [
+      {
+        "term": "muzîkî",
+        "weight": 0.08602550423393289
+      },
+      {
+        "term": "muzikê",
+        "weight": 0.07192168939798835
+      },
+      {
+        "term": "muzik",
+        "weight": 0.0617368386344232
+      },
+      {
+        "term": "music",
+        "weight": 0.034569336598437014
+      },
+      {
+        "term": "muziki",
+        "weight": 0.03411286006719029
+      },
+      {
+        "term": "gruba",
+        "weight": 0.030834345321235503
+      },
+      {
+        "term": "per",
+        "weight": 0.02402242718326533
+      },
+      {
+        "term": "piano",
+        "weight": 0.022935090174840068
+      },
+      {
+        "term": "gitar",
+        "weight": 0.020721315240704974
+      },
+      {
+        "term": "pianoforte",
+        "weight": 0.02006803682422254
+      }
+    ]
+  },
+  {
+    "topic_id": 61,
+    "size": 121,
+    "name": "61_talyaya_sûka_dewleta_yew",
+    "top_terms": [
+      {
+        "term": "talyaya",
+        "weight": 0.49773491739244297
+      },
+      {
+        "term": "sûka",
+        "weight": 0.32267032016773695
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.11456975217742348
+      },
+      {
+        "term": "yew",
+        "weight": 0.06695733895442427
+      },
+      {
+        "term": "dyaya",
+        "weight": 0.033732225581716256
+      },
+      {
+        "term": "irpino",
+        "weight": 0.02127088024060335
+      },
+      {
+        "term": "campania",
+        "weight": 0.02127088024060335
+      },
+      {
+        "term": "merakeşia",
+        "weight": 0.02127088024060335
+      },
+      {
+        "term": "macerata",
+        "weight": 0.02127088024060335
+      },
+      {
+        "term": "milanese",
+        "weight": 0.020160598798836835
+      }
+    ]
+  },
+  {
+    "topic_id": 62,
+    "size": 120,
+    "name": "62_nterneti_elektriki_xeta_anciyao",
+    "top_terms": [
+      {
+        "term": "nterneti",
+        "weight": 0.6776513023760545
+      },
+      {
+        "term": "elektriki",
+        "weight": 0.42233615987127504
+      },
+      {
+        "term": "xeta",
+        "weight": 0.3931503135341742
+      },
+      {
+        "term": "anciyao",
+        "weight": 0.331801164817601
+      },
+      {
+        "term": "anciyaya",
+        "weight": 0.06272418518603894
+      },
+      {
+        "term": "voltajê",
+        "weight": 0.04706255458163443
+      },
+      {
+        "term": "viyarnoğın",
+        "weight": 0.02583651010921871
+      },
+      {
+        "term": "kompleksê",
+        "weight": 0.024487915346340913
+      },
+      {
+        "term": "sene",
+        "weight": 0.0227894095383226
+      },
+      {
+        "term": "elektrikê",
+        "weight": 0.01663106316778371
+      }
+    ]
+  },
+  {
+    "topic_id": 63,
+    "size": 116,
+    "name": "63_albumê_album_deyira_aslaniya",
+    "top_terms": [
+      {
+        "term": "albumê",
+        "weight": 0.20215272567441897
+      },
+      {
+        "term": "album",
+        "weight": 0.07972375995705538
+      },
+      {
+        "term": "deyira",
+        "weight": 0.07447881306080156
+      },
+      {
+        "term": "aslaniya",
+        "weight": 0.06182632358535721
+      },
+      {
+        "term": "mikail",
+        "weight": 0.06144765760123444
+      },
+      {
+        "term": "albumi",
+        "weight": 0.04889421947551702
+      },
+      {
+        "term": "albumî",
+        "weight": 0.02683339681759416
+      },
+      {
+        "term": "pêtage",
+        "weight": 0.025979581055637104
+      },
+      {
+        "term": "gêna",
+        "weight": 0.02444375325661281
+      },
+      {
+        "term": "siaya",
+        "weight": 0.022993296701388055
+      }
+    ]
+  },
+  {
+    "topic_id": 64,
+    "size": 114,
+    "name": "64_kılmkerdış_pelanê_mocneno_internet",
+    "top_terms": [
+      {
+        "term": "kılmkerdış",
+        "weight": 0.17413283978443755
+      },
+      {
+        "term": "pelanê",
+        "weight": 0.17340651648543268
+      },
+      {
+        "term": "mocneno",
+        "weight": 0.16281753930441734
+      },
+      {
+        "term": "internet",
+        "weight": 0.13215656705407408
+      },
+      {
+        "term": "interneti",
+        "weight": 0.081840753778689
+      },
+      {
+        "term": "google",
+        "weight": 0.07173226820925825
+      },
+      {
+        "term": "jeneriko",
+        "weight": 0.07150469160468521
+      },
+      {
+        "term": "kodê",
+        "weight": 0.07110758801219627
+      },
+      {
+        "term": "googleyo",
+        "weight": 0.07077595224910677
+      },
+      {
+        "term": "bırriyayo",
+        "weight": 0.06970342459250813
+      }
+    ]
+  },
+  {
+    "topic_id": 65,
+    "size": 111,
+    "name": "65_saint_seran_diagrami_grafikê",
+    "top_terms": [
+      {
+        "term": "saint",
+        "weight": 0.18600541435946316
+      },
+      {
+        "term": "seran",
+        "weight": 0.15524946339082252
+      },
+      {
+        "term": "diagrami",
+        "weight": 0.1530358143467289
+      },
+      {
+        "term": "grafikê",
+        "weight": 0.1448742916817581
+      },
+      {
+        "term": "gorey",
+        "weight": 0.13629481504566315
+      },
+      {
+        "term": "nıfusê",
+        "weight": 0.13323557460943525
+      },
+      {
+        "term": "sero",
+        "weight": 0.12390448519991079
+      },
+      {
+        "term": "serran",
+        "weight": 0.03867830696792658
+      },
+      {
+        "term": "ra",
+        "weight": 0.029752608197775202
+      },
+      {
+        "term": "chapelle",
+        "weight": 0.029503339634874514
+      }
+    ]
+  },
+  {
+    "topic_id": 66,
+    "size": 110,
+    "name": "66_paytextê_sûka_são_eyaletê",
+    "top_terms": [
+      {
+        "term": "paytextê",
+        "weight": 0.42568459475641196
+      },
+      {
+        "term": "sûka",
+        "weight": 0.18214455128553045
+      },
+      {
+        "term": "são",
+        "weight": 0.045533526339503874
+      },
+      {
+        "term": "eyaletê",
+        "weight": 0.038291128961902364
+      },
+      {
+        "term": "merkezê",
+        "weight": 0.03375398499527838
+      },
+      {
+        "term": "port",
+        "weight": 0.03180604780854832
+      },
+      {
+        "term": "bacarê",
+        "weight": 0.030348847925626088
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.029706747217588765
+      },
+      {
+        "term": "paulo",
+        "weight": 0.028066465435516153
+      },
+      {
+        "term": "amerikayê",
+        "weight": 0.024475513118367168
+      }
+    ]
+  },
+  {
+    "topic_id": 67,
+    "size": 109,
+    "name": "67_normandiya_komune_na_mıntıqaya",
+    "top_terms": [
+      {
+        "term": "normandiya",
+        "weight": 0.3779218621196241
+      },
+      {
+        "term": "komune",
+        "weight": 0.14130147517358313
+      },
+      {
+        "term": "na",
+        "weight": 0.11811618176794843
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.1109785589266235
+      },
+      {
+        "term": "fransa",
+        "weight": 0.1109785589266235
+      },
+      {
+        "term": "gêno",
+        "weight": 0.09657319722542622
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.08363591908951915
+      },
+      {
+        "term": "ca",
+        "weight": 0.08299536384837758
+      },
+      {
+        "term": "de",
+        "weight": 0.02966291312223277
+      },
+      {
+        "term": "gêna",
+        "weight": 0.027586307956637288
+      }
+    ]
+  },
+  {
+    "topic_id": 68,
+    "size": 108,
+    "name": "68_homayî_deryayî_resayî_birayî",
+    "top_terms": [
+      {
+        "term": "homayî",
+        "weight": 0.0777667020053587
+      },
+      {
+        "term": "deryayî",
+        "weight": 0.04219746775181637
+      },
+      {
+        "term": "resayî",
+        "weight": 0.03684700828723984
+      },
+      {
+        "term": "birayî",
+        "weight": 0.03101976916119019
+      },
+      {
+        "term": "ucayî",
+        "weight": 0.027613140541262793
+      },
+      {
+        "term": "asayîşî",
+        "weight": 0.0264679441285247
+      },
+      {
+        "term": "ma",
+        "weight": 0.025042719902231787
+      },
+      {
+        "term": "averşîyayîşê",
+        "weight": 0.022471625912386793
+      },
+      {
+        "term": "musayî",
+        "weight": 0.019760419879315174
+      },
+      {
+        "term": "dima",
+        "weight": 0.017283866811163014
+      }
+    ]
+  },
+  {
+    "topic_id": 69,
+    "size": 106,
+    "name": "69_kulturê_kulturî_kultur_kulturo",
+    "top_terms": [
+      {
+        "term": "kulturê",
+        "weight": 0.15201634713402842
+      },
+      {
+        "term": "kulturî",
+        "weight": 0.052882583729533854
+      },
+      {
+        "term": "kultur",
+        "weight": 0.04091029689000183
+      },
+      {
+        "term": "kulturo",
+        "weight": 0.025029311398152232
+      },
+      {
+        "term": "ziwan",
+        "weight": 0.019347567840616465
+      },
+      {
+        "term": "hunerî",
+        "weight": 0.018052790240860588
+      },
+      {
+        "term": "tarîx",
+        "weight": 0.017120353207612765
+      },
+      {
+        "term": "edebîyat",
+        "weight": 0.015722120793742602
+      },
+      {
+        "term": "kültürê",
+        "weight": 0.015623393973620902
+      },
+      {
+        "term": "huner",
+        "weight": 0.013253249152471128
+      }
+    ]
+  },
+  {
+    "topic_id": 70,
+    "size": 104,
+    "name": "70_kanalê_têlevizyoniyê_tv_britanya",
+    "top_terms": [
+      {
+        "term": "kanalê",
+        "weight": 0.2597281500737328
+      },
+      {
+        "term": "têlevizyoniyê",
+        "weight": 0.2542699313162892
+      },
+      {
+        "term": "tv",
+        "weight": 0.17017193649282156
+      },
+      {
+        "term": "britanya",
+        "weight": 0.09357019123268866
+      },
+      {
+        "term": "gırdeyo",
+        "weight": 0.07589383984755164
+      },
+      {
+        "term": "tırkiyayo",
+        "weight": 0.06838549159604028
+      },
+      {
+        "term": "almanyayo",
+        "weight": 0.06261876986207876
+      },
+      {
+        "term": "fransayo",
+        "weight": 0.057776121178254376
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.045121497774692404
+      },
+      {
+        "term": "bbcyo",
+        "weight": 0.03853241766533738
+      }
+    ]
+  },
+  {
+    "topic_id": 71,
+    "size": 103,
+    "name": "71_aseno_diyagrami_serran_grafikê",
+    "top_terms": [
+      {
+        "term": "aseno",
+        "weight": 0.2695759935775347
+      },
+      {
+        "term": "diyagrami",
+        "weight": 0.22563609560683304
+      },
+      {
+        "term": "serran",
+        "weight": 0.16055855994160628
+      },
+      {
+        "term": "grafikê",
+        "weight": 0.12461266708229503
+      },
+      {
+        "term": "gorey",
+        "weight": 0.11938415261644389
+      },
+      {
+        "term": "komune",
+        "weight": 0.1165016244288318
+      },
+      {
+        "term": "nıfusê",
+        "weight": 0.11460170130663967
+      },
+      {
+        "term": "sero",
+        "weight": 0.10657562625490838
+      },
+      {
+        "term": "ra",
+        "weight": 0.025591509833391375
+      },
+      {
+        "term": "sur",
+        "weight": 0.019652580066900613
+      }
+    ]
+  },
+  {
+    "topic_id": 72,
+    "size": 103,
+    "name": "72_afrika_knyaciya_afrikaya_cumhuriyetê",
+    "top_terms": [
+      {
+        "term": "afrika",
+        "weight": 0.08953706852989886
+      },
+      {
+        "term": "knyaciya",
+        "weight": 0.05685234204770455
+      },
+      {
+        "term": "afrikaya",
+        "weight": 0.050773651259799976
+      },
+      {
+        "term": "cumhuriyetê",
+        "weight": 0.04796006955265034
+      },
+      {
+        "term": "qıtay",
+        "weight": 0.04476853426494943
+      },
+      {
+        "term": "kongoyê",
+        "weight": 0.039722630405908566
+      },
+      {
+        "term": "demokratiki",
+        "weight": 0.032720713592271175
+      },
+      {
+        "term": "uganda",
+        "weight": 0.030985740418089217
+      },
+      {
+        "term": "verocê",
+        "weight": 0.0289193801162821
+      },
+      {
+        "term": "sudan",
+        "weight": 0.028839173721582352
+      }
+    ]
+  },
+  {
+    "topic_id": 73,
+    "size": 103,
+    "name": "73_ekonomiye_ziraet_heywanweyikerdış_bena",
+    "top_terms": [
+      {
+        "term": "ekonomiye",
+        "weight": 0.3612116021855225
+      },
+      {
+        "term": "ziraet",
+        "weight": 0.35499943351384367
+      },
+      {
+        "term": "heywanweyikerdış",
+        "weight": 0.3509498771124997
+      },
+      {
+        "term": "bena",
+        "weight": 0.22440101152782296
+      },
+      {
+        "term": "be",
+        "weight": 0.12110591958832294
+      },
+      {
+        "term": "ekonomiya",
+        "weight": 0.08907332647134905
+      },
+      {
+        "term": "dewa",
+        "weight": 0.05553015361653941
+      },
+      {
+        "term": "ra",
+        "weight": 0.031146609573168952
+      },
+      {
+        "term": "ekonomi",
+        "weight": 0.02446764299616115
+      },
+      {
+        "term": "ticaret",
+        "weight": 0.023696254554553427
+      }
+    ]
+  },
+  {
+    "topic_id": 74,
+    "size": 102,
+    "name": "74_gêna_esti_grand_komune",
+    "top_terms": [
+      {
+        "term": "gêna",
+        "weight": 0.19525373813464053
+      },
+      {
+        "term": "esti",
+        "weight": 0.1708539120068038
+      },
+      {
+        "term": "grand",
+        "weight": 0.16453378937981564
+      },
+      {
+        "term": "komune",
+        "weight": 0.1284558865214392
+      },
+      {
+        "term": "na",
+        "weight": 0.1073783470617713
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.10088959902420318
+      },
+      {
+        "term": "fransa",
+        "weight": 0.10088959902420318
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.07603265371774467
+      },
+      {
+        "term": "ca",
+        "weight": 0.07545033077125235
+      },
+      {
+        "term": "de",
+        "weight": 0.026966284656575246
+      }
+    ]
+  },
+  {
+    "topic_id": 75,
+    "size": 99,
+    "name": "75_bio_keşıf_terefê_paniai",
+    "top_terms": [
+      {
+        "term": "bio",
+        "weight": 0.47972844592001246
+      },
+      {
+        "term": "keşıf",
+        "weight": 0.18156626670813408
+      },
+      {
+        "term": "terefê",
+        "weight": 0.17252372754883852
+      },
+      {
+        "term": "paniai",
+        "weight": 0.06524738912988613
+      },
+      {
+        "term": "kışta",
+        "weight": 0.04190080953857796
+      },
+      {
+        "term": "ra",
+        "weight": 0.041520636421497316
+      },
+      {
+        "term": "kar",
+        "weight": 0.03832622247121746
+      },
+      {
+        "term": "zafê",
+        "weight": 0.02937565064097554
+      },
+      {
+        "term": "destdariye",
+        "weight": 0.025330738296313937
+      },
+      {
+        "term": "elfê",
+        "weight": 0.025330738296313937
+      }
+    ]
+  },
+  {
+    "topic_id": 76,
+    "size": 98,
+    "name": "76_qanalizasyoni_overn_alpan_ron",
+    "top_terms": [
+      {
+        "term": "qanalizasyoni",
+        "weight": 0.30416387879460594
+      },
+      {
+        "term": "overn",
+        "weight": 0.24749301634417656
+      },
+      {
+        "term": "alpan",
+        "weight": 0.24749301634417656
+      },
+      {
+        "term": "ron",
+        "weight": 0.24442006047174028
+      },
+      {
+        "term": "çıniyo",
+        "weight": 0.22313232488981055
+      },
+      {
+        "term": "sistemê",
+        "weight": 0.11229509020507292
+      },
+      {
+        "term": "komune",
+        "weight": 0.09589712304024339
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.07531785855130958
+      },
+      {
+        "term": "fransa",
+        "weight": 0.07531785855130958
+      },
+      {
+        "term": "ca",
+        "weight": 0.05632649347050556
+      }
+    ]
+  },
+  {
+    "topic_id": 77,
+    "size": 98,
+    "name": "77_manchea_komuna_wılayetê_mancheya",
+    "top_terms": [
+      {
+        "term": "manchea",
+        "weight": 0.5765964497334084
+      },
+      {
+        "term": "komuna",
+        "weight": 0.2797460623453055
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.1673158165137433
+      },
+      {
+        "term": "mancheya",
+        "weight": 0.1448121429444092
+      },
+      {
+        "term": "yew",
+        "weight": 0.08153131857297644
+      },
+      {
+        "term": "le",
+        "weight": 0.03480592236414308
+      },
+      {
+        "term": "mesnil",
+        "weight": 0.03250589798307822
+      },
+      {
+        "term": "mer",
+        "weight": 0.02987053452060559
+      },
+      {
+        "term": "cerisy",
+        "weight": 0.02705374471167443
+      },
+      {
+        "term": "manşiya",
+        "weight": 0.02705374471167443
+      }
+    ]
+  },
+  {
+    "topic_id": 78,
+    "size": 97,
+    "name": "78_çiqas_jê_jêde_çekuyê",
+    "top_terms": [
+      {
+        "term": "çiqas",
+        "weight": 0.1430076283132629
+      },
+      {
+        "term": "jê",
+        "weight": 0.03983579595375505
+      },
+      {
+        "term": "jêde",
+        "weight": 0.0293605490435907
+      },
+      {
+        "term": "çekuyê",
+        "weight": 0.0202772810079756
+      },
+      {
+        "term": "hende",
+        "weight": 0.019213139357227276
+      },
+      {
+        "term": "qediyenê",
+        "weight": 0.019128445877070983
+      },
+      {
+        "term": "dolar",
+        "weight": 0.01693763647718126
+      },
+      {
+        "term": "ceno",
+        "weight": 0.015945183501167314
+      },
+      {
+        "term": "aye",
+        "weight": 0.014821725165887725
+      },
+      {
+        "term": "nameyanê",
+        "weight": 0.01478386524127916
+      }
+    ]
+  },
+  {
+    "topic_id": 79,
+    "size": 94,
+    "name": "79_vano_va_ti_mi",
+    "top_terms": [
+      {
+        "term": "vano",
+        "weight": 0.053719169286898606
+      },
+      {
+        "term": "va",
+        "weight": 0.04915706874324643
+      },
+      {
+        "term": "ti",
+        "weight": 0.028148024659212064
+      },
+      {
+        "term": "mi",
+        "weight": 0.02668416676291241
+      },
+      {
+        "term": "to",
+        "weight": 0.022722409806969497
+      },
+      {
+        "term": "ez",
+        "weight": 0.022523514298311977
+      },
+      {
+        "term": "divêje",
+        "weight": 0.01998102655683
+      },
+      {
+        "term": "ci",
+        "weight": 0.01981253406992443
+      },
+      {
+        "term": "vanê",
+        "weight": 0.016372575973458096
+      },
+      {
+        "term": "çi",
+        "weight": 0.01593371199514352
+      }
+    ]
+  },
+  {
+    "topic_id": 80,
+    "size": 92,
+    "name": "80_moselley_esti_grand_komuna",
+    "top_terms": [
+      {
+        "term": "moselley",
+        "weight": 0.2729958781002492
+      },
+      {
+        "term": "esti",
+        "weight": 0.1391023000409376
+      },
+      {
+        "term": "grand",
+        "weight": 0.13395671347737204
+      },
+      {
+        "term": "komuna",
+        "weight": 0.11612021902661379
+      },
+      {
+        "term": "fransa",
+        "weight": 0.08214020451528047
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.08214020451528047
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.06874268955029655
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.061902691522411596
+      },
+      {
+        "term": "yew",
+        "weight": 0.03349762286716079
+      },
+      {
+        "term": "de",
+        "weight": 0.03317091652445981
+      }
+    ]
+  },
+  {
+    "topic_id": 81,
+    "size": 91,
+    "name": "81_cısımê_ngc_asmêniyo_yew",
+    "top_terms": [
+      {
+        "term": "cısımê",
+        "weight": 0.6225469206774722
+      },
+      {
+        "term": "ngc",
+        "weight": 0.2751963590636512
+      },
+      {
+        "term": "asmêniyo",
+        "weight": 0.26905880671403276
+      },
+      {
+        "term": "yew",
+        "weight": 0.08658090689275794
+      },
+      {
+        "term": "asmênio",
+        "weight": 0.051691859973112105
+      },
+      {
+        "term": "2594",
+        "weight": 0.018384360959567702
+      },
+      {
+        "term": "2570",
+        "weight": 0.018384360959567702
+      },
+      {
+        "term": "2567",
+        "weight": 0.018384360959567702
+      },
+      {
+        "term": "2560",
+        "weight": 0.018384360959567702
+      },
+      {
+        "term": "256",
+        "weight": 0.018384360959567702
+      }
+    ]
+  },
+  {
+    "topic_id": 82,
+    "size": 91,
+    "name": "82_occitanie_gêna_komune_na",
+    "top_terms": [
+      {
+        "term": "occitanie",
+        "weight": 0.39541658663505996
+      },
+      {
+        "term": "gêna",
+        "weight": 0.2147791119481046
+      },
+      {
+        "term": "komune",
+        "weight": 0.14130147517358313
+      },
+      {
+        "term": "na",
+        "weight": 0.11811618176794843
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.1109785589266235
+      },
+      {
+        "term": "fransa",
+        "weight": 0.1109785589266235
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.08363591908951915
+      },
+      {
+        "term": "ca",
+        "weight": 0.08299536384837758
+      },
+      {
+        "term": "de",
+        "weight": 0.02966291312223277
+      },
+      {
+        "term": "",
+        "weight": 1e-05
+      }
+    ]
+  },
+  {
+    "topic_id": 83,
+    "size": 90,
+    "name": "83_île_france_gêna_komune",
+    "top_terms": [
+      {
+        "term": "île",
+        "weight": 0.3286302790587491
+      },
+      {
+        "term": "france",
+        "weight": 0.21261065164501564
+      },
+      {
+        "term": "gêna",
+        "weight": 0.17898259329008714
+      },
+      {
+        "term": "komune",
+        "weight": 0.11775122931131926
+      },
+      {
+        "term": "na",
+        "weight": 0.09843015147329034
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.09248213243885291
+      },
+      {
+        "term": "fransa",
+        "weight": 0.09248213243885291
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.06969659924126595
+      },
+      {
+        "term": "ca",
+        "weight": 0.06916280320698132
+      },
+      {
+        "term": "de",
+        "weight": 0.03707864140279096
+      }
+    ]
+  },
+  {
+    "topic_id": 84,
+    "size": 90,
+    "name": "84_sêwrega_rıha_sêwregi_mıntıqay",
+    "top_terms": [
+      {
+        "term": "sêwrega",
+        "weight": 0.12485620650376188
+      },
+      {
+        "term": "rıha",
+        "weight": 0.11777004082084225
+      },
+      {
+        "term": "sêwregi",
+        "weight": 0.07044359377224689
+      },
+      {
+        "term": "mıntıqay",
+        "weight": 0.06485479552141694
+      },
+      {
+        "term": "anatoliya",
+        "weight": 0.06450862851132566
+      },
+      {
+        "term": "veroci",
+        "weight": 0.05284363704871756
+      },
+      {
+        "term": "rocvetışê",
+        "weight": 0.051898187442166815
+      },
+      {
+        "term": "dewa",
+        "weight": 0.04449281022336075
+      },
+      {
+        "term": "tırkiya",
+        "weight": 0.04179720563518076
+      },
+      {
+        "term": "qezay",
+        "weight": 0.04089669517216925
+      }
+    ]
+  },
+  {
+    "topic_id": 85,
+    "size": 88,
+    "name": "85_fm_kw_radyo_dvb",
+    "top_terms": [
+      {
+        "term": "fm",
+        "weight": 0.2311368808735775
+      },
+      {
+        "term": "kw",
+        "weight": 0.21166945087272626
+      },
+      {
+        "term": "radyo",
+        "weight": 0.20346451738616297
+      },
+      {
+        "term": "dvb",
+        "weight": 0.1259652985590249
+      },
+      {
+        "term": "radyoyê",
+        "weight": 0.10654027022078498
+      },
+      {
+        "term": "radio",
+        "weight": 0.08376583892338484
+      },
+      {
+        "term": "dab",
+        "weight": 0.07847368418605939
+      },
+      {
+        "term": "kanalê",
+        "weight": 0.05594779308009759
+      },
+      {
+        "term": "15",
+        "weight": 0.05591715559668618
+      },
+      {
+        "term": "tırkiyayo",
+        "weight": 0.0505261159347212
+      }
+    ]
+  },
+  {
+    "topic_id": 86,
+    "size": 86,
+    "name": "86_meuseyi_dero_cayê_esti",
+    "top_terms": [
+      {
+        "term": "meuseyi",
+        "weight": 0.3007905382317417
+      },
+      {
+        "term": "dero",
+        "weight": 0.17322261063308947
+      },
+      {
+        "term": "cayê",
+        "weight": 0.14896285202091789
+      },
+      {
+        "term": "esti",
+        "weight": 0.1410804420860471
+      },
+      {
+        "term": "grand",
+        "weight": 0.13586168131094695
+      },
+      {
+        "term": "komune",
+        "weight": 0.10607081246274334
+      },
+      {
+        "term": "na",
+        "weight": 0.08866630266762884
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.08529183259776248
+      },
+      {
+        "term": "fransa",
+        "weight": 0.08430006710243966
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.07138026991828497
+      }
+    ]
+  },
+  {
+    "topic_id": 87,
+    "size": 86,
+    "name": "87_marney_haute_esti_grand",
+    "top_terms": [
+      {
+        "term": "marney",
+        "weight": 0.2617172823638961
+      },
+      {
+        "term": "haute",
+        "weight": 0.20956578436339246
+      },
+      {
+        "term": "esti",
+        "weight": 0.12529286880498944
+      },
+      {
+        "term": "grand",
+        "weight": 0.1206581122118648
+      },
+      {
+        "term": "komuna",
+        "weight": 0.10336184406655412
+      },
+      {
+        "term": "fransa",
+        "weight": 0.07398570595108232
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.0731152858810696
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.061918234138419286
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.05575727939301276
+      },
+      {
+        "term": "yew",
+        "weight": 0.030172134220203525
+      }
+    ]
+  },
+  {
+    "topic_id": 88,
+    "size": 85,
+    "name": "88_asmênio_cısmê_ngc_asmêniyo",
+    "top_terms": [
+      {
+        "term": "asmênio",
+        "weight": 0.44759069341424135
+      },
+      {
+        "term": "cısmê",
+        "weight": 0.30962295552696006
+      },
+      {
+        "term": "ngc",
+        "weight": 0.2877052844756353
+      },
+      {
+        "term": "asmêniyo",
+        "weight": 0.1042627300382047
+      },
+      {
+        "term": "yew",
+        "weight": 0.09051640266061058
+      },
+      {
+        "term": "3888",
+        "weight": 0.01989836715623798
+      },
+      {
+        "term": "3854",
+        "weight": 0.01989836715623798
+      },
+      {
+        "term": "3863",
+        "weight": 0.01989836715623798
+      },
+      {
+        "term": "3865",
+        "weight": 0.01989836715623798
+      },
+      {
+        "term": "3868",
+        "weight": 0.01989836715623798
+      }
+    ]
+  },
+  {
+    "topic_id": 89,
+    "size": 84,
+    "name": "89_eniya_komuna_vendéeya_yew",
+    "top_terms": [
+      {
+        "term": "eniya",
+        "weight": 0.535023418844553
+      },
+      {
+        "term": "komuna",
+        "weight": 0.28751062394886273
+      },
+      {
+        "term": "vendéeya",
+        "weight": 0.25103203546130926
+      },
+      {
+        "term": "yew",
+        "weight": 0.08089135531887144
+      },
+      {
+        "term": "saint",
+        "weight": 0.06688669544839893
+      },
+      {
+        "term": "fransızki",
+        "weight": 0.05640158681117366
+      },
+      {
+        "term": "andré",
+        "weight": 0.03744016195086925
+      },
+      {
+        "term": "mer",
+        "weight": 0.024509156529727665
+      },
+      {
+        "term": "la",
+        "weight": 0.023695117566378845
+      },
+      {
+        "term": "manena",
+        "weight": 0.023377726985981534
+      }
+    ]
+  },
+  {
+    "topic_id": 90,
+    "size": 84,
+    "name": "90_komun_taxımestareyê_pays_loire",
+    "top_terms": [
+      {
+        "term": "komun",
+        "weight": 0.16760589517191582
+      },
+      {
+        "term": "taxımestareyê",
+        "weight": 0.15810225504060385
+      },
+      {
+        "term": "pays",
+        "weight": 0.10824241057344636
+      },
+      {
+        "term": "loire",
+        "weight": 0.09719024299834421
+      },
+      {
+        "term": "gêno",
+        "weight": 0.09013901804520254
+      },
+      {
+        "term": "no",
+        "weight": 0.07641160917251959
+      },
+      {
+        "term": "neweyê",
+        "weight": 0.0718964515519296
+      },
+      {
+        "term": "katalogê",
+        "weight": 0.07077325039797003
+      },
+      {
+        "term": "cısım",
+        "weight": 0.0696376662941946
+      },
+      {
+        "term": "pêroyi",
+        "weight": 0.06926861751272458
+      }
+    ]
+  },
+  {
+    "topic_id": 91,
+    "size": 82,
+    "name": "91_meurthe_moselleo_et_komunê",
+    "top_terms": [
+      {
+        "term": "meurthe",
+        "weight": 0.4422663938429184
+      },
+      {
+        "term": "moselleo",
+        "weight": 0.4385646231192919
+      },
+      {
+        "term": "et",
+        "weight": 0.30921073645999425
+      },
+      {
+        "term": "komunê",
+        "weight": 0.16333172599862444
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.11862839250818648
+      },
+      {
+        "term": "moselleya",
+        "weight": 0.07884347032557144
+      },
+      {
+        "term": "yew",
+        "weight": 0.057806425375156276
+      },
+      {
+        "term": "komuna",
+        "weight": 0.029324955759870156
+      },
+      {
+        "term": "seille",
+        "weight": 0.026877222988056428
+      },
+      {
+        "term": "dommartin",
+        "weight": 0.025776560097015896
+      }
+    ]
+  },
+  {
+    "topic_id": 92,
+    "size": 81,
+    "name": "92_haut_rhiniyo_est_grand",
+    "top_terms": [
+      {
+        "term": "haut",
+        "weight": 0.2711259480374947
+      },
+      {
+        "term": "rhiniyo",
+        "weight": 0.25530517291542915
+      },
+      {
+        "term": "est",
+        "weight": 0.2433262609315982
+      },
+      {
+        "term": "grand",
+        "weight": 0.12076266863492535
+      },
+      {
+        "term": "komunê",
+        "weight": 0.0949342684288029
+      },
+      {
+        "term": "miyan",
+        "weight": 0.08362536687101736
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.07597319025306115
+      },
+      {
+        "term": "fransa",
+        "weight": 0.07597319025306115
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.06358154892030057
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.057979839923410145
+      }
+    ]
+  },
+  {
+    "topic_id": 93,
+    "size": 81,
+    "name": "93_zonğuldaki_dewa_qezay_çaycumaya",
+    "top_terms": [
+      {
+        "term": "zonğuldaki",
+        "weight": 0.47147317265402106
+      },
+      {
+        "term": "dewa",
+        "weight": 0.20423571917507446
+      },
+      {
+        "term": "qezay",
+        "weight": 0.19023148805136136
+      },
+      {
+        "term": "çaycumaya",
+        "weight": 0.18620710664803644
+      },
+      {
+        "term": "devrekiya",
+        "weight": 0.17987873864087917
+      },
+      {
+        "term": "ereğliya",
+        "weight": 0.15390233972755749
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.10637934499552212
+      },
+      {
+        "term": "şıiro",
+        "weight": 0.0965001023670717
+      },
+      {
+        "term": "alaplıya",
+        "weight": 0.066938602709367
+      },
+      {
+        "term": "yew",
+        "weight": 0.05250217188097089
+      }
+    ]
+  },
+  {
+    "topic_id": 94,
+    "size": 80,
+    "name": "94_pays_loire_komune_la",
+    "top_terms": [
+      {
+        "term": "pays",
+        "weight": 0.23979857111655808
+      },
+      {
+        "term": "loire",
+        "weight": 0.21531376910402408
+      },
+      {
+        "term": "komune",
+        "weight": 0.10869344244121779
+      },
+      {
+        "term": "la",
+        "weight": 0.1007042496571101
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.08536812225124885
+      },
+      {
+        "term": "fransa",
+        "weight": 0.08536812225124885
+      },
+      {
+        "term": "gêno",
+        "weight": 0.08523464370503205
+      },
+      {
+        "term": "no",
+        "weight": 0.07138359781825741
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.06433532237655319
+      },
+      {
+        "term": "ca",
+        "weight": 0.06384258757567507
+      }
+    ]
+  },
+  {
+    "topic_id": 95,
+    "size": 77,
+    "name": "95_cısmê_ngc_asmêniyo_yew",
+    "top_terms": [
+      {
+        "term": "cısmê",
+        "weight": 0.30962295552696006
+      },
+      {
+        "term": "ngc",
+        "weight": 0.2877052844756353
+      },
+      {
+        "term": "asmêniyo",
+        "weight": 0.28178485256630786
+      },
+      {
+        "term": "yew",
+        "weight": 0.09051640266061058
+      },
+      {
+        "term": "asmênio",
+        "weight": 0.052938602421443194
+      },
+      {
+        "term": "7424",
+        "weight": 0.021965729977665306
+      },
+      {
+        "term": "7744",
+        "weight": 0.021965729977665306
+      },
+      {
+        "term": "7834",
+        "weight": 0.021965729977665306
+      },
+      {
+        "term": "7431",
+        "weight": 0.021965729977665306
+      },
+      {
+        "term": "7742",
+        "weight": 0.021965729977665306
+      }
+    ]
+  },
+  {
+    "topic_id": 96,
+    "size": 76,
+    "name": "96_pil_piya_bêvenga_bira",
+    "top_terms": [
+      {
+        "term": "pil",
+        "weight": 0.08690633687850073
+      },
+      {
+        "term": "piya",
+        "weight": 0.03948105980461048
+      },
+      {
+        "term": "bêvenga",
+        "weight": 0.03294903833541244
+      },
+      {
+        "term": "bira",
+        "weight": 0.026632118352012228
+      },
+      {
+        "term": "coke",
+        "weight": 0.02606197051775079
+      },
+      {
+        "term": "herfe",
+        "weight": 0.02575399575870482
+      },
+      {
+        "term": "coca",
+        "weight": 0.023175735187523052
+      },
+      {
+        "term": "dilopa",
+        "weight": 0.023175735187523052
+      },
+      {
+        "term": "cola",
+        "weight": 0.021966025556941625
+      },
+      {
+        "term": "piye",
+        "weight": 0.021966025556941625
+      }
+    ]
+  },
+  {
+    "topic_id": 97,
+    "size": 76,
+    "name": "97_sarthea_komunê_wılayetê_yew",
+    "top_terms": [
+      {
+        "term": "sarthea",
+        "weight": 0.6334295119534619
+      },
+      {
+        "term": "komunê",
+        "weight": 0.21774737046825052
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.1534495367778217
+      },
+      {
+        "term": "yew",
+        "weight": 0.07379054564723689
+      },
+      {
+        "term": "sartheya",
+        "weight": 0.07078445410726542
+      },
+      {
+        "term": "le",
+        "weight": 0.056597456366041354
+      },
+      {
+        "term": "saint",
+        "weight": 0.05049737783697447
+      },
+      {
+        "term": "ballon",
+        "weight": 0.04799099061897029
+      },
+      {
+        "term": "sous",
+        "weight": 0.04177734188095681
+      },
+      {
+        "term": "sur",
+        "weight": 0.03806230922047945
+      }
+    ]
+  },
+  {
+    "topic_id": 98,
+    "size": 76,
+    "name": "98_cısımê_asmêniyo_ngc_yew",
+    "top_terms": [
+      {
+        "term": "cısımê",
+        "weight": 0.5627602888557464
+      },
+      {
+        "term": "asmêniyo",
+        "weight": 0.2642385756088802
+      },
+      {
+        "term": "ngc",
+        "weight": 0.2487677271781809
+      },
+      {
+        "term": "yew",
+        "weight": 0.07826606245090388
+      },
+      {
+        "term": "914",
+        "weight": 0.021195002610027925
+      },
+      {
+        "term": "916",
+        "weight": 0.021195002610027925
+      },
+      {
+        "term": "uni",
+        "weight": 0.021195002610027925
+      },
+      {
+        "term": "938",
+        "weight": 0.021195002610027925
+      },
+      {
+        "term": "destnuştey",
+        "weight": 0.021195002610027925
+      },
+      {
+        "term": "966",
+        "weight": 0.021195002610027925
+      }
+    ]
+  },
+  {
+    "topic_id": 99,
+    "size": 76,
+    "name": "99_serra_1994ıne_1983_1989ıne",
+    "top_terms": [
+      {
+        "term": "serra",
+        "weight": 0.08688722373722656
+      },
+      {
+        "term": "1994ıne",
+        "weight": 0.050973782505275476
+      },
+      {
+        "term": "1983",
+        "weight": 0.04094780122613162
+      },
+      {
+        "term": "1989ıne",
+        "weight": 0.03617969202769806
+      },
+      {
+        "term": "muxtarê",
+        "weight": 0.030867837152812355
+      },
+      {
+        "term": "xelata",
+        "weight": 0.028649005515760374
+      },
+      {
+        "term": "kaykera",
+        "weight": 0.02784434887326309
+      },
+      {
+        "term": "1991",
+        "weight": 0.02697237344516377
+      },
+      {
+        "term": "mabeynê",
+        "weight": 0.02619837058860882
+      },
+      {
+        "term": "gırewta",
+        "weight": 0.024831108151255703
+      }
+    ]
+  },
+  {
+    "topic_id": 100,
+    "size": 75,
+    "name": "100_biyo_rainforest_swifti_vehbi",
+    "top_terms": [
+      {
+        "term": "biyo",
+        "weight": 0.13478640146924892
+      },
+      {
+        "term": "rainforest",
+        "weight": 0.0486379088513206
+      },
+      {
+        "term": "swifti",
+        "weight": 0.03891032708105648
+      },
+      {
+        "term": "vehbi",
+        "weight": 0.02205645252221654
+      },
+      {
+        "term": "avantac",
+        "weight": 0.02205645252221654
+      },
+      {
+        "term": "rainforests",
+        "weight": 0.02205645252221654
+      },
+      {
+        "term": "terefo",
+        "weight": 0.02205645252221654
+      },
+      {
+        "term": "bey",
+        "weight": 0.021166507928271766
+      },
+      {
+        "term": "varyanti",
+        "weight": 0.02090516636811206
+      },
+      {
+        "term": "cên",
+        "weight": 0.02090516636811206
+      }
+    ]
+  },
+  {
+    "topic_id": 101,
+    "size": 75,
+    "name": "101_esti_grand_komune_gêno",
+    "top_terms": [
+      {
+        "term": "esti",
+        "weight": 0.16751610664403352
+      },
+      {
+        "term": "grand",
+        "weight": 0.16131945405615625
+      },
+      {
+        "term": "komune",
+        "weight": 0.12594636981283966
+      },
+      {
+        "term": "gêno",
+        "weight": 0.10011688308210114
+      },
+      {
+        "term": "fransa",
+        "weight": 0.09891861784668517
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.09891861784668517
+      },
+      {
+        "term": "no",
+        "weight": 0.08271432763067922
+      },
+      {
+        "term": "ca",
+        "weight": 0.07600308044723221
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.07454727830933941
+      },
+      {
+        "term": "de",
+        "weight": 0.02680165532411752
+      }
+    ]
+  },
+  {
+    "topic_id": 102,
+    "size": 71,
+    "name": "102_alpesi_ardècheya_rhône_auvergne",
+    "top_terms": [
+      {
+        "term": "alpesi",
+        "weight": 0.26424694692594475
+      },
+      {
+        "term": "ardècheya",
+        "weight": 0.2588880714498212
+      },
+      {
+        "term": "rhône",
+        "weight": 0.19231152926292042
+      },
+      {
+        "term": "auvergne",
+        "weight": 0.18550807790692037
+      },
+      {
+        "term": "komuna",
+        "weight": 0.10488780080401772
+      },
+      {
+        "term": "miyan",
+        "weight": 0.08142873605879164
+      },
+      {
+        "term": "fransa",
+        "weight": 0.07419470512043568
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.07419470512043568
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.06209314440434703
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.05591478583197607
+      }
+    ]
+  },
+  {
+    "topic_id": 103,
+    "size": 69,
+    "name": "103_gênê_gêno_gêna_teber",
+    "top_terms": [
+      {
+        "term": "gênê",
+        "weight": 0.07482216224028686
+      },
+      {
+        "term": "gêno",
+        "weight": 0.051537226426298446
+      },
+      {
+        "term": "gêna",
+        "weight": 0.023505237969696807
+      },
+      {
+        "term": "teber",
+        "weight": 0.023153960738070873
+      },
+      {
+        "term": "xo",
+        "weight": 0.022723295524566128
+      },
+      {
+        "term": "ca",
+        "weight": 0.022707349890116985
+      },
+      {
+        "term": "arêyê",
+        "weight": 0.021241781909220853
+      },
+      {
+        "term": "lulî",
+        "weight": 0.019346508415569282
+      },
+      {
+        "term": "gêjî",
+        "weight": 0.019346508415569282
+      },
+      {
+        "term": "gureyeno",
+        "weight": 0.017130723988321033
+      }
+    ]
+  },
+  {
+    "topic_id": 104,
+    "size": 69,
+    "name": "104_amerika_amerikayê_dewletanê_yewbiyayeyana",
+    "top_terms": [
+      {
+        "term": "amerika",
+        "weight": 0.15077273022358062
+      },
+      {
+        "term": "amerikayê",
+        "weight": 0.142548340222048
+      },
+      {
+        "term": "dewletanê",
+        "weight": 0.1321126749984921
+      },
+      {
+        "term": "yewbiyayeyana",
+        "weight": 0.07635709957299652
+      },
+      {
+        "term": "amerikay",
+        "weight": 0.07621305186473269
+      },
+      {
+        "term": "amerikaya",
+        "weight": 0.07540349917373401
+      },
+      {
+        "term": "rocakewtena",
+        "weight": 0.06296734629831378
+      },
+      {
+        "term": "dero",
+        "weight": 0.057979211922238316
+      },
+      {
+        "term": "county",
+        "weight": 0.057159788898549516
+      },
+      {
+        "term": "dewletê",
+        "weight": 0.05482644735402931
+      }
+    ]
+  },
+  {
+    "topic_id": 105,
+    "size": 67,
+    "name": "105_cantaliyo_alpes_auvergne_rhône",
+    "top_terms": [
+      {
+        "term": "cantaliyo",
+        "weight": 0.2137607769233023
+      },
+      {
+        "term": "alpes",
+        "weight": 0.18843773223018925
+      },
+      {
+        "term": "auvergne",
+        "weight": 0.18072232659565204
+      },
+      {
+        "term": "rhône",
+        "weight": 0.179754981111133
+      },
+      {
+        "term": "komunê",
+        "weight": 0.09565993260488335
+      },
+      {
+        "term": "miyan",
+        "weight": 0.08288320071785343
+      },
+      {
+        "term": "fransa",
+        "weight": 0.07450464376837448
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.07339263415989128
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.062352530369851084
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.05531032725358981
+      }
+    ]
+  },
+  {
+    "topic_id": 106,
+    "size": 64,
+    "name": "106_drômea_komunê_wılayetê_drômeya",
+    "top_terms": [
+      {
+        "term": "drômea",
+        "weight": 0.6733755172117883
+      },
+      {
+        "term": "komunê",
+        "weight": 0.24110371848300377
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.1606527156023852
+      },
+      {
+        "term": "drômeya",
+        "weight": 0.09254348062521542
+      },
+      {
+        "term": "yew",
+        "weight": 0.07828445635512266
+      },
+      {
+        "term": "diois",
+        "weight": 0.055526088375129255
+      },
+      {
+        "term": "roubion",
+        "weight": 0.03822242608589499
+      },
+      {
+        "term": "sur",
+        "weight": 0.03549053157044705
+      },
+      {
+        "term": "komuna",
+        "weight": 0.029681610627219933
+      },
+      {
+        "term": "les",
+        "weight": 0.024997012419015804
+      }
+    ]
+  },
+  {
+    "topic_id": 107,
+    "size": 63,
+    "name": "107_wilhelm_herscheli_keşıf_terefê",
+    "top_terms": [
+      {
+        "term": "wilhelm",
+        "weight": 0.3230117836783074
+      },
+      {
+        "term": "herscheli",
+        "weight": 0.2831667859317132
+      },
+      {
+        "term": "keşıf",
+        "weight": 0.131832421976671
+      },
+      {
+        "term": "terefê",
+        "weight": 0.12982193143567142
+      },
+      {
+        "term": "1784",
+        "weight": 0.1159500463348278
+      },
+      {
+        "term": "1785",
+        "weight": 0.11433093937732873
+      },
+      {
+        "term": "biyo",
+        "weight": 0.1122038398530555
+      },
+      {
+        "term": "keşkelun",
+        "weight": 0.08568359004684341
+      },
+      {
+        "term": "tışrino",
+        "weight": 0.08485579306634117
+      },
+      {
+        "term": "kanun",
+        "weight": 0.07529896241137676
+      }
+    ]
+  },
+  {
+    "topic_id": 108,
+    "size": 63,
+    "name": "108_km_erdê_komuni_gêno",
+    "top_terms": [
+      {
+        "term": "km",
+        "weight": 0.40268666899172545
+      },
+      {
+        "term": "erdê",
+        "weight": 0.359001333597489
+      },
+      {
+        "term": "komuni",
+        "weight": 0.16054745304354448
+      },
+      {
+        "term": "gêno",
+        "weight": 0.16010819540004873
+      },
+      {
+        "term": "komune",
+        "weight": 0.15232039754950474
+      },
+      {
+        "term": "ca",
+        "weight": 0.11992449363412357
+      },
+      {
+        "term": "13",
+        "weight": 0.09932621971436234
+      },
+      {
+        "term": "14",
+        "weight": 0.0806633184485213
+      },
+      {
+        "term": "17",
+        "weight": 0.05213041433949196
+      },
+      {
+        "term": "15",
+        "weight": 0.050049701769740336
+      }
+    ]
+  },
+  {
+    "topic_id": 109,
+    "size": 62,
+    "name": "109_toquinho_john_known_robert",
+    "top_terms": [
+      {
+        "term": "toquinho",
+        "weight": 0.059515863619774394
+      },
+      {
+        "term": "john",
+        "weight": 0.04833665422283621
+      },
+      {
+        "term": "known",
+        "weight": 0.028119525466942574
+      },
+      {
+        "term": "robert",
+        "weight": 0.021889199842159257
+      },
+      {
+        "term": "william",
+        "weight": 0.020691590371784568
+      },
+      {
+        "term": "1954",
+        "weight": 0.01789308489427222
+      },
+      {
+        "term": "le",
+        "weight": 0.01766270687135619
+      },
+      {
+        "term": "richard",
+        "weight": 0.01741974322188892
+      },
+      {
+        "term": "name",
+        "weight": 0.01719369907820122
+      },
+      {
+        "term": "1968",
+        "weight": 0.01697053312536605
+      }
+    ]
+  },
+  {
+    "topic_id": 110,
+    "size": 61,
+    "name": "110_rojnameyî_rojname_li_kovaran",
+    "top_terms": [
+      {
+        "term": "rojnameyî",
+        "weight": 0.13813642610813187
+      },
+      {
+        "term": "rojname",
+        "weight": 0.12307870269287996
+      },
+      {
+        "term": "li",
+        "weight": 0.02745700917007557
+      },
+      {
+        "term": "kovaran",
+        "weight": 0.027248499932404198
+      },
+      {
+        "term": "adresa",
+        "weight": 0.021058601489155813
+      },
+      {
+        "term": "stockholm",
+        "weight": 0.01966348232849585
+      },
+      {
+        "term": "ku",
+        "weight": 0.01800292349268219
+      },
+      {
+        "term": "pesmê",
+        "weight": 0.017705521751015328
+      },
+      {
+        "term": "aboneyîye",
+        "weight": 0.016781342215679465
+      },
+      {
+        "term": "blog",
+        "weight": 0.016781342215679465
+      }
+    ]
+  },
+  {
+    "topic_id": 111,
+    "size": 60,
+    "name": "111_kışta_ning_zafê_gelo",
+    "top_terms": [
+      {
+        "term": "kışta",
+        "weight": 0.13753786477723312
+      },
+      {
+        "term": "ning",
+        "weight": 0.05354303820163347
+      },
+      {
+        "term": "zafê",
+        "weight": 0.053033470487844195
+      },
+      {
+        "term": "gelo",
+        "weight": 0.04568715071073553
+      },
+      {
+        "term": "kıştı",
+        "weight": 0.04358882046766009
+      },
+      {
+        "term": "kı",
+        "weight": 0.03994637027038841
+      },
+      {
+        "term": "tepey",
+        "weight": 0.03366246384497059
+      },
+      {
+        "term": "kar",
+        "weight": 0.031451103580798265
+      },
+      {
+        "term": "teberi",
+        "weight": 0.030454613094541776
+      },
+      {
+        "term": "zeri",
+        "weight": 0.029826181630099535
+      }
+    ]
+  },
+  {
+    "topic_id": 112,
+    "size": 60,
+    "name": "112_katalogo_neweyo_preserved_leavenworthi",
+    "top_terms": [
+      {
+        "term": "katalogo",
+        "weight": 0.40511426137126455
+      },
+      {
+        "term": "neweyo",
+        "weight": 0.3975689185999721
+      },
+      {
+        "term": "preserved",
+        "weight": 0.19925146834101878
+      },
+      {
+        "term": "leavenworthi",
+        "weight": 0.19925146834101878
+      },
+      {
+        "term": "francis",
+        "weight": 0.17897728627835746
+      },
+      {
+        "term": "pêroyi",
+        "weight": 0.15096072546431918
+      },
+      {
+        "term": "1886",
+        "weight": 0.13236520968725468
+      },
+      {
+        "term": "gêno",
+        "weight": 0.11003733448293976
+      },
+      {
+        "term": "ca",
+        "weight": 0.0824203382327999
+      },
+      {
+        "term": "keşıf",
+        "weight": 0.05430510432883234
+      }
+    ]
+  },
+  {
+    "topic_id": 113,
+    "size": 60,
+    "name": "113_papay_xristiyananê_katolikano_katolikan",
+    "top_terms": [
+      {
+        "term": "papay",
+        "weight": 0.5948696977440645
+      },
+      {
+        "term": "xristiyananê",
+        "weight": 0.571891459608608
+      },
+      {
+        "term": "katolikano",
+        "weight": 0.5268047838874715
+      },
+      {
+        "term": "katolikan",
+        "weight": 0.1555790002650943
+      },
+      {
+        "term": "johannes",
+        "weight": 0.09618954951036275
+      },
+      {
+        "term": "vii",
+        "weight": 0.08479387731599503
+      },
+      {
+        "term": "iii",
+        "weight": 0.08198569399214302
+      },
+      {
+        "term": "ii",
+        "weight": 0.07458324332437777
+      },
+      {
+        "term": "iv",
+        "weight": 0.06992467585582837
+      },
+      {
+        "term": "yew",
+        "weight": 0.06364434562074181
+      }
+    ]
+  },
+  {
+    "topic_id": 114,
+    "size": 58,
+    "name": "114_loirea_haute_komunê_wılayetê",
+    "top_terms": [
+      {
+        "term": "loirea",
+        "weight": 0.3724513928620322
+      },
+      {
+        "term": "haute",
+        "weight": 0.282238948194103
+      },
+      {
+        "term": "komunê",
+        "weight": 0.1538787247838431
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.1269546527298525
+      },
+      {
+        "term": "métropole",
+        "weight": 0.10510541324728864
+      },
+      {
+        "term": "lyonia",
+        "weight": 0.10510541324728864
+      },
+      {
+        "term": "saint",
+        "weight": 0.0860888368618139
+      },
+      {
+        "term": "loireya",
+        "weight": 0.07507529517663475
+      },
+      {
+        "term": "drômea",
+        "weight": 0.07088739542244976
+      },
+      {
+        "term": "yew",
+        "weight": 0.061863728437107954
+      }
+    ]
+  },
+  {
+    "topic_id": 115,
+    "size": 58,
+    "name": "115_barselona_otonome_katalonyaya_spanya",
+    "top_terms": [
+      {
+        "term": "barselona",
+        "weight": 0.2486970799714469
+      },
+      {
+        "term": "otonome",
+        "weight": 0.21120962335395002
+      },
+      {
+        "term": "katalonyaya",
+        "weight": 0.20622259640050758
+      },
+      {
+        "term": "spanya",
+        "weight": 0.15118282041938774
+      },
+      {
+        "term": "belediyay",
+        "weight": 0.1473605993032233
+      },
+      {
+        "term": "vallès",
+        "weight": 0.08974349612940617
+      },
+      {
+        "term": "katalonya",
+        "weight": 0.08460414211302876
+      },
+      {
+        "term": "komarkay",
+        "weight": 0.0734266113605119
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.0672226953850693
+      },
+      {
+        "term": "otonoma",
+        "weight": 0.06579552434118525
+      }
+    ]
+  },
+  {
+    "topic_id": 116,
+    "size": 56,
+    "name": "116_yanî_ma_guretî_ulyanî",
+    "top_terms": [
+      {
+        "term": "yanî",
+        "weight": 0.2543737736261971
+      },
+      {
+        "term": "ma",
+        "weight": 0.02951753989775728
+      },
+      {
+        "term": "guretî",
+        "weight": 0.028688571390157677
+      },
+      {
+        "term": "ulyanî",
+        "weight": 0.028688571390157677
+      },
+      {
+        "term": "şuûr",
+        "weight": 0.02669870396205045
+      },
+      {
+        "term": "mehemedê",
+        "weight": 0.025988726144652502
+      },
+      {
+        "term": "ez",
+        "weight": 0.025572131118416382
+      },
+      {
+        "term": "mi",
+        "weight": 0.02272195411679245
+      },
+      {
+        "term": "vatên",
+        "weight": 0.02217309549865761
+      },
+      {
+        "term": "xwe",
+        "weight": 0.021463218307024117
+      }
+    ]
+  },
+  {
+    "topic_id": 117,
+    "size": 56,
+    "name": "117_aragoni_belediyay_spanya_huescao",
+    "top_terms": [
+      {
+        "term": "aragoni",
+        "weight": 0.25172640661044793
+      },
+      {
+        "term": "belediyay",
+        "weight": 0.1968764082071717
+      },
+      {
+        "term": "spanya",
+        "weight": 0.19666762312436115
+      },
+      {
+        "term": "huescao",
+        "weight": 0.1877871078353491
+      },
+      {
+        "term": "eyaletê",
+        "weight": 0.1807034080236481
+      },
+      {
+        "term": "lleida",
+        "weight": 0.1343483175257075
+      },
+      {
+        "term": "katalonya",
+        "weight": 0.12381537416684651
+      },
+      {
+        "term": "huescaya",
+        "weight": 0.09551771219963438
+      },
+      {
+        "term": "segriàya",
+        "weight": 0.07815085543606451
+      },
+      {
+        "term": "belediyaya",
+        "weight": 0.07693483217308654
+      }
+    ]
+  },
+  {
+    "topic_id": 118,
+    "size": 56,
+    "name": "118_imperatorê_mperatoriya_imperatoriya_bizansi",
+    "top_terms": [
+      {
+        "term": "imperatorê",
+        "weight": 0.3850757359268316
+      },
+      {
+        "term": "mperatoriya",
+        "weight": 0.292092394946707
+      },
+      {
+        "term": "imperatoriya",
+        "weight": 0.23056168081016132
+      },
+      {
+        "term": "bizansi",
+        "weight": 0.22577608456823217
+      },
+      {
+        "term": "roma",
+        "weight": 0.19310649012123862
+      },
+      {
+        "term": "romayo",
+        "weight": 0.1443103097734736
+      },
+      {
+        "term": "biyo",
+        "weight": 0.08489403825872695
+      },
+      {
+        "term": "ioannes",
+        "weight": 0.061222067756628334
+      },
+      {
+        "term": "hadrian",
+        "weight": 0.04446894523549313
+      },
+      {
+        "term": "ii",
+        "weight": 0.04427947655621685
+      }
+    ]
+  },
+  {
+    "topic_id": 119,
+    "size": 55,
+    "name": "119_vosgesi_dero_cayê_esti",
+    "top_terms": [
+      {
+        "term": "vosgesi",
+        "weight": 0.2718042391431077
+      },
+      {
+        "term": "dero",
+        "weight": 0.17403480763027177
+      },
+      {
+        "term": "cayê",
+        "weight": 0.1496613011475124
+      },
+      {
+        "term": "esti",
+        "weight": 0.14436678319010657
+      },
+      {
+        "term": "grand",
+        "weight": 0.13902645611003975
+      },
+      {
+        "term": "komune",
+        "weight": 0.1065681516672275
+      },
+      {
+        "term": "na",
+        "weight": 0.08908203652889965
+      },
+      {
+        "term": "fransa",
+        "weight": 0.08524889303022755
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.08524889303022755
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.07134433402820659
+      }
+    ]
+  },
+  {
+    "topic_id": 120,
+    "size": 54,
+    "name": "120_alpes_allieriya_auvergne_rhône",
+    "top_terms": [
+      {
+        "term": "alpes",
+        "weight": 0.18369997900330265
+      },
+      {
+        "term": "allieriya",
+        "weight": 0.18240520564285098
+      },
+      {
+        "term": "auvergne",
+        "weight": 0.16893107714817965
+      },
+      {
+        "term": "rhône",
+        "weight": 0.1680268462335354
+      },
+      {
+        "term": "allieriyo",
+        "weight": 0.12521226930452997
+      },
+      {
+        "term": "miyan",
+        "weight": 0.07954848252285424
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.07618994330454722
+      },
+      {
+        "term": "fransa",
+        "weight": 0.07043975890420404
+      },
+      {
+        "term": "komuna",
+        "weight": 0.060967038853097934
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.0589506503778992
+      }
+    ]
+  },
+  {
+    "topic_id": 121,
+    "size": 54,
+    "name": "121_vatikani_serdarê_reyna_biyo",
+    "top_terms": [
+      {
+        "term": "vatikani",
+        "weight": 0.7041066983178037
+      },
+      {
+        "term": "serdarê",
+        "weight": 0.5878538336413409
+      },
+      {
+        "term": "reyna",
+        "weight": 0.40089192199005597
+      },
+      {
+        "term": "biyo",
+        "weight": 0.18758411995013705
+      },
+      {
+        "term": "dewleta",
+        "weight": 0.1240027822462902
+      },
+      {
+        "term": "serdana",
+        "weight": 0.04108624465532125
+      },
+      {
+        "term": "papa",
+        "weight": 0.038239955902119184
+      },
+      {
+        "term": "katolikan",
+        "weight": 0.03769232561627521
+      },
+      {
+        "term": "şiro",
+        "weight": 0.03259607358928655
+      },
+      {
+        "term": "papay",
+        "weight": 0.028258794325938117
+      }
+    ]
+  },
+  {
+    "topic_id": 122,
+    "size": 53,
+    "name": "122_gregoryani_serrenamey_roca_tışrino",
+    "top_terms": [
+      {
+        "term": "gregoryani",
+        "weight": 0.5957675316467609
+      },
+      {
+        "term": "serrenamey",
+        "weight": 0.5561301027626824
+      },
+      {
+        "term": "roca",
+        "weight": 0.5529123193580244
+      },
+      {
+        "term": "tışrino",
+        "weight": 0.10673958390521646
+      },
+      {
+        "term": "temmuz",
+        "weight": 0.10158535091826454
+      },
+      {
+        "term": "gregoriyani",
+        "weight": 0.07706974197155937
+      },
+      {
+        "term": "teqwimê",
+        "weight": 0.06709679747861816
+      },
+      {
+        "term": "verên",
+        "weight": 0.061629071544708536
+      },
+      {
+        "term": "adar",
+        "weight": 0.06127385459903254
+      },
+      {
+        "term": "nisane",
+        "weight": 0.054165229507045505
+      }
+    ]
+  },
+  {
+    "topic_id": 123,
+    "size": 53,
+    "name": "123_madridi_madridiyo_otonom_belediyaya",
+    "top_terms": [
+      {
+        "term": "madridi",
+        "weight": 0.20308203146829656
+      },
+      {
+        "term": "madridiyo",
+        "weight": 0.20039117615886473
+      },
+      {
+        "term": "otonom",
+        "weight": 0.19447500664941703
+      },
+      {
+        "term": "belediyaya",
+        "weight": 0.13804759089155375
+      },
+      {
+        "term": "madrid",
+        "weight": 0.11637734197191563
+      },
+      {
+        "term": "spanya",
+        "weight": 0.11436232583376518
+      },
+      {
+        "term": "real",
+        "weight": 0.09108548988254964
+      },
+      {
+        "term": "merkezê",
+        "weight": 0.08115996734940115
+      },
+      {
+        "term": "miyan",
+        "weight": 0.051549386502402574
+      },
+      {
+        "term": "oporto",
+        "weight": 0.0440116810171333
+      }
+    ]
+  },
+  {
+    "topic_id": 124,
+    "size": 52,
+    "name": "124_bikero_bike_çerx_bikewo",
+    "top_terms": [
+      {
+        "term": "bikero",
+        "weight": 0.1365973591558536
+      },
+      {
+        "term": "bike",
+        "weight": 0.09658534318889993
+      },
+      {
+        "term": "çerx",
+        "weight": 0.05305229961603598
+      },
+      {
+        "term": "bikewo",
+        "weight": 0.051545323777002924
+      },
+      {
+        "term": "do",
+        "weight": 0.03826546620799661
+      },
+      {
+        "term": "nıq",
+        "weight": 0.031624730296620045
+      },
+      {
+        "term": "dewam",
+        "weight": 0.031008633057881055
+      },
+      {
+        "term": "erzîncan",
+        "weight": 0.02715319045255954
+      },
+      {
+        "term": "proses",
+        "weight": 0.02652614980801799
+      },
+      {
+        "term": "homa",
+        "weight": 0.02442637637789892
+      }
+    ]
+  },
+  {
+    "topic_id": 125,
+    "size": 52,
+    "name": "125_okyanuso_atlantik_okyanusya_dorme",
+    "top_terms": [
+      {
+        "term": "okyanuso",
+        "weight": 0.19706280407131296
+      },
+      {
+        "term": "atlantik",
+        "weight": 0.11416311852091687
+      },
+      {
+        "term": "okyanusya",
+        "weight": 0.09954251294593618
+      },
+      {
+        "term": "dorme",
+        "weight": 0.0795364706392612
+      },
+      {
+        "term": "plajê",
+        "weight": 0.062483736918484856
+      },
+      {
+        "term": "estê",
+        "weight": 0.062062339282806224
+      },
+      {
+        "term": "brezilya",
+        "weight": 0.045049561040811675
+      },
+      {
+        "term": "rocawan",
+        "weight": 0.04107289142948833
+      },
+      {
+        "term": "rocvetış",
+        "weight": 0.040657222039569986
+      },
+      {
+        "term": "nudistan",
+        "weight": 0.04028440818380718
+      }
+    ]
+  },
+  {
+    "topic_id": 126,
+    "size": 51,
+    "name": "126_savoieyo_haute_alpes_auvergne",
+    "top_terms": [
+      {
+        "term": "savoieyo",
+        "weight": 0.26073757547935733
+      },
+      {
+        "term": "haute",
+        "weight": 0.1980489861756965
+      },
+      {
+        "term": "alpes",
+        "weight": 0.1919507984569066
+      },
+      {
+        "term": "auvergne",
+        "weight": 0.17276284263865851
+      },
+      {
+        "term": "rhône",
+        "weight": 0.17183810157944732
+      },
+      {
+        "term": "komunê",
+        "weight": 0.09147741341939686
+      },
+      {
+        "term": "miyan",
+        "weight": 0.07803231068315562
+      },
+      {
+        "term": "mıntıqaya",
+        "weight": 0.0705073436636744
+      },
+      {
+        "term": "fransa",
+        "weight": 0.0705073436636744
+      },
+      {
+        "term": "wılayetê",
+        "weight": 0.0601873559287049
+      }
+    ]
+  },
+  {
+    "topic_id": 127,
+    "size": 51,
+    "name": "127_zereyê_dayê_mi_mînîbuse",
+    "top_terms": [
+      {
+        "term": "zereyê",
+        "weight": 0.2816805207527141
+      },
+      {
+        "term": "dayê",
+        "weight": 0.049600882711335045
+      },
+      {
+        "term": "mi",
+        "weight": 0.033522052135239094
+      },
+      {
+        "term": "mînîbuse",
+        "weight": 0.033012019074154686
+      },
+      {
+        "term": "banî",
+        "weight": 0.02936751890731681
+      },
+      {
+        "term": "fekê",
+        "weight": 0.028961659630969503
+      },
+      {
+        "term": "fetelênî",
+        "weight": 0.027289530009912903
+      },
+      {
+        "term": "lenbo",
+        "weight": 0.027289530009912903
+      },
+      {
+        "term": "gomeyî",
+        "weight": 0.025865091604834602
+      },
+      {
+        "term": "bibî",
+        "weight": 0.024926937455779563
+      }
+    ]
+  },
+  {
+    "topic_id": 128,
+    "size": 50,
+    "name": "128_parsonsi_keşıf_terefê_biyo",
+    "top_terms": [
+      {
+        "term": "parsonsi",
+        "weight": 0.15146300090241785
+      },
+      {
+        "term": "keşıf",
+        "weight": 0.11655073196720896
+      },
+      {
+        "term": "terefê",
+        "weight": 0.11074615947163517
+      },
+      {
+        "term": "biyo",
+        "weight": 0.09876987158965929
+      },
+      {
+        "term": "herscheli",
+        "weight": 0.0938785457921631
+      },
+      {
+        "term": "william",
+        "weight": 0.08692519167090959
+      },
+      {
+        "term": "tışrino",
+        "weight": 0.08494857219718126
+      },
+      {
+        "term": "john",
+        "weight": 0.08371472240391438
+      },
+      {
+        "term": "keşkelun",
+        "weight": 0.08332649500466258
+      },
+      {
+        "term": "1850",
+        "weight": 0.06573683458287936
+      }
+    ]
+  }
+]

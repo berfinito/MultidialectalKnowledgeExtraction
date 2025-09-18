@@ -1,0 +1,8 @@
+=== zza ===
+train speakers = 1
+validation speakers = 15
+test speakers = 12
+
+train ∩ validation = 1
+train ∩ test        = 0
+validation ∩ test   = 12

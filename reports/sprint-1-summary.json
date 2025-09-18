@@ -1,0 +1,105 @@
+{
+  "whisperct2_kmr_test_DEC-none_FL-auto_beam1_vad0_translit-none": {
+    "jsonl": "data\\interim\\asr_post\\whisperct2_kmr_test_DEC-none_FL-auto_beam1_vad0_translit-none.jsonl",
+    "report": "reports\\asr_whisperct2_kmr_test_DEC-none_FL-auto_beam1_vad0_translit-none.json",
+    "variant_suffix": "DEC-none_FL-auto_beam1_vad0_translit-none",
+    "metrics": {
+      "model": "data/interim/asr/ct2_whisper_kmr (faster-whisper:data/interim/asr/ct2_whisper_kmr)",
+      "lang": "kmr",
+      "split": "test",
+      "n": 3991,
+      "wer_raw": 1.0162147050601062,
+      "cer_raw": 0.481737816861787,
+      "latin_hawar_ratio_raw": 0.7802198621759494,
+      "tr_token_bias_raw": 0.7062811371975777,
+      "wer_translit": 1.0162147050601062,
+      "cer_translit": 0.481737816861787,
+      "latin_hawar_ratio_translit": 0.7802198621759494,
+      "tr_token_bias_translit": 0.7062811371975777,
+      "rtf": 0.09819678136768413,
+      "total_audio_s": 18573.78865624998,
+      "wall_s": 1823.886263847351,
+      "beam_size": 1,
+      "force_lang_requested": "kmr",
+      "force_lang_effective": "tr",
+      "postproc": "none"
+    },
+    "detected_language": {
+      "n_items": 3991,
+      "detected_language_dist": {
+        "tr": 3991
+      },
+      "detected_language_avg_prob": 1.0
+    }
+  },
+  "whisperct2_tr_validation_DEC-none_FL-auto_beam1_vad0_translit-none": {
+    "jsonl": "data\\interim\\asr_post\\whisperct2_tr_validation_DEC-none_FL-auto_beam1_vad0_translit-none.jsonl",
+    "report": "reports\\asr_whisperct2_tr_validation_DEC-none_FL-auto_beam1_vad0_translit-none.json",
+    "variant_suffix": "DEC-none_FL-auto_beam1_vad0_translit-none",
+    "metrics": {
+      "model": "data/interim/asr/ct2_whisper_tr (faster-whisper:data/interim/asr/ct2_whisper_tr)",
+      "lang": "tr",
+      "split": "validation",
+      "n": 71047,
+      "wer_raw": 0.3273675687640528,
+      "cer_raw": 0.10421475319062051,
+      "latin_hawar_ratio_raw": 0.8181319837841959,
+      "tr_token_bias_raw": 0.818048700448487,
+      "wer_translit": 0.3273675687640528,
+      "cer_translit": 0.10421475319062051,
+      "latin_hawar_ratio_translit": 0.8181319837841959,
+      "tr_token_bias_translit": 0.818048700448487,
+      "rtf": 0.06267937218909415,
+      "total_audio_s": 259882.54359007574,
+      "wall_s": 16289.274675130844,
+      "beam_size": 1,
+      "force_lang_requested": "tr",
+      "force_lang_effective": "tr",
+      "postproc": "none"
+    },
+    "detected_language": {
+      "n_items": 71047,
+      "detected_language_dist": {
+        "tr": 71047
+      },
+      "detected_language_avg_prob": 1.0
+    }
+  },
+  "whisperct2_zza_validation_DEC-none_FL-auto_beam1_vad0_translit-none": {
+    "jsonl": "data\\interim\\asr_post\\whisperct2_zza_validation_DEC-none_FL-auto_beam1_vad0_translit-none.jsonl",
+    "report": "reports\\asr_whisperct2_zza_validation_DEC-none_FL-auto_beam1_vad0_translit-none.json",
+    "variant_suffix": "DEC-none_FL-auto_beam1_vad0_translit-none",
+    "metrics": {
+      "model": "data/interim/asr/ct2_whisper_zza (faster-whisper:data/interim/asr/ct2_whisper_zza)",
+      "lang": "zza",
+      "split": "validation",
+      "n": 1589,
+      "wer_raw": 0.9673565773024031,
+      "cer_raw": 0.45575583199345576,
+      "latin_hawar_ratio_raw": 0.8037212303721231,
+      "tr_token_bias_raw": 0.7384652613465261,
+      "wer_translit": 0.9673565773024031,
+      "cer_translit": 0.45575583199345576,
+      "latin_hawar_ratio_translit": 0.8037212303721231,
+      "tr_token_bias_translit": 0.7384652613465261,
+      "rtf": 0.11537560729038465,
+      "total_audio_s": 6608.246499999988,
+      "wall_s": 762.4304530620575,
+      "beam_size": 1,
+      "force_lang_requested": "zza",
+      "force_lang_effective": "tr",
+      "postproc": "none"
+    },
+    "detected_language": {
+      "n_items": 1589,
+      "detected_language_dist": {
+        "tr": 1589
+      },
+      "detected_language_avg_prob": 1.0
+    }
+  },
+  "_best_baseline": {
+    "run": "whisperct2_tr_validation_DEC-none_FL-auto_beam1_vad0_translit-none",
+    "score": 0.3273675687640528
+  }
+}

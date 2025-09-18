@@ -1,0 +1,8 @@
+=== kmr ===
+train speakers = 58
+validation speakers = 513
+test speakers = 381
+
+train ∩ validation = 58
+train ∩ test        = 0
+validation ∩ test   = 381

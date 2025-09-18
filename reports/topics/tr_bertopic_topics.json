@@ -1,0 +1,102 @@
+[
+  {
+    "topic_id": -1,
+    "size": 47,
+    "name": "-1_cinsine_türüdür_dendrobium_bitki",
+    "top_terms": []
+  },
+  {
+    "topic_id": 0,
+    "size": 49899,
+    "name": "0_ve_bir_de_da",
+    "top_terms": [
+      {
+        "term": "ve",
+        "weight": 0.07113531723393465
+      },
+      {
+        "term": "bir",
+        "weight": 0.05314138023890107
+      },
+      {
+        "term": "de",
+        "weight": 0.029970364970527012
+      },
+      {
+        "term": "da",
+        "weight": 0.029532477222371723
+      },
+      {
+        "term": "olarak",
+        "weight": 0.027101563059709875
+      },
+      {
+        "term": "bu",
+        "weight": 0.026941824202043534
+      },
+      {
+        "term": "ile",
+        "weight": 0.023948468648473508
+      },
+      {
+        "term": "için",
+        "weight": 0.02152526040400094
+      },
+      {
+        "term": "olan",
+        "weight": 0.017002374136035427
+      },
+      {
+        "term": "in",
+        "weight": 0.015760599214920023
+      }
+    ]
+  },
+  {
+    "topic_id": 1,
+    "size": 54,
+    "name": "1_kontluğunda_parish_civil_ingiltere",
+    "top_terms": [
+      {
+        "term": "kontluğunda",
+        "weight": 0.7696341530573177
+      },
+      {
+        "term": "parish",
+        "weight": 0.7577251720218545
+      },
+      {
+        "term": "civil",
+        "weight": 0.7561444872366199
+      },
+      {
+        "term": "ingiltere",
+        "weight": 0.6421208870614329
+      },
+      {
+        "term": "bulunan",
+        "weight": 0.5546272616701765
+      },
+      {
+        "term": "nin",
+        "weight": 0.45654726560620773
+      },
+      {
+        "term": "bir",
+        "weight": 0.28631909008932077
+      },
+      {
+        "term": "yorkshire",
+        "weight": 0.17987149161084748
+      },
+      {
+        "term": "lincolnshire",
+        "weight": 0.16330809607685115
+      },
+      {
+        "term": "suffolk",
+        "weight": 0.09789428453954242
+      }
+    ]
+  }
+]

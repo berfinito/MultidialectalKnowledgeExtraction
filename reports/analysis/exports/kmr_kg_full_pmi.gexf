@@ -1,0 +1,1672 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-09-18">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="komun" label="komun" />
+      <node id="parêzgeha" label="parêzgeha" />
+      <node id="îtalyayê" label="îtalyayê" />
+      <node id="şaredariyeke" label="şaredariyeke" />
+      <node id="şaredariyên" label="şaredariyên" />
+      <node id="jdb" label="jdb" />
+      <node id="output" label="output" />
+      <node id="parser" label="parser" />
+      <node id="paşa" label="paşa" />
+      <node id="the" label="the" />
+      <node id="ji" label="ji" />
+      <node id="jî" label="jî" />
+      <node id="ku" label="ku" />
+      <node id="mirov" label="mirov" />
+      <node id="xwe" label="xwe" />
+      <node id="bûm" label="bûm" />
+      <node id="ez" label="ez" />
+      <node id="me" label="me" />
+      <node id="min" label="min" />
+      <node id="te" label="te" />
+      <node id="kurd" label="kurd" />
+      <node id="kurdistanê" label="kurdistanê" />
+      <node id="kurdî" label="kurdî" />
+      <node id="kurmancî" label="kurmancî" />
+      <node id="zimanê" label="zimanê" />
+      <node id="almanyayê" label="almanyayê" />
+      <node id="bavyera" label="bavyera" />
+      <node id="landkreis" label="landkreis" />
+      <node id="navçeya" label="navçeya" />
+      <node id="girêdayî" label="girêdayî" />
+      <node id="gund" label="gund" />
+      <node id="gundekî" label="gundekî" />
+      <node id="ser" label="ser" />
+      <node id="ziman" label="ziman" />
+      <node id="zimanekî" label="zimanekî" />
+      <node id="zimanên" label="zimanên" />
+      <node id="zimanî" label="zimanî" />
+      <node id="pirtûk" label="pirtûk" />
+      <node id="pirtûka" label="pirtûka" />
+      <node id="pirtûkê" label="pirtûkê" />
+      <node id="pirtûkên" label="pirtûkên" />
+      <node id="azerbaycana" label="azerbaycana" />
+      <node id="bajarê" label="bajarê" />
+      <node id="navenda" label="navenda" />
+      <node id="rojhilat" label="rojhilat" />
+      <node id="îranê" label="îranê" />
+      <node id="bo" label="bo" />
+      <node id="ew" label="ew" />
+      <node id="re" label="re" />
+      <node id="wê" label="wê" />
+      <node id="bûye" label="bûye" />
+      <node id="dayik" label="dayik" />
+      <node id="de" label="de" />
+      <node id="di" label="di" />
+      <node id="sala" label="sala" />
+      <node id="hey" label="hey" />
+      <node id="tune" label="tune" />
+      <node id="wan" label="wan" />
+      <node id="wey" label="wey" />
+      <node id="bavê" label="bavê" />
+      <node id="malbata" label="malbata" />
+      <node id="pîrê" label="pîrê" />
+      <node id="wî" label="wî" />
+      <node id="dikî" label="dikî" />
+      <node id="hûn" label="hûn" />
+      <node id="tu" label="tu" />
+      <node id="bidin" label="bidin" />
+      <node id="bikin" label="bikin" />
+      <node id="diçin" label="diçin" />
+      <node id="em" label="em" />
+      <node id="we" label="we" />
+      <node id="bilindahiya" label="bilindahiya" />
+      <node id="cm" label="cm" />
+      <node id="km" label="km" />
+      <node id="km2" label="km2" />
+      <node id="metre" label="metre" />
+      <node id="bourgogne" label="bourgogne" />
+      <node id="comté" label="comté" />
+      <node id="franche" label="franche" />
+      <node id="rojhilatê" label="rojhilatê" />
+      <node id="saône" label="saône" />
+      <node id="amara" label="amara" />
+      <node id="malbat" label="malbat" />
+      <node id="nifûsa" label="nifûsa" />
+      <node id="serjimêriya" label="serjimêriya" />
+      <node id="bostonê" label="bostonê" />
+      <node id="maryê" label="maryê" />
+      <node id="tom" label="tom" />
+      <node id="tomî" label="tomî" />
+      <node id="dah" label="dah" />
+      <node id="heft" label="heft" />
+      <node id="hene" label="hene" />
+      <node id="pê" label="pê" />
+      <node id="pênc" label="pênc" />
+      <node id="cristata" label="cristata" />
+      <node id="famîleya" label="famîleya" />
+      <node id="galerida" label="galerida" />
+      <node id="gazella" label="gazella" />
+      <node id="genus" label="genus" />
+      <node id="mamoste" label="mamoste" />
+      <node id="xwendekar" label="xwendekar" />
+      <node id="xwendekaran" label="xwendekaran" />
+      <node id="xwendina" label="xwendina" />
+      <node id="xwendinê" label="xwendinê" />
+      <node id="av" label="av" />
+      <node id="avê" label="avê" />
+      <node id="meriv" label="meriv" />
+      <node id="merivan" label="merivan" />
+      <node id="nava" label="nava" />
+      <node id="atp" label="atp" />
+      <node id="elektronan" label="elektronan" />
+      <node id="enerjiya" label="enerjiya" />
+      <node id="enerjiyê" label="enerjiyê" />
+      <node id="molekulên" label="molekulên" />
+      <node id="amerîkayê" label="amerîkayê" />
+      <node id="dîtina" label="dîtina" />
+      <node id="korsîkaya" label="korsîkaya" />
+      <node id="korsîkayê" label="korsîkayê" />
+      <node id="muzîka" label="muzîka" />
+      <node id="nakim" label="nakim" />
+      <node id="naxwazim" label="naxwazim" />
+      <node id="nikarim" label="nikarim" />
+      <node id="kî" label="kî" />
+      <node id="yî" label="yî" />
+      <node id="çi" label="çi" />
+      <node id="ev" label="ev" />
+      <node id="nav" label="nav" />
+      <node id="nayê" label="nayê" />
+      <node id="ne" label="ne" />
+      <node id="nîne" label="nîne" />
+      <node id="başûrê" label="başûrê" />
+      <node id="garonne" label="garonne" />
+      <node id="oksîtanyaya" label="oksîtanyaya" />
+      <node id="oksîtanyayê" label="oksîtanyayê" />
+      <node id="rojavayê" label="rojavayê" />
+      <node id="calais" label="calais" />
+      <node id="franceyê" label="franceyê" />
+      <node id="hauts" label="hauts" />
+      <node id="pas" label="pas" />
+      <node id="sommeya" label="sommeya" />
+      <node id="fîlma" label="fîlma" />
+      <node id="fîlman" label="fîlman" />
+      <node id="fîlmê" label="fîlmê" />
+      <node id="fîlmên" label="fîlmên" />
+      <node id="rola" label="rola" />
+      <node id="nake" label="nake" />
+      <node id="dev" label="dev" />
+      <node id="dibêjin" label="dibêjin" />
+      <node id="jê" label="jê" />
+      <node id="jêr" label="jêr" />
+      <node id="estê" label="estê" />
+      <node id="grand" label="grand" />
+      <node id="meurthe" label="meurthe" />
+      <node id="meuse" label="meuse" />
+      <node id="rojhilata" label="rojhilata" />
+      <node id="alpes" label="alpes" />
+      <node id="alpesê" label="alpesê" />
+      <node id="auvergne" label="auvergne" />
+      <node id="provence" label="provence" />
+      <node id="rhône" label="rhône" />
+      <node id="veşêre" label="veşêre" />
+      <node id="şêr" label="şêr" />
+      <node id="şêrko" label="şêrko" />
+      <node id="şêrê" label="şêrê" />
+      <node id="şêx" label="şêx" />
+      <node id="dijî" label="dijî" />
+      <node id="hêzên" label="hêzên" />
+      <node id="yê" label="yê" />
+      <node id="şerê" label="şerê" />
+      <node id="şerên" label="şerên" />
+      <node id="1920" label="1920" />
+      <node id="heya" label="heya" />
+      <node id="bû" label="bû" />
+      <node id="pişta" label="pişta" />
+      <node id="qetiyaye" label="qetiyaye" />
+      <node id="dike" label="dike" />
+      <node id="dilê" label="dilê" />
+      <node id="heyranê" label="heyranê" />
+      <node id="2021an" label="2021an" />
+      <node id="2022an" label="2022an" />
+      <node id="salên" label="salên" />
+      <node id="zengî" label="zengî" />
+      <node id="hewlêrê" label="hewlêrê" />
+      <node id="reng" label="reng" />
+      <node id="rengekî" label="rengekî" />
+      <node id="rengê" label="rengê" />
+      <node id="rengên" label="rengên" />
+      <node id="rengîn" label="rengîn" />
+      <node id="demokrat" label="demokrat" />
+      <node id="partiya" label="partiya" />
+      <node id="partiyê" label="partiyê" />
+      <node id="siyasî" label="siyasî" />
+      <node id="calvados" label="calvados" />
+      <node id="departemeta" label="departemeta" />
+      <node id="eureyê" label="eureyê" />
+      <node id="normandiya" label="normandiya" />
+      <node id="normandîyê" label="normandîyê" />
+      <node id="caran" label="caran" />
+      <node id="gelek" label="gelek" />
+      <node id="hestî" label="hestî" />
+      <node id="xelatên" label="xelatên" />
+      <node id="rûsya" label="rûsya" />
+      <node id="rûsyayê" label="rûsyayê" />
+      <node id="rûsî" label="rûsî" />
+      <node id="sovyet" label="sovyet" />
+      <node id="ukraynayê" label="ukraynayê" />
+      <node id="evîn" label="evîn" />
+      <node id="havîn" label="havîn" />
+      <node id="navîn" label="navîn" />
+      <node id="payîz" label="payîz" />
+      <node id="payîzê" label="payîzê" />
+      <node id="zarok" label="zarok" />
+      <node id="zarokan" label="zarokan" />
+      <node id="zarokê" label="zarokê" />
+      <node id="zarokên" label="zarokên" />
+      <node id="bajarî" label="bajarî" />
+      <node id="daneyên" label="daneyên" />
+      <node id="digehêje" label="digehêje" />
+      <node id="kesî" label="kesî" />
+      <node id="niştecihên" label="niştecihên" />
+      <node id="bakurê" label="bakurê" />
+      <node id="departmena" label="departmena" />
+      <node id="komuneke" label="komuneke" />
+      <node id="marne" label="marne" />
+      <node id="oisa" label="oisa" />
+      <node id="00" label="00" />
+      <node id="roj" label="roj" />
+      <node id="rojan" label="rojan" />
+      <node id="saet" label="saet" />
+      <node id="hemoglobînê" label="hemoglobînê" />
+      <node id="xwîn" label="xwîn" />
+      <node id="xwîna" label="xwîna" />
+      <node id="xwînê" label="xwînê" />
+      <node id="aquitaine" label="aquitaine" />
+      <node id="charente" label="charente" />
+      <node id="landes" label="landes" />
+      <node id="nouvelle" label="nouvelle" />
+      <node id="biderengî" label="biderengî" />
+      <node id="birçî" label="birçî" />
+      <node id="demeke" label="demeke" />
+      <node id="nêz" label="nêz" />
+      <node id="şîva" label="şîva" />
+      <node id="herî" label="herî" />
+      <node id="mezin" label="mezin" />
+      <node id="mezine" label="mezine" />
+      <node id="mezintir" label="mezintir" />
+      <node id="zilma" label="zilma" />
+      <node id="dayîk" label="dayîk" />
+      <node id="muzîkê" label="muzîkê" />
+      <node id="pisîk" label="pisîk" />
+      <node id="pisîkên" label="pisîkên" />
+      <node id="würzburg" label="würzburg" />
+      <node id="ajotiye" label="ajotiye" />
+      <node id="bike" label="bike" />
+      <node id="coupé" label="coupé" />
+      <node id="otobus" label="otobus" />
+      <node id="dertêm" label="dertêm" />
+      <node id="herim" label="herim" />
+      <node id="mala" label="mala" />
+      <node id="malê" label="malê" />
+      <node id="goştê" label="goştê" />
+      <node id="serdeştê" label="serdeştê" />
+      <node id="taştê" label="taştê" />
+      <node id="tiştê" label="tiştê" />
+      <node id="şaristana" label="şaristana" />
+      <node id="birûsk" label="birûsk" />
+      <node id="ewran" label="ewran" />
+      <node id="ewrên" label="ewrên" />
+      <node id="qîjandina" label="qîjandina" />
+      <node id="xort" label="xort" />
+      <node id="esta" label="esta" />
+      <node id="goleke" label="goleke" />
+      <node id="marney" label="marney" />
+      <node id="norwêcê" label="norwêcê" />
+      <node id="sinorê" label="sinorê" />
+      <node id="html" label="html" />
+      <node id="malpera" label="malpera" />
+      <node id="televîzyonê" label="televîzyonê" />
+      <node id="tv" label="tv" />
+      <node id="înternetê" label="înternetê" />
+      <node id="be" label="be" />
+      <node id="hincik" label="hincik" />
+      <node id="beniya" label="beniya" />
+      <node id="ermenî" label="ermenî" />
+      <node id="tirkiyeyê" label="tirkiyeyê" />
+      <node id="tirkî" label="tirkî" />
+      <node id="diya" label="diya" />
+      <node id="zaroka" label="zaroka" />
+      <node id="zewicî" label="zewicî" />
+      <node id="seqizê" label="seqizê" />
+      <node id="sêv" label="sêv" />
+      <node id="sêva" label="sêva" />
+      <node id="sêwasê" label="sêwasê" />
+      <node id="zêwye" label="zêwye" />
+      <node id="gul" label="gul" />
+      <node id="gîha" label="gîha" />
+      <node id="kulîlk" label="kulîlk" />
+      <node id="kulîlkan" label="kulîlkan" />
+      <node id="kulîlkên" label="kulîlkên" />
+      <node id="dibim" label="dibim" />
+      <node id="stockholmê" label="stockholmê" />
+      <node id="swêd" label="swêd" />
+      <node id="swêdê" label="swêdê" />
+      <node id="swêdî" label="swêdî" />
+      <node id="39" label="39" />
+      <node id="41" label="41" />
+      <node id="49" label="49" />
+      <node id="63" label="63" />
+      <node id="64" label="64" />
+      <node id="centre" label="centre" />
+      <node id="indre" label="indre" />
+      <node id="komunên" label="komunên" />
+      <node id="loireyê" label="loireyê" />
+      <node id="val" label="val" />
+      <node id="semsûrê" label="semsûrê" />
+      <node id="xarpêtê" label="xarpêtê" />
+      <node id="20" label="20" />
+      <node id="40" label="40" />
+      <node id="bîst" label="bîst" />
+      <node id="depê" label="depê" />
+      <node id="lîstik" label="lîstik" />
+      <node id="bakteriyan" label="bakteriyan" />
+      <node id="bakteriyê" label="bakteriyê" />
+      <node id="bakteriyên" label="bakteriyên" />
+      <node id="bakterî" label="bakterî" />
+      <node id="coli" label="coli" />
+      <node id="aştiyê" label="aştiyê" />
+      <node id="hemwelatiyê" label="hemwelatiyê" />
+      <node id="hestiyê" label="hestiyê" />
+      <node id="mesîhîtiyê" label="mesîhîtiyê" />
+      <node id="yekîtiyê" label="yekîtiyê" />
+      <node id="komara" label="komara" />
+      <node id="komarê" label="komarê" />
+      <node id="komarên" label="komarên" />
+      <node id="mehabadê" label="mehabadê" />
+      <node id="sosyalîst" label="sosyalîst" />
+      <node id="mûyê" label="mûyê" />
+      <node id="piranî" label="piranî" />
+      <node id="rijênê" label="rijênê" />
+      <node id="tê" label="tê" />
+      <node id="ziravê" label="ziravê" />
+      <node id="berdilkê" label="berdilkê" />
+      <node id="hawar" label="hawar" />
+      <node id="raweste" label="raweste" />
+      <node id="xaliqê" label="xaliqê" />
+      <node id="şekirî" label="şekirî" />
+      <node id="paqij" label="paqij" />
+      <node id="pir" label="pir" />
+      <node id="xweş" label="xweş" />
+      <node id="xweşik" label="xweşik" />
+      <node id="însan" label="însan" />
+      <node id="cejna" label="cejna" />
+      <node id="pîroz" label="pîroz" />
+      <node id="pîrozkirin" label="pîrozkirin" />
+      <node id="qurana" label="qurana" />
+      <node id="roja" label="roja" />
+      <node id="amerîkan" label="amerîkan" />
+      <node id="amerîkî" label="amerîkî" />
+      <node id="dya" label="dya" />
+      <node id="lîstikvan" label="lîstikvan" />
+      <node id="lîstikvanek" label="lîstikvanek" />
+      <node id="moselle" label="moselle" />
+      <node id="berfê" label="berfê" />
+      <node id="dihelîne" label="dihelîne" />
+      <node id="dimire" label="dimire" />
+      <node id="sar" label="sar" />
+      <node id="zimên" label="zimên" />
+      <node id="bişon" label="bişon" />
+      <node id="destê" label="destê" />
+      <node id="destên" label="destên" />
+      <node id="kezeba" label="kezeba" />
+      <node id="zûka" label="zûka" />
+      <node id="404" label="404" />
+      <node id="975" label="975" />
+      <node id="978" label="978" />
+      <node id="isbn" label="isbn" />
+      <node id="veşandî" label="veşandî" />
+      <node id="deux" label="deux" />
+      <node id="sèvres" label="sèvres" />
+      <node id="derdana" label="derdana" />
+      <node id="hormon" label="hormon" />
+      <node id="hormona" label="hormona" />
+      <node id="hormonên" label="hormonên" />
+      <node id="testosteronê" label="testosteronê" />
+      <node id="adn" label="adn" />
+      <node id="genên" label="genên" />
+      <node id="kromozom" label="kromozom" />
+      <node id="kromozoma" label="kromozoma" />
+      <node id="kromozomên" label="kromozomên" />
+      <node id="dibe" label="dibe" />
+      <node id="dikin" label="dikin" />
+      <node id="dilîzin" label="dilîzin" />
+      <node id="hev" label="hev" />
+      <node id="rûyê" label="rûyê" />
+      <node id="bijîşk" label="bijîşk" />
+      <node id="bijîşkî" label="bijîşkî" />
+      <node id="dr" label="dr" />
+      <node id="mirîşk" label="mirîşk" />
+      <node id="rweylot" label="rweylot" />
+      <node id="dîroka" label="dîroka" />
+      <node id="dîrokê" label="dîrokê" />
+      <node id="dîwana" label="dîwana" />
+      <node id="dîwarê" label="dîwarê" />
+      <node id="st" label="st" />
+      <node id="cîranan" label="cîranan" />
+      <node id="nû" label="nû" />
+      <node id="nûjen" label="nûjen" />
+      <node id="nûvekirinên" label="nûvekirinên" />
+      <node id="xeber" label="xeber" />
+      <node id="romayiyan" label="romayiyan" />
+      <node id="romayê" label="romayê" />
+      <node id="romê" label="romê" />
+      <node id="împeratoriya" label="împeratoriya" />
+      <node id="împeratorê" label="împeratorê" />
+      <node id="hevalê" label="hevalê" />
+      <node id="hevalên" label="hevalên" />
+      <node id="miqate" label="miqate" />
+      <node id="kê" label="kê" />
+      <node id="maşîta" label="maşîta" />
+      <node id="nan" label="nan" />
+      <node id="vexwar" label="vexwar" />
+      <node id="xwar" label="xwar" />
+      <node id="ichiro" label="ichiro" />
+      <node id="japon" label="japon" />
+      <node id="japonî" label="japonî" />
+      <node id="mizuki" label="mizuki" />
+      <node id="水木一郎" label="水木一郎" />
+      <node id="navnîşana" label="navnîşana" />
+      <node id="paqijî" label="paqijî" />
+      <node id="pêşketin" label="pêşketin" />
+      <node id="pêşketina" label="pêşketina" />
+      <node id="pêşketinê" label="pêşketinê" />
+      <node id="paytext" label="paytext" />
+      <node id="paytexta" label="paytexta" />
+      <node id="fc" label="fc" />
+      <node id="futbolo" label="futbolo" />
+      <node id="futbolê" label="futbolê" />
+      <node id="lîstikvanê" label="lîstikvanê" />
+      <node id="yaneyeke" label="yaneyeke" />
+      <node id="dikim" label="dikim" />
+      <node id="hez" label="hez" />
+      <node id="mot" label="mot" />
+      <node id="cara" label="cara" />
+      <node id="dinê" label="dinê" />
+      <node id="hate" label="hate" />
+      <node id="vekirin" label="vekirin" />
+      <node id="jam" label="jam" />
+      <node id="nivîsên" label="nivîsên" />
+      <node id="ragihandinê" label="ragihandinê" />
+      <node id="rojname" label="rojname" />
+      <node id="rojnameyeke" label="rojnameyeke" />
+      <node id="atlantiques" label="atlantiques" />
+      <node id="pyrénées" label="pyrénées" />
+      <node id="eşîr" label="eşîr" />
+      <node id="milk" label="milk" />
+      <node id="şîr" label="şîr" />
+      <node id="şîret" label="şîret" />
+      <node id="şîrê" label="şîrê" />
+      <node id="com" label="com" />
+      <node id="fermî" label="fermî" />
+      <node id="tori" label="tori" />
+      <node id="nede" label="nede" />
+      <node id="vekirî" label="vekirî" />
+      <node id="çavê" label="çavê" />
+      <node id="çavên" label="çavên" />
+      <node id="maritime" label="maritime" />
+      <node id="normandiyayê" label="normandiyayê" />
+      <node id="seine" label="seine" />
+      <node id="celat" label="celat" />
+      <node id="kirim" label="kirim" />
+      <node id="nizanin" label="nizanin" />
+      <node id="resûlê" label="resûlê" />
+      <node id="xwedê" label="xwedê" />
+      <node id="aciz" label="aciz" />
+      <node id="derketim" label="derketim" />
+      <node id="dibexşînin" label="dibexşînin" />
+      <node id="şikir" label="şikir" />
+      <node id="bretonyayê" label="bretonyayê" />
+      <node id="finistère" label="finistère" />
+      <node id="ille" label="ille" />
+      <node id="vilaine" label="vilaine" />
+      <node id="haut" label="haut" />
+      <node id="rhin" label="rhin" />
+      <node id="bêriya" label="bêriya" />
+      <node id="dibistanê" label="dibistanê" />
+      <node id="nekir" label="nekir" />
+      <node id="nekiriye" label="nekiriye" />
+      <node id="vegeriya" label="vegeriya" />
+      <node id="et" label="et" />
+      <node id="franceya" label="franceya" />
+      <node id="île" label="île" />
+      <node id="2006" label="2006" />
+      <node id="encamdan" label="encamdan" />
+      <node id="malan" label="malan" />
+      <node id="rûniştvanên" label="rûniştvanên" />
+      <node id="serjimariya" label="serjimariya" />
+      <node id="aubeê" label="aubeê" />
+      <node id="bakur" label="bakur" />
+      <node id="est" label="est" />
+      <node id="navnedî" label="navnedî" />
+      <node id="dos" label="dos" />
+      <node id="kompîter" label="kompîter" />
+      <node id="linux" label="linux" />
+      <node id="teknolojiye" label="teknolojiye" />
+      <node id="teknolojiyê" label="teknolojiyê" />
+    </nodes>
+    <edges>
+      <edge source="komun" target="parêzgeha" id="0" weight="5.882643" />
+      <edge source="komun" target="îtalyayê" id="1" weight="6.882643" />
+      <edge source="komun" target="şaredariyeke" id="2" weight="5.882643" />
+      <edge source="komun" target="şaredariyên" id="3" weight="6.882643" />
+      <edge source="parêzgeha" target="îtalyayê" id="4" weight="5.882643" />
+      <edge source="parêzgeha" target="şaredariyeke" id="5" weight="4.882643" />
+      <edge source="parêzgeha" target="şaredariyên" id="6" weight="5.882643" />
+      <edge source="parêzgeha" target="başûrê" id="7" weight="4.882643" />
+      <edge source="parêzgeha" target="hewlêrê" id="8" weight="5.882643" />
+      <edge source="parêzgeha" target="kurdistanê" id="9" weight="4.882643" />
+      <edge source="parêzgeha" target="navçeya" id="10" weight="3.882643" />
+      <edge source="îtalyayê" target="şaredariyeke" id="11" weight="5.882643" />
+      <edge source="îtalyayê" target="şaredariyên" id="12" weight="6.882643" />
+      <edge source="şaredariyeke" target="şaredariyên" id="13" weight="5.882643" />
+      <edge source="şaredariyeke" target="almanyayê" id="14" weight="5.882643" />
+      <edge source="şaredariyeke" target="bavyera" id="15" weight="5.882643" />
+      <edge source="şaredariyeke" target="landkreis" id="16" weight="5.882643" />
+      <edge source="şaredariyeke" target="navçeya" id="17" weight="3.882643" />
+      <edge source="jdb" target="output" id="18" weight="6.882643" />
+      <edge source="jdb" target="parser" id="19" weight="6.882643" />
+      <edge source="jdb" target="paşa" id="20" weight="6.882643" />
+      <edge source="jdb" target="the" id="21" weight="6.882643" />
+      <edge source="output" target="parser" id="22" weight="6.882643" />
+      <edge source="output" target="paşa" id="23" weight="6.882643" />
+      <edge source="output" target="the" id="24" weight="6.882643" />
+      <edge source="parser" target="paşa" id="25" weight="6.882643" />
+      <edge source="parser" target="the" id="26" weight="6.882643" />
+      <edge source="paşa" target="the" id="27" weight="6.882643" />
+      <edge source="ji" target="jî" id="28" weight="5.882643" />
+      <edge source="ji" target="ku" id="29" weight="5.882643" />
+      <edge source="ji" target="mirov" id="30" weight="5.882643" />
+      <edge source="ji" target="xwe" id="31" weight="4.297681" />
+      <edge source="ji" target="bo" id="32" weight="5.882643" />
+      <edge source="ji" target="ew" id="33" weight="4.297681" />
+      <edge source="ji" target="re" id="34" weight="4.297681" />
+      <edge source="ji" target="wê" id="35" weight="4.297681" />
+      <edge source="jî" target="ku" id="36" weight="6.882643" />
+      <edge source="jî" target="mirov" id="37" weight="6.882643" />
+      <edge source="jî" target="xwe" id="38" weight="5.297681" />
+      <edge source="ku" target="mirov" id="39" weight="6.882643" />
+      <edge source="ku" target="xwe" id="40" weight="5.297681" />
+      <edge source="mirov" target="xwe" id="41" weight="5.297681" />
+      <edge source="xwe" target="dikî" id="42" weight="5.297681" />
+      <edge source="xwe" target="hûn" id="43" weight="4.297681" />
+      <edge source="xwe" target="te" id="44" weight="2.490326" />
+      <edge source="xwe" target="tu" id="45" weight="2.975752" />
+      <edge source="xwe" target="bû" id="46" weight="5.297681" />
+      <edge source="xwe" target="pişta" id="47" weight="5.297681" />
+      <edge source="xwe" target="qetiyaye" id="48" weight="5.297681" />
+      <edge source="xwe" target="wî" id="49" weight="3.712718" />
+      <edge source="bûm" target="ez" id="50" weight="4.882643" />
+      <edge source="bûm" target="me" id="51" weight="6.882643" />
+      <edge source="bûm" target="min" id="52" weight="4.075288" />
+      <edge source="bûm" target="te" id="53" weight="4.075288" />
+      <edge source="ez" target="me" id="54" weight="4.882643" />
+      <edge source="ez" target="min" id="55" weight="3.075288" />
+      <edge source="ez" target="te" id="56" weight="3.075288" />
+      <edge source="ez" target="nakim" id="57" weight="4.882643" />
+      <edge source="ez" target="naxwazim" id="58" weight="4.882643" />
+      <edge source="ez" target="nikarim" id="59" weight="4.882643" />
+      <edge source="ez" target="dertêm" id="60" weight="4.882643" />
+      <edge source="ez" target="herim" id="61" weight="4.882643" />
+      <edge source="ez" target="mala" id="62" weight="4.882643" />
+      <edge source="ez" target="malê" id="63" weight="4.882643" />
+      <edge source="ez" target="dikim" id="64" weight="4.882643" />
+      <edge source="ez" target="hez" id="65" weight="4.882643" />
+      <edge source="ez" target="mot" id="66" weight="4.882643" />
+      <edge source="me" target="min" id="67" weight="4.075288" />
+      <edge source="me" target="te" id="68" weight="4.075288" />
+      <edge source="min" target="te" id="69" weight="1.267933" />
+      <edge source="min" target="pirtûk" id="70" weight="4.075288" />
+      <edge source="min" target="pirtûka" id="71" weight="4.075288" />
+      <edge source="min" target="pirtûkê" id="72" weight="4.075288" />
+      <edge source="min" target="pirtûkên" id="73" weight="4.075288" />
+      <edge source="min" target="bavê" id="74" weight="4.075288" />
+      <edge source="min" target="malbata" id="75" weight="4.075288" />
+      <edge source="min" target="pîrê" id="76" weight="4.075288" />
+      <edge source="min" target="wî" id="77" weight="2.490326" />
+      <edge source="min" target="bostonê" id="78" weight="4.075288" />
+      <edge source="min" target="maryê" id="79" weight="4.075288" />
+      <edge source="min" target="tom" id="80" weight="4.075288" />
+      <edge source="min" target="tomî" id="81" weight="4.075288" />
+      <edge source="min" target="nakim" id="82" weight="4.075288" />
+      <edge source="min" target="naxwazim" id="83" weight="4.075288" />
+      <edge source="min" target="nikarim" id="84" weight="4.075288" />
+      <edge source="min" target="ajotiye" id="85" weight="4.075288" />
+      <edge source="min" target="bike" id="86" weight="4.075288" />
+      <edge source="min" target="coupé" id="87" weight="4.075288" />
+      <edge source="min" target="otobus" id="88" weight="4.075288" />
+      <edge source="min" target="hevalê" id="89" weight="4.075288" />
+      <edge source="min" target="hevalên" id="90" weight="4.075288" />
+      <edge source="min" target="miqate" id="91" weight="4.075288" />
+      <edge source="min" target="tu" id="92" weight="1.75336" />
+      <edge source="te" target="hey" id="93" weight="4.075288" />
+      <edge source="te" target="tune" id="94" weight="4.075288" />
+      <edge source="te" target="wan" id="95" weight="4.075288" />
+      <edge source="te" target="wey" id="96" weight="4.075288" />
+      <edge source="te" target="dikî" id="97" weight="4.075288" />
+      <edge source="te" target="hûn" id="98" weight="4.075288" />
+      <edge source="te" target="tu" id="99" weight="3.338323" />
+      <edge source="te" target="kî" id="100" weight="4.075288" />
+      <edge source="te" target="yî" id="101" weight="4.075288" />
+      <edge source="te" target="çi" id="102" weight="4.075288" />
+      <edge source="te" target="nake" id="103" weight="4.075288" />
+      <edge source="te" target="ne" id="104" weight="3.075288" />
+      <edge source="te" target="be" id="105" weight="4.075288" />
+      <edge source="te" target="dilê" id="106" weight="3.075288" />
+      <edge source="te" target="hincik" id="107" weight="4.075288" />
+      <edge source="te" target="wê" id="108" weight="2.490326" />
+      <edge source="te" target="dikim" id="109" weight="4.075288" />
+      <edge source="te" target="hez" id="110" weight="4.075288" />
+      <edge source="te" target="mot" id="111" weight="4.075288" />
+      <edge source="kurd" target="kurdistanê" id="112" weight="5.882643" />
+      <edge source="kurd" target="kurdî" id="113" weight="6.882643" />
+      <edge source="kurd" target="kurmancî" id="114" weight="6.882643" />
+      <edge source="kurd" target="zimanê" id="115" weight="5.297681" />
+      <edge source="kurdistanê" target="kurdî" id="116" weight="5.882643" />
+      <edge source="kurdistanê" target="kurmancî" id="117" weight="5.882643" />
+      <edge source="kurdistanê" target="zimanê" id="118" weight="4.297681" />
+      <edge source="kurdistanê" target="başûrê" id="119" weight="4.882643" />
+      <edge source="kurdistanê" target="hewlêrê" id="120" weight="5.882643" />
+      <edge source="kurdistanê" target="navçeya" id="121" weight="3.882643" />
+      <edge source="kurdî" target="kurmancî" id="122" weight="6.882643" />
+      <edge source="kurdî" target="zimanê" id="123" weight="5.297681" />
+      <edge source="kurmancî" target="zimanê" id="124" weight="5.297681" />
+      <edge source="zimanê" target="ziman" id="125" weight="5.297681" />
+      <edge source="zimanê" target="zimanekî" id="126" weight="5.297681" />
+      <edge source="zimanê" target="zimanên" id="127" weight="5.297681" />
+      <edge source="zimanê" target="zimanî" id="128" weight="5.297681" />
+      <edge source="zimanê" target="beniya" id="129" weight="5.297681" />
+      <edge source="zimanê" target="ermenî" id="130" weight="5.297681" />
+      <edge source="zimanê" target="tirkiyeyê" id="131" weight="5.297681" />
+      <edge source="zimanê" target="tirkî" id="132" weight="4.297681" />
+      <edge source="almanyayê" target="bavyera" id="133" weight="6.882643" />
+      <edge source="almanyayê" target="landkreis" id="134" weight="6.882643" />
+      <edge source="almanyayê" target="navçeya" id="135" weight="4.882643" />
+      <edge source="bavyera" target="landkreis" id="136" weight="6.882643" />
+      <edge source="bavyera" target="navçeya" id="137" weight="4.882643" />
+      <edge source="landkreis" target="navçeya" id="138" weight="4.882643" />
+      <edge source="navçeya" target="girêdayî" id="139" weight="4.882643" />
+      <edge source="navçeya" target="gund" id="140" weight="3.882643" />
+      <edge source="navçeya" target="gundekî" id="141" weight="4.882643" />
+      <edge source="navçeya" target="ser" id="142" weight="4.882643" />
+      <edge source="navçeya" target="başûrê" id="143" weight="3.882643" />
+      <edge source="navçeya" target="hewlêrê" id="144" weight="4.882643" />
+      <edge source="navçeya" target="semsûrê" id="145" weight="4.882643" />
+      <edge source="navçeya" target="tirkî" id="146" weight="3.882643" />
+      <edge source="navçeya" target="xarpêtê" id="147" weight="4.882643" />
+      <edge source="girêdayî" target="gund" id="148" weight="5.882643" />
+      <edge source="girêdayî" target="gundekî" id="149" weight="5.882643" />
+      <edge source="girêdayî" target="ser" id="150" weight="6.882643" />
+      <edge source="gund" target="gundekî" id="151" weight="4.882643" />
+      <edge source="gund" target="ser" id="152" weight="5.882643" />
+      <edge source="gund" target="amara" id="153" weight="5.882643" />
+      <edge source="gund" target="malbat" id="154" weight="5.882643" />
+      <edge source="gund" target="nifûsa" id="155" weight="5.882643" />
+      <edge source="gund" target="serjimêriya" id="156" weight="5.882643" />
+      <edge source="gundekî" target="ser" id="157" weight="5.882643" />
+      <edge source="gundekî" target="semsûrê" id="158" weight="5.882643" />
+      <edge source="gundekî" target="tirkî" id="159" weight="4.882643" />
+      <edge source="gundekî" target="xarpêtê" id="160" weight="5.882643" />
+      <edge source="ziman" target="zimanekî" id="161" weight="6.882643" />
+      <edge source="ziman" target="zimanên" id="162" weight="6.882643" />
+      <edge source="ziman" target="zimanî" id="163" weight="6.882643" />
+      <edge source="zimanekî" target="zimanên" id="164" weight="6.882643" />
+      <edge source="zimanekî" target="zimanî" id="165" weight="6.882643" />
+      <edge source="zimanên" target="zimanî" id="166" weight="6.882643" />
+      <edge source="pirtûk" target="pirtûka" id="167" weight="6.882643" />
+      <edge source="pirtûk" target="pirtûkê" id="168" weight="6.882643" />
+      <edge source="pirtûk" target="pirtûkên" id="169" weight="6.882643" />
+      <edge source="pirtûka" target="pirtûkê" id="170" weight="6.882643" />
+      <edge source="pirtûka" target="pirtûkên" id="171" weight="6.882643" />
+      <edge source="pirtûkê" target="pirtûkên" id="172" weight="6.882643" />
+      <edge source="azerbaycana" target="bajarê" id="173" weight="5.882643" />
+      <edge source="azerbaycana" target="navenda" id="174" weight="6.882643" />
+      <edge source="azerbaycana" target="rojhilat" id="175" weight="6.882643" />
+      <edge source="azerbaycana" target="îranê" id="176" weight="6.882643" />
+      <edge source="bajarê" target="navenda" id="177" weight="5.882643" />
+      <edge source="bajarê" target="rojhilat" id="178" weight="5.882643" />
+      <edge source="bajarê" target="îranê" id="179" weight="5.882643" />
+      <edge source="bajarê" target="herî" id="180" weight="4.882643" />
+      <edge source="bajarê" target="mezin" id="181" weight="4.882643" />
+      <edge source="bajarê" target="paytext" id="182" weight="5.882643" />
+      <edge source="bajarê" target="paytexta" id="183" weight="5.882643" />
+      <edge source="navenda" target="rojhilat" id="184" weight="6.882643" />
+      <edge source="navenda" target="îranê" id="185" weight="6.882643" />
+      <edge source="rojhilat" target="îranê" id="186" weight="6.882643" />
+      <edge source="bo" target="ew" id="187" weight="5.297681" />
+      <edge source="bo" target="re" id="188" weight="5.297681" />
+      <edge source="bo" target="wê" id="189" weight="5.297681" />
+      <edge source="ew" target="re" id="190" weight="3.712718" />
+      <edge source="ew" target="wê" id="191" weight="3.712718" />
+      <edge source="ew" target="dike" id="192" weight="5.297681" />
+      <edge source="ew" target="dilê" id="193" weight="4.297681" />
+      <edge source="ew" target="heyranê" id="194" weight="5.297681" />
+      <edge source="ew" target="wî" id="195" weight="3.712718" />
+      <edge source="ew" target="aciz" id="196" weight="5.297681" />
+      <edge source="ew" target="derketim" id="197" weight="5.297681" />
+      <edge source="ew" target="dibexşînin" id="198" weight="5.297681" />
+      <edge source="ew" target="şikir" id="199" weight="5.297681" />
+      <edge source="re" target="wê" id="200" weight="3.712718" />
+      <edge source="re" target="dev" id="201" weight="5.297681" />
+      <edge source="re" target="dibêjin" id="202" weight="5.297681" />
+      <edge source="re" target="jê" id="203" weight="5.297681" />
+      <edge source="re" target="jêr" id="204" weight="5.297681" />
+      <edge source="re" target="zarok" id="205" weight="5.297681" />
+      <edge source="re" target="zarokan" id="206" weight="5.297681" />
+      <edge source="re" target="zarokê" id="207" weight="5.297681" />
+      <edge source="re" target="zarokên" id="208" weight="4.297681" />
+      <edge source="wê" target="be" id="209" weight="5.297681" />
+      <edge source="wê" target="dilê" id="210" weight="4.297681" />
+      <edge source="wê" target="hincik" id="211" weight="5.297681" />
+      <edge source="wê" target="diya" id="212" weight="5.297681" />
+      <edge source="wê" target="zaroka" id="213" weight="5.297681" />
+      <edge source="wê" target="zarokên" id="214" weight="4.297681" />
+      <edge source="wê" target="zewicî" id="215" weight="5.297681" />
+      <edge source="bûye" target="dayik" id="216" weight="6.882643" />
+      <edge source="bûye" target="de" id="217" weight="4.882643" />
+      <edge source="bûye" target="di" id="218" weight="5.297681" />
+      <edge source="bûye" target="sala" id="219" weight="4.297681" />
+      <edge source="dayik" target="de" id="220" weight="4.882643" />
+      <edge source="dayik" target="di" id="221" weight="5.297681" />
+      <edge source="dayik" target="sala" id="222" weight="4.297681" />
+      <edge source="de" target="di" id="223" weight="4.882643" />
+      <edge source="de" target="sala" id="224" weight="4.297681" />
+      <edge source="de" target="1920" id="225" weight="4.882643" />
+      <edge source="de" target="heya" id="226" weight="4.882643" />
+      <edge source="de" target="şerê" id="227" weight="3.882643" />
+      <edge source="de" target="2021an" id="228" weight="4.882643" />
+      <edge source="de" target="2022an" id="229" weight="4.882643" />
+      <edge source="de" target="salên" id="230" weight="4.882643" />
+      <edge source="de" target="zengî" id="231" weight="4.882643" />
+      <edge source="di" target="sala" id="232" weight="4.297681" />
+      <edge source="di" target="2021an" id="233" weight="5.297681" />
+      <edge source="di" target="2022an" id="234" weight="5.297681" />
+      <edge source="di" target="salên" id="235" weight="5.297681" />
+      <edge source="di" target="zengî" id="236" weight="5.297681" />
+      <edge source="sala" target="1920" id="237" weight="4.297681" />
+      <edge source="sala" target="heya" id="238" weight="4.297681" />
+      <edge source="sala" target="şerê" id="239" weight="3.297681" />
+      <edge source="sala" target="2021an" id="240" weight="4.297681" />
+      <edge source="sala" target="2022an" id="241" weight="4.297681" />
+      <edge source="sala" target="salên" id="242" weight="4.297681" />
+      <edge source="sala" target="zengî" id="243" weight="4.297681" />
+      <edge source="sala" target="demokrat" id="244" weight="4.297681" />
+      <edge source="sala" target="partiya" id="245" weight="4.297681" />
+      <edge source="sala" target="partiyê" id="246" weight="4.297681" />
+      <edge source="sala" target="siyasî" id="247" weight="4.297681" />
+      <edge source="sala" target="cara" id="248" weight="4.297681" />
+      <edge source="sala" target="dinê" id="249" weight="4.297681" />
+      <edge source="sala" target="hate" id="250" weight="4.297681" />
+      <edge source="sala" target="vekirin" id="251" weight="4.297681" />
+      <edge source="hey" target="tune" id="252" weight="6.882643" />
+      <edge source="hey" target="wan" id="253" weight="6.882643" />
+      <edge source="hey" target="wey" id="254" weight="6.882643" />
+      <edge source="tune" target="wan" id="255" weight="6.882643" />
+      <edge source="tune" target="wey" id="256" weight="6.882643" />
+      <edge source="wan" target="wey" id="257" weight="6.882643" />
+      <edge source="bavê" target="malbata" id="258" weight="6.882643" />
+      <edge source="bavê" target="pîrê" id="259" weight="6.882643" />
+      <edge source="bavê" target="wî" id="260" weight="5.297681" />
+      <edge source="malbata" target="pîrê" id="261" weight="6.882643" />
+      <edge source="malbata" target="wî" id="262" weight="5.297681" />
+      <edge source="pîrê" target="wî" id="263" weight="5.297681" />
+      <edge source="wî" target="bû" id="264" weight="5.297681" />
+      <edge source="wî" target="pişta" id="265" weight="5.297681" />
+      <edge source="wî" target="qetiyaye" id="266" weight="5.297681" />
+      <edge source="wî" target="dike" id="267" weight="5.297681" />
+      <edge source="wî" target="dilê" id="268" weight="4.297681" />
+      <edge source="wî" target="heyranê" id="269" weight="5.297681" />
+      <edge source="dikî" target="hûn" id="270" weight="5.882643" />
+      <edge source="dikî" target="tu" id="271" weight="4.560715" />
+      <edge source="hûn" target="tu" id="272" weight="4.560715" />
+      <edge source="hûn" target="nake" id="273" weight="5.882643" />
+      <edge source="hûn" target="ne" id="274" weight="4.882643" />
+      <edge source="tu" target="kî" id="275" weight="4.560715" />
+      <edge source="tu" target="yî" id="276" weight="4.560715" />
+      <edge source="tu" target="çi" id="277" weight="4.560715" />
+      <edge source="tu" target="nake" id="278" weight="4.560715" />
+      <edge source="tu" target="ne" id="279" weight="3.560715" />
+      <edge source="tu" target="00" id="280" weight="4.560715" />
+      <edge source="tu" target="roj" id="281" weight="4.560715" />
+      <edge source="tu" target="rojan" id="282" weight="4.560715" />
+      <edge source="tu" target="saet" id="283" weight="4.560715" />
+      <edge source="tu" target="hevalê" id="284" weight="4.560715" />
+      <edge source="tu" target="hevalên" id="285" weight="4.560715" />
+      <edge source="tu" target="miqate" id="286" weight="4.560715" />
+      <edge source="bidin" target="bikin" id="287" weight="6.882643" />
+      <edge source="bidin" target="diçin" id="288" weight="6.882643" />
+      <edge source="bidin" target="em" id="289" weight="6.882643" />
+      <edge source="bidin" target="we" id="290" weight="6.882643" />
+      <edge source="bikin" target="diçin" id="291" weight="6.882643" />
+      <edge source="bikin" target="em" id="292" weight="6.882643" />
+      <edge source="bikin" target="we" id="293" weight="6.882643" />
+      <edge source="diçin" target="em" id="294" weight="6.882643" />
+      <edge source="diçin" target="we" id="295" weight="6.882643" />
+      <edge source="em" target="we" id="296" weight="6.882643" />
+      <edge source="bilindahiya" target="cm" id="297" weight="6.882643" />
+      <edge source="bilindahiya" target="km" id="298" weight="6.882643" />
+      <edge source="bilindahiya" target="km2" id="299" weight="6.882643" />
+      <edge source="bilindahiya" target="metre" id="300" weight="6.882643" />
+      <edge source="cm" target="km" id="301" weight="6.882643" />
+      <edge source="cm" target="km2" id="302" weight="6.882643" />
+      <edge source="cm" target="metre" id="303" weight="6.882643" />
+      <edge source="km" target="km2" id="304" weight="6.882643" />
+      <edge source="km" target="metre" id="305" weight="6.882643" />
+      <edge source="km2" target="metre" id="306" weight="6.882643" />
+      <edge source="bourgogne" target="comté" id="307" weight="6.882643" />
+      <edge source="bourgogne" target="franche" id="308" weight="6.882643" />
+      <edge source="bourgogne" target="rojhilatê" id="309" weight="6.882643" />
+      <edge source="bourgogne" target="saône" id="310" weight="6.882643" />
+      <edge source="comté" target="franche" id="311" weight="6.882643" />
+      <edge source="comté" target="rojhilatê" id="312" weight="6.882643" />
+      <edge source="comté" target="saône" id="313" weight="6.882643" />
+      <edge source="franche" target="rojhilatê" id="314" weight="6.882643" />
+      <edge source="franche" target="saône" id="315" weight="6.882643" />
+      <edge source="rojhilatê" target="saône" id="316" weight="6.882643" />
+      <edge source="amara" target="malbat" id="317" weight="6.882643" />
+      <edge source="amara" target="nifûsa" id="318" weight="6.882643" />
+      <edge source="amara" target="serjimêriya" id="319" weight="6.882643" />
+      <edge source="malbat" target="nifûsa" id="320" weight="6.882643" />
+      <edge source="malbat" target="serjimêriya" id="321" weight="6.882643" />
+      <edge source="nifûsa" target="serjimêriya" id="322" weight="6.882643" />
+      <edge source="bostonê" target="maryê" id="323" weight="6.882643" />
+      <edge source="bostonê" target="tom" id="324" weight="6.882643" />
+      <edge source="bostonê" target="tomî" id="325" weight="6.882643" />
+      <edge source="maryê" target="tom" id="326" weight="6.882643" />
+      <edge source="maryê" target="tomî" id="327" weight="6.882643" />
+      <edge source="tom" target="tomî" id="328" weight="6.882643" />
+      <edge source="dah" target="heft" id="329" weight="6.882643" />
+      <edge source="dah" target="hene" id="330" weight="5.882643" />
+      <edge source="dah" target="pê" id="331" weight="6.882643" />
+      <edge source="dah" target="pênc" id="332" weight="6.882643" />
+      <edge source="heft" target="hene" id="333" weight="5.882643" />
+      <edge source="heft" target="pê" id="334" weight="6.882643" />
+      <edge source="heft" target="pênc" id="335" weight="6.882643" />
+      <edge source="hene" target="pê" id="336" weight="5.882643" />
+      <edge source="hene" target="pênc" id="337" weight="5.882643" />
+      <edge source="hene" target="caran" id="338" weight="5.882643" />
+      <edge source="hene" target="gelek" id="339" weight="5.882643" />
+      <edge source="hene" target="hestî" id="340" weight="5.882643" />
+      <edge source="hene" target="xelatên" id="341" weight="5.882643" />
+      <edge source="pê" target="pênc" id="342" weight="6.882643" />
+      <edge source="cristata" target="famîleya" id="343" weight="6.882643" />
+      <edge source="cristata" target="galerida" id="344" weight="6.882643" />
+      <edge source="cristata" target="gazella" id="345" weight="6.882643" />
+      <edge source="cristata" target="genus" id="346" weight="6.882643" />
+      <edge source="famîleya" target="galerida" id="347" weight="6.882643" />
+      <edge source="famîleya" target="gazella" id="348" weight="6.882643" />
+      <edge source="famîleya" target="genus" id="349" weight="6.882643" />
+      <edge source="galerida" target="gazella" id="350" weight="6.882643" />
+      <edge source="galerida" target="genus" id="351" weight="6.882643" />
+      <edge source="gazella" target="genus" id="352" weight="6.882643" />
+      <edge source="mamoste" target="xwendekar" id="353" weight="6.882643" />
+      <edge source="mamoste" target="xwendekaran" id="354" weight="6.882643" />
+      <edge source="mamoste" target="xwendina" id="355" weight="6.882643" />
+      <edge source="mamoste" target="xwendinê" id="356" weight="6.882643" />
+      <edge source="xwendekar" target="xwendekaran" id="357" weight="6.882643" />
+      <edge source="xwendekar" target="xwendina" id="358" weight="6.882643" />
+      <edge source="xwendekar" target="xwendinê" id="359" weight="6.882643" />
+      <edge source="xwendekaran" target="xwendina" id="360" weight="6.882643" />
+      <edge source="xwendekaran" target="xwendinê" id="361" weight="6.882643" />
+      <edge source="xwendina" target="xwendinê" id="362" weight="6.882643" />
+      <edge source="av" target="avê" id="363" weight="6.882643" />
+      <edge source="av" target="meriv" id="364" weight="6.882643" />
+      <edge source="av" target="merivan" id="365" weight="6.882643" />
+      <edge source="av" target="nava" id="366" weight="6.882643" />
+      <edge source="avê" target="meriv" id="367" weight="6.882643" />
+      <edge source="avê" target="merivan" id="368" weight="6.882643" />
+      <edge source="avê" target="nava" id="369" weight="6.882643" />
+      <edge source="meriv" target="merivan" id="370" weight="6.882643" />
+      <edge source="meriv" target="nava" id="371" weight="6.882643" />
+      <edge source="merivan" target="nava" id="372" weight="6.882643" />
+      <edge source="atp" target="elektronan" id="373" weight="6.882643" />
+      <edge source="atp" target="enerjiya" id="374" weight="6.882643" />
+      <edge source="atp" target="enerjiyê" id="375" weight="6.882643" />
+      <edge source="atp" target="molekulên" id="376" weight="6.882643" />
+      <edge source="elektronan" target="enerjiya" id="377" weight="6.882643" />
+      <edge source="elektronan" target="enerjiyê" id="378" weight="6.882643" />
+      <edge source="elektronan" target="molekulên" id="379" weight="6.882643" />
+      <edge source="enerjiya" target="enerjiyê" id="380" weight="6.882643" />
+      <edge source="enerjiya" target="molekulên" id="381" weight="6.882643" />
+      <edge source="enerjiyê" target="molekulên" id="382" weight="6.882643" />
+      <edge source="amerîkayê" target="dîtina" id="383" weight="6.882643" />
+      <edge source="amerîkayê" target="korsîkaya" id="384" weight="6.882643" />
+      <edge source="amerîkayê" target="korsîkayê" id="385" weight="6.882643" />
+      <edge source="amerîkayê" target="muzîka" id="386" weight="6.882643" />
+      <edge source="dîtina" target="korsîkaya" id="387" weight="6.882643" />
+      <edge source="dîtina" target="korsîkayê" id="388" weight="6.882643" />
+      <edge source="dîtina" target="muzîka" id="389" weight="6.882643" />
+      <edge source="korsîkaya" target="korsîkayê" id="390" weight="6.882643" />
+      <edge source="korsîkaya" target="muzîka" id="391" weight="6.882643" />
+      <edge source="korsîkayê" target="muzîka" id="392" weight="6.882643" />
+      <edge source="nakim" target="naxwazim" id="393" weight="6.882643" />
+      <edge source="nakim" target="nikarim" id="394" weight="6.882643" />
+      <edge source="naxwazim" target="nikarim" id="395" weight="6.882643" />
+      <edge source="kî" target="yî" id="396" weight="6.882643" />
+      <edge source="kî" target="çi" id="397" weight="6.882643" />
+      <edge source="yî" target="çi" id="398" weight="6.882643" />
+      <edge source="ev" target="nav" id="399" weight="5.882643" />
+      <edge source="ev" target="nayê" id="400" weight="6.882643" />
+      <edge source="ev" target="ne" id="401" weight="5.882643" />
+      <edge source="ev" target="nîne" id="402" weight="6.882643" />
+      <edge source="nav" target="nayê" id="403" weight="5.882643" />
+      <edge source="nav" target="ne" id="404" weight="4.882643" />
+      <edge source="nav" target="nîne" id="405" weight="5.882643" />
+      <edge source="nav" target="hemoglobînê" id="406" weight="5.882643" />
+      <edge source="nav" target="xwîn" id="407" weight="5.882643" />
+      <edge source="nav" target="xwîna" id="408" weight="5.882643" />
+      <edge source="nav" target="xwînê" id="409" weight="5.882643" />
+      <edge source="nayê" target="ne" id="410" weight="5.882643" />
+      <edge source="nayê" target="nîne" id="411" weight="6.882643" />
+      <edge source="ne" target="nîne" id="412" weight="5.882643" />
+      <edge source="ne" target="nake" id="413" weight="5.882643" />
+      <edge source="başûrê" target="garonne" id="414" weight="5.882643" />
+      <edge source="başûrê" target="oksîtanyaya" id="415" weight="5.882643" />
+      <edge source="başûrê" target="oksîtanyayê" id="416" weight="5.882643" />
+      <edge source="başûrê" target="rojavayê" id="417" weight="4.297681" />
+      <edge source="başûrê" target="hewlêrê" id="418" weight="5.882643" />
+      <edge source="garonne" target="oksîtanyaya" id="419" weight="6.882643" />
+      <edge source="garonne" target="oksîtanyayê" id="420" weight="6.882643" />
+      <edge source="garonne" target="rojavayê" id="421" weight="5.297681" />
+      <edge source="oksîtanyaya" target="oksîtanyayê" id="422" weight="6.882643" />
+      <edge source="oksîtanyaya" target="rojavayê" id="423" weight="5.297681" />
+      <edge source="oksîtanyayê" target="rojavayê" id="424" weight="5.297681" />
+      <edge source="rojavayê" target="aquitaine" id="425" weight="4.712718" />
+      <edge source="rojavayê" target="charente" id="426" weight="5.297681" />
+      <edge source="rojavayê" target="landes" id="427" weight="5.297681" />
+      <edge source="rojavayê" target="nouvelle" id="428" weight="4.712718" />
+      <edge source="rojavayê" target="atlantiques" id="429" weight="5.297681" />
+      <edge source="rojavayê" target="pyrénées" id="430" weight="5.297681" />
+      <edge source="calais" target="franceyê" id="431" weight="6.882643" />
+      <edge source="calais" target="hauts" id="432" weight="6.882643" />
+      <edge source="calais" target="pas" id="433" weight="6.882643" />
+      <edge source="calais" target="sommeya" id="434" weight="6.882643" />
+      <edge source="franceyê" target="hauts" id="435" weight="6.882643" />
+      <edge source="franceyê" target="pas" id="436" weight="6.882643" />
+      <edge source="franceyê" target="sommeya" id="437" weight="6.882643" />
+      <edge source="hauts" target="pas" id="438" weight="6.882643" />
+      <edge source="hauts" target="sommeya" id="439" weight="6.882643" />
+      <edge source="pas" target="sommeya" id="440" weight="6.882643" />
+      <edge source="fîlma" target="fîlman" id="441" weight="6.882643" />
+      <edge source="fîlma" target="fîlmê" id="442" weight="6.882643" />
+      <edge source="fîlma" target="fîlmên" id="443" weight="6.882643" />
+      <edge source="fîlma" target="rola" id="444" weight="6.882643" />
+      <edge source="fîlman" target="fîlmê" id="445" weight="6.882643" />
+      <edge source="fîlman" target="fîlmên" id="446" weight="6.882643" />
+      <edge source="fîlman" target="rola" id="447" weight="6.882643" />
+      <edge source="fîlmê" target="fîlmên" id="448" weight="6.882643" />
+      <edge source="fîlmê" target="rola" id="449" weight="6.882643" />
+      <edge source="fîlmên" target="rola" id="450" weight="6.882643" />
+      <edge source="dev" target="dibêjin" id="451" weight="6.882643" />
+      <edge source="dev" target="jê" id="452" weight="6.882643" />
+      <edge source="dev" target="jêr" id="453" weight="6.882643" />
+      <edge source="dibêjin" target="jê" id="454" weight="6.882643" />
+      <edge source="dibêjin" target="jêr" id="455" weight="6.882643" />
+      <edge source="jê" target="jêr" id="456" weight="6.882643" />
+      <edge source="estê" target="grand" id="457" weight="4.882643" />
+      <edge source="estê" target="meurthe" id="458" weight="5.297681" />
+      <edge source="estê" target="meuse" id="459" weight="5.297681" />
+      <edge source="estê" target="rojhilata" id="460" weight="5.297681" />
+      <edge source="estê" target="bakurê" id="461" weight="3.712718" />
+      <edge source="estê" target="moselle" id="462" weight="5.297681" />
+      <edge source="estê" target="haut" id="463" weight="5.297681" />
+      <edge source="estê" target="komunên" id="464" weight="3.297681" />
+      <edge source="estê" target="rhin" id="465" weight="5.297681" />
+      <edge source="grand" target="meurthe" id="466" weight="4.882643" />
+      <edge source="grand" target="meuse" id="467" weight="4.882643" />
+      <edge source="grand" target="rojhilata" id="468" weight="4.882643" />
+      <edge source="grand" target="bakurê" id="469" weight="3.297681" />
+      <edge source="grand" target="moselle" id="470" weight="4.882643" />
+      <edge source="grand" target="haut" id="471" weight="4.882643" />
+      <edge source="grand" target="komunên" id="472" weight="2.882643" />
+      <edge source="grand" target="rhin" id="473" weight="4.882643" />
+      <edge source="grand" target="aubeê" id="474" weight="4.882643" />
+      <edge source="grand" target="bakur" id="475" weight="4.882643" />
+      <edge source="grand" target="est" id="476" weight="4.882643" />
+      <edge source="grand" target="navnedî" id="477" weight="4.882643" />
+      <edge source="meurthe" target="meuse" id="478" weight="6.882643" />
+      <edge source="meurthe" target="rojhilata" id="479" weight="5.882643" />
+      <edge source="meuse" target="rojhilata" id="480" weight="5.882643" />
+      <edge source="rojhilata" target="bakurê" id="481" weight="4.297681" />
+      <edge source="rojhilata" target="moselle" id="482" weight="5.882643" />
+      <edge source="alpes" target="alpesê" id="483" weight="6.882643" />
+      <edge source="alpes" target="auvergne" id="484" weight="6.882643" />
+      <edge source="alpes" target="provence" id="485" weight="6.882643" />
+      <edge source="alpes" target="rhône" id="486" weight="6.882643" />
+      <edge source="alpesê" target="auvergne" id="487" weight="6.882643" />
+      <edge source="alpesê" target="provence" id="488" weight="6.882643" />
+      <edge source="alpesê" target="rhône" id="489" weight="6.882643" />
+      <edge source="auvergne" target="provence" id="490" weight="6.882643" />
+      <edge source="auvergne" target="rhône" id="491" weight="6.882643" />
+      <edge source="provence" target="rhône" id="492" weight="6.882643" />
+      <edge source="veşêre" target="şêr" id="493" weight="6.882643" />
+      <edge source="veşêre" target="şêrko" id="494" weight="6.882643" />
+      <edge source="veşêre" target="şêrê" id="495" weight="6.882643" />
+      <edge source="veşêre" target="şêx" id="496" weight="6.882643" />
+      <edge source="şêr" target="şêrko" id="497" weight="6.882643" />
+      <edge source="şêr" target="şêrê" id="498" weight="6.882643" />
+      <edge source="şêr" target="şêx" id="499" weight="6.882643" />
+      <edge source="şêrko" target="şêrê" id="500" weight="6.882643" />
+      <edge source="şêrko" target="şêx" id="501" weight="6.882643" />
+      <edge source="şêrê" target="şêx" id="502" weight="6.882643" />
+      <edge source="dijî" target="hêzên" id="503" weight="6.882643" />
+      <edge source="dijî" target="yê" id="504" weight="6.882643" />
+      <edge source="dijî" target="şerê" id="505" weight="5.882643" />
+      <edge source="dijî" target="şerên" id="506" weight="6.882643" />
+      <edge source="hêzên" target="yê" id="507" weight="6.882643" />
+      <edge source="hêzên" target="şerê" id="508" weight="5.882643" />
+      <edge source="hêzên" target="şerên" id="509" weight="6.882643" />
+      <edge source="yê" target="şerê" id="510" weight="5.882643" />
+      <edge source="yê" target="şerên" id="511" weight="6.882643" />
+      <edge source="şerê" target="şerên" id="512" weight="5.882643" />
+      <edge source="şerê" target="1920" id="513" weight="5.882643" />
+      <edge source="şerê" target="heya" id="514" weight="5.882643" />
+      <edge source="1920" target="heya" id="515" weight="6.882643" />
+      <edge source="bû" target="pişta" id="516" weight="6.882643" />
+      <edge source="bû" target="qetiyaye" id="517" weight="6.882643" />
+      <edge source="pişta" target="qetiyaye" id="518" weight="6.882643" />
+      <edge source="dike" target="dilê" id="519" weight="5.882643" />
+      <edge source="dike" target="heyranê" id="520" weight="6.882643" />
+      <edge source="dilê" target="heyranê" id="521" weight="5.882643" />
+      <edge source="dilê" target="be" id="522" weight="5.882643" />
+      <edge source="dilê" target="hincik" id="523" weight="5.882643" />
+      <edge source="2021an" target="2022an" id="524" weight="6.882643" />
+      <edge source="salên" target="zengî" id="525" weight="6.882643" />
+      <edge source="reng" target="rengekî" id="526" weight="6.882643" />
+      <edge source="reng" target="rengê" id="527" weight="6.882643" />
+      <edge source="reng" target="rengên" id="528" weight="6.882643" />
+      <edge source="reng" target="rengîn" id="529" weight="6.882643" />
+      <edge source="rengekî" target="rengê" id="530" weight="6.882643" />
+      <edge source="rengekî" target="rengên" id="531" weight="6.882643" />
+      <edge source="rengekî" target="rengîn" id="532" weight="6.882643" />
+      <edge source="rengê" target="rengên" id="533" weight="6.882643" />
+      <edge source="rengê" target="rengîn" id="534" weight="6.882643" />
+      <edge source="rengên" target="rengîn" id="535" weight="6.882643" />
+      <edge source="demokrat" target="partiya" id="536" weight="6.882643" />
+      <edge source="demokrat" target="partiyê" id="537" weight="6.882643" />
+      <edge source="demokrat" target="siyasî" id="538" weight="6.882643" />
+      <edge source="partiya" target="partiyê" id="539" weight="6.882643" />
+      <edge source="partiya" target="siyasî" id="540" weight="6.882643" />
+      <edge source="partiyê" target="siyasî" id="541" weight="6.882643" />
+      <edge source="calvados" target="departemeta" id="542" weight="6.882643" />
+      <edge source="calvados" target="eureyê" id="543" weight="6.882643" />
+      <edge source="calvados" target="normandiya" id="544" weight="6.882643" />
+      <edge source="calvados" target="normandîyê" id="545" weight="6.882643" />
+      <edge source="departemeta" target="eureyê" id="546" weight="6.882643" />
+      <edge source="departemeta" target="normandiya" id="547" weight="6.882643" />
+      <edge source="departemeta" target="normandîyê" id="548" weight="6.882643" />
+      <edge source="eureyê" target="normandiya" id="549" weight="6.882643" />
+      <edge source="eureyê" target="normandîyê" id="550" weight="6.882643" />
+      <edge source="normandiya" target="normandîyê" id="551" weight="6.882643" />
+      <edge source="caran" target="gelek" id="552" weight="6.882643" />
+      <edge source="caran" target="hestî" id="553" weight="6.882643" />
+      <edge source="caran" target="xelatên" id="554" weight="6.882643" />
+      <edge source="gelek" target="hestî" id="555" weight="6.882643" />
+      <edge source="gelek" target="xelatên" id="556" weight="6.882643" />
+      <edge source="hestî" target="xelatên" id="557" weight="6.882643" />
+      <edge source="rûsya" target="rûsyayê" id="558" weight="6.882643" />
+      <edge source="rûsya" target="rûsî" id="559" weight="6.882643" />
+      <edge source="rûsya" target="sovyet" id="560" weight="6.882643" />
+      <edge source="rûsya" target="ukraynayê" id="561" weight="6.882643" />
+      <edge source="rûsyayê" target="rûsî" id="562" weight="6.882643" />
+      <edge source="rûsyayê" target="sovyet" id="563" weight="6.882643" />
+      <edge source="rûsyayê" target="ukraynayê" id="564" weight="6.882643" />
+      <edge source="rûsî" target="sovyet" id="565" weight="6.882643" />
+      <edge source="rûsî" target="ukraynayê" id="566" weight="6.882643" />
+      <edge source="sovyet" target="ukraynayê" id="567" weight="6.882643" />
+      <edge source="evîn" target="havîn" id="568" weight="6.882643" />
+      <edge source="evîn" target="navîn" id="569" weight="6.882643" />
+      <edge source="evîn" target="payîz" id="570" weight="6.882643" />
+      <edge source="evîn" target="payîzê" id="571" weight="6.882643" />
+      <edge source="havîn" target="navîn" id="572" weight="6.882643" />
+      <edge source="havîn" target="payîz" id="573" weight="6.882643" />
+      <edge source="havîn" target="payîzê" id="574" weight="6.882643" />
+      <edge source="navîn" target="payîz" id="575" weight="6.882643" />
+      <edge source="navîn" target="payîzê" id="576" weight="6.882643" />
+      <edge source="payîz" target="payîzê" id="577" weight="6.882643" />
+      <edge source="zarok" target="zarokan" id="578" weight="6.882643" />
+      <edge source="zarok" target="zarokê" id="579" weight="6.882643" />
+      <edge source="zarok" target="zarokên" id="580" weight="5.882643" />
+      <edge source="zarokan" target="zarokê" id="581" weight="6.882643" />
+      <edge source="zarokan" target="zarokên" id="582" weight="5.882643" />
+      <edge source="zarokê" target="zarokên" id="583" weight="5.882643" />
+      <edge source="zarokên" target="diya" id="584" weight="5.882643" />
+      <edge source="zarokên" target="zaroka" id="585" weight="5.882643" />
+      <edge source="zarokên" target="zewicî" id="586" weight="5.882643" />
+      <edge source="bajarî" target="daneyên" id="587" weight="6.882643" />
+      <edge source="bajarî" target="digehêje" id="588" weight="6.882643" />
+      <edge source="bajarî" target="kesî" id="589" weight="6.882643" />
+      <edge source="bajarî" target="niştecihên" id="590" weight="6.882643" />
+      <edge source="daneyên" target="digehêje" id="591" weight="6.882643" />
+      <edge source="daneyên" target="kesî" id="592" weight="6.882643" />
+      <edge source="daneyên" target="niştecihên" id="593" weight="6.882643" />
+      <edge source="digehêje" target="kesî" id="594" weight="6.882643" />
+      <edge source="digehêje" target="niştecihên" id="595" weight="6.882643" />
+      <edge source="kesî" target="niştecihên" id="596" weight="6.882643" />
+      <edge source="bakurê" target="departmena" id="597" weight="5.297681" />
+      <edge source="bakurê" target="komuneke" id="598" weight="5.297681" />
+      <edge source="bakurê" target="marne" id="599" weight="4.297681" />
+      <edge source="bakurê" target="oisa" id="600" weight="5.297681" />
+      <edge source="bakurê" target="moselle" id="601" weight="5.297681" />
+      <edge source="bakurê" target="maritime" id="602" weight="5.297681" />
+      <edge source="bakurê" target="normandiyayê" id="603" weight="5.297681" />
+      <edge source="bakurê" target="seine" id="604" weight="4.297681" />
+      <edge source="departmena" target="komuneke" id="605" weight="5.882643" />
+      <edge source="departmena" target="marne" id="606" weight="4.882643" />
+      <edge source="departmena" target="oisa" id="607" weight="5.882643" />
+      <edge source="departmena" target="maritime" id="608" weight="5.882643" />
+      <edge source="departmena" target="normandiyayê" id="609" weight="5.882643" />
+      <edge source="departmena" target="seine" id="610" weight="4.882643" />
+      <edge source="komuneke" target="marne" id="611" weight="5.882643" />
+      <edge source="komuneke" target="oisa" id="612" weight="6.882643" />
+      <edge source="marne" target="oisa" id="613" weight="5.882643" />
+      <edge source="marne" target="et" id="614" weight="5.882643" />
+      <edge source="marne" target="franceya" id="615" weight="5.882643" />
+      <edge source="marne" target="seine" id="616" weight="4.882643" />
+      <edge source="marne" target="île" id="617" weight="5.882643" />
+      <edge source="00" target="roj" id="618" weight="6.882643" />
+      <edge source="00" target="rojan" id="619" weight="6.882643" />
+      <edge source="00" target="saet" id="620" weight="6.882643" />
+      <edge source="roj" target="rojan" id="621" weight="6.882643" />
+      <edge source="roj" target="saet" id="622" weight="6.882643" />
+      <edge source="rojan" target="saet" id="623" weight="6.882643" />
+      <edge source="hemoglobînê" target="xwîn" id="624" weight="6.882643" />
+      <edge source="hemoglobînê" target="xwîna" id="625" weight="6.882643" />
+      <edge source="hemoglobînê" target="xwînê" id="626" weight="6.882643" />
+      <edge source="xwîn" target="xwîna" id="627" weight="6.882643" />
+      <edge source="xwîn" target="xwînê" id="628" weight="6.882643" />
+      <edge source="xwîna" target="xwînê" id="629" weight="6.882643" />
+      <edge source="aquitaine" target="charente" id="630" weight="5.297681" />
+      <edge source="aquitaine" target="landes" id="631" weight="5.297681" />
+      <edge source="aquitaine" target="nouvelle" id="632" weight="5.297681" />
+      <edge source="aquitaine" target="deux" id="633" weight="5.297681" />
+      <edge source="aquitaine" target="komunên" id="634" weight="3.297681" />
+      <edge source="aquitaine" target="sèvres" id="635" weight="5.297681" />
+      <edge source="aquitaine" target="atlantiques" id="636" weight="5.297681" />
+      <edge source="aquitaine" target="pyrénées" id="637" weight="5.297681" />
+      <edge source="charente" target="landes" id="638" weight="6.882643" />
+      <edge source="charente" target="nouvelle" id="639" weight="5.297681" />
+      <edge source="landes" target="nouvelle" id="640" weight="5.297681" />
+      <edge source="nouvelle" target="deux" id="641" weight="5.297681" />
+      <edge source="nouvelle" target="komunên" id="642" weight="3.297681" />
+      <edge source="nouvelle" target="sèvres" id="643" weight="5.297681" />
+      <edge source="nouvelle" target="atlantiques" id="644" weight="5.297681" />
+      <edge source="nouvelle" target="pyrénées" id="645" weight="5.297681" />
+      <edge source="biderengî" target="birçî" id="646" weight="6.882643" />
+      <edge source="biderengî" target="demeke" id="647" weight="6.882643" />
+      <edge source="biderengî" target="nêz" id="648" weight="6.882643" />
+      <edge source="biderengî" target="şîva" id="649" weight="6.882643" />
+      <edge source="birçî" target="demeke" id="650" weight="6.882643" />
+      <edge source="birçî" target="nêz" id="651" weight="6.882643" />
+      <edge source="birçî" target="şîva" id="652" weight="6.882643" />
+      <edge source="demeke" target="nêz" id="653" weight="6.882643" />
+      <edge source="demeke" target="şîva" id="654" weight="6.882643" />
+      <edge source="nêz" target="şîva" id="655" weight="6.882643" />
+      <edge source="herî" target="mezin" id="656" weight="5.882643" />
+      <edge source="herî" target="mezine" id="657" weight="5.882643" />
+      <edge source="herî" target="mezintir" id="658" weight="5.882643" />
+      <edge source="herî" target="zilma" id="659" weight="5.882643" />
+      <edge source="herî" target="paytext" id="660" weight="5.882643" />
+      <edge source="herî" target="paytexta" id="661" weight="5.882643" />
+      <edge source="mezin" target="mezine" id="662" weight="5.882643" />
+      <edge source="mezin" target="mezintir" id="663" weight="5.882643" />
+      <edge source="mezin" target="zilma" id="664" weight="5.882643" />
+      <edge source="mezin" target="paytext" id="665" weight="5.882643" />
+      <edge source="mezin" target="paytexta" id="666" weight="5.882643" />
+      <edge source="mezine" target="mezintir" id="667" weight="6.882643" />
+      <edge source="mezine" target="zilma" id="668" weight="6.882643" />
+      <edge source="mezintir" target="zilma" id="669" weight="6.882643" />
+      <edge source="dayîk" target="muzîkê" id="670" weight="6.882643" />
+      <edge source="dayîk" target="pisîk" id="671" weight="6.882643" />
+      <edge source="dayîk" target="pisîkên" id="672" weight="6.882643" />
+      <edge source="dayîk" target="würzburg" id="673" weight="6.882643" />
+      <edge source="muzîkê" target="pisîk" id="674" weight="6.882643" />
+      <edge source="muzîkê" target="pisîkên" id="675" weight="6.882643" />
+      <edge source="muzîkê" target="würzburg" id="676" weight="6.882643" />
+      <edge source="pisîk" target="pisîkên" id="677" weight="6.882643" />
+      <edge source="pisîk" target="würzburg" id="678" weight="6.882643" />
+      <edge source="pisîkên" target="würzburg" id="679" weight="6.882643" />
+      <edge source="ajotiye" target="bike" id="680" weight="6.882643" />
+      <edge source="ajotiye" target="coupé" id="681" weight="6.882643" />
+      <edge source="ajotiye" target="otobus" id="682" weight="6.882643" />
+      <edge source="bike" target="coupé" id="683" weight="6.882643" />
+      <edge source="bike" target="otobus" id="684" weight="6.882643" />
+      <edge source="coupé" target="otobus" id="685" weight="6.882643" />
+      <edge source="dertêm" target="herim" id="686" weight="6.882643" />
+      <edge source="dertêm" target="mala" id="687" weight="6.882643" />
+      <edge source="dertêm" target="malê" id="688" weight="6.882643" />
+      <edge source="herim" target="mala" id="689" weight="6.882643" />
+      <edge source="herim" target="malê" id="690" weight="6.882643" />
+      <edge source="mala" target="malê" id="691" weight="6.882643" />
+      <edge source="goştê" target="serdeştê" id="692" weight="6.882643" />
+      <edge source="goştê" target="taştê" id="693" weight="6.882643" />
+      <edge source="goştê" target="tiştê" id="694" weight="6.882643" />
+      <edge source="goştê" target="şaristana" id="695" weight="6.882643" />
+      <edge source="serdeştê" target="taştê" id="696" weight="6.882643" />
+      <edge source="serdeştê" target="tiştê" id="697" weight="6.882643" />
+      <edge source="serdeştê" target="şaristana" id="698" weight="6.882643" />
+      <edge source="taştê" target="tiştê" id="699" weight="6.882643" />
+      <edge source="taştê" target="şaristana" id="700" weight="6.882643" />
+      <edge source="tiştê" target="şaristana" id="701" weight="6.882643" />
+      <edge source="birûsk" target="ewran" id="702" weight="6.882643" />
+      <edge source="birûsk" target="ewrên" id="703" weight="6.882643" />
+      <edge source="birûsk" target="qîjandina" id="704" weight="6.882643" />
+      <edge source="birûsk" target="xort" id="705" weight="6.882643" />
+      <edge source="ewran" target="ewrên" id="706" weight="6.882643" />
+      <edge source="ewran" target="qîjandina" id="707" weight="6.882643" />
+      <edge source="ewran" target="xort" id="708" weight="6.882643" />
+      <edge source="ewrên" target="qîjandina" id="709" weight="6.882643" />
+      <edge source="ewrên" target="xort" id="710" weight="6.882643" />
+      <edge source="qîjandina" target="xort" id="711" weight="6.882643" />
+      <edge source="esta" target="goleke" id="712" weight="6.882643" />
+      <edge source="esta" target="marney" id="713" weight="6.882643" />
+      <edge source="esta" target="norwêcê" id="714" weight="6.882643" />
+      <edge source="esta" target="sinorê" id="715" weight="6.882643" />
+      <edge source="goleke" target="marney" id="716" weight="6.882643" />
+      <edge source="goleke" target="norwêcê" id="717" weight="6.882643" />
+      <edge source="goleke" target="sinorê" id="718" weight="6.882643" />
+      <edge source="marney" target="norwêcê" id="719" weight="6.882643" />
+      <edge source="marney" target="sinorê" id="720" weight="6.882643" />
+      <edge source="norwêcê" target="sinorê" id="721" weight="6.882643" />
+      <edge source="html" target="malpera" id="722" weight="5.882643" />
+      <edge source="html" target="televîzyonê" id="723" weight="6.882643" />
+      <edge source="html" target="tv" id="724" weight="5.882643" />
+      <edge source="html" target="înternetê" id="725" weight="6.882643" />
+      <edge source="malpera" target="televîzyonê" id="726" weight="5.882643" />
+      <edge source="malpera" target="tv" id="727" weight="5.882643" />
+      <edge source="malpera" target="înternetê" id="728" weight="5.882643" />
+      <edge source="malpera" target="com" id="729" weight="5.882643" />
+      <edge source="malpera" target="fermî" id="730" weight="5.882643" />
+      <edge source="malpera" target="tori" id="731" weight="5.882643" />
+      <edge source="televîzyonê" target="tv" id="732" weight="5.882643" />
+      <edge source="televîzyonê" target="înternetê" id="733" weight="6.882643" />
+      <edge source="tv" target="înternetê" id="734" weight="5.882643" />
+      <edge source="tv" target="com" id="735" weight="5.882643" />
+      <edge source="tv" target="fermî" id="736" weight="5.882643" />
+      <edge source="tv" target="tori" id="737" weight="5.882643" />
+      <edge source="be" target="hincik" id="738" weight="6.882643" />
+      <edge source="beniya" target="ermenî" id="739" weight="6.882643" />
+      <edge source="beniya" target="tirkiyeyê" id="740" weight="6.882643" />
+      <edge source="beniya" target="tirkî" id="741" weight="5.882643" />
+      <edge source="ermenî" target="tirkiyeyê" id="742" weight="6.882643" />
+      <edge source="ermenî" target="tirkî" id="743" weight="5.882643" />
+      <edge source="tirkiyeyê" target="tirkî" id="744" weight="5.882643" />
+      <edge source="tirkî" target="semsûrê" id="745" weight="5.882643" />
+      <edge source="tirkî" target="xarpêtê" id="746" weight="5.882643" />
+      <edge source="diya" target="zaroka" id="747" weight="6.882643" />
+      <edge source="diya" target="zewicî" id="748" weight="6.882643" />
+      <edge source="zaroka" target="zewicî" id="749" weight="6.882643" />
+      <edge source="seqizê" target="sêv" id="750" weight="6.882643" />
+      <edge source="seqizê" target="sêva" id="751" weight="6.882643" />
+      <edge source="seqizê" target="sêwasê" id="752" weight="6.882643" />
+      <edge source="seqizê" target="zêwye" id="753" weight="6.882643" />
+      <edge source="sêv" target="sêva" id="754" weight="6.882643" />
+      <edge source="sêv" target="sêwasê" id="755" weight="6.882643" />
+      <edge source="sêv" target="zêwye" id="756" weight="6.882643" />
+      <edge source="sêva" target="sêwasê" id="757" weight="6.882643" />
+      <edge source="sêva" target="zêwye" id="758" weight="6.882643" />
+      <edge source="sêwasê" target="zêwye" id="759" weight="6.882643" />
+      <edge source="gul" target="gîha" id="760" weight="6.882643" />
+      <edge source="gul" target="kulîlk" id="761" weight="6.882643" />
+      <edge source="gul" target="kulîlkan" id="762" weight="6.882643" />
+      <edge source="gul" target="kulîlkên" id="763" weight="6.882643" />
+      <edge source="gîha" target="kulîlk" id="764" weight="6.882643" />
+      <edge source="gîha" target="kulîlkan" id="765" weight="6.882643" />
+      <edge source="gîha" target="kulîlkên" id="766" weight="6.882643" />
+      <edge source="kulîlk" target="kulîlkan" id="767" weight="6.882643" />
+      <edge source="kulîlk" target="kulîlkên" id="768" weight="6.882643" />
+      <edge source="kulîlkan" target="kulîlkên" id="769" weight="6.882643" />
+      <edge source="dibim" target="stockholmê" id="770" weight="6.882643" />
+      <edge source="dibim" target="swêd" id="771" weight="6.882643" />
+      <edge source="dibim" target="swêdê" id="772" weight="6.882643" />
+      <edge source="dibim" target="swêdî" id="773" weight="6.882643" />
+      <edge source="stockholmê" target="swêd" id="774" weight="6.882643" />
+      <edge source="stockholmê" target="swêdê" id="775" weight="6.882643" />
+      <edge source="stockholmê" target="swêdî" id="776" weight="6.882643" />
+      <edge source="swêd" target="swêdê" id="777" weight="6.882643" />
+      <edge source="swêd" target="swêdî" id="778" weight="6.882643" />
+      <edge source="swêdê" target="swêdî" id="779" weight="6.882643" />
+      <edge source="39" target="41" id="780" weight="6.882643" />
+      <edge source="39" target="49" id="781" weight="6.882643" />
+      <edge source="39" target="63" id="782" weight="6.882643" />
+      <edge source="39" target="64" id="783" weight="6.882643" />
+      <edge source="41" target="49" id="784" weight="6.882643" />
+      <edge source="41" target="63" id="785" weight="6.882643" />
+      <edge source="41" target="64" id="786" weight="6.882643" />
+      <edge source="49" target="63" id="787" weight="6.882643" />
+      <edge source="49" target="64" id="788" weight="6.882643" />
+      <edge source="63" target="64" id="789" weight="6.882643" />
+      <edge source="centre" target="indre" id="790" weight="6.882643" />
+      <edge source="centre" target="komunên" id="791" weight="4.882643" />
+      <edge source="centre" target="loireyê" id="792" weight="6.882643" />
+      <edge source="centre" target="val" id="793" weight="6.882643" />
+      <edge source="indre" target="komunên" id="794" weight="4.882643" />
+      <edge source="indre" target="loireyê" id="795" weight="6.882643" />
+      <edge source="indre" target="val" id="796" weight="6.882643" />
+      <edge source="komunên" target="loireyê" id="797" weight="4.882643" />
+      <edge source="komunên" target="val" id="798" weight="4.882643" />
+      <edge source="komunên" target="deux" id="799" weight="4.882643" />
+      <edge source="komunên" target="sèvres" id="800" weight="4.882643" />
+      <edge source="komunên" target="bretonyayê" id="801" weight="4.882643" />
+      <edge source="komunên" target="finistère" id="802" weight="4.882643" />
+      <edge source="komunên" target="ille" id="803" weight="4.882643" />
+      <edge source="komunên" target="vilaine" id="804" weight="4.882643" />
+      <edge source="komunên" target="haut" id="805" weight="4.882643" />
+      <edge source="komunên" target="rhin" id="806" weight="4.882643" />
+      <edge source="loireyê" target="val" id="807" weight="6.882643" />
+      <edge source="semsûrê" target="xarpêtê" id="808" weight="6.882643" />
+      <edge source="20" target="40" id="809" weight="6.882643" />
+      <edge source="20" target="bîst" id="810" weight="6.882643" />
+      <edge source="20" target="depê" id="811" weight="6.882643" />
+      <edge source="20" target="lîstik" id="812" weight="6.882643" />
+      <edge source="40" target="bîst" id="813" weight="6.882643" />
+      <edge source="40" target="depê" id="814" weight="6.882643" />
+      <edge source="40" target="lîstik" id="815" weight="6.882643" />
+      <edge source="bîst" target="depê" id="816" weight="6.882643" />
+      <edge source="bîst" target="lîstik" id="817" weight="6.882643" />
+      <edge source="depê" target="lîstik" id="818" weight="6.882643" />
+      <edge source="bakteriyan" target="bakteriyê" id="819" weight="6.882643" />
+      <edge source="bakteriyan" target="bakteriyên" id="820" weight="6.882643" />
+      <edge source="bakteriyan" target="bakterî" id="821" weight="6.882643" />
+      <edge source="bakteriyan" target="coli" id="822" weight="6.882643" />
+      <edge source="bakteriyê" target="bakteriyên" id="823" weight="6.882643" />
+      <edge source="bakteriyê" target="bakterî" id="824" weight="6.882643" />
+      <edge source="bakteriyê" target="coli" id="825" weight="6.882643" />
+      <edge source="bakteriyên" target="bakterî" id="826" weight="6.882643" />
+      <edge source="bakteriyên" target="coli" id="827" weight="6.882643" />
+      <edge source="bakterî" target="coli" id="828" weight="6.882643" />
+      <edge source="aştiyê" target="hemwelatiyê" id="829" weight="6.882643" />
+      <edge source="aştiyê" target="hestiyê" id="830" weight="6.882643" />
+      <edge source="aştiyê" target="mesîhîtiyê" id="831" weight="6.882643" />
+      <edge source="aştiyê" target="yekîtiyê" id="832" weight="6.882643" />
+      <edge source="hemwelatiyê" target="hestiyê" id="833" weight="6.882643" />
+      <edge source="hemwelatiyê" target="mesîhîtiyê" id="834" weight="6.882643" />
+      <edge source="hemwelatiyê" target="yekîtiyê" id="835" weight="6.882643" />
+      <edge source="hestiyê" target="mesîhîtiyê" id="836" weight="6.882643" />
+      <edge source="hestiyê" target="yekîtiyê" id="837" weight="6.882643" />
+      <edge source="mesîhîtiyê" target="yekîtiyê" id="838" weight="6.882643" />
+      <edge source="komara" target="komarê" id="839" weight="6.882643" />
+      <edge source="komara" target="komarên" id="840" weight="6.882643" />
+      <edge source="komara" target="mehabadê" id="841" weight="6.882643" />
+      <edge source="komara" target="sosyalîst" id="842" weight="6.882643" />
+      <edge source="komarê" target="komarên" id="843" weight="6.882643" />
+      <edge source="komarê" target="mehabadê" id="844" weight="6.882643" />
+      <edge source="komarê" target="sosyalîst" id="845" weight="6.882643" />
+      <edge source="komarên" target="mehabadê" id="846" weight="6.882643" />
+      <edge source="komarên" target="sosyalîst" id="847" weight="6.882643" />
+      <edge source="mehabadê" target="sosyalîst" id="848" weight="6.882643" />
+      <edge source="mûyê" target="piranî" id="849" weight="6.882643" />
+      <edge source="mûyê" target="rijênê" id="850" weight="6.882643" />
+      <edge source="mûyê" target="tê" id="851" weight="6.882643" />
+      <edge source="mûyê" target="ziravê" id="852" weight="6.882643" />
+      <edge source="piranî" target="rijênê" id="853" weight="6.882643" />
+      <edge source="piranî" target="tê" id="854" weight="6.882643" />
+      <edge source="piranî" target="ziravê" id="855" weight="6.882643" />
+      <edge source="rijênê" target="tê" id="856" weight="6.882643" />
+      <edge source="rijênê" target="ziravê" id="857" weight="6.882643" />
+      <edge source="tê" target="ziravê" id="858" weight="6.882643" />
+      <edge source="berdilkê" target="hawar" id="859" weight="6.882643" />
+      <edge source="berdilkê" target="raweste" id="860" weight="6.882643" />
+      <edge source="berdilkê" target="xaliqê" id="861" weight="6.882643" />
+      <edge source="berdilkê" target="şekirî" id="862" weight="6.882643" />
+      <edge source="hawar" target="raweste" id="863" weight="6.882643" />
+      <edge source="hawar" target="xaliqê" id="864" weight="6.882643" />
+      <edge source="hawar" target="şekirî" id="865" weight="6.882643" />
+      <edge source="raweste" target="xaliqê" id="866" weight="6.882643" />
+      <edge source="raweste" target="şekirî" id="867" weight="6.882643" />
+      <edge source="xaliqê" target="şekirî" id="868" weight="6.882643" />
+      <edge source="paqij" target="pir" id="869" weight="6.882643" />
+      <edge source="paqij" target="xweş" id="870" weight="6.882643" />
+      <edge source="paqij" target="xweşik" id="871" weight="6.882643" />
+      <edge source="paqij" target="însan" id="872" weight="6.882643" />
+      <edge source="pir" target="xweş" id="873" weight="6.882643" />
+      <edge source="pir" target="xweşik" id="874" weight="6.882643" />
+      <edge source="pir" target="însan" id="875" weight="6.882643" />
+      <edge source="xweş" target="xweşik" id="876" weight="6.882643" />
+      <edge source="xweş" target="însan" id="877" weight="6.882643" />
+      <edge source="xweşik" target="însan" id="878" weight="6.882643" />
+      <edge source="cejna" target="pîroz" id="879" weight="6.882643" />
+      <edge source="cejna" target="pîrozkirin" id="880" weight="6.882643" />
+      <edge source="cejna" target="qurana" id="881" weight="6.882643" />
+      <edge source="cejna" target="roja" id="882" weight="6.882643" />
+      <edge source="pîroz" target="pîrozkirin" id="883" weight="6.882643" />
+      <edge source="pîroz" target="qurana" id="884" weight="6.882643" />
+      <edge source="pîroz" target="roja" id="885" weight="6.882643" />
+      <edge source="pîrozkirin" target="qurana" id="886" weight="6.882643" />
+      <edge source="pîrozkirin" target="roja" id="887" weight="6.882643" />
+      <edge source="qurana" target="roja" id="888" weight="6.882643" />
+      <edge source="amerîkan" target="amerîkî" id="889" weight="6.882643" />
+      <edge source="amerîkan" target="dya" id="890" weight="6.882643" />
+      <edge source="amerîkan" target="lîstikvan" id="891" weight="6.882643" />
+      <edge source="amerîkan" target="lîstikvanek" id="892" weight="6.882643" />
+      <edge source="amerîkî" target="dya" id="893" weight="6.882643" />
+      <edge source="amerîkî" target="lîstikvan" id="894" weight="6.882643" />
+      <edge source="amerîkî" target="lîstikvanek" id="895" weight="6.882643" />
+      <edge source="dya" target="lîstikvan" id="896" weight="6.882643" />
+      <edge source="dya" target="lîstikvanek" id="897" weight="6.882643" />
+      <edge source="lîstikvan" target="lîstikvanek" id="898" weight="6.882643" />
+      <edge source="berfê" target="dihelîne" id="899" weight="6.882643" />
+      <edge source="berfê" target="dimire" id="900" weight="6.882643" />
+      <edge source="berfê" target="sar" id="901" weight="6.882643" />
+      <edge source="berfê" target="zimên" id="902" weight="6.882643" />
+      <edge source="dihelîne" target="dimire" id="903" weight="6.882643" />
+      <edge source="dihelîne" target="sar" id="904" weight="6.882643" />
+      <edge source="dihelîne" target="zimên" id="905" weight="6.882643" />
+      <edge source="dimire" target="sar" id="906" weight="6.882643" />
+      <edge source="dimire" target="zimên" id="907" weight="6.882643" />
+      <edge source="sar" target="zimên" id="908" weight="6.882643" />
+      <edge source="bişon" target="destê" id="909" weight="5.882643" />
+      <edge source="bişon" target="destên" id="910" weight="6.882643" />
+      <edge source="bişon" target="kezeba" id="911" weight="6.882643" />
+      <edge source="bişon" target="zûka" id="912" weight="6.882643" />
+      <edge source="destê" target="destên" id="913" weight="5.882643" />
+      <edge source="destê" target="kezeba" id="914" weight="5.882643" />
+      <edge source="destê" target="zûka" id="915" weight="5.882643" />
+      <edge source="destê" target="nede" id="916" weight="5.882643" />
+      <edge source="destê" target="vekirî" id="917" weight="5.882643" />
+      <edge source="destê" target="çavê" id="918" weight="5.882643" />
+      <edge source="destê" target="çavên" id="919" weight="5.882643" />
+      <edge source="destên" target="kezeba" id="920" weight="6.882643" />
+      <edge source="destên" target="zûka" id="921" weight="6.882643" />
+      <edge source="kezeba" target="zûka" id="922" weight="6.882643" />
+      <edge source="404" target="975" id="923" weight="6.882643" />
+      <edge source="404" target="978" id="924" weight="6.882643" />
+      <edge source="404" target="isbn" id="925" weight="6.882643" />
+      <edge source="404" target="veşandî" id="926" weight="6.882643" />
+      <edge source="975" target="978" id="927" weight="6.882643" />
+      <edge source="975" target="isbn" id="928" weight="6.882643" />
+      <edge source="975" target="veşandî" id="929" weight="6.882643" />
+      <edge source="978" target="isbn" id="930" weight="6.882643" />
+      <edge source="978" target="veşandî" id="931" weight="6.882643" />
+      <edge source="isbn" target="veşandî" id="932" weight="6.882643" />
+      <edge source="deux" target="sèvres" id="933" weight="6.882643" />
+      <edge source="derdana" target="hormon" id="934" weight="6.882643" />
+      <edge source="derdana" target="hormona" id="935" weight="6.882643" />
+      <edge source="derdana" target="hormonên" id="936" weight="6.882643" />
+      <edge source="derdana" target="testosteronê" id="937" weight="6.882643" />
+      <edge source="hormon" target="hormona" id="938" weight="6.882643" />
+      <edge source="hormon" target="hormonên" id="939" weight="6.882643" />
+      <edge source="hormon" target="testosteronê" id="940" weight="6.882643" />
+      <edge source="hormona" target="hormonên" id="941" weight="6.882643" />
+      <edge source="hormona" target="testosteronê" id="942" weight="6.882643" />
+      <edge source="hormonên" target="testosteronê" id="943" weight="6.882643" />
+      <edge source="adn" target="genên" id="944" weight="6.882643" />
+      <edge source="adn" target="kromozom" id="945" weight="6.882643" />
+      <edge source="adn" target="kromozoma" id="946" weight="6.882643" />
+      <edge source="adn" target="kromozomên" id="947" weight="6.882643" />
+      <edge source="genên" target="kromozom" id="948" weight="6.882643" />
+      <edge source="genên" target="kromozoma" id="949" weight="6.882643" />
+      <edge source="genên" target="kromozomên" id="950" weight="6.882643" />
+      <edge source="kromozom" target="kromozoma" id="951" weight="6.882643" />
+      <edge source="kromozom" target="kromozomên" id="952" weight="6.882643" />
+      <edge source="kromozoma" target="kromozomên" id="953" weight="6.882643" />
+      <edge source="dibe" target="dikin" id="954" weight="6.882643" />
+      <edge source="dibe" target="dilîzin" id="955" weight="6.882643" />
+      <edge source="dibe" target="hev" id="956" weight="6.882643" />
+      <edge source="dibe" target="rûyê" id="957" weight="6.882643" />
+      <edge source="dikin" target="dilîzin" id="958" weight="6.882643" />
+      <edge source="dikin" target="hev" id="959" weight="6.882643" />
+      <edge source="dikin" target="rûyê" id="960" weight="6.882643" />
+      <edge source="dilîzin" target="hev" id="961" weight="6.882643" />
+      <edge source="dilîzin" target="rûyê" id="962" weight="6.882643" />
+      <edge source="hev" target="rûyê" id="963" weight="6.882643" />
+      <edge source="bijîşk" target="bijîşkî" id="964" weight="6.882643" />
+      <edge source="bijîşk" target="dr" id="965" weight="6.882643" />
+      <edge source="bijîşk" target="mirîşk" id="966" weight="6.882643" />
+      <edge source="bijîşk" target="rweylot" id="967" weight="6.882643" />
+      <edge source="bijîşkî" target="dr" id="968" weight="6.882643" />
+      <edge source="bijîşkî" target="mirîşk" id="969" weight="6.882643" />
+      <edge source="bijîşkî" target="rweylot" id="970" weight="6.882643" />
+      <edge source="dr" target="mirîşk" id="971" weight="6.882643" />
+      <edge source="dr" target="rweylot" id="972" weight="6.882643" />
+      <edge source="mirîşk" target="rweylot" id="973" weight="6.882643" />
+      <edge source="dîroka" target="dîrokê" id="974" weight="6.882643" />
+      <edge source="dîroka" target="dîwana" id="975" weight="6.882643" />
+      <edge source="dîroka" target="dîwarê" id="976" weight="6.882643" />
+      <edge source="dîroka" target="st" id="977" weight="6.882643" />
+      <edge source="dîrokê" target="dîwana" id="978" weight="6.882643" />
+      <edge source="dîrokê" target="dîwarê" id="979" weight="6.882643" />
+      <edge source="dîrokê" target="st" id="980" weight="6.882643" />
+      <edge source="dîwana" target="dîwarê" id="981" weight="6.882643" />
+      <edge source="dîwana" target="st" id="982" weight="6.882643" />
+      <edge source="dîwarê" target="st" id="983" weight="6.882643" />
+      <edge source="cîranan" target="nû" id="984" weight="6.882643" />
+      <edge source="cîranan" target="nûjen" id="985" weight="6.882643" />
+      <edge source="cîranan" target="nûvekirinên" id="986" weight="6.882643" />
+      <edge source="cîranan" target="xeber" id="987" weight="6.882643" />
+      <edge source="nû" target="nûjen" id="988" weight="6.882643" />
+      <edge source="nû" target="nûvekirinên" id="989" weight="6.882643" />
+      <edge source="nû" target="xeber" id="990" weight="6.882643" />
+      <edge source="nûjen" target="nûvekirinên" id="991" weight="6.882643" />
+      <edge source="nûjen" target="xeber" id="992" weight="6.882643" />
+      <edge source="nûvekirinên" target="xeber" id="993" weight="6.882643" />
+      <edge source="romayiyan" target="romayê" id="994" weight="6.882643" />
+      <edge source="romayiyan" target="romê" id="995" weight="6.882643" />
+      <edge source="romayiyan" target="împeratoriya" id="996" weight="6.882643" />
+      <edge source="romayiyan" target="împeratorê" id="997" weight="6.882643" />
+      <edge source="romayê" target="romê" id="998" weight="6.882643" />
+      <edge source="romayê" target="împeratoriya" id="999" weight="6.882643" />
+      <edge source="romayê" target="împeratorê" id="1000" weight="6.882643" />
+      <edge source="romê" target="împeratoriya" id="1001" weight="6.882643" />
+      <edge source="romê" target="împeratorê" id="1002" weight="6.882643" />
+      <edge source="împeratoriya" target="împeratorê" id="1003" weight="6.882643" />
+      <edge source="hevalê" target="hevalên" id="1004" weight="6.882643" />
+      <edge source="hevalê" target="miqate" id="1005" weight="6.882643" />
+      <edge source="hevalên" target="miqate" id="1006" weight="6.882643" />
+      <edge source="kê" target="maşîta" id="1007" weight="6.882643" />
+      <edge source="kê" target="nan" id="1008" weight="6.882643" />
+      <edge source="kê" target="vexwar" id="1009" weight="6.882643" />
+      <edge source="kê" target="xwar" id="1010" weight="6.882643" />
+      <edge source="maşîta" target="nan" id="1011" weight="6.882643" />
+      <edge source="maşîta" target="vexwar" id="1012" weight="6.882643" />
+      <edge source="maşîta" target="xwar" id="1013" weight="6.882643" />
+      <edge source="nan" target="vexwar" id="1014" weight="6.882643" />
+      <edge source="nan" target="xwar" id="1015" weight="6.882643" />
+      <edge source="vexwar" target="xwar" id="1016" weight="6.882643" />
+      <edge source="ichiro" target="japon" id="1017" weight="6.882643" />
+      <edge source="ichiro" target="japonî" id="1018" weight="6.882643" />
+      <edge source="ichiro" target="mizuki" id="1019" weight="6.882643" />
+      <edge source="ichiro" target="水木一郎" id="1020" weight="6.882643" />
+      <edge source="japon" target="japonî" id="1021" weight="6.882643" />
+      <edge source="japon" target="mizuki" id="1022" weight="6.882643" />
+      <edge source="japon" target="水木一郎" id="1023" weight="6.882643" />
+      <edge source="japonî" target="mizuki" id="1024" weight="6.882643" />
+      <edge source="japonî" target="水木一郎" id="1025" weight="6.882643" />
+      <edge source="mizuki" target="水木一郎" id="1026" weight="6.882643" />
+      <edge source="navnîşana" target="paqijî" id="1027" weight="6.882643" />
+      <edge source="navnîşana" target="pêşketin" id="1028" weight="6.882643" />
+      <edge source="navnîşana" target="pêşketina" id="1029" weight="6.882643" />
+      <edge source="navnîşana" target="pêşketinê" id="1030" weight="6.882643" />
+      <edge source="paqijî" target="pêşketin" id="1031" weight="6.882643" />
+      <edge source="paqijî" target="pêşketina" id="1032" weight="6.882643" />
+      <edge source="paqijî" target="pêşketinê" id="1033" weight="6.882643" />
+      <edge source="pêşketin" target="pêşketina" id="1034" weight="6.882643" />
+      <edge source="pêşketin" target="pêşketinê" id="1035" weight="6.882643" />
+      <edge source="pêşketina" target="pêşketinê" id="1036" weight="6.882643" />
+      <edge source="paytext" target="paytexta" id="1037" weight="6.882643" />
+      <edge source="fc" target="futbolo" id="1038" weight="6.882643" />
+      <edge source="fc" target="futbolê" id="1039" weight="6.882643" />
+      <edge source="fc" target="lîstikvanê" id="1040" weight="6.882643" />
+      <edge source="fc" target="yaneyeke" id="1041" weight="6.882643" />
+      <edge source="futbolo" target="futbolê" id="1042" weight="6.882643" />
+      <edge source="futbolo" target="lîstikvanê" id="1043" weight="6.882643" />
+      <edge source="futbolo" target="yaneyeke" id="1044" weight="6.882643" />
+      <edge source="futbolê" target="lîstikvanê" id="1045" weight="6.882643" />
+      <edge source="futbolê" target="yaneyeke" id="1046" weight="6.882643" />
+      <edge source="lîstikvanê" target="yaneyeke" id="1047" weight="6.882643" />
+      <edge source="dikim" target="hez" id="1048" weight="6.882643" />
+      <edge source="dikim" target="mot" id="1049" weight="6.882643" />
+      <edge source="hez" target="mot" id="1050" weight="6.882643" />
+      <edge source="cara" target="dinê" id="1051" weight="6.882643" />
+      <edge source="cara" target="hate" id="1052" weight="6.882643" />
+      <edge source="cara" target="vekirin" id="1053" weight="6.882643" />
+      <edge source="dinê" target="hate" id="1054" weight="6.882643" />
+      <edge source="dinê" target="vekirin" id="1055" weight="6.882643" />
+      <edge source="hate" target="vekirin" id="1056" weight="6.882643" />
+      <edge source="jam" target="nivîsên" id="1057" weight="6.882643" />
+      <edge source="jam" target="ragihandinê" id="1058" weight="6.882643" />
+      <edge source="jam" target="rojname" id="1059" weight="6.882643" />
+      <edge source="jam" target="rojnameyeke" id="1060" weight="6.882643" />
+      <edge source="nivîsên" target="ragihandinê" id="1061" weight="6.882643" />
+      <edge source="nivîsên" target="rojname" id="1062" weight="6.882643" />
+      <edge source="nivîsên" target="rojnameyeke" id="1063" weight="6.882643" />
+      <edge source="ragihandinê" target="rojname" id="1064" weight="6.882643" />
+      <edge source="ragihandinê" target="rojnameyeke" id="1065" weight="6.882643" />
+      <edge source="rojname" target="rojnameyeke" id="1066" weight="6.882643" />
+      <edge source="atlantiques" target="pyrénées" id="1067" weight="6.882643" />
+      <edge source="eşîr" target="milk" id="1068" weight="6.882643" />
+      <edge source="eşîr" target="şîr" id="1069" weight="6.882643" />
+      <edge source="eşîr" target="şîret" id="1070" weight="6.882643" />
+      <edge source="eşîr" target="şîrê" id="1071" weight="6.882643" />
+      <edge source="milk" target="şîr" id="1072" weight="6.882643" />
+      <edge source="milk" target="şîret" id="1073" weight="6.882643" />
+      <edge source="milk" target="şîrê" id="1074" weight="6.882643" />
+      <edge source="şîr" target="şîret" id="1075" weight="6.882643" />
+      <edge source="şîr" target="şîrê" id="1076" weight="6.882643" />
+      <edge source="şîret" target="şîrê" id="1077" weight="6.882643" />
+      <edge source="com" target="fermî" id="1078" weight="6.882643" />
+      <edge source="com" target="tori" id="1079" weight="6.882643" />
+      <edge source="fermî" target="tori" id="1080" weight="6.882643" />
+      <edge source="nede" target="vekirî" id="1081" weight="6.882643" />
+      <edge source="nede" target="çavê" id="1082" weight="6.882643" />
+      <edge source="nede" target="çavên" id="1083" weight="6.882643" />
+      <edge source="vekirî" target="çavê" id="1084" weight="6.882643" />
+      <edge source="vekirî" target="çavên" id="1085" weight="6.882643" />
+      <edge source="çavê" target="çavên" id="1086" weight="6.882643" />
+      <edge source="maritime" target="normandiyayê" id="1087" weight="6.882643" />
+      <edge source="maritime" target="seine" id="1088" weight="5.882643" />
+      <edge source="normandiyayê" target="seine" id="1089" weight="5.882643" />
+      <edge source="seine" target="et" id="1090" weight="5.882643" />
+      <edge source="seine" target="franceya" id="1091" weight="5.882643" />
+      <edge source="seine" target="île" id="1092" weight="5.882643" />
+      <edge source="celat" target="kirim" id="1093" weight="6.882643" />
+      <edge source="celat" target="nizanin" id="1094" weight="6.882643" />
+      <edge source="celat" target="resûlê" id="1095" weight="6.882643" />
+      <edge source="celat" target="xwedê" id="1096" weight="6.882643" />
+      <edge source="kirim" target="nizanin" id="1097" weight="6.882643" />
+      <edge source="kirim" target="resûlê" id="1098" weight="6.882643" />
+      <edge source="kirim" target="xwedê" id="1099" weight="6.882643" />
+      <edge source="nizanin" target="resûlê" id="1100" weight="6.882643" />
+      <edge source="nizanin" target="xwedê" id="1101" weight="6.882643" />
+      <edge source="resûlê" target="xwedê" id="1102" weight="6.882643" />
+      <edge source="aciz" target="derketim" id="1103" weight="6.882643" />
+      <edge source="aciz" target="dibexşînin" id="1104" weight="6.882643" />
+      <edge source="aciz" target="şikir" id="1105" weight="6.882643" />
+      <edge source="derketim" target="dibexşînin" id="1106" weight="6.882643" />
+      <edge source="derketim" target="şikir" id="1107" weight="6.882643" />
+      <edge source="dibexşînin" target="şikir" id="1108" weight="6.882643" />
+      <edge source="bretonyayê" target="finistère" id="1109" weight="6.882643" />
+      <edge source="bretonyayê" target="ille" id="1110" weight="6.882643" />
+      <edge source="bretonyayê" target="vilaine" id="1111" weight="6.882643" />
+      <edge source="finistère" target="ille" id="1112" weight="6.882643" />
+      <edge source="finistère" target="vilaine" id="1113" weight="6.882643" />
+      <edge source="ille" target="vilaine" id="1114" weight="6.882643" />
+      <edge source="haut" target="rhin" id="1115" weight="6.882643" />
+      <edge source="bêriya" target="dibistanê" id="1116" weight="6.882643" />
+      <edge source="bêriya" target="nekir" id="1117" weight="6.882643" />
+      <edge source="bêriya" target="nekiriye" id="1118" weight="6.882643" />
+      <edge source="bêriya" target="vegeriya" id="1119" weight="6.882643" />
+      <edge source="dibistanê" target="nekir" id="1120" weight="6.882643" />
+      <edge source="dibistanê" target="nekiriye" id="1121" weight="6.882643" />
+      <edge source="dibistanê" target="vegeriya" id="1122" weight="6.882643" />
+      <edge source="nekir" target="nekiriye" id="1123" weight="6.882643" />
+      <edge source="nekir" target="vegeriya" id="1124" weight="6.882643" />
+      <edge source="nekiriye" target="vegeriya" id="1125" weight="6.882643" />
+      <edge source="et" target="franceya" id="1126" weight="6.882643" />
+      <edge source="et" target="île" id="1127" weight="6.882643" />
+      <edge source="franceya" target="île" id="1128" weight="6.882643" />
+      <edge source="2006" target="encamdan" id="1129" weight="6.882643" />
+      <edge source="2006" target="malan" id="1130" weight="6.882643" />
+      <edge source="2006" target="rûniştvanên" id="1131" weight="6.882643" />
+      <edge source="2006" target="serjimariya" id="1132" weight="6.882643" />
+      <edge source="encamdan" target="malan" id="1133" weight="6.882643" />
+      <edge source="encamdan" target="rûniştvanên" id="1134" weight="6.882643" />
+      <edge source="encamdan" target="serjimariya" id="1135" weight="6.882643" />
+      <edge source="malan" target="rûniştvanên" id="1136" weight="6.882643" />
+      <edge source="malan" target="serjimariya" id="1137" weight="6.882643" />
+      <edge source="rûniştvanên" target="serjimariya" id="1138" weight="6.882643" />
+      <edge source="aubeê" target="bakur" id="1139" weight="6.882643" />
+      <edge source="aubeê" target="est" id="1140" weight="6.882643" />
+      <edge source="aubeê" target="navnedî" id="1141" weight="6.882643" />
+      <edge source="bakur" target="est" id="1142" weight="6.882643" />
+      <edge source="bakur" target="navnedî" id="1143" weight="6.882643" />
+      <edge source="est" target="navnedî" id="1144" weight="6.882643" />
+      <edge source="dos" target="kompîter" id="1145" weight="6.882643" />
+      <edge source="dos" target="linux" id="1146" weight="6.882643" />
+      <edge source="dos" target="teknolojiye" id="1147" weight="6.882643" />
+      <edge source="dos" target="teknolojiyê" id="1148" weight="6.882643" />
+      <edge source="kompîter" target="linux" id="1149" weight="6.882643" />
+      <edge source="kompîter" target="teknolojiye" id="1150" weight="6.882643" />
+      <edge source="kompîter" target="teknolojiyê" id="1151" weight="6.882643" />
+      <edge source="linux" target="teknolojiye" id="1152" weight="6.882643" />
+      <edge source="linux" target="teknolojiyê" id="1153" weight="6.882643" />
+      <edge source="teknolojiye" target="teknolojiyê" id="1154" weight="6.882643" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,2 +1,19 @@
-# Auto detect text files and perform LF normalization
+# Normalize line endings for text
 * text=auto
+
+# Common text types
+*.py text eol=lf
+*.md text eol=lf
+*.tsv text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# PowerShell scripts on Windows
+*.ps1 text eol=crlf
+
+# Keep graph exports as text for diff where possible
+*.gexf text
+*.graphml text

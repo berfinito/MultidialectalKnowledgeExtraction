@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "name": "Zaza-Gorani Corpus (Zazaki part)",
+      "id": "zazagorani_zza",
+      "language": "zza",
+      "url": "https://github.com/sinaahmadi/ZazaGoraniCorpus",
+      "license": "CC BY-SA 4.0",
+      "download_date": "2025-08-16",
+      "notes": "Sadece Zazaki (zza) klasörü kullanıldı; hac (Gorani/Hawar) kısmı dahil edilmedi."
+    },
+    {
+      "name": "Zazaki Wikipedia",
+      "id": "wiki_diq",
+      "language": "zza",
+      "url": "https://dumps.wikimedia.org/diqwiki/latest/diqwiki-latest-pages-articles.xml.bz2",
+      "license": "CC BY-SA 3.0",
+      "download_date": "2025-08-16",
+      "notes": "Zazaki Wikipedia dump; sadece articles (pages-articles) dosyası alındı."
+    },
+    {
+      "name": "Kurmanji Wikipedia",
+      "id": "wiki_ku",
+      "language": "kmr",
+      "url": "https://dumps.wikimedia.org/kuwiki/latest/kuwiki-latest-pages-articles.xml.bz2",
+      "license": "CC BY-SA 3.0",
+      "download_date": "2025-08-16",
+      "notes": "Kurmanji (kuwiki, Latin script) Wikipedia dump; Sorani (ckb) dahil edilmedi."
+    },
+    {
+      "name": "Mozilla Common Voice 22.0",
+      "id": "cv22",
+      "language": "tr, kmr, zza",
+      "url": "https://commonvoice.mozilla.org/en/datasets",
+      "license": "CC-0",
+      "download_date": "2025-08-10",
+      "notes": "Ses corpus; process_cv22_onefile.py ile işlenip 16kHz WAV + metadata.csv üretildi."
+    }
+  ]
+}

@@ -1,0 +1,5366 @@
+[
+  {
+    "topic_id": -1,
+    "size": 23144,
+    "name": "-1_ve_bir_de_da",
+    "top_terms": []
+  },
+  {
+    "topic_id": 0,
+    "size": 1467,
+    "name": "0_albüm_albümü_müzik_şarkı",
+    "top_terms": [
+      {
+        "term": "albüm",
+        "weight": 0.022617623525311152
+      },
+      {
+        "term": "albümü",
+        "weight": 0.0213441395839551
+      },
+      {
+        "term": "müzik",
+        "weight": 0.02090853000308212
+      },
+      {
+        "term": "şarkı",
+        "weight": 0.019835675626494718
+      },
+      {
+        "term": "gitar",
+        "weight": 0.01653468617582924
+      },
+      {
+        "term": "şarkısı",
+        "weight": 0.014429419775007975
+      },
+      {
+        "term": "rock",
+        "weight": 0.012537219095136087
+      },
+      {
+        "term": "albümün",
+        "weight": 0.01249511129085373
+      },
+      {
+        "term": "single",
+        "weight": 0.012370661537771912
+      },
+      {
+        "term": "stüdyo",
+        "weight": 0.011924966378669468
+      }
+    ]
+  },
+  {
+    "topic_id": 1,
+    "size": 1284,
+    "name": "1_john_lisesi_anadolu_william",
+    "top_terms": [
+      {
+        "term": "john",
+        "weight": 0.017087592567959418
+      },
+      {
+        "term": "lisesi",
+        "weight": 0.016111870002738855
+      },
+      {
+        "term": "anadolu",
+        "weight": 0.013230475106404382
+      },
+      {
+        "term": "william",
+        "weight": 0.012088327097789276
+      },
+      {
+        "term": "bantia",
+        "weight": 0.010259037063341392
+      },
+      {
+        "term": "ahmet",
+        "weight": 0.008779877125175162
+      },
+      {
+        "term": "james",
+        "weight": 0.008561782987559672
+      },
+      {
+        "term": "robert",
+        "weight": 0.008306063236773813
+      },
+      {
+        "term": "tarık",
+        "weight": 0.008170355312060066
+      },
+      {
+        "term": "and",
+        "weight": 0.007929338402720115
+      }
+    ]
+  },
+  {
+    "topic_id": 2,
+    "size": 1162,
+    "name": "2_windows_microsoft_için_kullanıcı",
+    "top_terms": [
+      {
+        "term": "windows",
+        "weight": 0.015544359078249902
+      },
+      {
+        "term": "microsoft",
+        "weight": 0.01533142265252045
+      },
+      {
+        "term": "için",
+        "weight": 0.014911260806300309
+      },
+      {
+        "term": "kullanıcı",
+        "weight": 0.011418503852256201
+      },
+      {
+        "term": "veya",
+        "weight": 0.011111943872995548
+      },
+      {
+        "term": "veri",
+        "weight": 0.010601078585224206
+      },
+      {
+        "term": "semai",
+        "weight": 0.010532489152435332
+      },
+      {
+        "term": "yazılım",
+        "weight": 0.010129897435816562
+      },
+      {
+        "term": "apple",
+        "weight": 0.009826986452606988
+      },
+      {
+        "term": "bir",
+        "weight": 0.009584273465130643
+      }
+    ]
+  },
+  {
+    "topic_id": 3,
+    "size": 914,
+    "name": "3_üniversitesi_mezun_nde_fakültesi",
+    "top_terms": [
+      {
+        "term": "üniversitesi",
+        "weight": 0.06474788253036608
+      },
+      {
+        "term": "mezun",
+        "weight": 0.03804440350804242
+      },
+      {
+        "term": "nde",
+        "weight": 0.03069902216030363
+      },
+      {
+        "term": "fakültesi",
+        "weight": 0.028120370654206223
+      },
+      {
+        "term": "lisesi",
+        "weight": 0.025039325632378116
+      },
+      {
+        "term": "eğitim",
+        "weight": 0.02382274401047838
+      },
+      {
+        "term": "okulu",
+        "weight": 0.018160448545468676
+      },
+      {
+        "term": "yılında",
+        "weight": 0.01783111158746053
+      },
+      {
+        "term": "lisans",
+        "weight": 0.016768976459880673
+      },
+      {
+        "term": "nden",
+        "weight": 0.015788317091656703
+      }
+    ]
+  },
+  {
+    "topic_id": 4,
+    "size": 836,
+    "name": "4_parti_partisi_milletvekili_başkanı",
+    "top_terms": [
+      {
+        "term": "parti",
+        "weight": 0.03481264840269387
+      },
+      {
+        "term": "partisi",
+        "weight": 0.03282418865161837
+      },
+      {
+        "term": "milletvekili",
+        "weight": 0.019720968907960452
+      },
+      {
+        "term": "başkanı",
+        "weight": 0.01941175968339091
+      },
+      {
+        "term": "genel",
+        "weight": 0.017170330202205097
+      },
+      {
+        "term": "başkan",
+        "weight": 0.016006832291362478
+      },
+      {
+        "term": "seçimlerinde",
+        "weight": 0.01534164427271716
+      },
+      {
+        "term": "seçim",
+        "weight": 0.015115920472193673
+      },
+      {
+        "term": "üyesi",
+        "weight": 0.013276136125603728
+      },
+      {
+        "term": "dönem",
+        "weight": 0.013108731646098099
+      }
+    ]
+  },
+  {
+    "topic_id": 5,
+    "size": 815,
+    "name": "5_ilçesine_ilinin_bağlı_mahalledir",
+    "top_terms": [
+      {
+        "term": "ilçesine",
+        "weight": 0.0907086365106946
+      },
+      {
+        "term": "ilinin",
+        "weight": 0.08039129747606233
+      },
+      {
+        "term": "bağlı",
+        "weight": 0.061458729782136505
+      },
+      {
+        "term": "mahalledir",
+        "weight": 0.05814519192723238
+      },
+      {
+        "term": "köydür",
+        "weight": 0.041702722424407083
+      },
+      {
+        "term": "ili",
+        "weight": 0.03232273740428255
+      },
+      {
+        "term": "eyaletinde",
+        "weight": 0.0288441461177955
+      },
+      {
+        "term": "mahalle",
+        "weight": 0.022141048053972334
+      },
+      {
+        "term": "merkezi",
+        "weight": 0.0203877511133705
+      },
+      {
+        "term": "bir",
+        "weight": 0.01906319599733309
+      }
+    ]
+  },
+  {
+    "topic_id": 6,
+    "size": 815,
+    "name": "6_psychotria_tedavi_veya_neden",
+    "top_terms": [
+      {
+        "term": "psychotria",
+        "weight": 0.014232770971598196
+      },
+      {
+        "term": "tedavi",
+        "weight": 0.011407190997099567
+      },
+      {
+        "term": "veya",
+        "weight": 0.011315523361911908
+      },
+      {
+        "term": "neden",
+        "weight": 0.01116585669398755
+      },
+      {
+        "term": "kan",
+        "weight": 0.011123407080210375
+      },
+      {
+        "term": "genetik",
+        "weight": 0.01009151159196961
+      },
+      {
+        "term": "hücre",
+        "weight": 0.009937069507496532
+      },
+      {
+        "term": "bu",
+        "weight": 0.009823134028175967
+      },
+      {
+        "term": "bir",
+        "weight": 0.009750539346055175
+      },
+      {
+        "term": "hastalığı",
+        "weight": 0.00957974755752681
+      }
+    ]
+  },
+  {
+    "topic_id": 7,
+    "size": 806,
+    "name": "7_film_filmi_tiyatrosu_yapımı",
+    "top_terms": [
+      {
+        "term": "film",
+        "weight": 0.02626650206478813
+      },
+      {
+        "term": "filmi",
+        "weight": 0.025176519022020873
+      },
+      {
+        "term": "tiyatrosu",
+        "weight": 0.023870227350208918
+      },
+      {
+        "term": "yapımı",
+        "weight": 0.022411768087728382
+      },
+      {
+        "term": "filmde",
+        "weight": 0.016817865655851905
+      },
+      {
+        "term": "filmin",
+        "weight": 0.016638200717707306
+      },
+      {
+        "term": "rol",
+        "weight": 0.016044579132544312
+      },
+      {
+        "term": "filminde",
+        "weight": 0.015196292686147682
+      },
+      {
+        "term": "yönetmenliğini",
+        "weight": 0.014658211529040803
+      },
+      {
+        "term": "filmidir",
+        "weight": 0.01436295241832324
+      }
+    ]
+  },
+  {
+    "topic_id": 8,
+    "size": 717,
+    "name": "8_evli_evlendi_çocuk_oğlu",
+    "top_terms": [
+      {
+        "term": "evli",
+        "weight": 0.030918304846886093
+      },
+      {
+        "term": "evlendi",
+        "weight": 0.029501085169981196
+      },
+      {
+        "term": "çocuk",
+        "weight": 0.02490060947881712
+      },
+      {
+        "term": "oğlu",
+        "weight": 0.024433434943426032
+      },
+      {
+        "term": "babasıdır",
+        "weight": 0.023199122560599347
+      },
+      {
+        "term": "babası",
+        "weight": 0.020054837297395895
+      },
+      {
+        "term": "annesi",
+        "weight": 0.018907316495143555
+      },
+      {
+        "term": "çocuğu",
+        "weight": 0.01769682509897293
+      },
+      {
+        "term": "ile",
+        "weight": 0.017152490736404916
+      },
+      {
+        "term": "kardeşi",
+        "weight": 0.016995195206416513
+      }
+    ]
+  },
+  {
+    "topic_id": 9,
+    "size": 706,
+    "name": "9_bölüm_2021_televizyon_2019",
+    "top_terms": [
+      {
+        "term": "bölüm",
+        "weight": 0.023429107935292185
+      },
+      {
+        "term": "2021",
+        "weight": 0.02180601051873766
+      },
+      {
+        "term": "televizyon",
+        "weight": 0.02131819346832972
+      },
+      {
+        "term": "2019",
+        "weight": 0.021019229236044153
+      },
+      {
+        "term": "tarihinde",
+        "weight": 0.02019073414169953
+      },
+      {
+        "term": "tv",
+        "weight": 0.0199926134554198
+      },
+      {
+        "term": "haziran",
+        "weight": 0.017553110691853176
+      },
+      {
+        "term": "yayınlandı",
+        "weight": 0.01754981355647943
+      },
+      {
+        "term": "de",
+        "weight": 0.015604951924592303
+      },
+      {
+        "term": "mayıs",
+        "weight": 0.015199694390615637
+      }
+    ]
+  },
+  {
+    "topic_id": 10,
+    "size": 555,
+    "name": "10_kitap_gazetesi_şiir_roman",
+    "top_terms": [
+      {
+        "term": "kitap",
+        "weight": 0.019382308732816027
+      },
+      {
+        "term": "gazetesi",
+        "weight": 0.014088658511640066
+      },
+      {
+        "term": "şiir",
+        "weight": 0.012685000549479589
+      },
+      {
+        "term": "roman",
+        "weight": 0.012635347065980981
+      },
+      {
+        "term": "kitabı",
+        "weight": 0.012092544025064716
+      },
+      {
+        "term": "gazete",
+        "weight": 0.010461280773288756
+      },
+      {
+        "term": "yazdı",
+        "weight": 0.009341400245140973
+      },
+      {
+        "term": "çok",
+        "weight": 0.009317598026090463
+      },
+      {
+        "term": "dergi",
+        "weight": 0.0092100813251315
+      },
+      {
+        "term": "ve",
+        "weight": 0.009019531295163974
+      }
+    ]
+  },
+  {
+    "topic_id": 11,
+    "size": 526,
+    "name": "11_gol_maçta_maçı_attı",
+    "top_terms": [
+      {
+        "term": "gol",
+        "weight": 0.050873721359576136
+      },
+      {
+        "term": "maçta",
+        "weight": 0.04472819980628132
+      },
+      {
+        "term": "maçı",
+        "weight": 0.027671784161192568
+      },
+      {
+        "term": "attı",
+        "weight": 0.02696317067903651
+      },
+      {
+        "term": "maçında",
+        "weight": 0.026463049226605653
+      },
+      {
+        "term": "golünü",
+        "weight": 0.025373206200148667
+      },
+      {
+        "term": "maç",
+        "weight": 0.024971624094226905
+      },
+      {
+        "term": "takım",
+        "weight": 0.023305291172189175
+      },
+      {
+        "term": "ilk",
+        "weight": 0.021970167702597652
+      },
+      {
+        "term": "oynanan",
+        "weight": 0.020396445781517916
+      }
+    ]
+  },
+  {
+    "topic_id": 12,
+    "size": 520,
+    "name": "12_manyetik_hidrojen_dalga_kuantum",
+    "top_terms": [
+      {
+        "term": "manyetik",
+        "weight": 0.023672991941287313
+      },
+      {
+        "term": "hidrojen",
+        "weight": 0.014245279589734667
+      },
+      {
+        "term": "dalga",
+        "weight": 0.013300861959551841
+      },
+      {
+        "term": "kuantum",
+        "weight": 0.013058172957256777
+      },
+      {
+        "term": "enerji",
+        "weight": 0.012477151527931208
+      },
+      {
+        "term": "gaz",
+        "weight": 0.012108254027807713
+      },
+      {
+        "term": "karbon",
+        "weight": 0.01163931672203864
+      },
+      {
+        "term": "kömür",
+        "weight": 0.011607235750732858
+      },
+      {
+        "term": "ısı",
+        "weight": 0.01121201638228755
+      },
+      {
+        "term": "lazer",
+        "weight": 0.01089339815605446
+      }
+    ]
+  },
+  {
+    "topic_id": 13,
+    "size": 465,
+    "name": "13_nüfusu_nüfus_şehrin_sayımına",
+    "top_terms": [
+      {
+        "term": "nüfusu",
+        "weight": 0.13429147424419052
+      },
+      {
+        "term": "nüfus",
+        "weight": 0.06023471524761674
+      },
+      {
+        "term": "şehrin",
+        "weight": 0.046683700224795364
+      },
+      {
+        "term": "sayımına",
+        "weight": 0.046652183363424186
+      },
+      {
+        "term": "itibarıyla",
+        "weight": 0.045710274611731605
+      },
+      {
+        "term": "göre",
+        "weight": 0.03856774140112093
+      },
+      {
+        "term": "kişi",
+        "weight": 0.03629783262747356
+      },
+      {
+        "term": "dir",
+        "weight": 0.03565073735472071
+      },
+      {
+        "term": "yılı",
+        "weight": 0.031071605808012343
+      },
+      {
+        "term": "tespit",
+        "weight": 0.02835702508231305
+      }
+    ]
+  },
+  {
+    "topic_id": 14,
+    "size": 445,
+    "name": "14_savaşı_ordu_ordusu_savaş",
+    "top_terms": [
+      {
+        "term": "savaşı",
+        "weight": 0.02671258301506537
+      },
+      {
+        "term": "ordu",
+        "weight": 0.021741535250586273
+      },
+      {
+        "term": "ordusu",
+        "weight": 0.016211141372649437
+      },
+      {
+        "term": "savaş",
+        "weight": 0.015874347648512265
+      },
+      {
+        "term": "karşı",
+        "weight": 0.013471578938750214
+      },
+      {
+        "term": "dünya",
+        "weight": 0.012894440542255964
+      },
+      {
+        "term": "birlikleri",
+        "weight": 0.012196624165940854
+      },
+      {
+        "term": "general",
+        "weight": 0.01039758560688709
+      },
+      {
+        "term": "muharebesi",
+        "weight": 0.010022319564231495
+      },
+      {
+        "term": "ordusunu",
+        "weight": 0.009105142586723153
+      }
+    ]
+  },
+  {
+    "topic_id": 15,
+    "size": 419,
+    "name": "15_hava_uçak_havalimanı_havaalanı",
+    "top_terms": [
+      {
+        "term": "hava",
+        "weight": 0.03498851238616632
+      },
+      {
+        "term": "uçak",
+        "weight": 0.02538729612202075
+      },
+      {
+        "term": "havalimanı",
+        "weight": 0.02428502011692111
+      },
+      {
+        "term": "havaalanı",
+        "weight": 0.022235245557448387
+      },
+      {
+        "term": "uçağı",
+        "weight": 0.0172040086153076
+      },
+      {
+        "term": "uçuş",
+        "weight": 0.015255358743117555
+      },
+      {
+        "term": "silah",
+        "weight": 0.015079288438396864
+      },
+      {
+        "term": "kuvvetleri",
+        "weight": 0.013944024222101514
+      },
+      {
+        "term": "uluslararası",
+        "weight": 0.013454749755716363
+      },
+      {
+        "term": "air",
+        "weight": 0.013277659084972838
+      }
+    ]
+  },
+  {
+    "topic_id": 16,
+    "size": 392,
+    "name": "16_türk_türkçe_türkiye_istanbul",
+    "top_terms": [
+      {
+        "term": "türk",
+        "weight": 0.04872131832745744
+      },
+      {
+        "term": "türkçe",
+        "weight": 0.03015721009523
+      },
+      {
+        "term": "türkiye",
+        "weight": 0.02789817048342949
+      },
+      {
+        "term": "istanbul",
+        "weight": 0.020803356941822684
+      },
+      {
+        "term": "türkçeye",
+        "weight": 0.0170109025278642
+      },
+      {
+        "term": "şair",
+        "weight": 0.016394880961391252
+      },
+      {
+        "term": "osmanlı",
+        "weight": 0.014184096514278455
+      },
+      {
+        "term": "kültür",
+        "weight": 0.012885541682307019
+      },
+      {
+        "term": "türkçesi",
+        "weight": 0.012285651825679703
+      },
+      {
+        "term": "kitap",
+        "weight": 0.011892951829092049
+      }
+    ]
+  },
+  {
+    "topic_id": 17,
+    "size": 376,
+    "name": "17_alman_1945_nisan_1934",
+    "top_terms": [
+      {
+        "term": "alman",
+        "weight": 0.019960060586034653
+      },
+      {
+        "term": "1945",
+        "weight": 0.016548208008528145
+      },
+      {
+        "term": "nisan",
+        "weight": 0.015811775341955655
+      },
+      {
+        "term": "1934",
+        "weight": 0.015512971152214396
+      },
+      {
+        "term": "von",
+        "weight": 0.015386190224323136
+      },
+      {
+        "term": "guthrie",
+        "weight": 0.013839203277155952
+      },
+      {
+        "term": "james",
+        "weight": 0.01319005378806459
+      },
+      {
+        "term": "frankfurt",
+        "weight": 0.012958878164795188
+      },
+      {
+        "term": "1939",
+        "weight": 0.012924992750923545
+      },
+      {
+        "term": "1942",
+        "weight": 0.012924992750923545
+      }
+    ]
+  },
+  {
+    "topic_id": 18,
+    "size": 368,
+    "name": "18_frac_mathbf_partial_u_",
+    "top_terms": [
+      {
+        "term": "frac",
+        "weight": 0.07888195231265913
+      },
+      {
+        "term": "mathbf",
+        "weight": 0.03822510751648369
+      },
+      {
+        "term": "partial",
+        "weight": 0.027370036965455303
+      },
+      {
+        "term": "u_",
+        "weight": 0.022904277169903772
+      },
+      {
+        "term": "sqrt",
+        "weight": 0.02088583914731469
+      },
+      {
+        "term": "varphi",
+        "weight": 0.019858679834062854
+      },
+      {
+        "term": "mathrm",
+        "weight": 0.0194673876373014
+      },
+      {
+        "term": "rho",
+        "weight": 0.018955481378209914
+      },
+      {
+        "term": "rightarrow",
+        "weight": 0.018818566303131425
+      },
+      {
+        "term": "cdot",
+        "weight": 0.01776462924244621
+      }
+    ]
+  },
+  {
+    "topic_id": 19,
+    "size": 351,
+    "name": "19_ödülü_iyi_ödülleri_en",
+    "top_terms": [
+      {
+        "term": "ödülü",
+        "weight": 0.09214216392557342
+      },
+      {
+        "term": "iyi",
+        "weight": 0.07624620990335836
+      },
+      {
+        "term": "ödülleri",
+        "weight": 0.055609868554378925
+      },
+      {
+        "term": "en",
+        "weight": 0.05197601666333621
+      },
+      {
+        "term": "film",
+        "weight": 0.051513731551953094
+      },
+      {
+        "term": "festivali",
+        "weight": 0.04132899631121925
+      },
+      {
+        "term": "oyuncu",
+        "weight": 0.031822301301044416
+      },
+      {
+        "term": "ödül",
+        "weight": 0.029636171252775824
+      },
+      {
+        "term": "aday",
+        "weight": 0.027863714730353414
+      },
+      {
+        "term": "akademi",
+        "weight": 0.02254111806955209
+      }
+    ]
+  },
+  {
+    "topic_id": 20,
+    "size": 343,
+    "name": "20_hayvan_cinsidir_familyasına_bağlı",
+    "top_terms": [
+      {
+        "term": "hayvan",
+        "weight": 0.22296368662225338
+      },
+      {
+        "term": "cinsidir",
+        "weight": 0.19098210575894967
+      },
+      {
+        "term": "familyasına",
+        "weight": 0.17058617644119445
+      },
+      {
+        "term": "bağlı",
+        "weight": 0.16581858970621374
+      },
+      {
+        "term": "türüdür",
+        "weight": 0.06305257722454827
+      },
+      {
+        "term": "cinsine",
+        "weight": 0.06113435418380006
+      },
+      {
+        "term": "böcek",
+        "weight": 0.04920676450263906
+      },
+      {
+        "term": "oymağına",
+        "weight": 0.04917341845688835
+      },
+      {
+        "term": "altfamilyasına",
+        "weight": 0.048114216833135874
+      },
+      {
+        "term": "bir",
+        "weight": 0.04238203130525954
+      }
+    ]
+  },
+  {
+    "topic_id": 21,
+    "size": 334,
+    "name": "21_km_merkezine_uzaklıktadır_il",
+    "top_terms": [
+      {
+        "term": "km",
+        "weight": 0.2747507888790039
+      },
+      {
+        "term": "merkezine",
+        "weight": 0.18802484349093973
+      },
+      {
+        "term": "uzaklıktadır",
+        "weight": 0.16224748749009738
+      },
+      {
+        "term": "il",
+        "weight": 0.12060072838082174
+      },
+      {
+        "term": "ilçe",
+        "weight": 0.0853421507522683
+      },
+      {
+        "term": "köy",
+        "weight": 0.0807708804605357
+      },
+      {
+        "term": "ilçesine",
+        "weight": 0.052426749245488465
+      },
+      {
+        "term": "iline",
+        "weight": 0.03969625795856133
+      },
+      {
+        "term": "kilometre",
+        "weight": 0.03598255481146699
+      },
+      {
+        "term": "km2",
+        "weight": 0.03423255956076677
+      }
+    ]
+  },
+  {
+    "topic_id": 22,
+    "size": 329,
+    "name": "22_bu_felsefe_bir_olduğunu",
+    "top_terms": [
+      {
+        "term": "bu",
+        "weight": 0.01566250011037146
+      },
+      {
+        "term": "felsefe",
+        "weight": 0.012120863065844591
+      },
+      {
+        "term": "bir",
+        "weight": 0.011967807231627178
+      },
+      {
+        "term": "olduğunu",
+        "weight": 0.010774427471121027
+      },
+      {
+        "term": "olarak",
+        "weight": 0.010552870462711082
+      },
+      {
+        "term": "felsefesi",
+        "weight": 0.009570182100656617
+      },
+      {
+        "term": "ve",
+        "weight": 0.008980090812242528
+      },
+      {
+        "term": "bazı",
+        "weight": 0.008274899072213224
+      },
+      {
+        "term": "benlik",
+        "weight": 0.008247750691711436
+      },
+      {
+        "term": "veya",
+        "weight": 0.00816221362520536
+      }
+    ]
+  },
+  {
+    "topic_id": 23,
+    "size": 318,
+    "name": "23_rus_rusya_sovyet_sovyetler",
+    "top_terms": [
+      {
+        "term": "rus",
+        "weight": 0.0591086190775436
+      },
+      {
+        "term": "rusya",
+        "weight": 0.058351172848776854
+      },
+      {
+        "term": "sovyet",
+        "weight": 0.04278830919390778
+      },
+      {
+        "term": "sovyetler",
+        "weight": 0.03141791169104842
+      },
+      {
+        "term": "birliği",
+        "weight": 0.02263572528407695
+      },
+      {
+        "term": "stalin",
+        "weight": 0.020554775322923904
+      },
+      {
+        "term": "ukrayna",
+        "weight": 0.01705183139278742
+      },
+      {
+        "term": "moskova",
+        "weight": 0.014043532278650201
+      },
+      {
+        "term": "savaşı",
+        "weight": 0.013936078746902518
+      },
+      {
+        "term": "putin",
+        "weight": 0.011550073700711644
+      }
+    ]
+  },
+  {
+    "topic_id": 24,
+    "size": 317,
+    "name": "24_hapis_cezasına_mahkemesi_ceza",
+    "top_terms": [
+      {
+        "term": "hapis",
+        "weight": 0.03396990858337514
+      },
+      {
+        "term": "cezasına",
+        "weight": 0.027400678642462935
+      },
+      {
+        "term": "mahkemesi",
+        "weight": 0.024457334453452887
+      },
+      {
+        "term": "ceza",
+        "weight": 0.023458509476603648
+      },
+      {
+        "term": "çarptırıldı",
+        "weight": 0.023037762204010357
+      },
+      {
+        "term": "cezası",
+        "weight": 0.01981578283331483
+      },
+      {
+        "term": "mahkûm",
+        "weight": 0.0189315040396009
+      },
+      {
+        "term": "yıl",
+        "weight": 0.014686972001958898
+      },
+      {
+        "term": "yargılandı",
+        "weight": 0.014164357501526677
+      },
+      {
+        "term": "suçlu",
+        "weight": 0.013337651802321788
+      }
+    ]
+  },
+  {
+    "topic_id": 25,
+    "size": 261,
+    "name": "25_kilisesi_camii_kilise_ortodoks",
+    "top_terms": [
+      {
+        "term": "kilisesi",
+        "weight": 0.06830054816625258
+      },
+      {
+        "term": "camii",
+        "weight": 0.05260963339705592
+      },
+      {
+        "term": "kilise",
+        "weight": 0.03783386648252332
+      },
+      {
+        "term": "ortodoks",
+        "weight": 0.036807193271833155
+      },
+      {
+        "term": "katolik",
+        "weight": 0.0264514576024323
+      },
+      {
+        "term": "cami",
+        "weight": 0.025433952924762134
+      },
+      {
+        "term": "kilisenin",
+        "weight": 0.025037755061909656
+      },
+      {
+        "term": "papa",
+        "weight": 0.018497420308917916
+      },
+      {
+        "term": "inşa",
+        "weight": 0.017466250683153176
+      },
+      {
+        "term": "piskoposluk",
+        "weight": 0.014654754229146291
+      }
+    ]
+  },
+  {
+    "topic_id": 26,
+    "size": 260,
+    "name": "26_güneş_yıldız_ngc_yıldızı",
+    "top_terms": [
+      {
+        "term": "güneş",
+        "weight": 0.04218282268248553
+      },
+      {
+        "term": "yıldız",
+        "weight": 0.031307579139504355
+      },
+      {
+        "term": "ngc",
+        "weight": 0.027596341362787664
+      },
+      {
+        "term": "yıldızı",
+        "weight": 0.016341017051238395
+      },
+      {
+        "term": "jüpiter",
+        "weight": 0.0160250737975477
+      },
+      {
+        "term": "ışık",
+        "weight": 0.016006442737738276
+      },
+      {
+        "term": "uzay",
+        "weight": 0.015737149933654167
+      },
+      {
+        "term": "yıldızlar",
+        "weight": 0.015296232704896207
+      },
+      {
+        "term": "kuyruklu",
+        "weight": 0.015260271306961835
+      },
+      {
+        "term": "mars",
+        "weight": 0.014432020308018129
+      }
+    ]
+  },
+  {
+    "topic_id": 27,
+    "size": 250,
+    "name": "27_dil_dilleri_dili_ingilizce",
+    "top_terms": [
+      {
+        "term": "dil",
+        "weight": 0.061877380677281796
+      },
+      {
+        "term": "dilleri",
+        "weight": 0.05663554683391275
+      },
+      {
+        "term": "dili",
+        "weight": 0.0429421031854097
+      },
+      {
+        "term": "ingilizce",
+        "weight": 0.02710210576431261
+      },
+      {
+        "term": "konuşulan",
+        "weight": 0.019286720590534306
+      },
+      {
+        "term": "latince",
+        "weight": 0.016030052120283207
+      },
+      {
+        "term": "diller",
+        "weight": 0.015682449000263415
+      },
+      {
+        "term": "dilbilim",
+        "weight": 0.015543953998913871
+      },
+      {
+        "term": "dilin",
+        "weight": 0.01485667134079907
+      },
+      {
+        "term": "dilde",
+        "weight": 0.014361705083552985
+      }
+    ]
+  },
+  {
+    "topic_id": 28,
+    "size": 249,
+    "name": "28_doğdu_dünyaya_geldi_da",
+    "top_terms": [
+      {
+        "term": "doğdu",
+        "weight": 0.20021524977638377
+      },
+      {
+        "term": "dünyaya",
+        "weight": 0.054107817521623795
+      },
+      {
+        "term": "geldi",
+        "weight": 0.03584194775784071
+      },
+      {
+        "term": "da",
+        "weight": 0.031414574590856253
+      },
+      {
+        "term": "çocuğu",
+        "weight": 0.02965472284794524
+      },
+      {
+        "term": "te",
+        "weight": 0.023163556738874384
+      },
+      {
+        "term": "de",
+        "weight": 0.021971545853560738
+      },
+      {
+        "term": "ailenin",
+        "weight": 0.021141416856294417
+      },
+      {
+        "term": "doğmuştur",
+        "weight": 0.020774884000348954
+      },
+      {
+        "term": "tarihinde",
+        "weight": 0.02010379879555658
+      }
+    ]
+  },
+  {
+    "topic_id": 29,
+    "size": 247,
+    "name": "29_evet_tamam_bak_ben",
+    "top_terms": [
+      {
+        "term": "evet",
+        "weight": 0.08042184891853478
+      },
+      {
+        "term": "tamam",
+        "weight": 0.07848240864307401
+      },
+      {
+        "term": "bak",
+        "weight": 0.07141515032071913
+      },
+      {
+        "term": "ben",
+        "weight": 0.06910894190552902
+      },
+      {
+        "term": "lo",
+        "weight": 0.06329747665201486
+      },
+      {
+        "term": "sen",
+        "weight": 0.054184818303848886
+      },
+      {
+        "term": "ıı",
+        "weight": 0.05264360895682794
+      },
+      {
+        "term": "haydi",
+        "weight": 0.05153911255620708
+      },
+      {
+        "term": "var",
+        "weight": 0.04674361328763027
+      },
+      {
+        "term": "sana",
+        "weight": 0.045242691823482444
+      }
+    ]
+  },
+  {
+    "topic_id": 30,
+    "size": 244,
+    "name": "30_mutfağı_buğday_soğan_meyve",
+    "top_terms": [
+      {
+        "term": "mutfağı",
+        "weight": 0.029585087865969095
+      },
+      {
+        "term": "buğday",
+        "weight": 0.02102661207349002
+      },
+      {
+        "term": "soğan",
+        "weight": 0.02045360086136252
+      },
+      {
+        "term": "meyve",
+        "weight": 0.020159806530784422
+      },
+      {
+        "term": "mutfağında",
+        "weight": 0.01985326896228295
+      },
+      {
+        "term": "yemek",
+        "weight": 0.019685144069012037
+      },
+      {
+        "term": "kullanılır",
+        "weight": 0.015646586356276363
+      },
+      {
+        "term": "veya",
+        "weight": 0.015380133779491774
+      },
+      {
+        "term": "tatlı",
+        "weight": 0.014512887901241563
+      },
+      {
+        "term": "olarak",
+        "weight": 0.014284932442990197
+      }
+    ]
+  },
+  {
+    "topic_id": 31,
+    "size": 225,
+    "name": "31_islam_muhammed_el_müslüman",
+    "top_terms": [
+      {
+        "term": "islam",
+        "weight": 0.06784934605925508
+      },
+      {
+        "term": "muhammed",
+        "weight": 0.03811606518462896
+      },
+      {
+        "term": "el",
+        "weight": 0.035884511766358436
+      },
+      {
+        "term": "müslüman",
+        "weight": 0.027768431032932542
+      },
+      {
+        "term": "ibn",
+        "weight": 0.024150087298113694
+      },
+      {
+        "term": "al",
+        "weight": 0.02399881783138182
+      },
+      {
+        "term": "islâm",
+        "weight": 0.01871821360682169
+      },
+      {
+        "term": "bin",
+        "weight": 0.01770637409730368
+      },
+      {
+        "term": "islami",
+        "weight": 0.01620299876480333
+      },
+      {
+        "term": "müslümanlar",
+        "weight": 0.0151277929753363
+      }
+    ]
+  },
+  {
+    "topic_id": 32,
+    "size": 222,
+    "name": "32_kulübünde_kariyerine_profesyonel_başladı",
+    "top_terms": [
+      {
+        "term": "kulübünde",
+        "weight": 0.098787293329036
+      },
+      {
+        "term": "kariyerine",
+        "weight": 0.09758326281709259
+      },
+      {
+        "term": "profesyonel",
+        "weight": 0.08277767511508101
+      },
+      {
+        "term": "başladı",
+        "weight": 0.07804045682301067
+      },
+      {
+        "term": "kulüplerinde",
+        "weight": 0.07201875834688706
+      },
+      {
+        "term": "oynadı",
+        "weight": 0.06606659754084464
+      },
+      {
+        "term": "sırasıyla",
+        "weight": 0.06153192136701296
+      },
+      {
+        "term": "futbol",
+        "weight": 0.050861840255783365
+      },
+      {
+        "term": "futbola",
+        "weight": 0.04255986441935381
+      },
+      {
+        "term": "yılında",
+        "weight": 0.03799411549984942
+      }
+    ]
+  },
+  {
+    "topic_id": 33,
+    "size": 216,
+    "name": "33_meksika_afrika_vize_amerika",
+    "top_terms": [
+      {
+        "term": "meksika",
+        "weight": 0.05015543674766984
+      },
+      {
+        "term": "afrika",
+        "weight": 0.0341488010872014
+      },
+      {
+        "term": "vize",
+        "weight": 0.023100439553309076
+      },
+      {
+        "term": "amerika",
+        "weight": 0.022423045393344554
+      },
+      {
+        "term": "ispanyol",
+        "weight": 0.018491622245031064
+      },
+      {
+        "term": "angola",
+        "weight": 0.01582113208337676
+      },
+      {
+        "term": "guatemala",
+        "weight": 0.01582113208337676
+      },
+      {
+        "term": "karayip",
+        "weight": 0.015454928575766358
+      },
+      {
+        "term": "ispanya",
+        "weight": 0.015437013954240176
+      },
+      {
+        "term": "seyahat",
+        "weight": 0.015392144403994917
+      }
+    ]
+  },
+  {
+    "topic_id": 34,
+    "size": 215,
+    "name": "34_anlamına_kelime_anlamlara_gelebilir",
+    "top_terms": [
+      {
+        "term": "anlamına",
+        "weight": 0.04868273414213445
+      },
+      {
+        "term": "kelime",
+        "weight": 0.03292820053491409
+      },
+      {
+        "term": "anlamlara",
+        "weight": 0.027703853701314916
+      },
+      {
+        "term": "gelebilir",
+        "weight": 0.02676208361519119
+      },
+      {
+        "term": "gelir",
+        "weight": 0.025570761883488374
+      },
+      {
+        "term": "kelimesi",
+        "weight": 0.025567670518924668
+      },
+      {
+        "term": "adı",
+        "weight": 0.023607118726155445
+      },
+      {
+        "term": "ismi",
+        "weight": 0.022459971754746975
+      },
+      {
+        "term": "terim",
+        "weight": 0.019460390153321933
+      },
+      {
+        "term": "kelimenin",
+        "weight": 0.01884071029235998
+      }
+    ]
+  },
+  {
+    "topic_id": 35,
+    "size": 208,
+    "name": "35_milyon_para_ekonomik_bankası",
+    "top_terms": [
+      {
+        "term": "milyon",
+        "weight": 0.02840602732726222
+      },
+      {
+        "term": "para",
+        "weight": 0.026435002251854245
+      },
+      {
+        "term": "ekonomik",
+        "weight": 0.02412356896944867
+      },
+      {
+        "term": "bankası",
+        "weight": 0.021825341888078623
+      },
+      {
+        "term": "dolar",
+        "weight": 0.015943062566963918
+      },
+      {
+        "term": "sermaye",
+        "weight": 0.014873793123240503
+      },
+      {
+        "term": "yatırım",
+        "weight": 0.014647570517926985
+      },
+      {
+        "term": "banka",
+        "weight": 0.014262029106461044
+      },
+      {
+        "term": "faiz",
+        "weight": 0.014207534748585696
+      },
+      {
+        "term": "doları",
+        "weight": 0.013773860741157211
+      }
+    ]
+  },
+  {
+    "topic_id": 36,
+    "size": 206,
+    "name": "36_futbolcudur_millî_pozisyonunda_futbolcu",
+    "top_terms": [
+      {
+        "term": "futbolcudur",
+        "weight": 0.2159880002702331
+      },
+      {
+        "term": "millî",
+        "weight": 0.09935297594217604
+      },
+      {
+        "term": "pozisyonunda",
+        "weight": 0.09558075032242744
+      },
+      {
+        "term": "futbolcu",
+        "weight": 0.09460037659302825
+      },
+      {
+        "term": "görev",
+        "weight": 0.06748753304264185
+      },
+      {
+        "term": "eski",
+        "weight": 0.06495060100075255
+      },
+      {
+        "term": "japon",
+        "weight": 0.05840846739676532
+      },
+      {
+        "term": "yapan",
+        "weight": 0.053458633264627096
+      },
+      {
+        "term": "defans",
+        "weight": 0.045408442796317
+      },
+      {
+        "term": "brezilyalı",
+        "weight": 0.04372405601402289
+      }
+    ]
+  },
+  {
+    "topic_id": 37,
+    "size": 204,
+    "name": "37_tanrı_dini_mesih_hristiyan",
+    "top_terms": [
+      {
+        "term": "tanrı",
+        "weight": 0.05253970580883043
+      },
+      {
+        "term": "dini",
+        "weight": 0.028132534341680688
+      },
+      {
+        "term": "mesih",
+        "weight": 0.016401412796951138
+      },
+      {
+        "term": "hristiyan",
+        "weight": 0.01621208944643504
+      },
+      {
+        "term": "din",
+        "weight": 0.015364490167947093
+      },
+      {
+        "term": "hristiyanlık",
+        "weight": 0.011578193690957984
+      },
+      {
+        "term": "bir",
+        "weight": 0.011317453435815394
+      },
+      {
+        "term": "isa",
+        "weight": 0.01102503551413508
+      },
+      {
+        "term": "ve",
+        "weight": 0.010974771170695084
+      },
+      {
+        "term": "inanç",
+        "weight": 0.01029737447857459
+      }
+    ]
+  },
+  {
+    "topic_id": 38,
+    "size": 203,
+    "name": "38_cinsel_kadın_kadınların_eşcinsel",
+    "top_terms": [
+      {
+        "term": "cinsel",
+        "weight": 0.0464268317883002
+      },
+      {
+        "term": "kadın",
+        "weight": 0.04226050785798563
+      },
+      {
+        "term": "kadınların",
+        "weight": 0.03472404715605957
+      },
+      {
+        "term": "eşcinsel",
+        "weight": 0.031091453809974627
+      },
+      {
+        "term": "erkek",
+        "weight": 0.020555643407945676
+      },
+      {
+        "term": "feminist",
+        "weight": 0.019996121219409455
+      },
+      {
+        "term": "kadınlar",
+        "weight": 0.01989940799175998
+      },
+      {
+        "term": "kadınlara",
+        "weight": 0.016509723897625474
+      },
+      {
+        "term": "lezbiyen",
+        "weight": 0.016502218386575836
+      },
+      {
+        "term": "seks",
+        "weight": 0.016363923057881383
+      }
+    ]
+  },
+  {
+    "topic_id": 39,
+    "size": 197,
+    "name": "39_adı_köyün_kayıtlarında_yılı",
+    "top_terms": [
+      {
+        "term": "adı",
+        "weight": 0.10276234518028636
+      },
+      {
+        "term": "köyün",
+        "weight": 0.09150343494305162
+      },
+      {
+        "term": "kayıtlarında",
+        "weight": 0.08783705522933072
+      },
+      {
+        "term": "yılı",
+        "weight": 0.07834415851336415
+      },
+      {
+        "term": "geçmektedir",
+        "weight": 0.06824149261673805
+      },
+      {
+        "term": "1928",
+        "weight": 0.0574251665775954
+      },
+      {
+        "term": "köy",
+        "weight": 0.05452926417199394
+      },
+      {
+        "term": "eski",
+        "weight": 0.042106118046221004
+      },
+      {
+        "term": "adıyla",
+        "weight": 0.03823121666088643
+      },
+      {
+        "term": "taşımaktadır",
+        "weight": 0.03091577389598906
+      }
+    ]
+  },
+  {
+    "topic_id": 40,
+    "size": 196,
+    "name": "40_the_of_la_2008",
+    "top_terms": [
+      {
+        "term": "the",
+        "weight": 0.03787997639933163
+      },
+      {
+        "term": "of",
+        "weight": 0.020330331518543555
+      },
+      {
+        "term": "la",
+        "weight": 0.01819191393899874
+      },
+      {
+        "term": "2008",
+        "weight": 0.017338578972706593
+      },
+      {
+        "term": "le",
+        "weight": 0.015742456037515735
+      },
+      {
+        "term": "2006",
+        "weight": 0.015475171832532036
+      },
+      {
+        "term": "2004",
+        "weight": 0.014838470354531863
+      },
+      {
+        "term": "2012",
+        "weight": 0.014735317113588066
+      },
+      {
+        "term": "2011",
+        "weight": 0.014702665852369103
+      },
+      {
+        "term": "2003",
+        "weight": 0.014662346822075218
+      }
+    ]
+  },
+  {
+    "topic_id": 41,
+    "size": 191,
+    "name": "41_öldü_yaşında_ölmüştür_covıd",
+    "top_terms": [
+      {
+        "term": "öldü",
+        "weight": 0.1288309689687888
+      },
+      {
+        "term": "yaşında",
+        "weight": 0.12501282676688125
+      },
+      {
+        "term": "ölmüştür",
+        "weight": 0.06733098516461548
+      },
+      {
+        "term": "covıd",
+        "weight": 0.033512545899820695
+      },
+      {
+        "term": "nedeniyle",
+        "weight": 0.027389070919730585
+      },
+      {
+        "term": "de",
+        "weight": 0.027064484913464963
+      },
+      {
+        "term": "19",
+        "weight": 0.026985879004060357
+      },
+      {
+        "term": "te",
+        "weight": 0.02400225437455049
+      },
+      {
+        "term": "nedenlerden",
+        "weight": 0.021027610062390626
+      },
+      {
+        "term": "hayatını",
+        "weight": 0.020673017641293118
+      }
+    ]
+  },
+  {
+    "topic_id": 42,
+    "size": 184,
+    "name": "42_osmanlı_imparatorluğu_makedonya_bulgar",
+    "top_terms": [
+      {
+        "term": "osmanlı",
+        "weight": 0.07983009417187822
+      },
+      {
+        "term": "imparatorluğu",
+        "weight": 0.032136096154660176
+      },
+      {
+        "term": "makedonya",
+        "weight": 0.03198876878276671
+      },
+      {
+        "term": "bulgar",
+        "weight": 0.030974116810289238
+      },
+      {
+        "term": "bosna",
+        "weight": 0.027076160731209303
+      },
+      {
+        "term": "yugoslavya",
+        "weight": 0.025396190576049086
+      },
+      {
+        "term": "sırbistan",
+        "weight": 0.020067719725259756
+      },
+      {
+        "term": "ordusu",
+        "weight": 0.019438574443482758
+      },
+      {
+        "term": "hersek",
+        "weight": 0.016414856463879825
+      },
+      {
+        "term": "devleti",
+        "weight": 0.01567513267272027
+      }
+    ]
+  },
+  {
+    "topic_id": 43,
+    "size": 182,
+    "name": "43_müzesi_müze_sanat_heykeli",
+    "top_terms": [
+      {
+        "term": "müzesi",
+        "weight": 0.11370499235312218
+      },
+      {
+        "term": "müze",
+        "weight": 0.03773682467947384
+      },
+      {
+        "term": "sanat",
+        "weight": 0.02921414452617005
+      },
+      {
+        "term": "heykeli",
+        "weight": 0.02544387129974045
+      },
+      {
+        "term": "heykel",
+        "weight": 0.02211947079580883
+      },
+      {
+        "term": "galerisi",
+        "weight": 0.02095543626258171
+      },
+      {
+        "term": "sergilendiği",
+        "weight": 0.015663768235386833
+      },
+      {
+        "term": "paris",
+        "weight": 0.015045927260875915
+      },
+      {
+        "term": "sanatlar",
+        "weight": 0.014932464363387887
+      },
+      {
+        "term": "amc",
+        "weight": 0.013463492122854115
+      }
+    ]
+  },
+  {
+    "topic_id": 44,
+    "size": 181,
+    "name": "44_bitki_türüdür_cinsine_bağlı",
+    "top_terms": [
+      {
+        "term": "bitki",
+        "weight": 0.27593967980513295
+      },
+      {
+        "term": "türüdür",
+        "weight": 0.2332699378463457
+      },
+      {
+        "term": "cinsine",
+        "weight": 0.2331324381863569
+      },
+      {
+        "term": "bağlı",
+        "weight": 0.15438846346952947
+      },
+      {
+        "term": "begonia",
+        "weight": 0.07339193028204379
+      },
+      {
+        "term": "habenaria",
+        "weight": 0.06201641043108185
+      },
+      {
+        "term": "solanum",
+        "weight": 0.06054374968211939
+      },
+      {
+        "term": "piper",
+        "weight": 0.05970171980649156
+      },
+      {
+        "term": "amanita",
+        "weight": 0.05547692734165744
+      },
+      {
+        "term": "carex",
+        "weight": 0.04850764734277439
+      }
+    ]
+  },
+  {
+    "topic_id": 45,
+    "size": 176,
+    "name": "45_yok_kimse_hayır_şey",
+    "top_terms": [
+      {
+        "term": "yok",
+        "weight": 0.06812483016711321
+      },
+      {
+        "term": "kimse",
+        "weight": 0.059794191977290974
+      },
+      {
+        "term": "hayır",
+        "weight": 0.05768328937382071
+      },
+      {
+        "term": "şey",
+        "weight": 0.05280684533556956
+      },
+      {
+        "term": "hiçbir",
+        "weight": 0.047129579584992094
+      },
+      {
+        "term": "hiç",
+        "weight": 0.04609949761187044
+      },
+      {
+        "term": "değil",
+        "weight": 0.040602148906185236
+      },
+      {
+        "term": "ben",
+        "weight": 0.03469073806528059
+      },
+      {
+        "term": "beni",
+        "weight": 0.03128494266133144
+      },
+      {
+        "term": "olmaz",
+        "weight": 0.028841644686910355
+      }
+    ]
+  },
+  {
+    "topic_id": 46,
+    "size": 163,
+    "name": "46_motor_otomobil_motoru_nissan",
+    "top_terms": [
+      {
+        "term": "motor",
+        "weight": 0.051002504685837294
+      },
+      {
+        "term": "otomobil",
+        "weight": 0.03664284654262129
+      },
+      {
+        "term": "motoru",
+        "weight": 0.024378324935707324
+      },
+      {
+        "term": "nissan",
+        "weight": 0.018251260827004814
+      },
+      {
+        "term": "yakıt",
+        "weight": 0.016586501356481216
+      },
+      {
+        "term": "araç",
+        "weight": 0.016479625637306154
+      },
+      {
+        "term": "motorları",
+        "weight": 0.01579637287823845
+      },
+      {
+        "term": "tank",
+        "weight": 0.01484715558896559
+      },
+      {
+        "term": "üretilen",
+        "weight": 0.014340761812704396
+      },
+      {
+        "term": "ford",
+        "weight": 0.013930471391832755
+      }
+    ]
+  },
+  {
+    "topic_id": 47,
+    "size": 159,
+    "name": "47_sarız_tomarza_pınarbaşı_develi",
+    "top_terms": [
+      {
+        "term": "sarız",
+        "weight": 0.13178983183169818
+      },
+      {
+        "term": "tomarza",
+        "weight": 0.0919256504630916
+      },
+      {
+        "term": "pınarbaşı",
+        "weight": 0.08131343515260182
+      },
+      {
+        "term": "develi",
+        "weight": 0.07054261436338065
+      },
+      {
+        "term": "dağı",
+        "weight": 0.05238953881059468
+      },
+      {
+        "term": "dağları",
+        "weight": 0.032956316086471545
+      },
+      {
+        "term": "incesu",
+        "weight": 0.03186810532676374
+      },
+      {
+        "term": "melikgazi",
+        "weight": 0.02788459216091828
+      },
+      {
+        "term": "doğu",
+        "weight": 0.023769321105648875
+      },
+      {
+        "term": "denizi",
+        "weight": 0.022310025390972363
+      }
+    ]
+  },
+  {
+    "topic_id": 48,
+    "size": 156,
+    "name": "48_olimpiyatları_nda_olimpiyat_yaz",
+    "top_terms": [
+      {
+        "term": "olimpiyatları",
+        "weight": 0.08456402641366005
+      },
+      {
+        "term": "nda",
+        "weight": 0.08070172319569156
+      },
+      {
+        "term": "olimpiyat",
+        "weight": 0.06893406507997027
+      },
+      {
+        "term": "yaz",
+        "weight": 0.06200453419358961
+      },
+      {
+        "term": "madalya",
+        "weight": 0.06130227922156272
+      },
+      {
+        "term": "şampiyonası",
+        "weight": 0.05068658073193558
+      },
+      {
+        "term": "oyunları",
+        "weight": 0.042912830985413784
+      },
+      {
+        "term": "kg",
+        "weight": 0.03870128356807735
+      },
+      {
+        "term": "düzenlenen",
+        "weight": 0.03783403972943505
+      },
+      {
+        "term": "metre",
+        "weight": 0.03555871501713474
+      }
+    ]
+  },
+  {
+    "topic_id": 49,
+    "size": 155,
+    "name": "49_11_10_13_12",
+    "top_terms": [
+      {
+        "term": "11",
+        "weight": 0.08376428836795723
+      },
+      {
+        "term": "10",
+        "weight": 0.07467238319510794
+      },
+      {
+        "term": "13",
+        "weight": 0.055917845346249245
+      },
+      {
+        "term": "12",
+        "weight": 0.05529948810983774
+      },
+      {
+        "term": "op",
+        "weight": 0.05034747974693264
+      },
+      {
+        "term": "mö",
+        "weight": 0.031304221115736434
+      },
+      {
+        "term": "singleleri",
+        "weight": 0.027960041812093266
+      },
+      {
+        "term": "crıspr",
+        "weight": 0.02655028971928347
+      },
+      {
+        "term": "mariner",
+        "weight": 0.025550217659922794
+      },
+      {
+        "term": "oricon",
+        "weight": 0.024774627322670675
+      }
+    ]
+  },
+  {
+    "topic_id": 50,
+    "size": 154,
+    "name": "50_japonya_japon_prefektörlüğünde_tokyo",
+    "top_terms": [
+      {
+        "term": "japonya",
+        "weight": 0.1143230921762308
+      },
+      {
+        "term": "japon",
+        "weight": 0.06694103929302393
+      },
+      {
+        "term": "prefektörlüğünde",
+        "weight": 0.037406187747246446
+      },
+      {
+        "term": "tokyo",
+        "weight": 0.035243221684593276
+      },
+      {
+        "term": "nın",
+        "weight": 0.024245037571551383
+      },
+      {
+        "term": "kore",
+        "weight": 0.019033329082448504
+      },
+      {
+        "term": "bulunan",
+        "weight": 0.017525077452150244
+      },
+      {
+        "term": "kasabadır",
+        "weight": 0.016809294403324068
+      },
+      {
+        "term": "japonlar",
+        "weight": 0.014876272905073573
+      },
+      {
+        "term": "anime",
+        "weight": 0.014845697778226658
+      }
+    ]
+  },
+  {
+    "topic_id": 51,
+    "size": 147,
+    "name": "51_soğuk_kış_buz_iklimi",
+    "top_terms": [
+      {
+        "term": "soğuk",
+        "weight": 0.04808579606514625
+      },
+      {
+        "term": "kış",
+        "weight": 0.04183172053540487
+      },
+      {
+        "term": "buz",
+        "weight": 0.04007149672095522
+      },
+      {
+        "term": "iklimi",
+        "weight": 0.03606243429428156
+      },
+      {
+        "term": "sıcak",
+        "weight": 0.03400448327957539
+      },
+      {
+        "term": "yağış",
+        "weight": 0.03399545808063289
+      },
+      {
+        "term": "kar",
+        "weight": 0.03255622408249053
+      },
+      {
+        "term": "ortalama",
+        "weight": 0.03170235854031902
+      },
+      {
+        "term": "aylarında",
+        "weight": 0.03046544362535467
+      },
+      {
+        "term": "iklim",
+        "weight": 0.029399576535812724
+      }
+    ]
+  },
+  {
+    "topic_id": 52,
+    "size": 143,
+    "name": "52_demiryolu_tren_istasyon_istasyonu",
+    "top_terms": [
+      {
+        "term": "demiryolu",
+        "weight": 0.09043252578794093
+      },
+      {
+        "term": "tren",
+        "weight": 0.07700882619291302
+      },
+      {
+        "term": "istasyon",
+        "weight": 0.04630314945141523
+      },
+      {
+        "term": "istasyonu",
+        "weight": 0.0346904151596117
+      },
+      {
+        "term": "istasyonun",
+        "weight": 0.03176270267695702
+      },
+      {
+        "term": "inşa",
+        "weight": 0.029880214301621997
+      },
+      {
+        "term": "hattı",
+        "weight": 0.029628769350330847
+      },
+      {
+        "term": "demiryolları",
+        "weight": 0.028479330880676047
+      },
+      {
+        "term": "metro",
+        "weight": 0.023151574725707617
+      },
+      {
+        "term": "tramvay",
+        "weight": 0.02278346470454084
+      }
+    ]
+  },
+  {
+    "topic_id": 53,
+    "size": 139,
+    "name": "53_transfer_sözleşme_imzaladı_oldu",
+    "top_terms": [
+      {
+        "term": "transfer",
+        "weight": 0.1497048685295047
+      },
+      {
+        "term": "sözleşme",
+        "weight": 0.08387192776369745
+      },
+      {
+        "term": "imzaladı",
+        "weight": 0.050463453904156
+      },
+      {
+        "term": "oldu",
+        "weight": 0.044577184887321174
+      },
+      {
+        "term": "yıllık",
+        "weight": 0.04148524164097271
+      },
+      {
+        "term": "sezon",
+        "weight": 0.028137205817504556
+      },
+      {
+        "term": "kulübü",
+        "weight": 0.02604907486315605
+      },
+      {
+        "term": "takımına",
+        "weight": 0.02458821978551028
+      },
+      {
+        "term": "takımlarından",
+        "weight": 0.023018237485864873
+      },
+      {
+        "term": "sezonu",
+        "weight": 0.022986331987216342
+      }
+    ]
+  },
+  {
+    "topic_id": 54,
+    "size": 139,
+    "name": "54_yüzyılın_yüzyıla_yüzyılda_yıl",
+    "top_terms": [
+      {
+        "term": "yüzyılın",
+        "weight": 0.06347713441354598
+      },
+      {
+        "term": "yüzyıla",
+        "weight": 0.046816202738812755
+      },
+      {
+        "term": "yüzyılda",
+        "weight": 0.029915345629809693
+      },
+      {
+        "term": "yıl",
+        "weight": 0.02918739872367457
+      },
+      {
+        "term": "yüzyıl",
+        "weight": 0.0283711088468237
+      },
+      {
+        "term": "yüzyıldan",
+        "weight": 0.023792009170491905
+      },
+      {
+        "term": "yaş",
+        "weight": 0.023742834878879425
+      },
+      {
+        "term": "çağı",
+        "weight": 0.023408101369406378
+      },
+      {
+        "term": "siècle",
+        "weight": 0.02236130160495526
+      },
+      {
+        "term": "tarih",
+        "weight": 0.020734365735067414
+      }
+    ]
+  },
+  {
+    "topic_id": 55,
+    "size": 138,
+    "name": "55_kiloda_kg_metre_cm",
+    "top_terms": [
+      {
+        "term": "kiloda",
+        "weight": 0.10926615431443983
+      },
+      {
+        "term": "kg",
+        "weight": 0.08415848687949193
+      },
+      {
+        "term": "metre",
+        "weight": 0.08059449776167435
+      },
+      {
+        "term": "cm",
+        "weight": 0.060763482532537445
+      },
+      {
+        "term": "uzunluğunda",
+        "weight": 0.04100475685192796
+      },
+      {
+        "term": "ft",
+        "weight": 0.03868805443989782
+      },
+      {
+        "term": "mm",
+        "weight": 0.036870541590561794
+      },
+      {
+        "term": "yüksekliği",
+        "weight": 0.030154374049394077
+      },
+      {
+        "term": "lb",
+        "weight": 0.028982544335418615
+      },
+      {
+        "term": "ağırlığı",
+        "weight": 0.028156626911420457
+      }
+    ]
+  },
+  {
+    "topic_id": 56,
+    "size": 136,
+    "name": "56_nehri_gölü_nehir_göl",
+    "top_terms": [
+      {
+        "term": "nehri",
+        "weight": 0.10024927801303954
+      },
+      {
+        "term": "gölü",
+        "weight": 0.04718915907236201
+      },
+      {
+        "term": "nehir",
+        "weight": 0.03979090661891429
+      },
+      {
+        "term": "göl",
+        "weight": 0.03004990563398989
+      },
+      {
+        "term": "nehrin",
+        "weight": 0.027797202883684362
+      },
+      {
+        "term": "göldür",
+        "weight": 0.026552051827744533
+      },
+      {
+        "term": "göller",
+        "weight": 0.026082637533328557
+      },
+      {
+        "term": "lake",
+        "weight": 0.0259530151252971
+      },
+      {
+        "term": "gölün",
+        "weight": 0.023790930540943105
+      },
+      {
+        "term": "çayı",
+        "weight": 0.02332215791596744
+      }
+    ]
+  },
+  {
+    "topic_id": 57,
+    "size": 134,
+    "name": "57_gemi_gemisi_deniz_donanması",
+    "top_terms": [
+      {
+        "term": "gemi",
+        "weight": 0.054339058284192124
+      },
+      {
+        "term": "gemisi",
+        "weight": 0.031483084661073184
+      },
+      {
+        "term": "deniz",
+        "weight": 0.027079481373123073
+      },
+      {
+        "term": "donanması",
+        "weight": 0.02361653992015116
+      },
+      {
+        "term": "gemiler",
+        "weight": 0.020769800045456244
+      },
+      {
+        "term": "filosu",
+        "weight": 0.019368231140618
+      },
+      {
+        "term": "geminin",
+        "weight": 0.018944896565744947
+      },
+      {
+        "term": "torpido",
+        "weight": 0.018571609405844534
+      },
+      {
+        "term": "sınıfı",
+        "weight": 0.01853970989579454
+      },
+      {
+        "term": "filosunun",
+        "weight": 0.01797286996635213
+      }
+    ]
+  },
+  {
+    "topic_id": 58,
+    "size": 133,
+    "name": "58_odası_bulunmaktadır_oda_kapı",
+    "top_terms": [
+      {
+        "term": "odası",
+        "weight": 0.026674719760553304
+      },
+      {
+        "term": "bulunmaktadır",
+        "weight": 0.02648561259794153
+      },
+      {
+        "term": "oda",
+        "weight": 0.026067415994344655
+      },
+      {
+        "term": "kapı",
+        "weight": 0.021006696971536728
+      },
+      {
+        "term": "suite",
+        "weight": 0.02095594811141529
+      },
+      {
+        "term": "turizm",
+        "weight": 0.019853750550449654
+      },
+      {
+        "term": "kapısı",
+        "weight": 0.01837035879612658
+      },
+      {
+        "term": "konaklama",
+        "weight": 0.018265969110220506
+      },
+      {
+        "term": "pencere",
+        "weight": 0.017033361465197863
+      },
+      {
+        "term": "yaz",
+        "weight": 0.015538680545999259
+      }
+    ]
+  },
+  {
+    "topic_id": 59,
+    "size": 130,
+    "name": "59_imparatoru_bizans_kralı_krallığı",
+    "top_terms": [
+      {
+        "term": "imparatoru",
+        "weight": 0.06258232309070232
+      },
+      {
+        "term": "bizans",
+        "weight": 0.04585024025161561
+      },
+      {
+        "term": "kralı",
+        "weight": 0.029519798333973116
+      },
+      {
+        "term": "krallığı",
+        "weight": 0.023365185241489665
+      },
+      {
+        "term": "kadar",
+        "weight": 0.021824217384162983
+      },
+      {
+        "term": "imparatorluğu",
+        "weight": 0.020989642774303877
+      },
+      {
+        "term": "yılında",
+        "weight": 0.02094275267775685
+      },
+      {
+        "term": "ölümüne",
+        "weight": 0.020410998283476617
+      },
+      {
+        "term": "1308",
+        "weight": 0.0168505417735433
+      },
+      {
+        "term": "aragon",
+        "weight": 0.01622734636284767
+      }
+    ]
+  },
+  {
+    "topic_id": 60,
+    "size": 126,
+    "name": "60_oyun_oyunu_playstation_nintendo",
+    "top_terms": [
+      {
+        "term": "oyun",
+        "weight": 0.057005600266309596
+      },
+      {
+        "term": "oyunu",
+        "weight": 0.0541637927109186
+      },
+      {
+        "term": "playstation",
+        "weight": 0.03949243484456373
+      },
+      {
+        "term": "nintendo",
+        "weight": 0.03631265453413854
+      },
+      {
+        "term": "oyunun",
+        "weight": 0.03269285706712859
+      },
+      {
+        "term": "sims",
+        "weight": 0.02284901066960238
+      },
+      {
+        "term": "game",
+        "weight": 0.021801874333330938
+      },
+      {
+        "term": "video",
+        "weight": 0.021056498316219436
+      },
+      {
+        "term": "xbox",
+        "weight": 0.02076500760639944
+      },
+      {
+        "term": "oyuncular",
+        "weight": 0.020306292840179894
+      }
+    ]
+  },
+  {
+    "topic_id": 61,
+    "size": 126,
+    "name": "61_amerikalı_şarkıcı_oyuncu_yazarı",
+    "top_terms": [
+      {
+        "term": "amerikalı",
+        "weight": 0.15164458697142744
+      },
+      {
+        "term": "şarkıcı",
+        "weight": 0.0910051867444449
+      },
+      {
+        "term": "oyuncu",
+        "weight": 0.06383347563678388
+      },
+      {
+        "term": "yazarı",
+        "weight": 0.05657859450510465
+      },
+      {
+        "term": "müzisyen",
+        "weight": 0.0495959551050993
+      },
+      {
+        "term": "oyuncusu",
+        "weight": 0.04874290252894945
+      },
+      {
+        "term": "ingiliz",
+        "weight": 0.041654047933936345
+      },
+      {
+        "term": "aktris",
+        "weight": 0.04021218249356131
+      },
+      {
+        "term": "sinema",
+        "weight": 0.03462549987188867
+      },
+      {
+        "term": "aktör",
+        "weight": 0.03461447801690633
+      }
+    ]
+  },
+  {
+    "topic_id": 62,
+    "size": 126,
+    "name": "62_tarım_koyun_evcil_köpekler",
+    "top_terms": [
+      {
+        "term": "tarım",
+        "weight": 0.0410525355450531
+      },
+      {
+        "term": "koyun",
+        "weight": 0.03638017169237415
+      },
+      {
+        "term": "evcil",
+        "weight": 0.03467033708815223
+      },
+      {
+        "term": "köpekler",
+        "weight": 0.02510439839443119
+      },
+      {
+        "term": "köpeği",
+        "weight": 0.024175944812466946
+      },
+      {
+        "term": "hayvan",
+        "weight": 0.023214791901660505
+      },
+      {
+        "term": "ekonomisi",
+        "weight": 0.022362121557554328
+      },
+      {
+        "term": "veteriner",
+        "weight": 0.021395021892124316
+      },
+      {
+        "term": "tarıma",
+        "weight": 0.02050920332299802
+      },
+      {
+        "term": "hayvancılık",
+        "weight": 0.019822331785765673
+      }
+    ]
+  },
+  {
+    "topic_id": 63,
+    "size": 120,
+    "name": "63_sanat_resim_gogh_çizim",
+    "top_terms": [
+      {
+        "term": "sanat",
+        "weight": 0.04507704177090477
+      },
+      {
+        "term": "resim",
+        "weight": 0.029294124915463706
+      },
+      {
+        "term": "gogh",
+        "weight": 0.028010268658208395
+      },
+      {
+        "term": "çizim",
+        "weight": 0.01946628990303446
+      },
+      {
+        "term": "van",
+        "weight": 0.01939329054136596
+      },
+      {
+        "term": "ressamın",
+        "weight": 0.016487295024311045
+      },
+      {
+        "term": "sanatlar",
+        "weight": 0.015360397751803846
+      },
+      {
+        "term": "ressam",
+        "weight": 0.015209975150584748
+      },
+      {
+        "term": "resimleri",
+        "weight": 0.014742347190646855
+      },
+      {
+        "term": "güzel",
+        "weight": 0.014493024983671634
+      }
+    ]
+  },
+  {
+    "topic_id": 64,
+    "size": 115,
+    "name": "64_ayaklanma_ayaklanması_kınadı_isyanı",
+    "top_terms": [
+      {
+        "term": "ayaklanma",
+        "weight": 0.029362962107783407
+      },
+      {
+        "term": "ayaklanması",
+        "weight": 0.027469246157614948
+      },
+      {
+        "term": "kınadı",
+        "weight": 0.024865580651814826
+      },
+      {
+        "term": "isyanı",
+        "weight": 0.02150397678850293
+      },
+      {
+        "term": "karşı",
+        "weight": 0.0202922518645804
+      },
+      {
+        "term": "halk",
+        "weight": 0.017533512659156574
+      },
+      {
+        "term": "açtı",
+        "weight": 0.01459707685207435
+      },
+      {
+        "term": "saldırıyı",
+        "weight": 0.013556173854889693
+      },
+      {
+        "term": "yol",
+        "weight": 0.012737556806788472
+      },
+      {
+        "term": "protesto",
+        "weight": 0.012131826456386748
+      }
+    ]
+  },
+  {
+    "topic_id": 65,
+    "size": 114,
+    "name": "65_dumbledore_onu_eder_için",
+    "top_terms": [
+      {
+        "term": "dumbledore",
+        "weight": 0.029429873223201952
+      },
+      {
+        "term": "onu",
+        "weight": 0.02246740286686259
+      },
+      {
+        "term": "eder",
+        "weight": 0.017756946042781285
+      },
+      {
+        "term": "için",
+        "weight": 0.017510632536962792
+      },
+      {
+        "term": "sonra",
+        "weight": 0.01735657918617703
+      },
+      {
+        "term": "un",
+        "weight": 0.01602343093579181
+      },
+      {
+        "term": "kaçar",
+        "weight": 0.015829112475873323
+      },
+      {
+        "term": "terk",
+        "weight": 0.015327805182292119
+      },
+      {
+        "term": "daha",
+        "weight": 0.014591308806917318
+      },
+      {
+        "term": "önce",
+        "weight": 0.013967640186351129
+      }
+    ]
+  },
+  {
+    "topic_id": 66,
+    "size": 114,
+    "name": "66_basketbol_voleybol_ligi_türkiye",
+    "top_terms": [
+      {
+        "term": "basketbol",
+        "weight": 0.11034895479543998
+      },
+      {
+        "term": "voleybol",
+        "weight": 0.10393822843508276
+      },
+      {
+        "term": "ligi",
+        "weight": 0.06677397732046843
+      },
+      {
+        "term": "türkiye",
+        "weight": 0.06520037604652644
+      },
+      {
+        "term": "takımı",
+        "weight": 0.04905603650812158
+      },
+      {
+        "term": "kadın",
+        "weight": 0.029546969907885887
+      },
+      {
+        "term": "kadınlar",
+        "weight": 0.027825846821013654
+      },
+      {
+        "term": "kupası",
+        "weight": 0.027810515760845044
+      },
+      {
+        "term": "millî",
+        "weight": 0.023337638437121597
+      },
+      {
+        "term": "fenerbahçe",
+        "weight": 0.022681075452792014
+      }
+    ]
+  },
+  {
+    "topic_id": 67,
+    "size": 114,
+    "name": "67_70_127_126_246",
+    "top_terms": [
+      {
+        "term": "70",
+        "weight": 0.060585316028843636
+      },
+      {
+        "term": "127",
+        "weight": 0.05279346187366948
+      },
+      {
+        "term": "126",
+        "weight": 0.05279346187366948
+      },
+      {
+        "term": "246",
+        "weight": 0.04465840011653786
+      },
+      {
+        "term": "74",
+        "weight": 0.04342041673614773
+      },
+      {
+        "term": "284",
+        "weight": 0.04080937542904335
+      },
+      {
+        "term": "mö",
+        "weight": 0.03999983809232989
+      },
+      {
+        "term": "242",
+        "weight": 0.03957058530704344
+      },
+      {
+        "term": "653",
+        "weight": 0.03855858389891738
+      },
+      {
+        "term": "ıv",
+        "weight": 0.03831934491339026
+      }
+    ]
+  },
+  {
+    "topic_id": 68,
+    "size": 113,
+    "name": "68_york_new_press_university",
+    "top_terms": [
+      {
+        "term": "york",
+        "weight": 0.24776106237376422
+      },
+      {
+        "term": "new",
+        "weight": 0.219374601446863
+      },
+      {
+        "term": "press",
+        "weight": 0.1400082826073011
+      },
+      {
+        "term": "university",
+        "weight": 0.11586759107761184
+      },
+      {
+        "term": "princeton",
+        "weight": 0.043506894803340676
+      },
+      {
+        "term": "cambridge",
+        "weight": 0.041215218877358156
+      },
+      {
+        "term": "oxford",
+        "weight": 0.03545194270667421
+      },
+      {
+        "term": "brooklyn",
+        "weight": 0.02949261618969719
+      },
+      {
+        "term": "ta",
+        "weight": 0.02404052225549382
+      },
+      {
+        "term": "london",
+        "weight": 0.02351286104845545
+      }
+    ]
+  },
+  {
+    "topic_id": 69,
+    "size": 112,
+    "name": "69_yahudi_yahudilerin_siyonist_yahudilere",
+    "top_terms": [
+      {
+        "term": "yahudi",
+        "weight": 0.12208085202857646
+      },
+      {
+        "term": "yahudilerin",
+        "weight": 0.04884774866835719
+      },
+      {
+        "term": "siyonist",
+        "weight": 0.0240808163939317
+      },
+      {
+        "term": "yahudilere",
+        "weight": 0.018414439905035725
+      },
+      {
+        "term": "yahudiler",
+        "weight": 0.01765314963667442
+      },
+      {
+        "term": "sinagog",
+        "weight": 0.017545387019892875
+      },
+      {
+        "term": "yahudileri",
+        "weight": 0.017545387019892875
+      },
+      {
+        "term": "israil",
+        "weight": 0.015543897337473331
+      },
+      {
+        "term": "nazi",
+        "weight": 0.012694141843005116
+      },
+      {
+        "term": "öldürüldü",
+        "weight": 0.012056047527563543
+      }
+    ]
+  },
+  {
+    "topic_id": 70,
+    "size": 112,
+    "name": "70_lg_tl_16_thinq",
+    "top_terms": [
+      {
+        "term": "lg",
+        "weight": 0.13065426132156452
+      },
+      {
+        "term": "tl",
+        "weight": 0.08578152552473267
+      },
+      {
+        "term": "16",
+        "weight": 0.07706712764710585
+      },
+      {
+        "term": "thinq",
+        "weight": 0.05391330331910314
+      },
+      {
+        "term": "10",
+        "weight": 0.052521859739678364
+      },
+      {
+        "term": "üç",
+        "weight": 0.05217744261204034
+      },
+      {
+        "term": "jel",
+        "weight": 0.04980958311408855
+      },
+      {
+        "term": "13",
+        "weight": 0.04826936608287571
+      },
+      {
+        "term": "12",
+        "weight": 0.04375762247223399
+      },
+      {
+        "term": "oktanon",
+        "weight": 0.04201766033556329
+      }
+    ]
+  },
+  {
+    "topic_id": 71,
+    "size": 111,
+    "name": "71_klasmanı_ms_puan_etap",
+    "top_terms": [
+      {
+        "term": "klasmanı",
+        "weight": 0.08308470317334833
+      },
+      {
+        "term": "ms",
+        "weight": 0.08153682371071337
+      },
+      {
+        "term": "puan",
+        "weight": 0.06453327607982857
+      },
+      {
+        "term": "etap",
+        "weight": 0.05857984044374967
+      },
+      {
+        "term": "dahestanı",
+        "weight": 0.056017505372660724
+      },
+      {
+        "term": "lig",
+        "weight": 0.04750388927522078
+      },
+      {
+        "term": "tour",
+        "weight": 0.04585862441122633
+      },
+      {
+        "term": "perde",
+        "weight": 0.044147842681814195
+      },
+      {
+        "term": "iki",
+        "weight": 0.04391273706500657
+      },
+      {
+        "term": "genel",
+        "weight": 0.04381325836729918
+      }
+    ]
+  },
+  {
+    "topic_id": 72,
+    "size": 109,
+    "name": "72_19_17_18_16",
+    "top_terms": [
+      {
+        "term": "19",
+        "weight": 0.20054574465346223
+      },
+      {
+        "term": "17",
+        "weight": 0.19682358951221468
+      },
+      {
+        "term": "18",
+        "weight": 0.15334877964538646
+      },
+      {
+        "term": "16",
+        "weight": 0.09589402869331663
+      },
+      {
+        "term": "15",
+        "weight": 0.07286819532626818
+      },
+      {
+        "term": "yaş",
+        "weight": 0.035614252318319134
+      },
+      {
+        "term": "tümen",
+        "weight": 0.02643817429633449
+      },
+      {
+        "term": "cami",
+        "weight": 0.022942291284976386
+      },
+      {
+        "term": "altı",
+        "weight": 0.022416472510722957
+      },
+      {
+        "term": "mehmed",
+        "weight": 0.02129351225416246
+      }
+    ]
+  },
+  {
+    "topic_id": 73,
+    "size": 108,
+    "name": "73_su_hidroelektrik_suyu_baraj",
+    "top_terms": [
+      {
+        "term": "su",
+        "weight": 0.13719811217957356
+      },
+      {
+        "term": "hidroelektrik",
+        "weight": 0.03698639958882682
+      },
+      {
+        "term": "suyu",
+        "weight": 0.036581955310684505
+      },
+      {
+        "term": "baraj",
+        "weight": 0.028779342868218868
+      },
+      {
+        "term": "barajı",
+        "weight": 0.028442302435494796
+      },
+      {
+        "term": "sulama",
+        "weight": 0.028138430322868647
+      },
+      {
+        "term": "kaynağı",
+        "weight": 0.021487501722504406
+      },
+      {
+        "term": "inşa",
+        "weight": 0.01628634458048446
+      },
+      {
+        "term": "sular",
+        "weight": 0.01625274424885417
+      },
+      {
+        "term": "birikintisi",
+        "weight": 0.015441419341120697
+      }
+    ]
+  },
+  {
+    "topic_id": 74,
+    "size": 107,
+    "name": "74_kim_hyun_lee_jin",
+    "top_terms": [
+      {
+        "term": "kim",
+        "weight": 0.07676011414887529
+      },
+      {
+        "term": "hyun",
+        "weight": 0.07128642693797002
+      },
+      {
+        "term": "lee",
+        "weight": 0.06925916603897858
+      },
+      {
+        "term": "jin",
+        "weight": 0.06379146374687655
+      },
+      {
+        "term": "choi",
+        "weight": 0.06237562357072377
+      },
+      {
+        "term": "soo",
+        "weight": 0.061742970014232595
+      },
+      {
+        "term": "ji",
+        "weight": 0.060582542894291144
+      },
+      {
+        "term": "jung",
+        "weight": 0.049009418519854395
+      },
+      {
+        "term": "eun",
+        "weight": 0.04261355666932962
+      },
+      {
+        "term": "shin",
+        "weight": 0.04149204221268239
+      }
+    ]
+  },
+  {
+    "topic_id": 75,
+    "size": 107,
+    "name": "75_şarap_üzüm_bira_içki",
+    "top_terms": [
+      {
+        "term": "şarap",
+        "weight": 0.08607717872966412
+      },
+      {
+        "term": "üzüm",
+        "weight": 0.055399515353172585
+      },
+      {
+        "term": "bira",
+        "weight": 0.05308021050579653
+      },
+      {
+        "term": "içki",
+        "weight": 0.040065011601363755
+      },
+      {
+        "term": "şarabı",
+        "weight": 0.030688973178866246
+      },
+      {
+        "term": "şarabın",
+        "weight": 0.0221477156569273
+      },
+      {
+        "term": "kahve",
+        "weight": 0.018003607496571063
+      },
+      {
+        "term": "içecek",
+        "weight": 0.015543197003035634
+      },
+      {
+        "term": "champagne",
+        "weight": 0.014241060250548504
+      },
+      {
+        "term": "şampanya",
+        "weight": 0.014241060250548504
+      }
+    ]
+  },
+  {
+    "topic_id": 76,
+    "size": 106,
+    "name": "76_mavi_siyah_renk_kırmızı",
+    "top_terms": [
+      {
+        "term": "mavi",
+        "weight": 0.07776789917649683
+      },
+      {
+        "term": "siyah",
+        "weight": 0.0628443164344767
+      },
+      {
+        "term": "renk",
+        "weight": 0.05752411456756595
+      },
+      {
+        "term": "kırmızı",
+        "weight": 0.05385913761349878
+      },
+      {
+        "term": "rengi",
+        "weight": 0.05154396144078834
+      },
+      {
+        "term": "yeşil",
+        "weight": 0.04471223707859031
+      },
+      {
+        "term": "beyaz",
+        "weight": 0.037345029080160706
+      },
+      {
+        "term": "sarı",
+        "weight": 0.037147677910223775
+      },
+      {
+        "term": "koyu",
+        "weight": 0.035285378732731895
+      },
+      {
+        "term": "renkte",
+        "weight": 0.03281454601323965
+      }
+    ]
+  },
+  {
+    "topic_id": 77,
+    "size": 105,
+    "name": "77_kral_kralı_ııı_asur",
+    "top_terms": [
+      {
+        "term": "kral",
+        "weight": 0.09425655006184293
+      },
+      {
+        "term": "kralı",
+        "weight": 0.06508630718434857
+      },
+      {
+        "term": "ııı",
+        "weight": 0.03317163542315709
+      },
+      {
+        "term": "asur",
+        "weight": 0.03169686224943752
+      },
+      {
+        "term": "krallığı",
+        "weight": 0.026712205390133713
+      },
+      {
+        "term": "krallık",
+        "weight": 0.020755380213851878
+      },
+      {
+        "term": "imparator",
+        "weight": 0.020632970787911698
+      },
+      {
+        "term": "ıı",
+        "weight": 0.019361096146911245
+      },
+      {
+        "term": "hüküm",
+        "weight": 0.018518435732405854
+      },
+      {
+        "term": "xvı",
+        "weight": 0.017103189402975342
+      }
+    ]
+  },
+  {
+    "topic_id": 78,
+    "size": 104,
+    "name": "78_rfc_ısbn_siemens_extensions",
+    "top_terms": [
+      {
+        "term": "rfc",
+        "weight": 0.2725037959571551
+      },
+      {
+        "term": "ısbn",
+        "weight": 0.21559627886231914
+      },
+      {
+        "term": "siemens",
+        "weight": 0.15105778271249817
+      },
+      {
+        "term": "extensions",
+        "weight": 0.051136098857275415
+      },
+      {
+        "term": "bootp",
+        "weight": 0.04722255456765602
+      },
+      {
+        "term": "978",
+        "weight": 0.04661436389168941
+      },
+      {
+        "term": "obsoleted",
+        "weight": 0.041394901203609114
+      },
+      {
+        "term": "vendor",
+        "weight": 0.041394901203609114
+      },
+      {
+        "term": "1395",
+        "weight": 0.041394901203609114
+      },
+      {
+        "term": "obsoletes",
+        "weight": 0.041394901203609114
+      }
+    ]
+  },
+  {
+    "topic_id": 79,
+    "size": 103,
+    "name": "79_eurovision_yarışması_şarkı_temsil",
+    "top_terms": [
+      {
+        "term": "eurovision",
+        "weight": 0.17671287770251165
+      },
+      {
+        "term": "yarışması",
+        "weight": 0.15960481833453344
+      },
+      {
+        "term": "şarkı",
+        "weight": 0.14229215762826222
+      },
+      {
+        "term": "temsil",
+        "weight": 0.07384296905528152
+      },
+      {
+        "term": "nda",
+        "weight": 0.04116890789086856
+      },
+      {
+        "term": "yarışmasında",
+        "weight": 0.03995372170831917
+      },
+      {
+        "term": "miss",
+        "weight": 0.039401837163095886
+      },
+      {
+        "term": "universe",
+        "weight": 0.0377082242550691
+      },
+      {
+        "term": "yı",
+        "weight": 0.03624678908321376
+      },
+      {
+        "term": "adlı",
+        "weight": 0.02992417153076564
+      }
+    ]
+  },
+  {
+    "topic_id": 80,
+    "size": 100,
+    "name": "80_doktor_doctor_dr_prof",
+    "top_terms": [
+      {
+        "term": "doktor",
+        "weight": 0.11135740355796463
+      },
+      {
+        "term": "doctor",
+        "weight": 0.08316161195554735
+      },
+      {
+        "term": "dr",
+        "weight": 0.06171911933373068
+      },
+      {
+        "term": "prof",
+        "weight": 0.05188259795451457
+      },
+      {
+        "term": "who",
+        "weight": 0.04974615635059237
+      },
+      {
+        "term": "tıva",
+        "weight": 0.023609217634406904
+      },
+      {
+        "term": "bilimkurgu",
+        "weight": 0.023144025450979853
+      },
+      {
+        "term": "babası",
+        "weight": 0.021352941246224864
+      },
+      {
+        "term": "the",
+        "weight": 0.020195614319858984
+      },
+      {
+        "term": "doktoru",
+        "weight": 0.01941256558704029
+      }
+    ]
+  },
+  {
+    "topic_id": 81,
+    "size": 99,
+    "name": "81_sırada_sıraya_yükseldi_bitti",
+    "top_terms": [
+      {
+        "term": "sırada",
+        "weight": 0.33029157016606886
+      },
+      {
+        "term": "sıraya",
+        "weight": 0.11918819861170518
+      },
+      {
+        "term": "yükseldi",
+        "weight": 0.07140719855665
+      },
+      {
+        "term": "bitti",
+        "weight": 0.06614995827294494
+      },
+      {
+        "term": "tamamladı",
+        "weight": 0.059328203991121424
+      },
+      {
+        "term": "yer",
+        "weight": 0.0553364085761421
+      },
+      {
+        "term": "çıkmıştır",
+        "weight": 0.048658472668679294
+      },
+      {
+        "term": "tur",
+        "weight": 0.048043474426690116
+      },
+      {
+        "term": "aldı",
+        "weight": 0.04543074189342821
+      },
+      {
+        "term": "bul",
+        "weight": 0.040928730800504014
+      }
+    ]
+  },
+  {
+    "topic_id": 82,
+    "size": 98,
+    "name": "82_roma_imparatorluğu_romalılar_bizans",
+    "top_terms": [
+      {
+        "term": "roma",
+        "weight": 0.1770821455265356
+      },
+      {
+        "term": "imparatorluğu",
+        "weight": 0.030820338745550107
+      },
+      {
+        "term": "romalılar",
+        "weight": 0.0222273381493023
+      },
+      {
+        "term": "bizans",
+        "weight": 0.0213728984506229
+      },
+      {
+        "term": "imparatoru",
+        "weight": 0.020884850186252663
+      },
+      {
+        "term": "antik",
+        "weight": 0.020271545071338232
+      },
+      {
+        "term": "mö",
+        "weight": 0.018749924105779636
+      },
+      {
+        "term": "dönemlerinde",
+        "weight": 0.018227697064909468
+      },
+      {
+        "term": "konstantinopolis",
+        "weight": 0.017260226291822143
+      },
+      {
+        "term": "imparatorluk",
+        "weight": 0.014770190678236797
+      }
+    ]
+  },
+  {
+    "topic_id": 83,
+    "size": 94,
+    "name": "83_mi_musun_ne_mı",
+    "top_terms": [
+      {
+        "term": "mi",
+        "weight": 0.2536090973184273
+      },
+      {
+        "term": "musun",
+        "weight": 0.21987846039842915
+      },
+      {
+        "term": "ne",
+        "weight": 0.2116198458571893
+      },
+      {
+        "term": "mı",
+        "weight": 0.16715157989486615
+      },
+      {
+        "term": "sen",
+        "weight": 0.1613866786549982
+      },
+      {
+        "term": "misin",
+        "weight": 0.15294679443633466
+      },
+      {
+        "term": "kimsin",
+        "weight": 0.08773802637119538
+      },
+      {
+        "term": "var",
+        "weight": 0.0687523132859781
+      },
+      {
+        "term": "şimdi",
+        "weight": 0.06865983126879469
+      },
+      {
+        "term": "nasıl",
+        "weight": 0.06164026954714651
+      }
+    ]
+  },
+  {
+    "topic_id": 84,
+    "size": 91,
+    "name": "84_türü_kuş_kuşlar_vahşi",
+    "top_terms": [
+      {
+        "term": "türü",
+        "weight": 0.036844468087597775
+      },
+      {
+        "term": "kuş",
+        "weight": 0.032036632804822975
+      },
+      {
+        "term": "kuşlar",
+        "weight": 0.029116240905370742
+      },
+      {
+        "term": "vahşi",
+        "weight": 0.027329549019744284
+      },
+      {
+        "term": "kuşların",
+        "weight": 0.025631350336508443
+      },
+      {
+        "term": "memeli",
+        "weight": 0.024956777918889207
+      },
+      {
+        "term": "species",
+        "weight": 0.02106663922865922
+      },
+      {
+        "term": "kuşları",
+        "weight": 0.019813048084228735
+      },
+      {
+        "term": "kuşlardır",
+        "weight": 0.019813048084228735
+      },
+      {
+        "term": "yırtıcı",
+        "weight": 0.019813048084228735
+      }
+    ]
+  },
+  {
+    "topic_id": 85,
+    "size": 89,
+    "name": "85_istifa_görevinden_ayrıldı_emekli",
+    "top_terms": [
+      {
+        "term": "istifa",
+        "weight": 0.09108470036638908
+      },
+      {
+        "term": "görevinden",
+        "weight": 0.05251656515418486
+      },
+      {
+        "term": "ayrıldı",
+        "weight": 0.04423063642480901
+      },
+      {
+        "term": "emekli",
+        "weight": 0.038153915877676206
+      },
+      {
+        "term": "2013",
+        "weight": 0.03046142257090972
+      },
+      {
+        "term": "etti",
+        "weight": 0.0273195603292007
+      },
+      {
+        "term": "görevden",
+        "weight": 0.024473017061967296
+      },
+      {
+        "term": "açıkladı",
+        "weight": 0.02278630686382045
+      },
+      {
+        "term": "askıya",
+        "weight": 0.020616661471816625
+      },
+      {
+        "term": "tarihinde",
+        "weight": 0.020300466392469636
+      }
+    ]
+  },
+  {
+    "topic_id": 86,
+    "size": 85,
+    "name": "86_türk_izzet_siyasetçi_siyasetçidir",
+    "top_terms": [
+      {
+        "term": "türk",
+        "weight": 0.19404389427799018
+      },
+      {
+        "term": "izzet",
+        "weight": 0.15086080347595618
+      },
+      {
+        "term": "siyasetçi",
+        "weight": 0.1452159201926292
+      },
+      {
+        "term": "siyasetçidir",
+        "weight": 0.06347031685908326
+      },
+      {
+        "term": "lütfi",
+        "weight": 0.05922068727530892
+      },
+      {
+        "term": "ömer",
+        "weight": 0.04566714472526473
+      },
+      {
+        "term": "bürokrat",
+        "weight": 0.04349531092262718
+      },
+      {
+        "term": "politikacı",
+        "weight": 0.04003888700429144
+      },
+      {
+        "term": "futbolcu",
+        "weight": 0.021543128803717643
+      },
+      {
+        "term": "adamı",
+        "weight": 0.021084903996111726
+      }
+    ]
+  },
+  {
+    "topic_id": 87,
+    "size": 84,
+    "name": "87_adası_adaları_ada_adadır",
+    "top_terms": [
+      {
+        "term": "adası",
+        "weight": 0.13384669773830818
+      },
+      {
+        "term": "adaları",
+        "weight": 0.09855348775747923
+      },
+      {
+        "term": "ada",
+        "weight": 0.05734994850385246
+      },
+      {
+        "term": "adadır",
+        "weight": 0.03537735377564499
+      },
+      {
+        "term": "adalarında",
+        "weight": 0.0309413786067238
+      },
+      {
+        "term": "adasında",
+        "weight": 0.02589629649299628
+      },
+      {
+        "term": "adalar",
+        "weight": 0.02171456192952328
+      },
+      {
+        "term": "yer",
+        "weight": 0.020921425252288885
+      },
+      {
+        "term": "denizi",
+        "weight": 0.020719221172638785
+      },
+      {
+        "term": "adasıdır",
+        "weight": 0.019146014536649356
+      }
+    ]
+  },
+  {
+    "topic_id": 88,
+    "size": 83,
+    "name": "88_000_kişi_asker_öldü",
+    "top_terms": [
+      {
+        "term": "000",
+        "weight": 0.08754488663489164
+      },
+      {
+        "term": "kişi",
+        "weight": 0.05954372400109843
+      },
+      {
+        "term": "asker",
+        "weight": 0.03758073846959455
+      },
+      {
+        "term": "öldü",
+        "weight": 0.03111169956356882
+      },
+      {
+        "term": "yaralandı",
+        "weight": 0.02972676905253888
+      },
+      {
+        "term": "kişinin",
+        "weight": 0.02753831441439955
+      },
+      {
+        "term": "bin",
+        "weight": 0.02437913382602499
+      },
+      {
+        "term": "hayatını",
+        "weight": 0.02035353534053342
+      },
+      {
+        "term": "ordusu",
+        "weight": 0.01939176974956316
+      },
+      {
+        "term": "yaklaşık",
+        "weight": 0.019238217657977032
+      }
+    ]
+  },
+  {
+    "topic_id": 89,
+    "size": 81,
+    "name": "89_festival_cardhu_yıl_abv",
+    "top_terms": [
+      {
+        "term": "festival",
+        "weight": 0.04136849656784648
+      },
+      {
+        "term": "cardhu",
+        "weight": 0.04067285093755304
+      },
+      {
+        "term": "yıl",
+        "weight": 0.038992540482409
+      },
+      {
+        "term": "abv",
+        "weight": 0.03853814299581908
+      },
+      {
+        "term": "festivali",
+        "weight": 0.037960905528175534
+      },
+      {
+        "term": "günü",
+        "weight": 0.03455919530536511
+      },
+      {
+        "term": "old",
+        "weight": 0.034102217434545994
+      },
+      {
+        "term": "her",
+        "weight": 0.03176902950376795
+      },
+      {
+        "term": "year",
+        "weight": 0.03158841963819588
+      },
+      {
+        "term": "yılbaşı",
+        "weight": 0.02848110255984828
+      }
+    ]
+  },
+  {
+    "topic_id": 90,
+    "size": 81,
+    "name": "90_ağaç_orman_ağaçlar_meşe",
+    "top_terms": [
+      {
+        "term": "ağaç",
+        "weight": 0.06704469449374494
+      },
+      {
+        "term": "orman",
+        "weight": 0.044470213765812484
+      },
+      {
+        "term": "ağaçlar",
+        "weight": 0.03833352880503267
+      },
+      {
+        "term": "meşe",
+        "weight": 0.03243724947739938
+      },
+      {
+        "term": "ormanları",
+        "weight": 0.02817863466828389
+      },
+      {
+        "term": "yapraklı",
+        "weight": 0.025751753119115876
+      },
+      {
+        "term": "kozalaklı",
+        "weight": 0.024970045066670707
+      },
+      {
+        "term": "ağacı",
+        "weight": 0.02493513832699995
+      },
+      {
+        "term": "ardıç",
+        "weight": 0.02379160630778112
+      },
+      {
+        "term": "çam",
+        "weight": 0.022542907734627114
+      }
+    ]
+  },
+  {
+    "topic_id": 91,
+    "size": 80,
+    "name": "91_varanus_tipula_lunatipula_and",
+    "top_terms": [
+      {
+        "term": "varanus",
+        "weight": 0.13281245943600903
+      },
+      {
+        "term": "tipula",
+        "weight": 0.12773141682267092
+      },
+      {
+        "term": "lunatipula",
+        "weight": 0.09375847736700735
+      },
+      {
+        "term": "and",
+        "weight": 0.0426866398562033
+      },
+      {
+        "term": "theischinger",
+        "weight": 0.03722854545792827
+      },
+      {
+        "term": "anania",
+        "weight": 0.034809833956659195
+      },
+      {
+        "term": "kleine",
+        "weight": 0.02941139937251781
+      },
+      {
+        "term": "mannheims",
+        "weight": 0.027307369419095676
+      },
+      {
+        "term": "mertens",
+        "weight": 0.02686781795808796
+      },
+      {
+        "term": "böhme",
+        "weight": 0.024710067067708667
+      }
+    ]
+  },
+  {
+    "topic_id": 92,
+    "size": 79,
+    "name": "92_deprem_hasar_yangın_meydana",
+    "top_terms": [
+      {
+        "term": "deprem",
+        "weight": 0.055151052968515704
+      },
+      {
+        "term": "hasar",
+        "weight": 0.05180406553552739
+      },
+      {
+        "term": "yangın",
+        "weight": 0.037973688401609196
+      },
+      {
+        "term": "meydana",
+        "weight": 0.030249543212666145
+      },
+      {
+        "term": "büyük",
+        "weight": 0.023745268334826125
+      },
+      {
+        "term": "depremi",
+        "weight": 0.023349184530883523
+      },
+      {
+        "term": "yangının",
+        "weight": 0.023349184530883523
+      },
+      {
+        "term": "ateş",
+        "weight": 0.023204313151926816
+      },
+      {
+        "term": "alev",
+        "weight": 0.02163284922221155
+      },
+      {
+        "term": "zarar",
+        "weight": 0.020929581416453156
+      }
+    ]
+  },
+  {
+    "topic_id": 93,
+    "size": 79,
+    "name": "93_öldürür_öldürdü_kardeşi_öldürülür",
+    "top_terms": [
+      {
+        "term": "öldürür",
+        "weight": 0.03965726144450173
+      },
+      {
+        "term": "öldürdü",
+        "weight": 0.035375958494692855
+      },
+      {
+        "term": "kardeşi",
+        "weight": 0.03388317486989421
+      },
+      {
+        "term": "öldürülür",
+        "weight": 0.025579505861592553
+      },
+      {
+        "term": "onu",
+        "weight": 0.024885616482669716
+      },
+      {
+        "term": "öldürüldü",
+        "weight": 0.02281447741517406
+      },
+      {
+        "term": "istedi",
+        "weight": 0.019760837597703897
+      },
+      {
+        "term": "öldürdüğünü",
+        "weight": 0.019529898898181675
+      },
+      {
+        "term": "öldürülmüştür",
+        "weight": 0.019529898898181675
+      },
+      {
+        "term": "şehit",
+        "weight": 0.018875825140809346
+      }
+    ]
+  },
+  {
+    "topic_id": 94,
+    "size": 78,
+    "name": "94_sanayi_marka_üretim_tescillenmiş",
+    "top_terms": [
+      {
+        "term": "sanayi",
+        "weight": 0.06909711810281359
+      },
+      {
+        "term": "marka",
+        "weight": 0.04553452167700177
+      },
+      {
+        "term": "üretim",
+        "weight": 0.04481108740957125
+      },
+      {
+        "term": "tescillenmiş",
+        "weight": 0.04241597312059103
+      },
+      {
+        "term": "şirket",
+        "weight": 0.03905859049669394
+      },
+      {
+        "term": "coğrafi",
+        "weight": 0.037217500059555195
+      },
+      {
+        "term": "patent",
+        "weight": 0.036524165164827586
+      },
+      {
+        "term": "kurumu",
+        "weight": 0.03029622385594449
+      },
+      {
+        "term": "işaret",
+        "weight": 0.02935903413810789
+      },
+      {
+        "term": "fabrika",
+        "weight": 0.026900468438672692
+      }
+    ]
+  },
+  {
+    "topic_id": 95,
+    "size": 77,
+    "name": "95_mezar_cenazesi_mezarlığı_defnedildi",
+    "top_terms": [
+      {
+        "term": "mezar",
+        "weight": 0.10148022041813898
+      },
+      {
+        "term": "cenazesi",
+        "weight": 0.06998511080093163
+      },
+      {
+        "term": "mezarlığı",
+        "weight": 0.06862617367565928
+      },
+      {
+        "term": "defnedildi",
+        "weight": 0.06415301823418733
+      },
+      {
+        "term": "gömüldü",
+        "weight": 0.05032995008359016
+      },
+      {
+        "term": "cenaze",
+        "weight": 0.048225776885226494
+      },
+      {
+        "term": "mezarı",
+        "weight": 0.029160462833721514
+      },
+      {
+        "term": "mezarlığına",
+        "weight": 0.028117464410441353
+      },
+      {
+        "term": "töreni",
+        "weight": 0.026394682182945876
+      },
+      {
+        "term": "mezarının",
+        "weight": 0.02597724669586436
+      }
+    ]
+  },
+  {
+    "topic_id": 96,
+    "size": 77,
+    "name": "96_sitesi_com_profili_web",
+    "top_terms": [
+      {
+        "term": "sitesi",
+        "weight": 0.1386800762076947
+      },
+      {
+        "term": "com",
+        "weight": 0.11159382902986295
+      },
+      {
+        "term": "profili",
+        "weight": 0.10129640279145781
+      },
+      {
+        "term": "web",
+        "weight": 0.08115108823052834
+      },
+      {
+        "term": "twitter",
+        "weight": 0.07598744944802417
+      },
+      {
+        "term": "resmi",
+        "weight": 0.07006691037214338
+      },
+      {
+        "term": "website",
+        "weight": 0.06970212889817104
+      },
+      {
+        "term": "site",
+        "weight": 0.06696906279131343
+      },
+      {
+        "term": "facebook",
+        "weight": 0.0663448302473873
+      },
+      {
+        "term": "resmî",
+        "weight": 0.058156160990323585
+      }
+    ]
+  },
+  {
+    "topic_id": 97,
+    "size": 74,
+    "name": "97_kupası_şampiyon_kupa_ligi",
+    "top_terms": [
+      {
+        "term": "kupası",
+        "weight": 0.08983817479102847
+      },
+      {
+        "term": "şampiyon",
+        "weight": 0.07965946235926773
+      },
+      {
+        "term": "kupa",
+        "weight": 0.05911963321300104
+      },
+      {
+        "term": "ligi",
+        "weight": 0.0558293892886944
+      },
+      {
+        "term": "cup",
+        "weight": 0.04932724047831251
+      },
+      {
+        "term": "uefa",
+        "weight": 0.04841805617283969
+      },
+      {
+        "term": "süper",
+        "weight": 0.04741829267034571
+      },
+      {
+        "term": "şampiyonası",
+        "weight": 0.039684178988563565
+      },
+      {
+        "term": "copa",
+        "weight": 0.03684938851804139
+      },
+      {
+        "term": "ikincilik",
+        "weight": 0.03527964039290562
+      }
+    ]
+  },
+  {
+    "topic_id": 98,
+    "size": 73,
+    "name": "98_türkiye_seçimleri_genel_seçimlerinde",
+    "top_terms": [
+      {
+        "term": "türkiye",
+        "weight": 0.11980078563495797
+      },
+      {
+        "term": "seçimleri",
+        "weight": 0.10838840299085935
+      },
+      {
+        "term": "genel",
+        "weight": 0.08337867215095879
+      },
+      {
+        "term": "seçimlerinde",
+        "weight": 0.060404287575554834
+      },
+      {
+        "term": "milletvekili",
+        "weight": 0.05999987518274803
+      },
+      {
+        "term": "millet",
+        "weight": 0.05455969237289467
+      },
+      {
+        "term": "seçimi",
+        "weight": 0.04071688714688182
+      },
+      {
+        "term": "sonuçları",
+        "weight": 0.036943460023837915
+      },
+      {
+        "term": "partisi",
+        "weight": 0.029151403697795113
+      },
+      {
+        "term": "parti",
+        "weight": 0.02782563250329315
+      }
+    ]
+  },
+  {
+    "topic_id": 99,
+    "size": 73,
+    "name": "99_örümcek_cinsine_türüdür_bağlı",
+    "top_terms": [
+      {
+        "term": "örümcek",
+        "weight": 0.4794015183902708
+      },
+      {
+        "term": "cinsine",
+        "weight": 0.1760397142235943
+      },
+      {
+        "term": "türüdür",
+        "weight": 0.17355319485665618
+      },
+      {
+        "term": "bağlı",
+        "weight": 0.1732867898950106
+      },
+      {
+        "term": "familyasına",
+        "weight": 0.13928668614618456
+      },
+      {
+        "term": "cinsidir",
+        "weight": 0.13830422112889165
+      },
+      {
+        "term": "theridion",
+        "weight": 0.12332299727408536
+      },
+      {
+        "term": "pardosa",
+        "weight": 0.12332299727408536
+      },
+      {
+        "term": "theraphosidae",
+        "weight": 0.05857487956634719
+      },
+      {
+        "term": "salticidae",
+        "weight": 0.05707685116616059
+      }
+    ]
+  },
+  {
+    "topic_id": 100,
+    "size": 68,
+    "name": "100_çin_kore_semti_güney",
+    "top_terms": [
+      {
+        "term": "çin",
+        "weight": 0.07010338805424596
+      },
+      {
+        "term": "kore",
+        "weight": 0.04147830581919935
+      },
+      {
+        "term": "semti",
+        "weight": 0.03585004686651767
+      },
+      {
+        "term": "güney",
+        "weight": 0.03353662497070899
+      },
+      {
+        "term": "ilçesi",
+        "weight": 0.02994510951481132
+      },
+      {
+        "term": "wang",
+        "weight": 0.024634344107711387
+      },
+      {
+        "term": "hanedanı",
+        "weight": 0.022784699088588177
+      },
+      {
+        "term": "yuan",
+        "weight": 0.022443153118205748
+      },
+      {
+        "term": "zhang",
+        "weight": 0.01994659210655494
+      },
+      {
+        "term": "dong",
+        "weight": 0.019484898723565666
+      }
+    ]
+  },
+  {
+    "topic_id": 101,
+    "size": 67,
+    "name": "101_diş_kemik_dişlerin_ayakları",
+    "top_terms": [
+      {
+        "term": "diş",
+        "weight": 0.06471612875273991
+      },
+      {
+        "term": "kemik",
+        "weight": 0.04530129012691793
+      },
+      {
+        "term": "dişlerin",
+        "weight": 0.02535949599433222
+      },
+      {
+        "term": "ayakları",
+        "weight": 0.0236634729410891
+      },
+      {
+        "term": "vücut",
+        "weight": 0.02348767006355598
+      },
+      {
+        "term": "çene",
+        "weight": 0.022546696675397226
+      },
+      {
+        "term": "eklem",
+        "weight": 0.021712836370886706
+      },
+      {
+        "term": "kuyruk",
+        "weight": 0.021047227325050953
+      },
+      {
+        "term": "burun",
+        "weight": 0.018904314173492986
+      },
+      {
+        "term": "arka",
+        "weight": 0.018262223596070732
+      }
+    ]
+  },
+  {
+    "topic_id": 102,
+    "size": 66,
+    "name": "102_cfb_iran_farsça_eyaleti",
+    "top_terms": [
+      {
+        "term": "cfb",
+        "weight": 0.11170150271901012
+      },
+      {
+        "term": "iran",
+        "weight": 0.10184986682270113
+      },
+      {
+        "term": "farsça",
+        "weight": 0.06141643345758775
+      },
+      {
+        "term": "eyaleti",
+        "weight": 0.06080271459101298
+      },
+      {
+        "term": "azerbaycan",
+        "weight": 0.047233431745504054
+      },
+      {
+        "term": "nuts",
+        "weight": 0.03900527546554766
+      },
+      {
+        "term": "şehristanı",
+        "weight": 0.036163639248462984
+      },
+      {
+        "term": "doğu",
+        "weight": 0.03227388731503671
+      },
+      {
+        "term": "ermenistan",
+        "weight": 0.031133212568145302
+      },
+      {
+        "term": "tahran",
+        "weight": 0.028361002204468178
+      }
+    ]
+  },
+  {
+    "topic_id": 103,
+    "size": 65,
+    "name": "103_siyasetçi_politikacı_fransız_amerikalı",
+    "top_terms": [
+      {
+        "term": "siyasetçi",
+        "weight": 0.2419347104886585
+      },
+      {
+        "term": "politikacı",
+        "weight": 0.07809501762338633
+      },
+      {
+        "term": "fransız",
+        "weight": 0.05084196750596784
+      },
+      {
+        "term": "amerikalı",
+        "weight": 0.038935177137014776
+      },
+      {
+        "term": "ekim",
+        "weight": 0.037787494467380396
+      },
+      {
+        "term": "avukat",
+        "weight": 0.03635909626978523
+      },
+      {
+        "term": "insanı",
+        "weight": 0.03624123463541808
+      },
+      {
+        "term": "1957",
+        "weight": 0.033826370722903336
+      },
+      {
+        "term": "2020",
+        "weight": 0.03366285873003595
+      },
+      {
+        "term": "ocak",
+        "weight": 0.03346656655390272
+      }
+    ]
+  },
+  {
+    "topic_id": 104,
+    "size": 61,
+    "name": "104_türk_türkler_türkiye_kafkasya",
+    "top_terms": [
+      {
+        "term": "türk",
+        "weight": 0.04828605388769064
+      },
+      {
+        "term": "türkler",
+        "weight": 0.04106363226987619
+      },
+      {
+        "term": "türkiye",
+        "weight": 0.03385003358502379
+      },
+      {
+        "term": "kafkasya",
+        "weight": 0.03204155997813565
+      },
+      {
+        "term": "etnik",
+        "weight": 0.03137641617724483
+      },
+      {
+        "term": "kıbrıs",
+        "weight": 0.024922234055423445
+      },
+      {
+        "term": "dvin",
+        "weight": 0.022168078299014515
+      },
+      {
+        "term": "trakya",
+        "weight": 0.02151848890714716
+      },
+      {
+        "term": "kökenli",
+        "weight": 0.020768528379519535
+      },
+      {
+        "term": "halklarından",
+        "weight": 0.020685494739403152
+      }
+    ]
+  },
+  {
+    "topic_id": 105,
+    "size": 58,
+    "name": "105_tbmm_25_24_28",
+    "top_terms": [
+      {
+        "term": "tbmm",
+        "weight": 0.18338738362714072
+      },
+      {
+        "term": "25",
+        "weight": 0.1535802936686198
+      },
+      {
+        "term": "24",
+        "weight": 0.14501833551956206
+      },
+      {
+        "term": "28",
+        "weight": 0.11209665840140315
+      },
+      {
+        "term": "26",
+        "weight": 0.10979209832784816
+      },
+      {
+        "term": "21",
+        "weight": 0.10311545465012148
+      },
+      {
+        "term": "32",
+        "weight": 0.09694359412491202
+      },
+      {
+        "term": "34",
+        "weight": 0.08275439435181536
+      },
+      {
+        "term": "maison",
+        "weight": 0.0825358154744697
+      },
+      {
+        "term": "33",
+        "weight": 0.07622607634904906
+      }
+    ]
+  },
+  {
+    "topic_id": 106,
+    "size": 55,
+    "name": "106_balığı_balık_balıkları_fish",
+    "top_terms": [
+      {
+        "term": "balığı",
+        "weight": 0.05772645088591551
+      },
+      {
+        "term": "balık",
+        "weight": 0.05541842806165488
+      },
+      {
+        "term": "balıkları",
+        "weight": 0.045364677134321955
+      },
+      {
+        "term": "fish",
+        "weight": 0.03557853239561796
+      },
+      {
+        "term": "marine",
+        "weight": 0.03494953875741656
+      },
+      {
+        "term": "balinaları",
+        "weight": 0.030614471768558818
+      },
+      {
+        "term": "balinaların",
+        "weight": 0.030614471768558818
+      },
+      {
+        "term": "freshwater",
+        "weight": 0.030614471768558818
+      },
+      {
+        "term": "ispermeçet",
+        "weight": 0.030614471768558818
+      },
+      {
+        "term": "terrestrial",
+        "weight": 0.027836410836116827
+      }
+    ]
+  },
+  {
+    "topic_id": 107,
+    "size": 55,
+    "name": "107_köprü_köprüsü_otoyolu_köprünün",
+    "top_terms": [
+      {
+        "term": "köprü",
+        "weight": 0.12635346270379355
+      },
+      {
+        "term": "köprüsü",
+        "weight": 0.08092648278096365
+      },
+      {
+        "term": "otoyolu",
+        "weight": 0.054213334931396524
+      },
+      {
+        "term": "köprünün",
+        "weight": 0.040667393386189236
+      },
+      {
+        "term": "geçidi",
+        "weight": 0.03478116483020409
+      },
+      {
+        "term": "trafik",
+        "weight": 0.02577385549242947
+      },
+      {
+        "term": "otoyol",
+        "weight": 0.02488956857931992
+      },
+      {
+        "term": "temporal",
+        "weight": 0.02488956857931992
+      },
+      {
+        "term": "üzerinde",
+        "weight": 0.02454478944478007
+      },
+      {
+        "term": "yerleşimi",
+        "weight": 0.022099162335926712
+      }
+    ]
+  },
+  {
+    "topic_id": 108,
+    "size": 54,
+    "name": "108_dans_bale_dance_dansı",
+    "top_terms": [
+      {
+        "term": "dans",
+        "weight": 0.15110998295270525
+      },
+      {
+        "term": "bale",
+        "weight": 0.07126666373624894
+      },
+      {
+        "term": "dance",
+        "weight": 0.046657136718691074
+      },
+      {
+        "term": "dansı",
+        "weight": 0.04356615468362049
+      },
+      {
+        "term": "dansçı",
+        "weight": 0.03606062633051793
+      },
+      {
+        "term": "tango",
+        "weight": 0.03542310974328942
+      },
+      {
+        "term": "dancing",
+        "weight": 0.028213597974817598
+      },
+      {
+        "term": "koreografisini",
+        "weight": 0.021784585422701393
+      },
+      {
+        "term": "koreografı",
+        "weight": 0.021784585422701393
+      },
+      {
+        "term": "ikil",
+        "weight": 0.021784585422701393
+      }
+    ]
+  },
+  {
+    "topic_id": 109,
+    "size": 54,
+    "name": "109_kontluğunda_parish_civil_ingiltere",
+    "top_terms": [
+      {
+        "term": "kontluğunda",
+        "weight": 0.43885029783701607
+      },
+      {
+        "term": "parish",
+        "weight": 0.42704049655429654
+      },
+      {
+        "term": "civil",
+        "weight": 0.4254739709995407
+      },
+      {
+        "term": "ingiltere",
+        "weight": 0.30124930492402113
+      },
+      {
+        "term": "bulunan",
+        "weight": 0.2140059786285656
+      },
+      {
+        "term": "nin",
+        "weight": 0.13649110663466824
+      },
+      {
+        "term": "yorkshire",
+        "weight": 0.11360663991309682
+      },
+      {
+        "term": "lincolnshire",
+        "weight": 0.10366716149738733
+      },
+      {
+        "term": "suffolk",
+        "weight": 0.06475186686607108
+      },
+      {
+        "term": "norfolk",
+        "weight": 0.0560771237177465
+      }
+    ]
+  },
+  {
+    "topic_id": 110,
+    "size": 51,
+    "name": "110_formula_yarışı_yol_prix",
+    "top_terms": [
+      {
+        "term": "formula",
+        "weight": 0.12415951210249582
+      },
+      {
+        "term": "yarışı",
+        "weight": 0.08080575377229726
+      },
+      {
+        "term": "yol",
+        "weight": 0.07935783620947197
+      },
+      {
+        "term": "prix",
+        "weight": 0.06809210599426181
+      },
+      {
+        "term": "grand",
+        "weight": 0.06449949216167888
+      },
+      {
+        "term": "ferrari",
+        "weight": 0.0643952223291726
+      },
+      {
+        "term": "yarış",
+        "weight": 0.06141601566011761
+      },
+      {
+        "term": "f1",
+        "weight": 0.05876275086189336
+      },
+      {
+        "term": "şampiyonası",
+        "weight": 0.05496750742548144
+      },
+      {
+        "term": "fıa",
+        "weight": 0.0360086156894595
+      }
+    ]
+  },
+  {
+    "topic_id": 111,
+    "size": 51,
+    "name": "111_ses_sesleri_kulaklık_yeteneğine",
+    "top_terms": [
+      {
+        "term": "ses",
+        "weight": 0.19605585293917446
+      },
+      {
+        "term": "sesleri",
+        "weight": 0.0677549730593903
+      },
+      {
+        "term": "kulaklık",
+        "weight": 0.03096828415333834
+      },
+      {
+        "term": "yeteneğine",
+        "weight": 0.026497985792381724
+      },
+      {
+        "term": "sesini",
+        "weight": 0.02540811489727136
+      },
+      {
+        "term": "klute",
+        "weight": 0.023300034843411054
+      },
+      {
+        "term": "seslerle",
+        "weight": 0.023300034843411054
+      },
+      {
+        "term": "tele",
+        "weight": 0.023300034843411054
+      },
+      {
+        "term": "duddell",
+        "weight": 0.023300034843411054
+      },
+      {
+        "term": "frekansları",
+        "weight": 0.023300034843411054
+      }
+    ]
+  },
+  {
+    "topic_id": 112,
+    "size": 51,
+    "name": "112_giymektedir_giyim_forma_beyaz",
+    "top_terms": [
+      {
+        "term": "giymektedir",
+        "weight": 0.05863565940898332
+      },
+      {
+        "term": "giyim",
+        "weight": 0.054823418880789766
+      },
+      {
+        "term": "forma",
+        "weight": 0.0519169486012472
+      },
+      {
+        "term": "beyaz",
+        "weight": 0.03345375543537635
+      },
+      {
+        "term": "moda",
+        "weight": 0.032405650178604965
+      },
+      {
+        "term": "siyah",
+        "weight": 0.03127559476061954
+      },
+      {
+        "term": "ekiplerinden",
+        "weight": 0.029847403063463628
+      },
+      {
+        "term": "giyerler",
+        "weight": 0.024103484320770054
+      },
+      {
+        "term": "şort",
+        "weight": 0.024103484320770054
+      },
+      {
+        "term": "elbisenin",
+        "weight": 0.024103484320770054
+      }
+    ]
+  },
+  {
+    "topic_id": 113,
+    "size": 50,
+    "name": "113_lig_amatör_süper_mücadele",
+    "top_terms": [
+      {
+        "term": "lig",
+        "weight": 0.2383949906491349
+      },
+      {
+        "term": "amatör",
+        "weight": 0.09594665570695768
+      },
+      {
+        "term": "süper",
+        "weight": 0.08450585144606507
+      },
+      {
+        "term": "mücadele",
+        "weight": 0.06902988539445798
+      },
+      {
+        "term": "sezonunda",
+        "weight": 0.06577395653898475
+      },
+      {
+        "term": "ligde",
+        "weight": 0.0581441308117202
+      },
+      {
+        "term": "ligi",
+        "weight": 0.054270311137910275
+      },
+      {
+        "term": "yükseldi",
+        "weight": 0.05034949917132411
+      },
+      {
+        "term": "premier",
+        "weight": 0.04820289629323439
+      },
+      {
+        "term": "bölgesel",
+        "weight": 0.033173094407112684
+      }
+    ]
+  }
+]

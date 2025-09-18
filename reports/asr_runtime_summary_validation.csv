@@ -1,0 +1,4 @@
+report_file,backend,model,lang,split,n,wer,cer,rtf,latin_hawar_ratio,total_audio_s,wall_s
+reports\asr_whisperct2_kmr_validation.json,ct2,openai/whisper-small (faster-whisper:small),kmr,validation,50,1.4491803278688524,0.9702417854928704,0.06934628570329468,0.7554605887939221,247.71599999999998,17.178184509277344
+reports\asr_whisper_tr_validation.json,hf,openai/whisper-small,tr,validation,50,0.35106382978723405,0.12632108706592854,0.031496863644138035,,243.81599999999986,7.679439306259155
+reports\asr_whisperct2_zza_validation.json,ct2,openai/whisper-small (faster-whisper:small),zza,validation,50,1.221311475409836,0.7339688041594454,0.08137641909454345,0.8747315676449534,205.0560000000001,16.686722993850708

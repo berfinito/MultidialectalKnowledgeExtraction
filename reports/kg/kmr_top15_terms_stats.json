@@ -1,0 +1,11 @@
+{
+  "nodes": 66,
+  "edges": 150,
+  "weighted_edges_sum": 150,
+  "avg_weighted_degree": 4.545454545454546,
+  "density": 0.06993006993006994,
+  "avg_edge_weight": 1.0,
+  "median_weighted_degree": 4.0,
+  "max_weighted_degree": 12,
+  "min_weighted_degree": 4
+}

@@ -72,3 +72,82 @@ Deferred:
 - MT Drift (CS-3)
 - Entity Linking + PMI / TF-IDF edge weighting
 - Bipartite Topic–Term KG
+
+
+## v1 Finalization — Artifacts & Quickstart
+
+Artifacts (özet):
+- ASR reports: `reports/asr_whisper_*`
+- Compare tables: `reports/asr_compare_medium_large.md`, `reports/asr_best_medium_large.md`
+- Topics/Keywords: `reports/topics/*`, `reports/keywords/*`, analysis md’leri
+- KG (PMI/TF‑IDF): `reports/analysis/*_kg_*_{pmi,tfidf}.{tsv,json}`, centrality, plots, exports (.gexf/.graphml)
+- Case studies: `reports/analysis/case*.md`
+- Final summary: `reports/analysis/final_summary.md`
+- Repro bundle: `reports/env.txt`, `env_freeze.txt`, `versions.json`, `git_commit.txt`, `gpu.txt`
+
+v1 Quickstart (PowerShell):
+```powershell
+# ASR model karşılaştırma tablolarını yeniden üret
+python scripts\asr_compare_models.py --patterns "reports/asr_whisper_*_*_medium.json" "reports/asr_whisper_*_*_large.json" --baseline medium --out "reports/asr_compare_medium_large.md" --best-out "reports/asr_best_medium_large.md"
+
+# KG centrality özetleri
+python scripts\kg_centrality_analysis.py --patterns "reports/analysis/*_kg_full_*.tsv" "reports/analysis/*_kg_top15_*.tsv"
+
+# KG çizimler (örnek)
+python scripts\plot_kg.py --tsv reports\analysis\tr_kg_full_pmi.tsv --top_edges 200 --out reports\analysis\plots\tr_kg_full_pmi_top200.png
+
+# KG export (örnek)
+python scripts\export_kg.py --tsv reports\analysis\tr_kg_full_pmi.tsv --out reports\analysis\exports\tr_kg_full_pmi.gexf
+
+# Testler
+pytest -q
+```
+
+Thesis title (öneri):
+- TR: “Konuşmadan Bilgi Grafına: Türkçe, Kurmanci ve Zazaca İçin Çok‑Lehçeli Bilgi Çıkarımı”
+- EN: “From Speech to Knowledge Graphs: Multidialectal Knowledge Extraction for Turkish, Kurmanji, and Zazaki”
+
+
+## Project Map
+
+Bu bölüm depodaki her dosyanın amacını ve etkilediği çıktıları özetler. Ayrıntılı sürüm: `reports/docs/PROJECT_MAP.md`.
+
+- configs/
+  - experiment.yaml, experiment_large.yaml: ASR/işlem konfigleri; `src/mdke/asr/whisper_infer.py`, `scripts/*` tarafından okunur.
+  - prompts/, stopwords/: ASR bias metni ve dil-dışı ölçüm listeleri; `whisper_infer.py` metrikleri etkiler.
+- data/
+  - raw/: Ham kaynaklar (CV, wiki, Zazagorani) [Git dışı].
+  - interim/: Ara çıktılar (ASR JSONL, beam JSONL) [Git dışı].
+  - processed/: Temizlenmiş/parçalanmış/dedup korpuslar (parquet); topics/keywords girişleri.
+- reports/
+  - asr_*.json, *_summary.md: ASR metrikleri ve karşılaştırmalar.
+  - analysis/: KG TSV+stats, centrality JSON+summary, plots PNG, exports (GEXF/GraphML), case studies.
+  - topics/, keywords/: BERTopic ve keyword çıktıları.
+  - sprint-*-summary.{json,md}: sprint raporları.
+  - env.txt, env_freeze.txt, versions.json, git_commit.txt, gpu.txt: tekrarlanabilirlik.
+- scripts/
+  - asr_compare_models.py: medium vs large kıyası; `reports/asr_compare_medium_large.md` üretir.
+  - asr_decode_fusion.py: beam dump yeniden puanlama (pilot); `reports/exports/fusion_*.md`.
+  - topics_bertopic.py, compute_topic_coherence.py: topic model ve coherence.
+  - keywords_extract.py, keywords_*: anahtar terimler + coverage/overlap.
+  - topic_representatives.py: temsilci terimler; KG girişleri.
+  - kg_from_reps_terms.py, kg_weighting.py: co-occurrence + PMI/TF‑IDF ağırlıkları, TSV+stats.
+  - kg_centrality_analysis.py: centrality ve `analysis/centrality/summary.md`.
+  - plot_kg.py: PNG görselleri.
+  - export_kg.py: GEXF/GraphML exportları.
+  - text_*: ingest, temizlik, segment, dedup, n‑gram.
+  - build_thesis_tables.py: konsolidasyon tabloları.
+- src/mdke/
+  - asr/whisper_infer.py: ASR inference (beam dump destekli); rapor+JSONL üretir.
+  - asr/whisper_infer_ct2.py: CT2/Faster‑Whisper pilot.
+  - utils/{io,metrics,langmap,textnorm}.py: IO, metrikler (WER/CER/RTF/bias), dil/simge, normalizasyon.
+  - data/ingest_commonvoice.py: CV ingest.
+  - text/*: wiki/zazagorani ingest ve transliterasyon yardımcıları.
+- tests/
+  - test_asr_beams_schema.py: beam JSONL şema kontrolü.
+  - test_kg_stats_consistency_extended.py, test_pmi_formula_sanity.py: KG ağırlık ve istatistik doğrulamaları.
+  - test_textnorm.py, test_smoke.py: metin norm ve basit duman testi.
+
+## Code comments & style
+
+Kodlar progressive olarak docstring + inline yorumlarla güncellenmektedir. Örnek bir iyileştirme: `scripts/export_kg.py` dosyası (aşağıda önerilen sürüm).

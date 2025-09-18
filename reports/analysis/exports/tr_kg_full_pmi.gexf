@@ -1,0 +1,1677 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-09-18">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="albüm" label="albüm" />
+      <node id="albümü" label="albümü" />
+      <node id="gitar" label="gitar" />
+      <node id="müzik" label="müzik" />
+      <node id="şarkı" label="şarkı" />
+      <node id="anadolu" label="anadolu" />
+      <node id="bantia" label="bantia" />
+      <node id="john" label="john" />
+      <node id="lisesi" label="lisesi" />
+      <node id="william" label="william" />
+      <node id="için" label="için" />
+      <node id="kullanıcı" label="kullanıcı" />
+      <node id="microsoft" label="microsoft" />
+      <node id="veya" label="veya" />
+      <node id="windows" label="windows" />
+      <node id="fakültesi" label="fakültesi" />
+      <node id="mezun" label="mezun" />
+      <node id="nde" label="nde" />
+      <node id="üniversitesi" label="üniversitesi" />
+      <node id="başkanı" label="başkanı" />
+      <node id="genel" label="genel" />
+      <node id="milletvekili" label="milletvekili" />
+      <node id="parti" label="parti" />
+      <node id="partisi" label="partisi" />
+      <node id="bağlı" label="bağlı" />
+      <node id="ilinin" label="ilinin" />
+      <node id="ilçesine" label="ilçesine" />
+      <node id="köydür" label="köydür" />
+      <node id="mahalledir" label="mahalledir" />
+      <node id="kan" label="kan" />
+      <node id="neden" label="neden" />
+      <node id="psychotria" label="psychotria" />
+      <node id="tedavi" label="tedavi" />
+      <node id="film" label="film" />
+      <node id="filmde" label="filmde" />
+      <node id="filmi" label="filmi" />
+      <node id="tiyatrosu" label="tiyatrosu" />
+      <node id="yapımı" label="yapımı" />
+      <node id="babasıdır" label="babasıdır" />
+      <node id="evlendi" label="evlendi" />
+      <node id="evli" label="evli" />
+      <node id="oğlu" label="oğlu" />
+      <node id="çocuk" label="çocuk" />
+      <node id="2019" label="2019" />
+      <node id="2021" label="2021" />
+      <node id="bölüm" label="bölüm" />
+      <node id="tarihinde" label="tarihinde" />
+      <node id="televizyon" label="televizyon" />
+      <node id="gazetesi" label="gazetesi" />
+      <node id="kitabı" label="kitabı" />
+      <node id="kitap" label="kitap" />
+      <node id="roman" label="roman" />
+      <node id="şiir" label="şiir" />
+      <node id="attı" label="attı" />
+      <node id="gol" label="gol" />
+      <node id="maçta" label="maçta" />
+      <node id="maçı" label="maçı" />
+      <node id="maçında" label="maçında" />
+      <node id="dalga" label="dalga" />
+      <node id="enerji" label="enerji" />
+      <node id="hidrojen" label="hidrojen" />
+      <node id="kuantum" label="kuantum" />
+      <node id="manyetik" label="manyetik" />
+      <node id="itibarıyla" label="itibarıyla" />
+      <node id="nüfus" label="nüfus" />
+      <node id="nüfusu" label="nüfusu" />
+      <node id="sayımına" label="sayımına" />
+      <node id="şehrin" label="şehrin" />
+      <node id="karşı" label="karşı" />
+      <node id="ordu" label="ordu" />
+      <node id="ordusu" label="ordusu" />
+      <node id="savaş" label="savaş" />
+      <node id="savaşı" label="savaşı" />
+      <node id="hava" label="hava" />
+      <node id="havaalanı" label="havaalanı" />
+      <node id="havalimanı" label="havalimanı" />
+      <node id="uçak" label="uçak" />
+      <node id="uçağı" label="uçağı" />
+      <node id="istanbul" label="istanbul" />
+      <node id="türk" label="türk" />
+      <node id="türkiye" label="türkiye" />
+      <node id="türkçe" label="türkçe" />
+      <node id="türkçeye" label="türkçeye" />
+      <node id="1934" label="1934" />
+      <node id="1945" label="1945" />
+      <node id="alman" label="alman" />
+      <node id="nisan" label="nisan" />
+      <node id="von" label="von" />
+      <node id="frac" label="frac" />
+      <node id="mathbf" label="mathbf" />
+      <node id="partial" label="partial" />
+      <node id="sqrt" label="sqrt" />
+      <node id="u_" label="u_" />
+      <node id="en" label="en" />
+      <node id="iyi" label="iyi" />
+      <node id="ödülleri" label="ödülleri" />
+      <node id="ödülü" label="ödülü" />
+      <node id="cinsidir" label="cinsidir" />
+      <node id="familyasına" label="familyasına" />
+      <node id="hayvan" label="hayvan" />
+      <node id="türüdür" label="türüdür" />
+      <node id="il" label="il" />
+      <node id="ilçe" label="ilçe" />
+      <node id="km" label="km" />
+      <node id="merkezine" label="merkezine" />
+      <node id="uzaklıktadır" label="uzaklıktadır" />
+      <node id="bir" label="bir" />
+      <node id="bu" label="bu" />
+      <node id="felsefe" label="felsefe" />
+      <node id="olarak" label="olarak" />
+      <node id="olduğunu" label="olduğunu" />
+      <node id="birliği" label="birliği" />
+      <node id="rus" label="rus" />
+      <node id="rusya" label="rusya" />
+      <node id="sovyet" label="sovyet" />
+      <node id="sovyetler" label="sovyetler" />
+      <node id="ceza" label="ceza" />
+      <node id="cezasına" label="cezasına" />
+      <node id="hapis" label="hapis" />
+      <node id="mahkemesi" label="mahkemesi" />
+      <node id="çarptırıldı" label="çarptırıldı" />
+      <node id="camii" label="camii" />
+      <node id="katolik" label="katolik" />
+      <node id="kilise" label="kilise" />
+      <node id="kilisesi" label="kilisesi" />
+      <node id="ortodoks" label="ortodoks" />
+      <node id="güneş" label="güneş" />
+      <node id="jüpiter" label="jüpiter" />
+      <node id="ngc" label="ngc" />
+      <node id="yıldız" label="yıldız" />
+      <node id="yıldızı" label="yıldızı" />
+      <node id="dil" label="dil" />
+      <node id="dili" label="dili" />
+      <node id="dilleri" label="dilleri" />
+      <node id="ingilizce" label="ingilizce" />
+      <node id="konuşulan" label="konuşulan" />
+      <node id="da" label="da" />
+      <node id="doğdu" label="doğdu" />
+      <node id="dünyaya" label="dünyaya" />
+      <node id="geldi" label="geldi" />
+      <node id="çocuğu" label="çocuğu" />
+      <node id="bak" label="bak" />
+      <node id="ben" label="ben" />
+      <node id="evet" label="evet" />
+      <node id="lo" label="lo" />
+      <node id="tamam" label="tamam" />
+      <node id="buğday" label="buğday" />
+      <node id="meyve" label="meyve" />
+      <node id="mutfağı" label="mutfağı" />
+      <node id="mutfağında" label="mutfağında" />
+      <node id="soğan" label="soğan" />
+      <node id="el" label="el" />
+      <node id="ibn" label="ibn" />
+      <node id="islam" label="islam" />
+      <node id="muhammed" label="muhammed" />
+      <node id="müslüman" label="müslüman" />
+      <node id="başladı" label="başladı" />
+      <node id="kariyerine" label="kariyerine" />
+      <node id="kulübünde" label="kulübünde" />
+      <node id="kulüplerinde" label="kulüplerinde" />
+      <node id="profesyonel" label="profesyonel" />
+      <node id="afrika" label="afrika" />
+      <node id="amerika" label="amerika" />
+      <node id="ispanyol" label="ispanyol" />
+      <node id="meksika" label="meksika" />
+      <node id="vize" label="vize" />
+      <node id="anlamlara" label="anlamlara" />
+      <node id="anlamına" label="anlamına" />
+      <node id="gelebilir" label="gelebilir" />
+      <node id="gelir" label="gelir" />
+      <node id="kelime" label="kelime" />
+      <node id="bankası" label="bankası" />
+      <node id="dolar" label="dolar" />
+      <node id="ekonomik" label="ekonomik" />
+      <node id="milyon" label="milyon" />
+      <node id="para" label="para" />
+      <node id="futbolcu" label="futbolcu" />
+      <node id="futbolcudur" label="futbolcudur" />
+      <node id="görev" label="görev" />
+      <node id="millî" label="millî" />
+      <node id="pozisyonunda" label="pozisyonunda" />
+      <node id="din" label="din" />
+      <node id="dini" label="dini" />
+      <node id="hristiyan" label="hristiyan" />
+      <node id="mesih" label="mesih" />
+      <node id="tanrı" label="tanrı" />
+      <node id="cinsel" label="cinsel" />
+      <node id="erkek" label="erkek" />
+      <node id="eşcinsel" label="eşcinsel" />
+      <node id="kadın" label="kadın" />
+      <node id="kadınların" label="kadınların" />
+      <node id="adı" label="adı" />
+      <node id="geçmektedir" label="geçmektedir" />
+      <node id="kayıtlarında" label="kayıtlarında" />
+      <node id="köyün" label="köyün" />
+      <node id="yılı" label="yılı" />
+      <node id="2008" label="2008" />
+      <node id="la" label="la" />
+      <node id="le" label="le" />
+      <node id="of" label="of" />
+      <node id="the" label="the" />
+      <node id="covıd" label="covıd" />
+      <node id="nedeniyle" label="nedeniyle" />
+      <node id="yaşında" label="yaşında" />
+      <node id="öldü" label="öldü" />
+      <node id="ölmüştür" label="ölmüştür" />
+      <node id="bosna" label="bosna" />
+      <node id="bulgar" label="bulgar" />
+      <node id="imparatorluğu" label="imparatorluğu" />
+      <node id="makedonya" label="makedonya" />
+      <node id="osmanlı" label="osmanlı" />
+      <node id="heykel" label="heykel" />
+      <node id="heykeli" label="heykeli" />
+      <node id="müze" label="müze" />
+      <node id="müzesi" label="müzesi" />
+      <node id="sanat" label="sanat" />
+      <node id="begonia" label="begonia" />
+      <node id="bitki" label="bitki" />
+      <node id="cinsine" label="cinsine" />
+      <node id="hayır" label="hayır" />
+      <node id="hiçbir" label="hiçbir" />
+      <node id="kimse" label="kimse" />
+      <node id="yok" label="yok" />
+      <node id="şey" label="şey" />
+      <node id="motor" label="motor" />
+      <node id="motoru" label="motoru" />
+      <node id="nissan" label="nissan" />
+      <node id="otomobil" label="otomobil" />
+      <node id="yakıt" label="yakıt" />
+      <node id="dağı" label="dağı" />
+      <node id="develi" label="develi" />
+      <node id="pınarbaşı" label="pınarbaşı" />
+      <node id="sarız" label="sarız" />
+      <node id="tomarza" label="tomarza" />
+      <node id="madalya" label="madalya" />
+      <node id="nda" label="nda" />
+      <node id="olimpiyat" label="olimpiyat" />
+      <node id="olimpiyatları" label="olimpiyatları" />
+      <node id="yaz" label="yaz" />
+      <node id="10" label="10" />
+      <node id="11" label="11" />
+      <node id="12" label="12" />
+      <node id="13" label="13" />
+      <node id="op" label="op" />
+      <node id="japon" label="japon" />
+      <node id="japonya" label="japonya" />
+      <node id="nın" label="nın" />
+      <node id="prefektörlüğünde" label="prefektörlüğünde" />
+      <node id="tokyo" label="tokyo" />
+      <node id="buz" label="buz" />
+      <node id="iklimi" label="iklimi" />
+      <node id="kış" label="kış" />
+      <node id="soğuk" label="soğuk" />
+      <node id="sıcak" label="sıcak" />
+      <node id="demiryolu" label="demiryolu" />
+      <node id="istasyon" label="istasyon" />
+      <node id="istasyonu" label="istasyonu" />
+      <node id="istasyonun" label="istasyonun" />
+      <node id="tren" label="tren" />
+      <node id="imzaladı" label="imzaladı" />
+      <node id="oldu" label="oldu" />
+      <node id="sözleşme" label="sözleşme" />
+      <node id="transfer" label="transfer" />
+      <node id="yıllık" label="yıllık" />
+      <node id="yüzyıl" label="yüzyıl" />
+      <node id="yüzyıla" label="yüzyıla" />
+      <node id="yüzyılda" label="yüzyılda" />
+      <node id="yüzyılın" label="yüzyılın" />
+      <node id="yıl" label="yıl" />
+      <node id="cm" label="cm" />
+      <node id="kg" label="kg" />
+      <node id="kiloda" label="kiloda" />
+      <node id="metre" label="metre" />
+      <node id="uzunluğunda" label="uzunluğunda" />
+      <node id="göl" label="göl" />
+      <node id="gölü" label="gölü" />
+      <node id="nehir" label="nehir" />
+      <node id="nehri" label="nehri" />
+      <node id="nehrin" label="nehrin" />
+      <node id="deniz" label="deniz" />
+      <node id="donanması" label="donanması" />
+      <node id="gemi" label="gemi" />
+      <node id="gemiler" label="gemiler" />
+      <node id="gemisi" label="gemisi" />
+      <node id="bulunmaktadır" label="bulunmaktadır" />
+      <node id="kapı" label="kapı" />
+      <node id="oda" label="oda" />
+      <node id="odası" label="odası" />
+      <node id="suite" label="suite" />
+      <node id="bizans" label="bizans" />
+      <node id="imparatoru" label="imparatoru" />
+      <node id="kadar" label="kadar" />
+      <node id="krallığı" label="krallığı" />
+      <node id="kralı" label="kralı" />
+      <node id="nintendo" label="nintendo" />
+      <node id="oyun" label="oyun" />
+      <node id="oyunu" label="oyunu" />
+      <node id="oyunun" label="oyunun" />
+      <node id="playstation" label="playstation" />
+      <node id="amerikalı" label="amerikalı" />
+      <node id="müzisyen" label="müzisyen" />
+      <node id="oyuncu" label="oyuncu" />
+      <node id="yazarı" label="yazarı" />
+      <node id="şarkıcı" label="şarkıcı" />
+      <node id="evcil" label="evcil" />
+      <node id="koyun" label="koyun" />
+      <node id="köpekler" label="köpekler" />
+      <node id="köpeği" label="köpeği" />
+      <node id="tarım" label="tarım" />
+      <node id="gogh" label="gogh" />
+      <node id="resim" label="resim" />
+      <node id="van" label="van" />
+      <node id="çizim" label="çizim" />
+      <node id="ayaklanma" label="ayaklanma" />
+      <node id="ayaklanması" label="ayaklanması" />
+      <node id="isyanı" label="isyanı" />
+      <node id="kınadı" label="kınadı" />
+      <node id="dumbledore" label="dumbledore" />
+      <node id="eder" label="eder" />
+      <node id="onu" label="onu" />
+      <node id="sonra" label="sonra" />
+      <node id="basketbol" label="basketbol" />
+      <node id="ligi" label="ligi" />
+      <node id="takımı" label="takımı" />
+      <node id="voleybol" label="voleybol" />
+      <node id="126" label="126" />
+      <node id="127" label="127" />
+      <node id="246" label="246" />
+      <node id="70" label="70" />
+      <node id="74" label="74" />
+      <node id="new" label="new" />
+      <node id="press" label="press" />
+      <node id="princeton" label="princeton" />
+      <node id="university" label="university" />
+      <node id="york" label="york" />
+      <node id="siyonist" label="siyonist" />
+      <node id="yahudi" label="yahudi" />
+      <node id="yahudiler" label="yahudiler" />
+      <node id="yahudilere" label="yahudilere" />
+      <node id="yahudilerin" label="yahudilerin" />
+      <node id="16" label="16" />
+      <node id="lg" label="lg" />
+      <node id="thinq" label="thinq" />
+      <node id="tl" label="tl" />
+      <node id="dahestanı" label="dahestanı" />
+      <node id="etap" label="etap" />
+      <node id="klasmanı" label="klasmanı" />
+      <node id="ms" label="ms" />
+      <node id="puan" label="puan" />
+      <node id="15" label="15" />
+      <node id="17" label="17" />
+      <node id="18" label="18" />
+      <node id="19" label="19" />
+      <node id="baraj" label="baraj" />
+      <node id="barajı" label="barajı" />
+      <node id="hidroelektrik" label="hidroelektrik" />
+      <node id="su" label="su" />
+      <node id="suyu" label="suyu" />
+      <node id="choi" label="choi" />
+      <node id="hyun" label="hyun" />
+      <node id="jin" label="jin" />
+      <node id="kim" label="kim" />
+      <node id="lee" label="lee" />
+      <node id="bira" label="bira" />
+      <node id="içki" label="içki" />
+      <node id="üzüm" label="üzüm" />
+      <node id="şarabı" label="şarabı" />
+      <node id="şarap" label="şarap" />
+      <node id="kırmızı" label="kırmızı" />
+      <node id="mavi" label="mavi" />
+      <node id="rengi" label="rengi" />
+      <node id="renk" label="renk" />
+      <node id="siyah" label="siyah" />
+      <node id="asur" label="asur" />
+      <node id="kral" label="kral" />
+      <node id="ııı" label="ııı" />
+      <node id="bootp" label="bootp" />
+      <node id="extensions" label="extensions" />
+      <node id="rfc" label="rfc" />
+      <node id="siemens" label="siemens" />
+      <node id="ısbn" label="ısbn" />
+      <node id="eurovision" label="eurovision" />
+      <node id="temsil" label="temsil" />
+      <node id="yarışması" label="yarışması" />
+      <node id="doctor" label="doctor" />
+      <node id="doktor" label="doktor" />
+      <node id="dr" label="dr" />
+      <node id="prof" label="prof" />
+      <node id="who" label="who" />
+      <node id="bitti" label="bitti" />
+      <node id="sırada" label="sırada" />
+      <node id="sıraya" label="sıraya" />
+      <node id="tamamladı" label="tamamladı" />
+      <node id="yükseldi" label="yükseldi" />
+      <node id="roma" label="roma" />
+      <node id="romalılar" label="romalılar" />
+      <node id="mi" label="mi" />
+      <node id="musun" label="musun" />
+      <node id="mı" label="mı" />
+      <node id="ne" label="ne" />
+      <node id="sen" label="sen" />
+      <node id="kuş" label="kuş" />
+      <node id="kuşlar" label="kuşlar" />
+      <node id="kuşların" label="kuşların" />
+      <node id="türü" label="türü" />
+      <node id="vahşi" label="vahşi" />
+      <node id="2013" label="2013" />
+      <node id="ayrıldı" label="ayrıldı" />
+      <node id="emekli" label="emekli" />
+      <node id="görevinden" label="görevinden" />
+      <node id="istifa" label="istifa" />
+      <node id="izzet" label="izzet" />
+      <node id="lütfi" label="lütfi" />
+      <node id="siyasetçi" label="siyasetçi" />
+      <node id="siyasetçidir" label="siyasetçidir" />
+      <node id="ada" label="ada" />
+      <node id="adadır" label="adadır" />
+      <node id="adaları" label="adaları" />
+      <node id="adalarında" label="adalarında" />
+      <node id="adası" label="adası" />
+      <node id="000" label="000" />
+      <node id="asker" label="asker" />
+      <node id="kişi" label="kişi" />
+      <node id="yaralandı" label="yaralandı" />
+      <node id="abv" label="abv" />
+      <node id="cardhu" label="cardhu" />
+      <node id="festival" label="festival" />
+      <node id="festivali" label="festivali" />
+      <node id="ağaç" label="ağaç" />
+      <node id="ağaçlar" label="ağaçlar" />
+      <node id="meşe" label="meşe" />
+      <node id="orman" label="orman" />
+      <node id="ormanları" label="ormanları" />
+      <node id="and" label="and" />
+      <node id="lunatipula" label="lunatipula" />
+      <node id="theischinger" label="theischinger" />
+      <node id="tipula" label="tipula" />
+      <node id="varanus" label="varanus" />
+      <node id="büyük" label="büyük" />
+      <node id="deprem" label="deprem" />
+      <node id="hasar" label="hasar" />
+      <node id="meydana" label="meydana" />
+      <node id="yangın" label="yangın" />
+      <node id="kardeşi" label="kardeşi" />
+      <node id="öldürdü" label="öldürdü" />
+      <node id="öldürülür" label="öldürülür" />
+      <node id="öldürür" label="öldürür" />
+      <node id="marka" label="marka" />
+      <node id="sanayi" label="sanayi" />
+      <node id="tescillenmiş" label="tescillenmiş" />
+      <node id="üretim" label="üretim" />
+      <node id="şirket" label="şirket" />
+      <node id="cenazesi" label="cenazesi" />
+      <node id="defnedildi" label="defnedildi" />
+      <node id="gömüldü" label="gömüldü" />
+      <node id="mezar" label="mezar" />
+      <node id="mezarlığı" label="mezarlığı" />
+      <node id="com" label="com" />
+      <node id="profili" label="profili" />
+      <node id="sitesi" label="sitesi" />
+      <node id="twitter" label="twitter" />
+      <node id="web" label="web" />
+      <node id="cup" label="cup" />
+      <node id="kupa" label="kupa" />
+      <node id="kupası" label="kupası" />
+      <node id="şampiyon" label="şampiyon" />
+      <node id="seçimleri" label="seçimleri" />
+      <node id="seçimlerinde" label="seçimlerinde" />
+      <node id="örümcek" label="örümcek" />
+      <node id="güney" label="güney" />
+      <node id="ilçesi" label="ilçesi" />
+      <node id="kore" label="kore" />
+      <node id="semti" label="semti" />
+      <node id="çin" label="çin" />
+      <node id="ayakları" label="ayakları" />
+      <node id="diş" label="diş" />
+      <node id="dişlerin" label="dişlerin" />
+      <node id="kemik" label="kemik" />
+      <node id="vücut" label="vücut" />
+      <node id="azerbaycan" label="azerbaycan" />
+      <node id="cfb" label="cfb" />
+      <node id="eyaleti" label="eyaleti" />
+      <node id="farsça" label="farsça" />
+      <node id="iran" label="iran" />
+      <node id="ekim" label="ekim" />
+      <node id="fransız" label="fransız" />
+      <node id="politikacı" label="politikacı" />
+      <node id="etnik" label="etnik" />
+      <node id="kafkasya" label="kafkasya" />
+      <node id="türkler" label="türkler" />
+      <node id="24" label="24" />
+      <node id="25" label="25" />
+      <node id="26" label="26" />
+      <node id="28" label="28" />
+      <node id="tbmm" label="tbmm" />
+      <node id="balık" label="balık" />
+      <node id="balıkları" label="balıkları" />
+      <node id="balığı" label="balığı" />
+      <node id="fish" label="fish" />
+      <node id="marine" label="marine" />
+      <node id="geçidi" label="geçidi" />
+      <node id="köprü" label="köprü" />
+      <node id="köprünün" label="köprünün" />
+      <node id="köprüsü" label="köprüsü" />
+      <node id="otoyolu" label="otoyolu" />
+      <node id="bale" label="bale" />
+      <node id="dance" label="dance" />
+      <node id="dans" label="dans" />
+      <node id="dansçı" label="dansçı" />
+      <node id="dansı" label="dansı" />
+      <node id="bulunan" label="bulunan" />
+      <node id="civil" label="civil" />
+      <node id="ingiltere" label="ingiltere" />
+      <node id="kontluğunda" label="kontluğunda" />
+      <node id="parish" label="parish" />
+      <node id="formula" label="formula" />
+      <node id="grand" label="grand" />
+      <node id="prix" label="prix" />
+      <node id="yarışı" label="yarışı" />
+      <node id="yol" label="yol" />
+      <node id="kulaklık" label="kulaklık" />
+      <node id="ses" label="ses" />
+      <node id="sesini" label="sesini" />
+      <node id="sesleri" label="sesleri" />
+      <node id="yeteneğine" label="yeteneğine" />
+      <node id="beyaz" label="beyaz" />
+      <node id="forma" label="forma" />
+      <node id="giyim" label="giyim" />
+      <node id="giymektedir" label="giymektedir" />
+      <node id="moda" label="moda" />
+      <node id="amatör" label="amatör" />
+      <node id="lig" label="lig" />
+      <node id="mücadele" label="mücadele" />
+      <node id="sezonunda" label="sezonunda" />
+      <node id="süper" label="süper" />
+    </nodes>
+    <edges>
+      <edge source="albüm" target="albümü" id="0" weight="6.83289" />
+      <edge source="albüm" target="gitar" id="1" weight="6.83289" />
+      <edge source="albüm" target="müzik" id="2" weight="6.83289" />
+      <edge source="albüm" target="şarkı" id="3" weight="5.83289" />
+      <edge source="albümü" target="gitar" id="4" weight="6.83289" />
+      <edge source="albümü" target="müzik" id="5" weight="6.83289" />
+      <edge source="albümü" target="şarkı" id="6" weight="5.83289" />
+      <edge source="gitar" target="müzik" id="7" weight="6.83289" />
+      <edge source="gitar" target="şarkı" id="8" weight="5.83289" />
+      <edge source="müzik" target="şarkı" id="9" weight="5.83289" />
+      <edge source="şarkı" target="eurovision" id="10" weight="5.83289" />
+      <edge source="şarkı" target="nda" id="11" weight="4.83289" />
+      <edge source="şarkı" target="temsil" id="12" weight="5.83289" />
+      <edge source="şarkı" target="yarışması" id="13" weight="5.83289" />
+      <edge source="anadolu" target="bantia" id="14" weight="6.83289" />
+      <edge source="anadolu" target="john" id="15" weight="6.83289" />
+      <edge source="anadolu" target="lisesi" id="16" weight="5.83289" />
+      <edge source="anadolu" target="william" id="17" weight="6.83289" />
+      <edge source="bantia" target="john" id="18" weight="6.83289" />
+      <edge source="bantia" target="lisesi" id="19" weight="5.83289" />
+      <edge source="bantia" target="william" id="20" weight="6.83289" />
+      <edge source="john" target="lisesi" id="21" weight="5.83289" />
+      <edge source="john" target="william" id="22" weight="6.83289" />
+      <edge source="lisesi" target="william" id="23" weight="5.83289" />
+      <edge source="lisesi" target="fakültesi" id="24" weight="5.83289" />
+      <edge source="lisesi" target="mezun" id="25" weight="5.83289" />
+      <edge source="lisesi" target="nde" id="26" weight="5.83289" />
+      <edge source="lisesi" target="üniversitesi" id="27" weight="5.83289" />
+      <edge source="için" target="kullanıcı" id="28" weight="5.83289" />
+      <edge source="için" target="microsoft" id="29" weight="5.83289" />
+      <edge source="için" target="veya" id="30" weight="4.83289" />
+      <edge source="için" target="windows" id="31" weight="5.83289" />
+      <edge source="için" target="dumbledore" id="32" weight="5.83289" />
+      <edge source="için" target="eder" id="33" weight="5.83289" />
+      <edge source="için" target="onu" id="34" weight="4.83289" />
+      <edge source="için" target="sonra" id="35" weight="5.83289" />
+      <edge source="kullanıcı" target="microsoft" id="36" weight="6.83289" />
+      <edge source="kullanıcı" target="veya" id="37" weight="5.83289" />
+      <edge source="kullanıcı" target="windows" id="38" weight="6.83289" />
+      <edge source="microsoft" target="veya" id="39" weight="5.83289" />
+      <edge source="microsoft" target="windows" id="40" weight="6.83289" />
+      <edge source="veya" target="windows" id="41" weight="5.83289" />
+      <edge source="veya" target="kan" id="42" weight="5.83289" />
+      <edge source="veya" target="neden" id="43" weight="5.83289" />
+      <edge source="veya" target="psychotria" id="44" weight="5.83289" />
+      <edge source="veya" target="tedavi" id="45" weight="5.83289" />
+      <edge source="fakültesi" target="mezun" id="46" weight="6.83289" />
+      <edge source="fakültesi" target="nde" id="47" weight="6.83289" />
+      <edge source="fakültesi" target="üniversitesi" id="48" weight="6.83289" />
+      <edge source="mezun" target="nde" id="49" weight="6.83289" />
+      <edge source="mezun" target="üniversitesi" id="50" weight="6.83289" />
+      <edge source="nde" target="üniversitesi" id="51" weight="6.83289" />
+      <edge source="başkanı" target="genel" id="52" weight="5.83289" />
+      <edge source="başkanı" target="milletvekili" id="53" weight="5.83289" />
+      <edge source="başkanı" target="parti" id="54" weight="6.83289" />
+      <edge source="başkanı" target="partisi" id="55" weight="6.83289" />
+      <edge source="genel" target="milletvekili" id="56" weight="5.83289" />
+      <edge source="genel" target="parti" id="57" weight="5.83289" />
+      <edge source="genel" target="partisi" id="58" weight="5.83289" />
+      <edge source="genel" target="seçimleri" id="59" weight="5.83289" />
+      <edge source="genel" target="seçimlerinde" id="60" weight="5.83289" />
+      <edge source="genel" target="türkiye" id="61" weight="3.83289" />
+      <edge source="milletvekili" target="parti" id="62" weight="5.83289" />
+      <edge source="milletvekili" target="partisi" id="63" weight="5.83289" />
+      <edge source="milletvekili" target="seçimleri" id="64" weight="5.83289" />
+      <edge source="milletvekili" target="seçimlerinde" id="65" weight="5.83289" />
+      <edge source="milletvekili" target="türkiye" id="66" weight="3.83289" />
+      <edge source="parti" target="partisi" id="67" weight="6.83289" />
+      <edge source="bağlı" target="ilinin" id="68" weight="4.83289" />
+      <edge source="bağlı" target="ilçesine" id="69" weight="4.83289" />
+      <edge source="bağlı" target="köydür" id="70" weight="4.83289" />
+      <edge source="bağlı" target="mahalledir" id="71" weight="4.83289" />
+      <edge source="bağlı" target="cinsidir" id="72" weight="4.83289" />
+      <edge source="bağlı" target="familyasına" id="73" weight="4.83289" />
+      <edge source="bağlı" target="hayvan" id="74" weight="4.83289" />
+      <edge source="bağlı" target="türüdür" id="75" weight="4.83289" />
+      <edge source="bağlı" target="begonia" id="76" weight="4.83289" />
+      <edge source="bağlı" target="bitki" id="77" weight="4.83289" />
+      <edge source="bağlı" target="cinsine" id="78" weight="4.83289" />
+      <edge source="bağlı" target="örümcek" id="79" weight="4.83289" />
+      <edge source="ilinin" target="ilçesine" id="80" weight="6.83289" />
+      <edge source="ilinin" target="köydür" id="81" weight="6.83289" />
+      <edge source="ilinin" target="mahalledir" id="82" weight="6.83289" />
+      <edge source="ilçesine" target="köydür" id="83" weight="6.83289" />
+      <edge source="ilçesine" target="mahalledir" id="84" weight="6.83289" />
+      <edge source="köydür" target="mahalledir" id="85" weight="6.83289" />
+      <edge source="kan" target="neden" id="86" weight="6.83289" />
+      <edge source="kan" target="psychotria" id="87" weight="6.83289" />
+      <edge source="kan" target="tedavi" id="88" weight="6.83289" />
+      <edge source="neden" target="psychotria" id="89" weight="6.83289" />
+      <edge source="neden" target="tedavi" id="90" weight="6.83289" />
+      <edge source="psychotria" target="tedavi" id="91" weight="6.83289" />
+      <edge source="film" target="filmde" id="92" weight="5.83289" />
+      <edge source="film" target="filmi" id="93" weight="5.83289" />
+      <edge source="film" target="tiyatrosu" id="94" weight="5.83289" />
+      <edge source="film" target="yapımı" id="95" weight="5.83289" />
+      <edge source="film" target="en" id="96" weight="5.83289" />
+      <edge source="film" target="iyi" id="97" weight="5.83289" />
+      <edge source="film" target="ödülleri" id="98" weight="5.83289" />
+      <edge source="film" target="ödülü" id="99" weight="5.83289" />
+      <edge source="filmde" target="filmi" id="100" weight="6.83289" />
+      <edge source="filmde" target="tiyatrosu" id="101" weight="6.83289" />
+      <edge source="filmde" target="yapımı" id="102" weight="6.83289" />
+      <edge source="filmi" target="tiyatrosu" id="103" weight="6.83289" />
+      <edge source="filmi" target="yapımı" id="104" weight="6.83289" />
+      <edge source="tiyatrosu" target="yapımı" id="105" weight="6.83289" />
+      <edge source="babasıdır" target="evlendi" id="106" weight="6.83289" />
+      <edge source="babasıdır" target="evli" id="107" weight="6.83289" />
+      <edge source="babasıdır" target="oğlu" id="108" weight="6.83289" />
+      <edge source="babasıdır" target="çocuk" id="109" weight="6.83289" />
+      <edge source="evlendi" target="evli" id="110" weight="6.83289" />
+      <edge source="evlendi" target="oğlu" id="111" weight="6.83289" />
+      <edge source="evlendi" target="çocuk" id="112" weight="6.83289" />
+      <edge source="evli" target="oğlu" id="113" weight="6.83289" />
+      <edge source="evli" target="çocuk" id="114" weight="6.83289" />
+      <edge source="oğlu" target="çocuk" id="115" weight="6.83289" />
+      <edge source="2019" target="2021" id="116" weight="6.83289" />
+      <edge source="2019" target="bölüm" id="117" weight="6.83289" />
+      <edge source="2019" target="tarihinde" id="118" weight="6.83289" />
+      <edge source="2019" target="televizyon" id="119" weight="6.83289" />
+      <edge source="2021" target="bölüm" id="120" weight="6.83289" />
+      <edge source="2021" target="tarihinde" id="121" weight="6.83289" />
+      <edge source="2021" target="televizyon" id="122" weight="6.83289" />
+      <edge source="bölüm" target="tarihinde" id="123" weight="6.83289" />
+      <edge source="bölüm" target="televizyon" id="124" weight="6.83289" />
+      <edge source="tarihinde" target="televizyon" id="125" weight="6.83289" />
+      <edge source="gazetesi" target="kitabı" id="126" weight="6.83289" />
+      <edge source="gazetesi" target="kitap" id="127" weight="6.83289" />
+      <edge source="gazetesi" target="roman" id="128" weight="6.83289" />
+      <edge source="gazetesi" target="şiir" id="129" weight="6.83289" />
+      <edge source="kitabı" target="kitap" id="130" weight="6.83289" />
+      <edge source="kitabı" target="roman" id="131" weight="6.83289" />
+      <edge source="kitabı" target="şiir" id="132" weight="6.83289" />
+      <edge source="kitap" target="roman" id="133" weight="6.83289" />
+      <edge source="kitap" target="şiir" id="134" weight="6.83289" />
+      <edge source="roman" target="şiir" id="135" weight="6.83289" />
+      <edge source="attı" target="gol" id="136" weight="6.83289" />
+      <edge source="attı" target="maçta" id="137" weight="6.83289" />
+      <edge source="attı" target="maçı" id="138" weight="6.83289" />
+      <edge source="attı" target="maçında" id="139" weight="6.83289" />
+      <edge source="gol" target="maçta" id="140" weight="6.83289" />
+      <edge source="gol" target="maçı" id="141" weight="6.83289" />
+      <edge source="gol" target="maçında" id="142" weight="6.83289" />
+      <edge source="maçta" target="maçı" id="143" weight="6.83289" />
+      <edge source="maçta" target="maçında" id="144" weight="6.83289" />
+      <edge source="maçı" target="maçında" id="145" weight="6.83289" />
+      <edge source="dalga" target="enerji" id="146" weight="6.83289" />
+      <edge source="dalga" target="hidrojen" id="147" weight="6.83289" />
+      <edge source="dalga" target="kuantum" id="148" weight="6.83289" />
+      <edge source="dalga" target="manyetik" id="149" weight="6.83289" />
+      <edge source="enerji" target="hidrojen" id="150" weight="6.83289" />
+      <edge source="enerji" target="kuantum" id="151" weight="6.83289" />
+      <edge source="enerji" target="manyetik" id="152" weight="6.83289" />
+      <edge source="hidrojen" target="kuantum" id="153" weight="6.83289" />
+      <edge source="hidrojen" target="manyetik" id="154" weight="6.83289" />
+      <edge source="kuantum" target="manyetik" id="155" weight="6.83289" />
+      <edge source="itibarıyla" target="nüfus" id="156" weight="6.83289" />
+      <edge source="itibarıyla" target="nüfusu" id="157" weight="6.83289" />
+      <edge source="itibarıyla" target="sayımına" id="158" weight="6.83289" />
+      <edge source="itibarıyla" target="şehrin" id="159" weight="6.83289" />
+      <edge source="nüfus" target="nüfusu" id="160" weight="6.83289" />
+      <edge source="nüfus" target="sayımına" id="161" weight="6.83289" />
+      <edge source="nüfus" target="şehrin" id="162" weight="6.83289" />
+      <edge source="nüfusu" target="sayımına" id="163" weight="6.83289" />
+      <edge source="nüfusu" target="şehrin" id="164" weight="6.83289" />
+      <edge source="sayımına" target="şehrin" id="165" weight="6.83289" />
+      <edge source="karşı" target="ordu" id="166" weight="5.83289" />
+      <edge source="karşı" target="ordusu" id="167" weight="5.83289" />
+      <edge source="karşı" target="savaş" id="168" weight="5.83289" />
+      <edge source="karşı" target="savaşı" id="169" weight="5.83289" />
+      <edge source="karşı" target="ayaklanma" id="170" weight="5.83289" />
+      <edge source="karşı" target="ayaklanması" id="171" weight="5.83289" />
+      <edge source="karşı" target="isyanı" id="172" weight="5.83289" />
+      <edge source="karşı" target="kınadı" id="173" weight="5.83289" />
+      <edge source="ordu" target="ordusu" id="174" weight="6.83289" />
+      <edge source="ordu" target="savaş" id="175" weight="6.83289" />
+      <edge source="ordu" target="savaşı" id="176" weight="6.83289" />
+      <edge source="ordusu" target="savaş" id="177" weight="6.83289" />
+      <edge source="ordusu" target="savaşı" id="178" weight="6.83289" />
+      <edge source="savaş" target="savaşı" id="179" weight="6.83289" />
+      <edge source="hava" target="havaalanı" id="180" weight="6.83289" />
+      <edge source="hava" target="havalimanı" id="181" weight="6.83289" />
+      <edge source="hava" target="uçak" id="182" weight="6.83289" />
+      <edge source="hava" target="uçağı" id="183" weight="6.83289" />
+      <edge source="havaalanı" target="havalimanı" id="184" weight="6.83289" />
+      <edge source="havaalanı" target="uçak" id="185" weight="6.83289" />
+      <edge source="havaalanı" target="uçağı" id="186" weight="6.83289" />
+      <edge source="havalimanı" target="uçak" id="187" weight="6.83289" />
+      <edge source="havalimanı" target="uçağı" id="188" weight="6.83289" />
+      <edge source="uçak" target="uçağı" id="189" weight="6.83289" />
+      <edge source="istanbul" target="türk" id="190" weight="5.247928" />
+      <edge source="istanbul" target="türkiye" id="191" weight="4.83289" />
+      <edge source="istanbul" target="türkçe" id="192" weight="6.83289" />
+      <edge source="istanbul" target="türkçeye" id="193" weight="6.83289" />
+      <edge source="türk" target="türkiye" id="194" weight="4.247928" />
+      <edge source="türk" target="türkçe" id="195" weight="5.247928" />
+      <edge source="türk" target="türkçeye" id="196" weight="5.247928" />
+      <edge source="türk" target="izzet" id="197" weight="5.247928" />
+      <edge source="türk" target="lütfi" id="198" weight="5.247928" />
+      <edge source="türk" target="siyasetçi" id="199" weight="4.247928" />
+      <edge source="türk" target="siyasetçidir" id="200" weight="5.247928" />
+      <edge source="türk" target="etnik" id="201" weight="5.247928" />
+      <edge source="türk" target="kafkasya" id="202" weight="5.247928" />
+      <edge source="türk" target="türkler" id="203" weight="5.247928" />
+      <edge source="türkiye" target="türkçe" id="204" weight="4.83289" />
+      <edge source="türkiye" target="türkçeye" id="205" weight="4.83289" />
+      <edge source="türkiye" target="basketbol" id="206" weight="4.83289" />
+      <edge source="türkiye" target="ligi" id="207" weight="3.83289" />
+      <edge source="türkiye" target="takımı" id="208" weight="4.83289" />
+      <edge source="türkiye" target="voleybol" id="209" weight="4.83289" />
+      <edge source="türkiye" target="seçimleri" id="210" weight="4.83289" />
+      <edge source="türkiye" target="seçimlerinde" id="211" weight="4.83289" />
+      <edge source="türkiye" target="etnik" id="212" weight="4.83289" />
+      <edge source="türkiye" target="kafkasya" id="213" weight="4.83289" />
+      <edge source="türkiye" target="türkler" id="214" weight="4.83289" />
+      <edge source="türkçe" target="türkçeye" id="215" weight="6.83289" />
+      <edge source="1934" target="1945" id="216" weight="6.83289" />
+      <edge source="1934" target="alman" id="217" weight="6.83289" />
+      <edge source="1934" target="nisan" id="218" weight="6.83289" />
+      <edge source="1934" target="von" id="219" weight="6.83289" />
+      <edge source="1945" target="alman" id="220" weight="6.83289" />
+      <edge source="1945" target="nisan" id="221" weight="6.83289" />
+      <edge source="1945" target="von" id="222" weight="6.83289" />
+      <edge source="alman" target="nisan" id="223" weight="6.83289" />
+      <edge source="alman" target="von" id="224" weight="6.83289" />
+      <edge source="nisan" target="von" id="225" weight="6.83289" />
+      <edge source="frac" target="mathbf" id="226" weight="6.83289" />
+      <edge source="frac" target="partial" id="227" weight="6.83289" />
+      <edge source="frac" target="sqrt" id="228" weight="6.83289" />
+      <edge source="frac" target="u_" id="229" weight="6.83289" />
+      <edge source="mathbf" target="partial" id="230" weight="6.83289" />
+      <edge source="mathbf" target="sqrt" id="231" weight="6.83289" />
+      <edge source="mathbf" target="u_" id="232" weight="6.83289" />
+      <edge source="partial" target="sqrt" id="233" weight="6.83289" />
+      <edge source="partial" target="u_" id="234" weight="6.83289" />
+      <edge source="sqrt" target="u_" id="235" weight="6.83289" />
+      <edge source="en" target="iyi" id="236" weight="6.83289" />
+      <edge source="en" target="ödülleri" id="237" weight="6.83289" />
+      <edge source="en" target="ödülü" id="238" weight="6.83289" />
+      <edge source="iyi" target="ödülleri" id="239" weight="6.83289" />
+      <edge source="iyi" target="ödülü" id="240" weight="6.83289" />
+      <edge source="ödülleri" target="ödülü" id="241" weight="6.83289" />
+      <edge source="cinsidir" target="familyasına" id="242" weight="5.83289" />
+      <edge source="cinsidir" target="hayvan" id="243" weight="6.83289" />
+      <edge source="cinsidir" target="türüdür" id="244" weight="5.247928" />
+      <edge source="familyasına" target="hayvan" id="245" weight="5.83289" />
+      <edge source="familyasına" target="türüdür" id="246" weight="5.247928" />
+      <edge source="familyasına" target="cinsine" id="247" weight="4.83289" />
+      <edge source="familyasına" target="örümcek" id="248" weight="5.83289" />
+      <edge source="hayvan" target="türüdür" id="249" weight="5.247928" />
+      <edge source="türüdür" target="begonia" id="250" weight="5.247928" />
+      <edge source="türüdür" target="bitki" id="251" weight="5.247928" />
+      <edge source="türüdür" target="cinsine" id="252" weight="5.247928" />
+      <edge source="türüdür" target="örümcek" id="253" weight="5.247928" />
+      <edge source="il" target="ilçe" id="254" weight="6.83289" />
+      <edge source="il" target="km" id="255" weight="6.83289" />
+      <edge source="il" target="merkezine" id="256" weight="6.83289" />
+      <edge source="il" target="uzaklıktadır" id="257" weight="6.83289" />
+      <edge source="ilçe" target="km" id="258" weight="6.83289" />
+      <edge source="ilçe" target="merkezine" id="259" weight="6.83289" />
+      <edge source="ilçe" target="uzaklıktadır" id="260" weight="6.83289" />
+      <edge source="km" target="merkezine" id="261" weight="6.83289" />
+      <edge source="km" target="uzaklıktadır" id="262" weight="6.83289" />
+      <edge source="merkezine" target="uzaklıktadır" id="263" weight="6.83289" />
+      <edge source="bir" target="bu" id="264" weight="6.83289" />
+      <edge source="bir" target="felsefe" id="265" weight="6.83289" />
+      <edge source="bir" target="olarak" id="266" weight="6.83289" />
+      <edge source="bir" target="olduğunu" id="267" weight="6.83289" />
+      <edge source="bu" target="felsefe" id="268" weight="6.83289" />
+      <edge source="bu" target="olarak" id="269" weight="6.83289" />
+      <edge source="bu" target="olduğunu" id="270" weight="6.83289" />
+      <edge source="felsefe" target="olarak" id="271" weight="6.83289" />
+      <edge source="felsefe" target="olduğunu" id="272" weight="6.83289" />
+      <edge source="olarak" target="olduğunu" id="273" weight="6.83289" />
+      <edge source="birliği" target="rus" id="274" weight="6.83289" />
+      <edge source="birliği" target="rusya" id="275" weight="6.83289" />
+      <edge source="birliği" target="sovyet" id="276" weight="6.83289" />
+      <edge source="birliği" target="sovyetler" id="277" weight="6.83289" />
+      <edge source="rus" target="rusya" id="278" weight="6.83289" />
+      <edge source="rus" target="sovyet" id="279" weight="6.83289" />
+      <edge source="rus" target="sovyetler" id="280" weight="6.83289" />
+      <edge source="rusya" target="sovyet" id="281" weight="6.83289" />
+      <edge source="rusya" target="sovyetler" id="282" weight="6.83289" />
+      <edge source="sovyet" target="sovyetler" id="283" weight="6.83289" />
+      <edge source="ceza" target="cezasına" id="284" weight="6.83289" />
+      <edge source="ceza" target="hapis" id="285" weight="6.83289" />
+      <edge source="ceza" target="mahkemesi" id="286" weight="6.83289" />
+      <edge source="ceza" target="çarptırıldı" id="287" weight="6.83289" />
+      <edge source="cezasına" target="hapis" id="288" weight="6.83289" />
+      <edge source="cezasına" target="mahkemesi" id="289" weight="6.83289" />
+      <edge source="cezasına" target="çarptırıldı" id="290" weight="6.83289" />
+      <edge source="hapis" target="mahkemesi" id="291" weight="6.83289" />
+      <edge source="hapis" target="çarptırıldı" id="292" weight="6.83289" />
+      <edge source="mahkemesi" target="çarptırıldı" id="293" weight="6.83289" />
+      <edge source="camii" target="katolik" id="294" weight="6.83289" />
+      <edge source="camii" target="kilise" id="295" weight="6.83289" />
+      <edge source="camii" target="kilisesi" id="296" weight="6.83289" />
+      <edge source="camii" target="ortodoks" id="297" weight="6.83289" />
+      <edge source="katolik" target="kilise" id="298" weight="6.83289" />
+      <edge source="katolik" target="kilisesi" id="299" weight="6.83289" />
+      <edge source="katolik" target="ortodoks" id="300" weight="6.83289" />
+      <edge source="kilise" target="kilisesi" id="301" weight="6.83289" />
+      <edge source="kilise" target="ortodoks" id="302" weight="6.83289" />
+      <edge source="kilisesi" target="ortodoks" id="303" weight="6.83289" />
+      <edge source="güneş" target="jüpiter" id="304" weight="6.83289" />
+      <edge source="güneş" target="ngc" id="305" weight="6.83289" />
+      <edge source="güneş" target="yıldız" id="306" weight="6.83289" />
+      <edge source="güneş" target="yıldızı" id="307" weight="6.83289" />
+      <edge source="jüpiter" target="ngc" id="308" weight="6.83289" />
+      <edge source="jüpiter" target="yıldız" id="309" weight="6.83289" />
+      <edge source="jüpiter" target="yıldızı" id="310" weight="6.83289" />
+      <edge source="ngc" target="yıldız" id="311" weight="6.83289" />
+      <edge source="ngc" target="yıldızı" id="312" weight="6.83289" />
+      <edge source="yıldız" target="yıldızı" id="313" weight="6.83289" />
+      <edge source="dil" target="dili" id="314" weight="6.83289" />
+      <edge source="dil" target="dilleri" id="315" weight="6.83289" />
+      <edge source="dil" target="ingilizce" id="316" weight="6.83289" />
+      <edge source="dil" target="konuşulan" id="317" weight="6.83289" />
+      <edge source="dili" target="dilleri" id="318" weight="6.83289" />
+      <edge source="dili" target="ingilizce" id="319" weight="6.83289" />
+      <edge source="dili" target="konuşulan" id="320" weight="6.83289" />
+      <edge source="dilleri" target="ingilizce" id="321" weight="6.83289" />
+      <edge source="dilleri" target="konuşulan" id="322" weight="6.83289" />
+      <edge source="ingilizce" target="konuşulan" id="323" weight="6.83289" />
+      <edge source="da" target="doğdu" id="324" weight="6.83289" />
+      <edge source="da" target="dünyaya" id="325" weight="6.83289" />
+      <edge source="da" target="geldi" id="326" weight="6.83289" />
+      <edge source="da" target="çocuğu" id="327" weight="6.83289" />
+      <edge source="doğdu" target="dünyaya" id="328" weight="6.83289" />
+      <edge source="doğdu" target="geldi" id="329" weight="6.83289" />
+      <edge source="doğdu" target="çocuğu" id="330" weight="6.83289" />
+      <edge source="dünyaya" target="geldi" id="331" weight="6.83289" />
+      <edge source="dünyaya" target="çocuğu" id="332" weight="6.83289" />
+      <edge source="geldi" target="çocuğu" id="333" weight="6.83289" />
+      <edge source="bak" target="ben" id="334" weight="6.83289" />
+      <edge source="bak" target="evet" id="335" weight="6.83289" />
+      <edge source="bak" target="lo" id="336" weight="6.83289" />
+      <edge source="bak" target="tamam" id="337" weight="6.83289" />
+      <edge source="ben" target="evet" id="338" weight="6.83289" />
+      <edge source="ben" target="lo" id="339" weight="6.83289" />
+      <edge source="ben" target="tamam" id="340" weight="6.83289" />
+      <edge source="evet" target="lo" id="341" weight="6.83289" />
+      <edge source="evet" target="tamam" id="342" weight="6.83289" />
+      <edge source="lo" target="tamam" id="343" weight="6.83289" />
+      <edge source="buğday" target="meyve" id="344" weight="6.83289" />
+      <edge source="buğday" target="mutfağı" id="345" weight="6.83289" />
+      <edge source="buğday" target="mutfağında" id="346" weight="6.83289" />
+      <edge source="buğday" target="soğan" id="347" weight="6.83289" />
+      <edge source="meyve" target="mutfağı" id="348" weight="6.83289" />
+      <edge source="meyve" target="mutfağında" id="349" weight="6.83289" />
+      <edge source="meyve" target="soğan" id="350" weight="6.83289" />
+      <edge source="mutfağı" target="mutfağında" id="351" weight="6.83289" />
+      <edge source="mutfağı" target="soğan" id="352" weight="6.83289" />
+      <edge source="mutfağında" target="soğan" id="353" weight="6.83289" />
+      <edge source="el" target="ibn" id="354" weight="6.83289" />
+      <edge source="el" target="islam" id="355" weight="6.83289" />
+      <edge source="el" target="muhammed" id="356" weight="6.83289" />
+      <edge source="el" target="müslüman" id="357" weight="6.83289" />
+      <edge source="ibn" target="islam" id="358" weight="6.83289" />
+      <edge source="ibn" target="muhammed" id="359" weight="6.83289" />
+      <edge source="ibn" target="müslüman" id="360" weight="6.83289" />
+      <edge source="islam" target="muhammed" id="361" weight="6.83289" />
+      <edge source="islam" target="müslüman" id="362" weight="6.83289" />
+      <edge source="muhammed" target="müslüman" id="363" weight="6.83289" />
+      <edge source="başladı" target="kariyerine" id="364" weight="6.83289" />
+      <edge source="başladı" target="kulübünde" id="365" weight="6.83289" />
+      <edge source="başladı" target="kulüplerinde" id="366" weight="6.83289" />
+      <edge source="başladı" target="profesyonel" id="367" weight="6.83289" />
+      <edge source="kariyerine" target="kulübünde" id="368" weight="6.83289" />
+      <edge source="kariyerine" target="kulüplerinde" id="369" weight="6.83289" />
+      <edge source="kariyerine" target="profesyonel" id="370" weight="6.83289" />
+      <edge source="kulübünde" target="kulüplerinde" id="371" weight="6.83289" />
+      <edge source="kulübünde" target="profesyonel" id="372" weight="6.83289" />
+      <edge source="kulüplerinde" target="profesyonel" id="373" weight="6.83289" />
+      <edge source="afrika" target="amerika" id="374" weight="6.83289" />
+      <edge source="afrika" target="ispanyol" id="375" weight="6.83289" />
+      <edge source="afrika" target="meksika" id="376" weight="6.83289" />
+      <edge source="afrika" target="vize" id="377" weight="6.83289" />
+      <edge source="amerika" target="ispanyol" id="378" weight="6.83289" />
+      <edge source="amerika" target="meksika" id="379" weight="6.83289" />
+      <edge source="amerika" target="vize" id="380" weight="6.83289" />
+      <edge source="ispanyol" target="meksika" id="381" weight="6.83289" />
+      <edge source="ispanyol" target="vize" id="382" weight="6.83289" />
+      <edge source="meksika" target="vize" id="383" weight="6.83289" />
+      <edge source="anlamlara" target="anlamına" id="384" weight="6.83289" />
+      <edge source="anlamlara" target="gelebilir" id="385" weight="6.83289" />
+      <edge source="anlamlara" target="gelir" id="386" weight="6.83289" />
+      <edge source="anlamlara" target="kelime" id="387" weight="6.83289" />
+      <edge source="anlamına" target="gelebilir" id="388" weight="6.83289" />
+      <edge source="anlamına" target="gelir" id="389" weight="6.83289" />
+      <edge source="anlamına" target="kelime" id="390" weight="6.83289" />
+      <edge source="gelebilir" target="gelir" id="391" weight="6.83289" />
+      <edge source="gelebilir" target="kelime" id="392" weight="6.83289" />
+      <edge source="gelir" target="kelime" id="393" weight="6.83289" />
+      <edge source="bankası" target="dolar" id="394" weight="6.83289" />
+      <edge source="bankası" target="ekonomik" id="395" weight="6.83289" />
+      <edge source="bankası" target="milyon" id="396" weight="6.83289" />
+      <edge source="bankası" target="para" id="397" weight="6.83289" />
+      <edge source="dolar" target="ekonomik" id="398" weight="6.83289" />
+      <edge source="dolar" target="milyon" id="399" weight="6.83289" />
+      <edge source="dolar" target="para" id="400" weight="6.83289" />
+      <edge source="ekonomik" target="milyon" id="401" weight="6.83289" />
+      <edge source="ekonomik" target="para" id="402" weight="6.83289" />
+      <edge source="milyon" target="para" id="403" weight="6.83289" />
+      <edge source="futbolcu" target="futbolcudur" id="404" weight="6.83289" />
+      <edge source="futbolcu" target="görev" id="405" weight="6.83289" />
+      <edge source="futbolcu" target="millî" id="406" weight="6.83289" />
+      <edge source="futbolcu" target="pozisyonunda" id="407" weight="6.83289" />
+      <edge source="futbolcudur" target="görev" id="408" weight="6.83289" />
+      <edge source="futbolcudur" target="millî" id="409" weight="6.83289" />
+      <edge source="futbolcudur" target="pozisyonunda" id="410" weight="6.83289" />
+      <edge source="görev" target="millî" id="411" weight="6.83289" />
+      <edge source="görev" target="pozisyonunda" id="412" weight="6.83289" />
+      <edge source="millî" target="pozisyonunda" id="413" weight="6.83289" />
+      <edge source="din" target="dini" id="414" weight="6.83289" />
+      <edge source="din" target="hristiyan" id="415" weight="6.83289" />
+      <edge source="din" target="mesih" id="416" weight="6.83289" />
+      <edge source="din" target="tanrı" id="417" weight="6.83289" />
+      <edge source="dini" target="hristiyan" id="418" weight="6.83289" />
+      <edge source="dini" target="mesih" id="419" weight="6.83289" />
+      <edge source="dini" target="tanrı" id="420" weight="6.83289" />
+      <edge source="hristiyan" target="mesih" id="421" weight="6.83289" />
+      <edge source="hristiyan" target="tanrı" id="422" weight="6.83289" />
+      <edge source="mesih" target="tanrı" id="423" weight="6.83289" />
+      <edge source="cinsel" target="erkek" id="424" weight="6.83289" />
+      <edge source="cinsel" target="eşcinsel" id="425" weight="6.83289" />
+      <edge source="cinsel" target="kadın" id="426" weight="6.83289" />
+      <edge source="cinsel" target="kadınların" id="427" weight="6.83289" />
+      <edge source="erkek" target="eşcinsel" id="428" weight="6.83289" />
+      <edge source="erkek" target="kadın" id="429" weight="6.83289" />
+      <edge source="erkek" target="kadınların" id="430" weight="6.83289" />
+      <edge source="eşcinsel" target="kadın" id="431" weight="6.83289" />
+      <edge source="eşcinsel" target="kadınların" id="432" weight="6.83289" />
+      <edge source="kadın" target="kadınların" id="433" weight="6.83289" />
+      <edge source="adı" target="geçmektedir" id="434" weight="6.83289" />
+      <edge source="adı" target="kayıtlarında" id="435" weight="6.83289" />
+      <edge source="adı" target="köyün" id="436" weight="6.83289" />
+      <edge source="adı" target="yılı" id="437" weight="6.83289" />
+      <edge source="geçmektedir" target="kayıtlarında" id="438" weight="6.83289" />
+      <edge source="geçmektedir" target="köyün" id="439" weight="6.83289" />
+      <edge source="geçmektedir" target="yılı" id="440" weight="6.83289" />
+      <edge source="kayıtlarında" target="köyün" id="441" weight="6.83289" />
+      <edge source="kayıtlarında" target="yılı" id="442" weight="6.83289" />
+      <edge source="köyün" target="yılı" id="443" weight="6.83289" />
+      <edge source="2008" target="la" id="444" weight="6.83289" />
+      <edge source="2008" target="le" id="445" weight="6.83289" />
+      <edge source="2008" target="of" id="446" weight="6.83289" />
+      <edge source="2008" target="the" id="447" weight="6.83289" />
+      <edge source="la" target="le" id="448" weight="6.83289" />
+      <edge source="la" target="of" id="449" weight="6.83289" />
+      <edge source="la" target="the" id="450" weight="6.83289" />
+      <edge source="le" target="of" id="451" weight="6.83289" />
+      <edge source="le" target="the" id="452" weight="6.83289" />
+      <edge source="of" target="the" id="453" weight="6.83289" />
+      <edge source="covıd" target="nedeniyle" id="454" weight="6.83289" />
+      <edge source="covıd" target="yaşında" id="455" weight="6.83289" />
+      <edge source="covıd" target="öldü" id="456" weight="5.83289" />
+      <edge source="covıd" target="ölmüştür" id="457" weight="6.83289" />
+      <edge source="nedeniyle" target="yaşında" id="458" weight="6.83289" />
+      <edge source="nedeniyle" target="öldü" id="459" weight="5.83289" />
+      <edge source="nedeniyle" target="ölmüştür" id="460" weight="6.83289" />
+      <edge source="yaşında" target="öldü" id="461" weight="5.83289" />
+      <edge source="yaşında" target="ölmüştür" id="462" weight="6.83289" />
+      <edge source="öldü" target="ölmüştür" id="463" weight="5.83289" />
+      <edge source="öldü" target="000" id="464" weight="5.83289" />
+      <edge source="öldü" target="asker" id="465" weight="5.83289" />
+      <edge source="öldü" target="kişi" id="466" weight="5.83289" />
+      <edge source="öldü" target="yaralandı" id="467" weight="5.83289" />
+      <edge source="bosna" target="bulgar" id="468" weight="6.83289" />
+      <edge source="bosna" target="imparatorluğu" id="469" weight="5.83289" />
+      <edge source="bosna" target="makedonya" id="470" weight="6.83289" />
+      <edge source="bosna" target="osmanlı" id="471" weight="6.83289" />
+      <edge source="bulgar" target="imparatorluğu" id="472" weight="5.83289" />
+      <edge source="bulgar" target="makedonya" id="473" weight="6.83289" />
+      <edge source="bulgar" target="osmanlı" id="474" weight="6.83289" />
+      <edge source="imparatorluğu" target="makedonya" id="475" weight="5.83289" />
+      <edge source="imparatorluğu" target="osmanlı" id="476" weight="5.83289" />
+      <edge source="imparatorluğu" target="bizans" id="477" weight="4.83289" />
+      <edge source="imparatorluğu" target="imparatoru" id="478" weight="4.83289" />
+      <edge source="imparatorluğu" target="roma" id="479" weight="5.83289" />
+      <edge source="imparatorluğu" target="romalılar" id="480" weight="5.83289" />
+      <edge source="makedonya" target="osmanlı" id="481" weight="6.83289" />
+      <edge source="heykel" target="heykeli" id="482" weight="6.83289" />
+      <edge source="heykel" target="müze" id="483" weight="6.83289" />
+      <edge source="heykel" target="müzesi" id="484" weight="6.83289" />
+      <edge source="heykel" target="sanat" id="485" weight="5.83289" />
+      <edge source="heykeli" target="müze" id="486" weight="6.83289" />
+      <edge source="heykeli" target="müzesi" id="487" weight="6.83289" />
+      <edge source="heykeli" target="sanat" id="488" weight="5.83289" />
+      <edge source="müze" target="müzesi" id="489" weight="6.83289" />
+      <edge source="müze" target="sanat" id="490" weight="5.83289" />
+      <edge source="müzesi" target="sanat" id="491" weight="5.83289" />
+      <edge source="sanat" target="gogh" id="492" weight="5.83289" />
+      <edge source="sanat" target="resim" id="493" weight="5.83289" />
+      <edge source="sanat" target="van" id="494" weight="5.83289" />
+      <edge source="sanat" target="çizim" id="495" weight="5.83289" />
+      <edge source="begonia" target="bitki" id="496" weight="6.83289" />
+      <edge source="begonia" target="cinsine" id="497" weight="5.83289" />
+      <edge source="bitki" target="cinsine" id="498" weight="5.83289" />
+      <edge source="cinsine" target="örümcek" id="499" weight="5.83289" />
+      <edge source="hayır" target="hiçbir" id="500" weight="6.83289" />
+      <edge source="hayır" target="kimse" id="501" weight="6.83289" />
+      <edge source="hayır" target="yok" id="502" weight="6.83289" />
+      <edge source="hayır" target="şey" id="503" weight="6.83289" />
+      <edge source="hiçbir" target="kimse" id="504" weight="6.83289" />
+      <edge source="hiçbir" target="yok" id="505" weight="6.83289" />
+      <edge source="hiçbir" target="şey" id="506" weight="6.83289" />
+      <edge source="kimse" target="yok" id="507" weight="6.83289" />
+      <edge source="kimse" target="şey" id="508" weight="6.83289" />
+      <edge source="yok" target="şey" id="509" weight="6.83289" />
+      <edge source="motor" target="motoru" id="510" weight="6.83289" />
+      <edge source="motor" target="nissan" id="511" weight="6.83289" />
+      <edge source="motor" target="otomobil" id="512" weight="6.83289" />
+      <edge source="motor" target="yakıt" id="513" weight="6.83289" />
+      <edge source="motoru" target="nissan" id="514" weight="6.83289" />
+      <edge source="motoru" target="otomobil" id="515" weight="6.83289" />
+      <edge source="motoru" target="yakıt" id="516" weight="6.83289" />
+      <edge source="nissan" target="otomobil" id="517" weight="6.83289" />
+      <edge source="nissan" target="yakıt" id="518" weight="6.83289" />
+      <edge source="otomobil" target="yakıt" id="519" weight="6.83289" />
+      <edge source="dağı" target="develi" id="520" weight="6.83289" />
+      <edge source="dağı" target="pınarbaşı" id="521" weight="6.83289" />
+      <edge source="dağı" target="sarız" id="522" weight="6.83289" />
+      <edge source="dağı" target="tomarza" id="523" weight="6.83289" />
+      <edge source="develi" target="pınarbaşı" id="524" weight="6.83289" />
+      <edge source="develi" target="sarız" id="525" weight="6.83289" />
+      <edge source="develi" target="tomarza" id="526" weight="6.83289" />
+      <edge source="pınarbaşı" target="sarız" id="527" weight="6.83289" />
+      <edge source="pınarbaşı" target="tomarza" id="528" weight="6.83289" />
+      <edge source="sarız" target="tomarza" id="529" weight="6.83289" />
+      <edge source="madalya" target="nda" id="530" weight="5.83289" />
+      <edge source="madalya" target="olimpiyat" id="531" weight="6.83289" />
+      <edge source="madalya" target="olimpiyatları" id="532" weight="6.83289" />
+      <edge source="madalya" target="yaz" id="533" weight="6.83289" />
+      <edge source="nda" target="olimpiyat" id="534" weight="5.83289" />
+      <edge source="nda" target="olimpiyatları" id="535" weight="5.83289" />
+      <edge source="nda" target="yaz" id="536" weight="5.83289" />
+      <edge source="nda" target="eurovision" id="537" weight="5.83289" />
+      <edge source="nda" target="temsil" id="538" weight="5.83289" />
+      <edge source="nda" target="yarışması" id="539" weight="5.83289" />
+      <edge source="olimpiyat" target="olimpiyatları" id="540" weight="6.83289" />
+      <edge source="olimpiyat" target="yaz" id="541" weight="6.83289" />
+      <edge source="olimpiyatları" target="yaz" id="542" weight="6.83289" />
+      <edge source="10" target="11" id="543" weight="5.83289" />
+      <edge source="10" target="12" id="544" weight="5.83289" />
+      <edge source="10" target="13" id="545" weight="5.83289" />
+      <edge source="10" target="op" id="546" weight="5.83289" />
+      <edge source="10" target="16" id="547" weight="4.83289" />
+      <edge source="10" target="lg" id="548" weight="5.83289" />
+      <edge source="10" target="thinq" id="549" weight="5.83289" />
+      <edge source="10" target="tl" id="550" weight="5.83289" />
+      <edge source="11" target="12" id="551" weight="6.83289" />
+      <edge source="11" target="13" id="552" weight="6.83289" />
+      <edge source="11" target="op" id="553" weight="6.83289" />
+      <edge source="12" target="13" id="554" weight="6.83289" />
+      <edge source="12" target="op" id="555" weight="6.83289" />
+      <edge source="13" target="op" id="556" weight="6.83289" />
+      <edge source="japon" target="japonya" id="557" weight="6.83289" />
+      <edge source="japon" target="nın" id="558" weight="6.83289" />
+      <edge source="japon" target="prefektörlüğünde" id="559" weight="6.83289" />
+      <edge source="japon" target="tokyo" id="560" weight="6.83289" />
+      <edge source="japonya" target="nın" id="561" weight="6.83289" />
+      <edge source="japonya" target="prefektörlüğünde" id="562" weight="6.83289" />
+      <edge source="japonya" target="tokyo" id="563" weight="6.83289" />
+      <edge source="nın" target="prefektörlüğünde" id="564" weight="6.83289" />
+      <edge source="nın" target="tokyo" id="565" weight="6.83289" />
+      <edge source="prefektörlüğünde" target="tokyo" id="566" weight="6.83289" />
+      <edge source="buz" target="iklimi" id="567" weight="6.83289" />
+      <edge source="buz" target="kış" id="568" weight="6.83289" />
+      <edge source="buz" target="soğuk" id="569" weight="6.83289" />
+      <edge source="buz" target="sıcak" id="570" weight="6.83289" />
+      <edge source="iklimi" target="kış" id="571" weight="6.83289" />
+      <edge source="iklimi" target="soğuk" id="572" weight="6.83289" />
+      <edge source="iklimi" target="sıcak" id="573" weight="6.83289" />
+      <edge source="kış" target="soğuk" id="574" weight="6.83289" />
+      <edge source="kış" target="sıcak" id="575" weight="6.83289" />
+      <edge source="soğuk" target="sıcak" id="576" weight="6.83289" />
+      <edge source="demiryolu" target="istasyon" id="577" weight="6.83289" />
+      <edge source="demiryolu" target="istasyonu" id="578" weight="6.83289" />
+      <edge source="demiryolu" target="istasyonun" id="579" weight="6.83289" />
+      <edge source="demiryolu" target="tren" id="580" weight="6.83289" />
+      <edge source="istasyon" target="istasyonu" id="581" weight="6.83289" />
+      <edge source="istasyon" target="istasyonun" id="582" weight="6.83289" />
+      <edge source="istasyon" target="tren" id="583" weight="6.83289" />
+      <edge source="istasyonu" target="istasyonun" id="584" weight="6.83289" />
+      <edge source="istasyonu" target="tren" id="585" weight="6.83289" />
+      <edge source="istasyonun" target="tren" id="586" weight="6.83289" />
+      <edge source="imzaladı" target="oldu" id="587" weight="6.83289" />
+      <edge source="imzaladı" target="sözleşme" id="588" weight="6.83289" />
+      <edge source="imzaladı" target="transfer" id="589" weight="6.83289" />
+      <edge source="imzaladı" target="yıllık" id="590" weight="6.83289" />
+      <edge source="oldu" target="sözleşme" id="591" weight="6.83289" />
+      <edge source="oldu" target="transfer" id="592" weight="6.83289" />
+      <edge source="oldu" target="yıllık" id="593" weight="6.83289" />
+      <edge source="sözleşme" target="transfer" id="594" weight="6.83289" />
+      <edge source="sözleşme" target="yıllık" id="595" weight="6.83289" />
+      <edge source="transfer" target="yıllık" id="596" weight="6.83289" />
+      <edge source="yüzyıl" target="yüzyıla" id="597" weight="6.83289" />
+      <edge source="yüzyıl" target="yüzyılda" id="598" weight="6.83289" />
+      <edge source="yüzyıl" target="yüzyılın" id="599" weight="6.83289" />
+      <edge source="yüzyıl" target="yıl" id="600" weight="5.83289" />
+      <edge source="yüzyıla" target="yüzyılda" id="601" weight="6.83289" />
+      <edge source="yüzyıla" target="yüzyılın" id="602" weight="6.83289" />
+      <edge source="yüzyıla" target="yıl" id="603" weight="5.83289" />
+      <edge source="yüzyılda" target="yüzyılın" id="604" weight="6.83289" />
+      <edge source="yüzyılda" target="yıl" id="605" weight="5.83289" />
+      <edge source="yüzyılın" target="yıl" id="606" weight="5.83289" />
+      <edge source="yıl" target="abv" id="607" weight="5.83289" />
+      <edge source="yıl" target="cardhu" id="608" weight="5.83289" />
+      <edge source="yıl" target="festival" id="609" weight="5.83289" />
+      <edge source="yıl" target="festivali" id="610" weight="5.83289" />
+      <edge source="cm" target="kg" id="611" weight="6.83289" />
+      <edge source="cm" target="kiloda" id="612" weight="6.83289" />
+      <edge source="cm" target="metre" id="613" weight="6.83289" />
+      <edge source="cm" target="uzunluğunda" id="614" weight="6.83289" />
+      <edge source="kg" target="kiloda" id="615" weight="6.83289" />
+      <edge source="kg" target="metre" id="616" weight="6.83289" />
+      <edge source="kg" target="uzunluğunda" id="617" weight="6.83289" />
+      <edge source="kiloda" target="metre" id="618" weight="6.83289" />
+      <edge source="kiloda" target="uzunluğunda" id="619" weight="6.83289" />
+      <edge source="metre" target="uzunluğunda" id="620" weight="6.83289" />
+      <edge source="göl" target="gölü" id="621" weight="6.83289" />
+      <edge source="göl" target="nehir" id="622" weight="6.83289" />
+      <edge source="göl" target="nehri" id="623" weight="6.83289" />
+      <edge source="göl" target="nehrin" id="624" weight="6.83289" />
+      <edge source="gölü" target="nehir" id="625" weight="6.83289" />
+      <edge source="gölü" target="nehri" id="626" weight="6.83289" />
+      <edge source="gölü" target="nehrin" id="627" weight="6.83289" />
+      <edge source="nehir" target="nehri" id="628" weight="6.83289" />
+      <edge source="nehir" target="nehrin" id="629" weight="6.83289" />
+      <edge source="nehri" target="nehrin" id="630" weight="6.83289" />
+      <edge source="deniz" target="donanması" id="631" weight="6.83289" />
+      <edge source="deniz" target="gemi" id="632" weight="6.83289" />
+      <edge source="deniz" target="gemiler" id="633" weight="6.83289" />
+      <edge source="deniz" target="gemisi" id="634" weight="6.83289" />
+      <edge source="donanması" target="gemi" id="635" weight="6.83289" />
+      <edge source="donanması" target="gemiler" id="636" weight="6.83289" />
+      <edge source="donanması" target="gemisi" id="637" weight="6.83289" />
+      <edge source="gemi" target="gemiler" id="638" weight="6.83289" />
+      <edge source="gemi" target="gemisi" id="639" weight="6.83289" />
+      <edge source="gemiler" target="gemisi" id="640" weight="6.83289" />
+      <edge source="bulunmaktadır" target="kapı" id="641" weight="6.83289" />
+      <edge source="bulunmaktadır" target="oda" id="642" weight="6.83289" />
+      <edge source="bulunmaktadır" target="odası" id="643" weight="6.83289" />
+      <edge source="bulunmaktadır" target="suite" id="644" weight="6.83289" />
+      <edge source="kapı" target="oda" id="645" weight="6.83289" />
+      <edge source="kapı" target="odası" id="646" weight="6.83289" />
+      <edge source="kapı" target="suite" id="647" weight="6.83289" />
+      <edge source="oda" target="odası" id="648" weight="6.83289" />
+      <edge source="oda" target="suite" id="649" weight="6.83289" />
+      <edge source="odası" target="suite" id="650" weight="6.83289" />
+      <edge source="bizans" target="imparatoru" id="651" weight="5.83289" />
+      <edge source="bizans" target="kadar" id="652" weight="5.83289" />
+      <edge source="bizans" target="krallığı" id="653" weight="4.83289" />
+      <edge source="bizans" target="kralı" id="654" weight="4.83289" />
+      <edge source="bizans" target="roma" id="655" weight="5.83289" />
+      <edge source="bizans" target="romalılar" id="656" weight="5.83289" />
+      <edge source="imparatoru" target="kadar" id="657" weight="5.83289" />
+      <edge source="imparatoru" target="krallığı" id="658" weight="4.83289" />
+      <edge source="imparatoru" target="kralı" id="659" weight="4.83289" />
+      <edge source="imparatoru" target="roma" id="660" weight="5.83289" />
+      <edge source="imparatoru" target="romalılar" id="661" weight="5.83289" />
+      <edge source="kadar" target="krallığı" id="662" weight="5.83289" />
+      <edge source="kadar" target="kralı" id="663" weight="5.83289" />
+      <edge source="krallığı" target="kralı" id="664" weight="5.83289" />
+      <edge source="krallığı" target="asur" id="665" weight="5.83289" />
+      <edge source="krallığı" target="kral" id="666" weight="5.83289" />
+      <edge source="krallığı" target="ııı" id="667" weight="5.83289" />
+      <edge source="kralı" target="asur" id="668" weight="5.83289" />
+      <edge source="kralı" target="kral" id="669" weight="5.83289" />
+      <edge source="kralı" target="ııı" id="670" weight="5.83289" />
+      <edge source="nintendo" target="oyun" id="671" weight="6.83289" />
+      <edge source="nintendo" target="oyunu" id="672" weight="6.83289" />
+      <edge source="nintendo" target="oyunun" id="673" weight="6.83289" />
+      <edge source="nintendo" target="playstation" id="674" weight="6.83289" />
+      <edge source="oyun" target="oyunu" id="675" weight="6.83289" />
+      <edge source="oyun" target="oyunun" id="676" weight="6.83289" />
+      <edge source="oyun" target="playstation" id="677" weight="6.83289" />
+      <edge source="oyunu" target="oyunun" id="678" weight="6.83289" />
+      <edge source="oyunu" target="playstation" id="679" weight="6.83289" />
+      <edge source="oyunun" target="playstation" id="680" weight="6.83289" />
+      <edge source="amerikalı" target="müzisyen" id="681" weight="5.83289" />
+      <edge source="amerikalı" target="oyuncu" id="682" weight="5.83289" />
+      <edge source="amerikalı" target="yazarı" id="683" weight="5.83289" />
+      <edge source="amerikalı" target="şarkıcı" id="684" weight="5.83289" />
+      <edge source="amerikalı" target="ekim" id="685" weight="5.83289" />
+      <edge source="amerikalı" target="fransız" id="686" weight="5.83289" />
+      <edge source="amerikalı" target="politikacı" id="687" weight="5.83289" />
+      <edge source="amerikalı" target="siyasetçi" id="688" weight="4.83289" />
+      <edge source="müzisyen" target="oyuncu" id="689" weight="6.83289" />
+      <edge source="müzisyen" target="yazarı" id="690" weight="6.83289" />
+      <edge source="müzisyen" target="şarkıcı" id="691" weight="6.83289" />
+      <edge source="oyuncu" target="yazarı" id="692" weight="6.83289" />
+      <edge source="oyuncu" target="şarkıcı" id="693" weight="6.83289" />
+      <edge source="yazarı" target="şarkıcı" id="694" weight="6.83289" />
+      <edge source="evcil" target="koyun" id="695" weight="6.83289" />
+      <edge source="evcil" target="köpekler" id="696" weight="6.83289" />
+      <edge source="evcil" target="köpeği" id="697" weight="6.83289" />
+      <edge source="evcil" target="tarım" id="698" weight="6.83289" />
+      <edge source="koyun" target="köpekler" id="699" weight="6.83289" />
+      <edge source="koyun" target="köpeği" id="700" weight="6.83289" />
+      <edge source="koyun" target="tarım" id="701" weight="6.83289" />
+      <edge source="köpekler" target="köpeği" id="702" weight="6.83289" />
+      <edge source="köpekler" target="tarım" id="703" weight="6.83289" />
+      <edge source="köpeği" target="tarım" id="704" weight="6.83289" />
+      <edge source="gogh" target="resim" id="705" weight="6.83289" />
+      <edge source="gogh" target="van" id="706" weight="6.83289" />
+      <edge source="gogh" target="çizim" id="707" weight="6.83289" />
+      <edge source="resim" target="van" id="708" weight="6.83289" />
+      <edge source="resim" target="çizim" id="709" weight="6.83289" />
+      <edge source="van" target="çizim" id="710" weight="6.83289" />
+      <edge source="ayaklanma" target="ayaklanması" id="711" weight="6.83289" />
+      <edge source="ayaklanma" target="isyanı" id="712" weight="6.83289" />
+      <edge source="ayaklanma" target="kınadı" id="713" weight="6.83289" />
+      <edge source="ayaklanması" target="isyanı" id="714" weight="6.83289" />
+      <edge source="ayaklanması" target="kınadı" id="715" weight="6.83289" />
+      <edge source="isyanı" target="kınadı" id="716" weight="6.83289" />
+      <edge source="dumbledore" target="eder" id="717" weight="6.83289" />
+      <edge source="dumbledore" target="onu" id="718" weight="5.83289" />
+      <edge source="dumbledore" target="sonra" id="719" weight="6.83289" />
+      <edge source="eder" target="onu" id="720" weight="5.83289" />
+      <edge source="eder" target="sonra" id="721" weight="6.83289" />
+      <edge source="onu" target="sonra" id="722" weight="5.83289" />
+      <edge source="onu" target="kardeşi" id="723" weight="5.83289" />
+      <edge source="onu" target="öldürdü" id="724" weight="5.83289" />
+      <edge source="onu" target="öldürülür" id="725" weight="5.83289" />
+      <edge source="onu" target="öldürür" id="726" weight="5.83289" />
+      <edge source="basketbol" target="ligi" id="727" weight="5.83289" />
+      <edge source="basketbol" target="takımı" id="728" weight="6.83289" />
+      <edge source="basketbol" target="voleybol" id="729" weight="6.83289" />
+      <edge source="ligi" target="takımı" id="730" weight="5.83289" />
+      <edge source="ligi" target="voleybol" id="731" weight="5.83289" />
+      <edge source="ligi" target="cup" id="732" weight="5.83289" />
+      <edge source="ligi" target="kupa" id="733" weight="5.83289" />
+      <edge source="ligi" target="kupası" id="734" weight="5.83289" />
+      <edge source="ligi" target="şampiyon" id="735" weight="5.83289" />
+      <edge source="takımı" target="voleybol" id="736" weight="6.83289" />
+      <edge source="126" target="127" id="737" weight="6.83289" />
+      <edge source="126" target="246" id="738" weight="6.83289" />
+      <edge source="126" target="70" id="739" weight="6.83289" />
+      <edge source="126" target="74" id="740" weight="6.83289" />
+      <edge source="127" target="246" id="741" weight="6.83289" />
+      <edge source="127" target="70" id="742" weight="6.83289" />
+      <edge source="127" target="74" id="743" weight="6.83289" />
+      <edge source="246" target="70" id="744" weight="6.83289" />
+      <edge source="246" target="74" id="745" weight="6.83289" />
+      <edge source="70" target="74" id="746" weight="6.83289" />
+      <edge source="new" target="press" id="747" weight="6.83289" />
+      <edge source="new" target="princeton" id="748" weight="6.83289" />
+      <edge source="new" target="university" id="749" weight="6.83289" />
+      <edge source="new" target="york" id="750" weight="6.83289" />
+      <edge source="press" target="princeton" id="751" weight="6.83289" />
+      <edge source="press" target="university" id="752" weight="6.83289" />
+      <edge source="press" target="york" id="753" weight="6.83289" />
+      <edge source="princeton" target="university" id="754" weight="6.83289" />
+      <edge source="princeton" target="york" id="755" weight="6.83289" />
+      <edge source="university" target="york" id="756" weight="6.83289" />
+      <edge source="siyonist" target="yahudi" id="757" weight="6.83289" />
+      <edge source="siyonist" target="yahudiler" id="758" weight="6.83289" />
+      <edge source="siyonist" target="yahudilere" id="759" weight="6.83289" />
+      <edge source="siyonist" target="yahudilerin" id="760" weight="6.83289" />
+      <edge source="yahudi" target="yahudiler" id="761" weight="6.83289" />
+      <edge source="yahudi" target="yahudilere" id="762" weight="6.83289" />
+      <edge source="yahudi" target="yahudilerin" id="763" weight="6.83289" />
+      <edge source="yahudiler" target="yahudilere" id="764" weight="6.83289" />
+      <edge source="yahudiler" target="yahudilerin" id="765" weight="6.83289" />
+      <edge source="yahudilere" target="yahudilerin" id="766" weight="6.83289" />
+      <edge source="16" target="lg" id="767" weight="5.83289" />
+      <edge source="16" target="thinq" id="768" weight="5.83289" />
+      <edge source="16" target="tl" id="769" weight="5.83289" />
+      <edge source="16" target="15" id="770" weight="5.83289" />
+      <edge source="16" target="17" id="771" weight="5.83289" />
+      <edge source="16" target="18" id="772" weight="5.83289" />
+      <edge source="16" target="19" id="773" weight="5.83289" />
+      <edge source="lg" target="thinq" id="774" weight="6.83289" />
+      <edge source="lg" target="tl" id="775" weight="6.83289" />
+      <edge source="thinq" target="tl" id="776" weight="6.83289" />
+      <edge source="dahestanı" target="etap" id="777" weight="6.83289" />
+      <edge source="dahestanı" target="klasmanı" id="778" weight="6.83289" />
+      <edge source="dahestanı" target="ms" id="779" weight="6.83289" />
+      <edge source="dahestanı" target="puan" id="780" weight="6.83289" />
+      <edge source="etap" target="klasmanı" id="781" weight="6.83289" />
+      <edge source="etap" target="ms" id="782" weight="6.83289" />
+      <edge source="etap" target="puan" id="783" weight="6.83289" />
+      <edge source="klasmanı" target="ms" id="784" weight="6.83289" />
+      <edge source="klasmanı" target="puan" id="785" weight="6.83289" />
+      <edge source="ms" target="puan" id="786" weight="6.83289" />
+      <edge source="15" target="17" id="787" weight="6.83289" />
+      <edge source="15" target="18" id="788" weight="6.83289" />
+      <edge source="15" target="19" id="789" weight="6.83289" />
+      <edge source="17" target="18" id="790" weight="6.83289" />
+      <edge source="17" target="19" id="791" weight="6.83289" />
+      <edge source="18" target="19" id="792" weight="6.83289" />
+      <edge source="baraj" target="barajı" id="793" weight="6.83289" />
+      <edge source="baraj" target="hidroelektrik" id="794" weight="6.83289" />
+      <edge source="baraj" target="su" id="795" weight="6.83289" />
+      <edge source="baraj" target="suyu" id="796" weight="6.83289" />
+      <edge source="barajı" target="hidroelektrik" id="797" weight="6.83289" />
+      <edge source="barajı" target="su" id="798" weight="6.83289" />
+      <edge source="barajı" target="suyu" id="799" weight="6.83289" />
+      <edge source="hidroelektrik" target="su" id="800" weight="6.83289" />
+      <edge source="hidroelektrik" target="suyu" id="801" weight="6.83289" />
+      <edge source="su" target="suyu" id="802" weight="6.83289" />
+      <edge source="choi" target="hyun" id="803" weight="6.83289" />
+      <edge source="choi" target="jin" id="804" weight="6.83289" />
+      <edge source="choi" target="kim" id="805" weight="6.83289" />
+      <edge source="choi" target="lee" id="806" weight="6.83289" />
+      <edge source="hyun" target="jin" id="807" weight="6.83289" />
+      <edge source="hyun" target="kim" id="808" weight="6.83289" />
+      <edge source="hyun" target="lee" id="809" weight="6.83289" />
+      <edge source="jin" target="kim" id="810" weight="6.83289" />
+      <edge source="jin" target="lee" id="811" weight="6.83289" />
+      <edge source="kim" target="lee" id="812" weight="6.83289" />
+      <edge source="bira" target="içki" id="813" weight="6.83289" />
+      <edge source="bira" target="üzüm" id="814" weight="6.83289" />
+      <edge source="bira" target="şarabı" id="815" weight="6.83289" />
+      <edge source="bira" target="şarap" id="816" weight="6.83289" />
+      <edge source="içki" target="üzüm" id="817" weight="6.83289" />
+      <edge source="içki" target="şarabı" id="818" weight="6.83289" />
+      <edge source="içki" target="şarap" id="819" weight="6.83289" />
+      <edge source="üzüm" target="şarabı" id="820" weight="6.83289" />
+      <edge source="üzüm" target="şarap" id="821" weight="6.83289" />
+      <edge source="şarabı" target="şarap" id="822" weight="6.83289" />
+      <edge source="kırmızı" target="mavi" id="823" weight="6.83289" />
+      <edge source="kırmızı" target="rengi" id="824" weight="6.83289" />
+      <edge source="kırmızı" target="renk" id="825" weight="6.83289" />
+      <edge source="kırmızı" target="siyah" id="826" weight="6.83289" />
+      <edge source="mavi" target="rengi" id="827" weight="6.83289" />
+      <edge source="mavi" target="renk" id="828" weight="6.83289" />
+      <edge source="mavi" target="siyah" id="829" weight="6.83289" />
+      <edge source="rengi" target="renk" id="830" weight="6.83289" />
+      <edge source="rengi" target="siyah" id="831" weight="6.83289" />
+      <edge source="renk" target="siyah" id="832" weight="6.83289" />
+      <edge source="asur" target="kral" id="833" weight="6.83289" />
+      <edge source="asur" target="ııı" id="834" weight="6.83289" />
+      <edge source="kral" target="ııı" id="835" weight="6.83289" />
+      <edge source="bootp" target="extensions" id="836" weight="6.83289" />
+      <edge source="bootp" target="rfc" id="837" weight="6.83289" />
+      <edge source="bootp" target="siemens" id="838" weight="6.83289" />
+      <edge source="bootp" target="ısbn" id="839" weight="6.83289" />
+      <edge source="extensions" target="rfc" id="840" weight="6.83289" />
+      <edge source="extensions" target="siemens" id="841" weight="6.83289" />
+      <edge source="extensions" target="ısbn" id="842" weight="6.83289" />
+      <edge source="rfc" target="siemens" id="843" weight="6.83289" />
+      <edge source="rfc" target="ısbn" id="844" weight="6.83289" />
+      <edge source="siemens" target="ısbn" id="845" weight="6.83289" />
+      <edge source="eurovision" target="temsil" id="846" weight="6.83289" />
+      <edge source="eurovision" target="yarışması" id="847" weight="6.83289" />
+      <edge source="temsil" target="yarışması" id="848" weight="6.83289" />
+      <edge source="doctor" target="doktor" id="849" weight="6.83289" />
+      <edge source="doctor" target="dr" id="850" weight="6.83289" />
+      <edge source="doctor" target="prof" id="851" weight="6.83289" />
+      <edge source="doctor" target="who" id="852" weight="6.83289" />
+      <edge source="doktor" target="dr" id="853" weight="6.83289" />
+      <edge source="doktor" target="prof" id="854" weight="6.83289" />
+      <edge source="doktor" target="who" id="855" weight="6.83289" />
+      <edge source="dr" target="prof" id="856" weight="6.83289" />
+      <edge source="dr" target="who" id="857" weight="6.83289" />
+      <edge source="prof" target="who" id="858" weight="6.83289" />
+      <edge source="bitti" target="sırada" id="859" weight="6.83289" />
+      <edge source="bitti" target="sıraya" id="860" weight="6.83289" />
+      <edge source="bitti" target="tamamladı" id="861" weight="6.83289" />
+      <edge source="bitti" target="yükseldi" id="862" weight="6.83289" />
+      <edge source="sırada" target="sıraya" id="863" weight="6.83289" />
+      <edge source="sırada" target="tamamladı" id="864" weight="6.83289" />
+      <edge source="sırada" target="yükseldi" id="865" weight="6.83289" />
+      <edge source="sıraya" target="tamamladı" id="866" weight="6.83289" />
+      <edge source="sıraya" target="yükseldi" id="867" weight="6.83289" />
+      <edge source="tamamladı" target="yükseldi" id="868" weight="6.83289" />
+      <edge source="roma" target="romalılar" id="869" weight="6.83289" />
+      <edge source="mi" target="musun" id="870" weight="6.83289" />
+      <edge source="mi" target="mı" id="871" weight="6.83289" />
+      <edge source="mi" target="ne" id="872" weight="6.83289" />
+      <edge source="mi" target="sen" id="873" weight="6.83289" />
+      <edge source="musun" target="mı" id="874" weight="6.83289" />
+      <edge source="musun" target="ne" id="875" weight="6.83289" />
+      <edge source="musun" target="sen" id="876" weight="6.83289" />
+      <edge source="mı" target="ne" id="877" weight="6.83289" />
+      <edge source="mı" target="sen" id="878" weight="6.83289" />
+      <edge source="ne" target="sen" id="879" weight="6.83289" />
+      <edge source="kuş" target="kuşlar" id="880" weight="6.83289" />
+      <edge source="kuş" target="kuşların" id="881" weight="6.83289" />
+      <edge source="kuş" target="türü" id="882" weight="6.83289" />
+      <edge source="kuş" target="vahşi" id="883" weight="6.83289" />
+      <edge source="kuşlar" target="kuşların" id="884" weight="6.83289" />
+      <edge source="kuşlar" target="türü" id="885" weight="6.83289" />
+      <edge source="kuşlar" target="vahşi" id="886" weight="6.83289" />
+      <edge source="kuşların" target="türü" id="887" weight="6.83289" />
+      <edge source="kuşların" target="vahşi" id="888" weight="6.83289" />
+      <edge source="türü" target="vahşi" id="889" weight="6.83289" />
+      <edge source="2013" target="ayrıldı" id="890" weight="6.83289" />
+      <edge source="2013" target="emekli" id="891" weight="6.83289" />
+      <edge source="2013" target="görevinden" id="892" weight="6.83289" />
+      <edge source="2013" target="istifa" id="893" weight="6.83289" />
+      <edge source="ayrıldı" target="emekli" id="894" weight="6.83289" />
+      <edge source="ayrıldı" target="görevinden" id="895" weight="6.83289" />
+      <edge source="ayrıldı" target="istifa" id="896" weight="6.83289" />
+      <edge source="emekli" target="görevinden" id="897" weight="6.83289" />
+      <edge source="emekli" target="istifa" id="898" weight="6.83289" />
+      <edge source="görevinden" target="istifa" id="899" weight="6.83289" />
+      <edge source="izzet" target="lütfi" id="900" weight="6.83289" />
+      <edge source="izzet" target="siyasetçi" id="901" weight="5.83289" />
+      <edge source="izzet" target="siyasetçidir" id="902" weight="6.83289" />
+      <edge source="lütfi" target="siyasetçi" id="903" weight="5.83289" />
+      <edge source="lütfi" target="siyasetçidir" id="904" weight="6.83289" />
+      <edge source="siyasetçi" target="siyasetçidir" id="905" weight="5.83289" />
+      <edge source="siyasetçi" target="ekim" id="906" weight="5.83289" />
+      <edge source="siyasetçi" target="fransız" id="907" weight="5.83289" />
+      <edge source="siyasetçi" target="politikacı" id="908" weight="5.83289" />
+      <edge source="ada" target="adadır" id="909" weight="6.83289" />
+      <edge source="ada" target="adaları" id="910" weight="6.83289" />
+      <edge source="ada" target="adalarında" id="911" weight="6.83289" />
+      <edge source="ada" target="adası" id="912" weight="6.83289" />
+      <edge source="adadır" target="adaları" id="913" weight="6.83289" />
+      <edge source="adadır" target="adalarında" id="914" weight="6.83289" />
+      <edge source="adadır" target="adası" id="915" weight="6.83289" />
+      <edge source="adaları" target="adalarında" id="916" weight="6.83289" />
+      <edge source="adaları" target="adası" id="917" weight="6.83289" />
+      <edge source="adalarında" target="adası" id="918" weight="6.83289" />
+      <edge source="000" target="asker" id="919" weight="6.83289" />
+      <edge source="000" target="kişi" id="920" weight="6.83289" />
+      <edge source="000" target="yaralandı" id="921" weight="6.83289" />
+      <edge source="asker" target="kişi" id="922" weight="6.83289" />
+      <edge source="asker" target="yaralandı" id="923" weight="6.83289" />
+      <edge source="kişi" target="yaralandı" id="924" weight="6.83289" />
+      <edge source="abv" target="cardhu" id="925" weight="6.83289" />
+      <edge source="abv" target="festival" id="926" weight="6.83289" />
+      <edge source="abv" target="festivali" id="927" weight="6.83289" />
+      <edge source="cardhu" target="festival" id="928" weight="6.83289" />
+      <edge source="cardhu" target="festivali" id="929" weight="6.83289" />
+      <edge source="festival" target="festivali" id="930" weight="6.83289" />
+      <edge source="ağaç" target="ağaçlar" id="931" weight="6.83289" />
+      <edge source="ağaç" target="meşe" id="932" weight="6.83289" />
+      <edge source="ağaç" target="orman" id="933" weight="6.83289" />
+      <edge source="ağaç" target="ormanları" id="934" weight="6.83289" />
+      <edge source="ağaçlar" target="meşe" id="935" weight="6.83289" />
+      <edge source="ağaçlar" target="orman" id="936" weight="6.83289" />
+      <edge source="ağaçlar" target="ormanları" id="937" weight="6.83289" />
+      <edge source="meşe" target="orman" id="938" weight="6.83289" />
+      <edge source="meşe" target="ormanları" id="939" weight="6.83289" />
+      <edge source="orman" target="ormanları" id="940" weight="6.83289" />
+      <edge source="and" target="lunatipula" id="941" weight="6.83289" />
+      <edge source="and" target="theischinger" id="942" weight="6.83289" />
+      <edge source="and" target="tipula" id="943" weight="6.83289" />
+      <edge source="and" target="varanus" id="944" weight="6.83289" />
+      <edge source="lunatipula" target="theischinger" id="945" weight="6.83289" />
+      <edge source="lunatipula" target="tipula" id="946" weight="6.83289" />
+      <edge source="lunatipula" target="varanus" id="947" weight="6.83289" />
+      <edge source="theischinger" target="tipula" id="948" weight="6.83289" />
+      <edge source="theischinger" target="varanus" id="949" weight="6.83289" />
+      <edge source="tipula" target="varanus" id="950" weight="6.83289" />
+      <edge source="büyük" target="deprem" id="951" weight="6.83289" />
+      <edge source="büyük" target="hasar" id="952" weight="6.83289" />
+      <edge source="büyük" target="meydana" id="953" weight="6.83289" />
+      <edge source="büyük" target="yangın" id="954" weight="6.83289" />
+      <edge source="deprem" target="hasar" id="955" weight="6.83289" />
+      <edge source="deprem" target="meydana" id="956" weight="6.83289" />
+      <edge source="deprem" target="yangın" id="957" weight="6.83289" />
+      <edge source="hasar" target="meydana" id="958" weight="6.83289" />
+      <edge source="hasar" target="yangın" id="959" weight="6.83289" />
+      <edge source="meydana" target="yangın" id="960" weight="6.83289" />
+      <edge source="kardeşi" target="öldürdü" id="961" weight="6.83289" />
+      <edge source="kardeşi" target="öldürülür" id="962" weight="6.83289" />
+      <edge source="kardeşi" target="öldürür" id="963" weight="6.83289" />
+      <edge source="öldürdü" target="öldürülür" id="964" weight="6.83289" />
+      <edge source="öldürdü" target="öldürür" id="965" weight="6.83289" />
+      <edge source="öldürülür" target="öldürür" id="966" weight="6.83289" />
+      <edge source="marka" target="sanayi" id="967" weight="6.83289" />
+      <edge source="marka" target="tescillenmiş" id="968" weight="6.83289" />
+      <edge source="marka" target="üretim" id="969" weight="6.83289" />
+      <edge source="marka" target="şirket" id="970" weight="6.83289" />
+      <edge source="sanayi" target="tescillenmiş" id="971" weight="6.83289" />
+      <edge source="sanayi" target="üretim" id="972" weight="6.83289" />
+      <edge source="sanayi" target="şirket" id="973" weight="6.83289" />
+      <edge source="tescillenmiş" target="üretim" id="974" weight="6.83289" />
+      <edge source="tescillenmiş" target="şirket" id="975" weight="6.83289" />
+      <edge source="üretim" target="şirket" id="976" weight="6.83289" />
+      <edge source="cenazesi" target="defnedildi" id="977" weight="6.83289" />
+      <edge source="cenazesi" target="gömüldü" id="978" weight="6.83289" />
+      <edge source="cenazesi" target="mezar" id="979" weight="6.83289" />
+      <edge source="cenazesi" target="mezarlığı" id="980" weight="6.83289" />
+      <edge source="defnedildi" target="gömüldü" id="981" weight="6.83289" />
+      <edge source="defnedildi" target="mezar" id="982" weight="6.83289" />
+      <edge source="defnedildi" target="mezarlığı" id="983" weight="6.83289" />
+      <edge source="gömüldü" target="mezar" id="984" weight="6.83289" />
+      <edge source="gömüldü" target="mezarlığı" id="985" weight="6.83289" />
+      <edge source="mezar" target="mezarlığı" id="986" weight="6.83289" />
+      <edge source="com" target="profili" id="987" weight="6.83289" />
+      <edge source="com" target="sitesi" id="988" weight="6.83289" />
+      <edge source="com" target="twitter" id="989" weight="6.83289" />
+      <edge source="com" target="web" id="990" weight="6.83289" />
+      <edge source="profili" target="sitesi" id="991" weight="6.83289" />
+      <edge source="profili" target="twitter" id="992" weight="6.83289" />
+      <edge source="profili" target="web" id="993" weight="6.83289" />
+      <edge source="sitesi" target="twitter" id="994" weight="6.83289" />
+      <edge source="sitesi" target="web" id="995" weight="6.83289" />
+      <edge source="twitter" target="web" id="996" weight="6.83289" />
+      <edge source="cup" target="kupa" id="997" weight="6.83289" />
+      <edge source="cup" target="kupası" id="998" weight="6.83289" />
+      <edge source="cup" target="şampiyon" id="999" weight="6.83289" />
+      <edge source="kupa" target="kupası" id="1000" weight="6.83289" />
+      <edge source="kupa" target="şampiyon" id="1001" weight="6.83289" />
+      <edge source="kupası" target="şampiyon" id="1002" weight="6.83289" />
+      <edge source="seçimleri" target="seçimlerinde" id="1003" weight="6.83289" />
+      <edge source="güney" target="ilçesi" id="1004" weight="6.83289" />
+      <edge source="güney" target="kore" id="1005" weight="6.83289" />
+      <edge source="güney" target="semti" id="1006" weight="6.83289" />
+      <edge source="güney" target="çin" id="1007" weight="6.83289" />
+      <edge source="ilçesi" target="kore" id="1008" weight="6.83289" />
+      <edge source="ilçesi" target="semti" id="1009" weight="6.83289" />
+      <edge source="ilçesi" target="çin" id="1010" weight="6.83289" />
+      <edge source="kore" target="semti" id="1011" weight="6.83289" />
+      <edge source="kore" target="çin" id="1012" weight="6.83289" />
+      <edge source="semti" target="çin" id="1013" weight="6.83289" />
+      <edge source="ayakları" target="diş" id="1014" weight="6.83289" />
+      <edge source="ayakları" target="dişlerin" id="1015" weight="6.83289" />
+      <edge source="ayakları" target="kemik" id="1016" weight="6.83289" />
+      <edge source="ayakları" target="vücut" id="1017" weight="6.83289" />
+      <edge source="diş" target="dişlerin" id="1018" weight="6.83289" />
+      <edge source="diş" target="kemik" id="1019" weight="6.83289" />
+      <edge source="diş" target="vücut" id="1020" weight="6.83289" />
+      <edge source="dişlerin" target="kemik" id="1021" weight="6.83289" />
+      <edge source="dişlerin" target="vücut" id="1022" weight="6.83289" />
+      <edge source="kemik" target="vücut" id="1023" weight="6.83289" />
+      <edge source="azerbaycan" target="cfb" id="1024" weight="6.83289" />
+      <edge source="azerbaycan" target="eyaleti" id="1025" weight="6.83289" />
+      <edge source="azerbaycan" target="farsça" id="1026" weight="6.83289" />
+      <edge source="azerbaycan" target="iran" id="1027" weight="6.83289" />
+      <edge source="cfb" target="eyaleti" id="1028" weight="6.83289" />
+      <edge source="cfb" target="farsça" id="1029" weight="6.83289" />
+      <edge source="cfb" target="iran" id="1030" weight="6.83289" />
+      <edge source="eyaleti" target="farsça" id="1031" weight="6.83289" />
+      <edge source="eyaleti" target="iran" id="1032" weight="6.83289" />
+      <edge source="farsça" target="iran" id="1033" weight="6.83289" />
+      <edge source="ekim" target="fransız" id="1034" weight="6.83289" />
+      <edge source="ekim" target="politikacı" id="1035" weight="6.83289" />
+      <edge source="fransız" target="politikacı" id="1036" weight="6.83289" />
+      <edge source="etnik" target="kafkasya" id="1037" weight="6.83289" />
+      <edge source="etnik" target="türkler" id="1038" weight="6.83289" />
+      <edge source="kafkasya" target="türkler" id="1039" weight="6.83289" />
+      <edge source="24" target="25" id="1040" weight="6.83289" />
+      <edge source="24" target="26" id="1041" weight="6.83289" />
+      <edge source="24" target="28" id="1042" weight="6.83289" />
+      <edge source="24" target="tbmm" id="1043" weight="6.83289" />
+      <edge source="25" target="26" id="1044" weight="6.83289" />
+      <edge source="25" target="28" id="1045" weight="6.83289" />
+      <edge source="25" target="tbmm" id="1046" weight="6.83289" />
+      <edge source="26" target="28" id="1047" weight="6.83289" />
+      <edge source="26" target="tbmm" id="1048" weight="6.83289" />
+      <edge source="28" target="tbmm" id="1049" weight="6.83289" />
+      <edge source="balık" target="balıkları" id="1050" weight="6.83289" />
+      <edge source="balık" target="balığı" id="1051" weight="6.83289" />
+      <edge source="balık" target="fish" id="1052" weight="6.83289" />
+      <edge source="balık" target="marine" id="1053" weight="6.83289" />
+      <edge source="balıkları" target="balığı" id="1054" weight="6.83289" />
+      <edge source="balıkları" target="fish" id="1055" weight="6.83289" />
+      <edge source="balıkları" target="marine" id="1056" weight="6.83289" />
+      <edge source="balığı" target="fish" id="1057" weight="6.83289" />
+      <edge source="balığı" target="marine" id="1058" weight="6.83289" />
+      <edge source="fish" target="marine" id="1059" weight="6.83289" />
+      <edge source="geçidi" target="köprü" id="1060" weight="6.83289" />
+      <edge source="geçidi" target="köprünün" id="1061" weight="6.83289" />
+      <edge source="geçidi" target="köprüsü" id="1062" weight="6.83289" />
+      <edge source="geçidi" target="otoyolu" id="1063" weight="6.83289" />
+      <edge source="köprü" target="köprünün" id="1064" weight="6.83289" />
+      <edge source="köprü" target="köprüsü" id="1065" weight="6.83289" />
+      <edge source="köprü" target="otoyolu" id="1066" weight="6.83289" />
+      <edge source="köprünün" target="köprüsü" id="1067" weight="6.83289" />
+      <edge source="köprünün" target="otoyolu" id="1068" weight="6.83289" />
+      <edge source="köprüsü" target="otoyolu" id="1069" weight="6.83289" />
+      <edge source="bale" target="dance" id="1070" weight="6.83289" />
+      <edge source="bale" target="dans" id="1071" weight="6.83289" />
+      <edge source="bale" target="dansçı" id="1072" weight="6.83289" />
+      <edge source="bale" target="dansı" id="1073" weight="6.83289" />
+      <edge source="dance" target="dans" id="1074" weight="6.83289" />
+      <edge source="dance" target="dansçı" id="1075" weight="6.83289" />
+      <edge source="dance" target="dansı" id="1076" weight="6.83289" />
+      <edge source="dans" target="dansçı" id="1077" weight="6.83289" />
+      <edge source="dans" target="dansı" id="1078" weight="6.83289" />
+      <edge source="dansçı" target="dansı" id="1079" weight="6.83289" />
+      <edge source="bulunan" target="civil" id="1080" weight="6.83289" />
+      <edge source="bulunan" target="ingiltere" id="1081" weight="6.83289" />
+      <edge source="bulunan" target="kontluğunda" id="1082" weight="6.83289" />
+      <edge source="bulunan" target="parish" id="1083" weight="6.83289" />
+      <edge source="civil" target="ingiltere" id="1084" weight="6.83289" />
+      <edge source="civil" target="kontluğunda" id="1085" weight="6.83289" />
+      <edge source="civil" target="parish" id="1086" weight="6.83289" />
+      <edge source="ingiltere" target="kontluğunda" id="1087" weight="6.83289" />
+      <edge source="ingiltere" target="parish" id="1088" weight="6.83289" />
+      <edge source="kontluğunda" target="parish" id="1089" weight="6.83289" />
+      <edge source="formula" target="grand" id="1090" weight="6.83289" />
+      <edge source="formula" target="prix" id="1091" weight="6.83289" />
+      <edge source="formula" target="yarışı" id="1092" weight="6.83289" />
+      <edge source="formula" target="yol" id="1093" weight="6.83289" />
+      <edge source="grand" target="prix" id="1094" weight="6.83289" />
+      <edge source="grand" target="yarışı" id="1095" weight="6.83289" />
+      <edge source="grand" target="yol" id="1096" weight="6.83289" />
+      <edge source="prix" target="yarışı" id="1097" weight="6.83289" />
+      <edge source="prix" target="yol" id="1098" weight="6.83289" />
+      <edge source="yarışı" target="yol" id="1099" weight="6.83289" />
+      <edge source="kulaklık" target="ses" id="1100" weight="6.83289" />
+      <edge source="kulaklık" target="sesini" id="1101" weight="6.83289" />
+      <edge source="kulaklık" target="sesleri" id="1102" weight="6.83289" />
+      <edge source="kulaklık" target="yeteneğine" id="1103" weight="6.83289" />
+      <edge source="ses" target="sesini" id="1104" weight="6.83289" />
+      <edge source="ses" target="sesleri" id="1105" weight="6.83289" />
+      <edge source="ses" target="yeteneğine" id="1106" weight="6.83289" />
+      <edge source="sesini" target="sesleri" id="1107" weight="6.83289" />
+      <edge source="sesini" target="yeteneğine" id="1108" weight="6.83289" />
+      <edge source="sesleri" target="yeteneğine" id="1109" weight="6.83289" />
+      <edge source="beyaz" target="forma" id="1110" weight="6.83289" />
+      <edge source="beyaz" target="giyim" id="1111" weight="6.83289" />
+      <edge source="beyaz" target="giymektedir" id="1112" weight="6.83289" />
+      <edge source="beyaz" target="moda" id="1113" weight="6.83289" />
+      <edge source="forma" target="giyim" id="1114" weight="6.83289" />
+      <edge source="forma" target="giymektedir" id="1115" weight="6.83289" />
+      <edge source="forma" target="moda" id="1116" weight="6.83289" />
+      <edge source="giyim" target="giymektedir" id="1117" weight="6.83289" />
+      <edge source="giyim" target="moda" id="1118" weight="6.83289" />
+      <edge source="giymektedir" target="moda" id="1119" weight="6.83289" />
+      <edge source="amatör" target="lig" id="1120" weight="6.83289" />
+      <edge source="amatör" target="mücadele" id="1121" weight="6.83289" />
+      <edge source="amatör" target="sezonunda" id="1122" weight="6.83289" />
+      <edge source="amatör" target="süper" id="1123" weight="6.83289" />
+      <edge source="lig" target="mücadele" id="1124" weight="6.83289" />
+      <edge source="lig" target="sezonunda" id="1125" weight="6.83289" />
+      <edge source="lig" target="süper" id="1126" weight="6.83289" />
+      <edge source="mücadele" target="sezonunda" id="1127" weight="6.83289" />
+      <edge source="mücadele" target="süper" id="1128" weight="6.83289" />
+      <edge source="sezonunda" target="süper" id="1129" weight="6.83289" />
+    </edges>
+  </graph>
+</gexf>
