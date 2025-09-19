@@ -74,10 +74,22 @@ data/interim/asr_post/
 *.parquet
 *.log
 
+
+# Large deliverables / bundles / exports (keep out of Git history)
 reports/deliverable_large_plus_medium*
 reports/deliverable_medium*
 reports/sprint4_exports_and_report*
 reports/thesis_bundle_ml*
-reports/exports/*
+reports/exports/**
+# Generic archives
 *.zip
+*.tar
+*.tar.gz
+*.7z
 *.bxt
+# Usual noise
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
