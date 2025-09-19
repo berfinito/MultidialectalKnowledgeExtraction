@@ -4,6 +4,7 @@ Build simple co-occurrence graphs from representatives_{lang}_both(_top15).md an
 
 - Use top-N terms per topic; edges increment on co-appearance
 - Modes: top15 or full
+- Window: sentence or paragraph (NEW)
 
 Inputs:
   - reports/analysis/representatives_{lang}_both{_top15}.md
@@ -19,15 +20,21 @@ Notes:
 import re, itertools, json, argparse, statistics
 from pathlib import Path
 
-def parse_terms(md_path, top_terms_per_topic=5):
-    """Parse representative terms per topic from the markdown file."""
+def parse_terms(md_path, top_terms_per_topic=5, window="sentence"):
+    """Parse representative terms per topic from the markdown file.
+    window: 'sentence' (default) or 'paragraph' (NEW, all terms in topic grouped together)
+    """
     lines = Path(md_path).read_text(encoding="utf-8").splitlines()
     topics = []
     for l in lines:
         m = re.match(r"##\s+Topic\s+\d+\s+\|\s+(.+)", l.strip())
         if m:
             all_terms = [t.strip() for t in m.group(1).split(",") if t.strip()]
-            topics.append(all_terms[:top_terms_per_topic])
+            if window == "paragraph":
+                topics.append(all_terms[:top_terms_per_topic])
+            else:  # sentence: treat each term as its own "sentence"
+                for term in all_terms[:top_terms_per_topic]:
+                    topics.append([term])
     return topics
 
 def build_graph(topics):
@@ -82,14 +89,14 @@ def to_graphml(nodes, edges, out_path: Path):
             f.write(f'<edge source="n{idx[a]}" target="n{idx[b]}"><data key="weight">{w}</data></edge>\n')
         f.write('</graph>\n</graphml>\n')
 
-def process_lang(lang, reps_dir: Path, out_dir: Path, top_terms: int, mode: str):
+def process_lang(lang, reps_dir: Path, out_dir: Path, top_terms: int, mode: str, window: str):
     """Pipeline for one language: parse, build, export graph and stats."""
     reps_filename = f"representatives_{lang}_both_top15.md" if mode == "top15" else f"representatives_{lang}_both.md"
     reps_file = reps_dir / reps_filename
     if not reps_file.exists():
         print(f"[WARN] {reps_file} yok; {lang} atlanıyor.")
         return None
-    topics = parse_terms(reps_file, top_terms_per_topic=top_terms)
+    topics = parse_terms(reps_file, top_terms_per_topic=top_terms, window=window)
     nodes, edges = build_graph(topics)
     stats = graph_stats(nodes, edges)
     graphml = out_dir / f"{lang}_{mode}_terms.graphml"
@@ -99,12 +106,13 @@ def process_lang(lang, reps_dir: Path, out_dir: Path, top_terms: int, mode: str)
     print(f"[kg:{mode}] {lang}: nodes={stats['nodes']} edges={stats['edges']} out={graphml}")
     stats["lang"] = lang
     stats["mode"] = mode
+    stats["window"] = window
     return stats
 
-def write_summary_md(stats_list, out_md: Path, mode: str):
+def write_summary_md(stats_list, out_md: Path, mode: str, window: str):
     """Write a small markdown listing of per-language stats and examples."""
     header_mode = "Both Top15" if mode == "top15" else "Both FULL"
-    lines = [f"# KG Examples — {header_mode} (TR/KMR/ZZA)", ""]
+    lines = [f"# KG Examples — {header_mode} (TR/KMR/ZZA) — Window: {window}", ""]
     lines.append("| Lang | Nodes | Edges | WeightedSum | AvgWeightedDeg | Density | AvgEdgeW | MedDeg | MaxDeg | MinDeg |")
     lines.append("|------|-------|-------|-------------|----------------|---------|----------|--------|--------|--------|")
     for s in stats_list:
@@ -123,6 +131,7 @@ def write_summary_md(stats_list, out_md: Path, mode: str):
         "- Density: Olası bağlantıların kullanım oranı.",
         "- AvgEdgeW: Kenar başına tekrar.",
         f"- Mode: {mode} (top15 = sadece trimmed reps; full = tüm topics reps).",
+        f"- Window: {window} (sentence = her terim ayrı; paragraph = tüm terimler birlikte).",
     ]
     out_md.write_text("\n".join(lines), encoding="utf-8")
     print(f"[kg-summary:{mode}] -> {out_md}")
@@ -137,23 +146,25 @@ def main():
     ap.add_argument("--summary_md", type=Path, default=Path("reports/analysis/kg_examples_all.md"))
     ap.add_argument("--mode", choices=["top15", "full"], default="top15",
                     help="top15 => representatives_{lang}_both_top15.md, full => representatives_{lang}_both.md")
+    ap.add_argument("--window", choices=["sentence", "paragraph"], default="sentence",
+                    help="sentence = her terim ayrı; paragraph = tüm terimler birlikte")
     args = ap.parse_args()
 
     args.out_dir.mkdir(parents=True, exist_ok=True)
     stats_all = []
     langs = [l.strip() for l in args.langs.split(",") if l.strip()]
     for lang in langs:
-        st = process_lang(lang, args.reps_dir, args.out_dir, args.top_terms, args.mode)
+        st = process_lang(lang, args.reps_dir, args.out_dir, args.top_terms, args.mode, args.window)
         if st:
             stats_all.append(st)
     if stats_all:
         # Eğer full mod ise çıktı dosya adını override edip ayrı kaydetmek mantıklı
         if args.mode == "full" and args.summary_md.name == "kg_examples_all.md":
             # Çakışmayı önlemek için _full ekleyelim
-            summary_md = args.summary_md.parent / "kg_examples_full.md"
+            summary_md = args.summary_md.parent / f"kg_examples_{args.window}_{args.mode}.md"
         else:
             summary_md = args.summary_md
-        write_summary_md(stats_all, summary_md, args.mode)
+        write_summary_md(stats_all, summary_md, args.mode, args.window)
 
 if __name__ == "__main__":
     main()

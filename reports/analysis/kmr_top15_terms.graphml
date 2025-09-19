@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key id="label" for="node" attr.name="label" attr.type="string"/>
+<key id="weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph edgedefault="undirected">
+<node id="n0"><data key="label">almanyayê</data></node>
+<node id="n1"><data key="label">azerbaycana</data></node>
+<node id="n2"><data key="label">bajarê</data></node>
+<node id="n3"><data key="label">bavyera</data></node>
+<node id="n4"><data key="label">bavê</data></node>
+<node id="n5"><data key="label">bo</data></node>
+<node id="n6"><data key="label">bûm</data></node>
+<node id="n7"><data key="label">bûye</data></node>
+<node id="n8"><data key="label">dayik</data></node>
+<node id="n9"><data key="label">de</data></node>
+<node id="n10"><data key="label">di</data></node>
+<node id="n11"><data key="label">dikî</data></node>
+<node id="n12"><data key="label">ew</data></node>
+<node id="n13"><data key="label">ez</data></node>
+<node id="n14"><data key="label">girêdayî</data></node>
+<node id="n15"><data key="label">gund</data></node>
+<node id="n16"><data key="label">gundekî</data></node>
+<node id="n17"><data key="label">hey</data></node>
+<node id="n18"><data key="label">hûn</data></node>
+<node id="n19"><data key="label">jdb</data></node>
+<node id="n20"><data key="label">ji</data></node>
+<node id="n21"><data key="label">jî</data></node>
+<node id="n22"><data key="label">komun</data></node>
+<node id="n23"><data key="label">ku</data></node>
+<node id="n24"><data key="label">kurd</data></node>
+<node id="n25"><data key="label">kurdistanê</data></node>
+<node id="n26"><data key="label">kurdî</data></node>
+<node id="n27"><data key="label">kurmancî</data></node>
+<node id="n28"><data key="label">landkreis</data></node>
+<node id="n29"><data key="label">malbata</data></node>
+<node id="n30"><data key="label">me</data></node>
+<node id="n31"><data key="label">min</data></node>
+<node id="n32"><data key="label">mirov</data></node>
+<node id="n33"><data key="label">navenda</data></node>
+<node id="n34"><data key="label">navçeya</data></node>
+<node id="n35"><data key="label">output</data></node>
+<node id="n36"><data key="label">parser</data></node>
+<node id="n37"><data key="label">parêzgeha</data></node>
+<node id="n38"><data key="label">paşa</data></node>
+<node id="n39"><data key="label">pirtûk</data></node>
+<node id="n40"><data key="label">pirtûka</data></node>
+<node id="n41"><data key="label">pirtûkê</data></node>
+<node id="n42"><data key="label">pirtûkên</data></node>
+<node id="n43"><data key="label">pîrê</data></node>
+<node id="n44"><data key="label">re</data></node>
+<node id="n45"><data key="label">rojhilat</data></node>
+<node id="n46"><data key="label">sala</data></node>
+<node id="n47"><data key="label">ser</data></node>
+<node id="n48"><data key="label">te</data></node>
+<node id="n49"><data key="label">the</data></node>
+<node id="n50"><data key="label">tu</data></node>
+<node id="n51"><data key="label">tune</data></node>
+<node id="n52"><data key="label">wan</data></node>
+<node id="n53"><data key="label">wey</data></node>
+<node id="n54"><data key="label">wê</data></node>
+<node id="n55"><data key="label">wî</data></node>
+<node id="n56"><data key="label">xwe</data></node>
+<node id="n57"><data key="label">ziman</data></node>
+<node id="n58"><data key="label">zimanekî</data></node>
+<node id="n59"><data key="label">zimanê</data></node>
+<node id="n60"><data key="label">zimanên</data></node>
+<node id="n61"><data key="label">zimanî</data></node>
+<node id="n62"><data key="label">îranê</data></node>
+<node id="n63"><data key="label">îtalyayê</data></node>
+<node id="n64"><data key="label">şaredariyeke</data></node>
+<node id="n65"><data key="label">şaredariyên</data></node>
+</graph>
+</graphml>

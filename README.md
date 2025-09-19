@@ -212,3 +212,24 @@ KG bundle arşivi için: [reports/analysis/kg_bundle_v1.zip](reports/analysis/kg
 
 **Provenance.** Ham kaynak tanımları ve yolları için `sources.json` dosyasına bakınız (versiyonlar, dump adları, yerel dosya yolları).
  
+
+## How to reproduce KG (co-occurrence)
+
+# Sentence window
+python scripts/kg_from_reps_terms.py --langs tr,kmr,zza --mode full --window sentence --outdir reports/analysis
+
+# Paragraph window
+python scripts/kg_from_reps_terms.py --langs tr,kmr,zza --mode full --window paragraph --outdir reports/analysis
+
+# Weighting
+python scripts/kg_weighting.py --patterns "reports/analysis/*_kg_full_raw.tsv" --weight pmi --normalize minmax
+
+# Export & Plot
+python scripts/export_kg.py --tsv reports/analysis/tr_kg_full_pmi.tsv --out reports/analysis/exports/tr_kg_full_pmi.gexf
+python scripts/plot_kg.py --tsv reports/analysis/tr_kg_full_pmi.tsv --top_edges 200 --out reports/analysis/plots/tr_kg_full_pmi_top200.png
+
+# Centrality & Top-N CSV
+python scripts/kg_centrality_analysis.py --patterns "reports/analysis/*_kg_*_{pmi,tfidf}.tsv"
+
+# Bundle
+pwsh ./scripts/ps/make_kg_bundle.ps1

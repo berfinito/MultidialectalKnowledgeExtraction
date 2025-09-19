@@ -64,3 +64,4 @@ kg_bundle:
 \t@powershell -NoProfile -Command "Copy-Item reports/analysis/centrality/* reports/analysis/kg_bundle_v1/ -Recurse"
 \t@powershell -NoProfile -Command "Copy-Item reports/analysis/*_kg_*_stats.json reports/analysis/kg_bundle_v1/"
 \t@powershell -NoProfile -Command "Compress-Archive -Path reports/analysis/kg_bundle_v1/* -DestinationPath reports/analysis/kg_bundle_v1.zip -Force"
+

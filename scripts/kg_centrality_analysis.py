@@ -7,6 +7,7 @@ Inputs (glob):
 Outputs:
   reports/analysis/centrality/{stem}_centrality.json
   reports/analysis/centrality/summary.md
+  reports/analysis/centrality/{stem}_topN.csv (NEW: top-N nodes by weighted degree)
 
 Metrics:
 - degree, weighted_degree
@@ -87,12 +88,22 @@ def summarize(vals: List[float]) -> Dict[str, Any]:
     p90 = percentile(vals, 90)
     return {"min": mn, "max": mx, "mean": mean, "median": med, "p90": (None if p90 is None else float(p90))}
 
+def export_topN_csv(G: nx.Graph, wdeg: dict, out_csv: Path, N: int = 15):
+    """Export top-N nodes by weighted degree to CSV."""
+    top = sorted(wdeg.items(), key=lambda x: -x[1])[:N]
+    out_csv.parent.mkdir(parents=True, exist_ok=True)
+    with out_csv.open("w", encoding="utf-8") as f:
+        f.write("node,weighted_degree\n")
+        for node, wd in top:
+            f.write(f"{node},{wd}\n")
+
 def main():
-    """Drive the analysis across input patterns and write JSON + summary.md."""
+    """Drive the analysis across input patterns and write JSON + summary.md + topN CSV."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--patterns", nargs="+", required=False,
                     default=["reports/analysis/*_kg_full_*.tsv","reports/analysis/*_kg_top15_*.tsv"])
     ap.add_argument("--out-dir", default="reports/analysis/centrality")
+    ap.add_argument("--topN", type=int, default=15, help="Export top-N nodes by weighted degree to CSV")
     args = ap.parse_args()
     Path(args.out_dir).mkdir(parents=True, exist_ok=True)
 
@@ -126,6 +137,10 @@ def main():
             }
             out_json = Path(args.out_dir) / (Path(path).stem + "_centrality.json")
             out_json.write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
+
+            # Export top-N nodes by weighted degree
+            out_csv = Path(args.out_dir) / (Path(path).stem + f"_top{args.topN}.csv")
+            export_topN_csv(G, wdeg, out_csv, N=args.topN)
 
             stem = Path(path).stem  # e.g. tr_kg_full_pmi
             parts = stem.split("_kg_")
