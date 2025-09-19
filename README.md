@@ -189,3 +189,26 @@ Aşağıdaki adımlar opsiyonel olup v1’de uygulanmamıştır, future work ola
 - NER+Wikidata+Louvain (Deferred, not implemented)
 
 KG bundle arşivi için: [reports/analysis/kg_bundle_v1.zip](reports/analysis/kg_bundle_v1.zip) dosyasına bakınız.
+
+## Appendix — Data Sources & Licensing
+
+- **Mozilla Common Voice v22.0 (TR, KMR, ZZA)** — License: **CC0**  
+  Citation: Ardila et al., 2020, Mozilla Common Voice.  
+  URL: https://commonvoice.mozilla.org  
+  Accessed: 2025-09-19
+
+- **Wikipedia dumps** — Projects: **trwiki (TR)**, **kuwiki (KMR)**, **diqwiki (ZZA)** — License: **CC BY-SA 4.0**  
+  Provider: Wikimedia Foundation Dumps  
+  URL: https://dumps.wikimedia.org  
+  Dump date(s): *fill if you logged exact dump date(s)*  
+  Accessed: 2025-09-19
+
+- **Zazagorani (Zazaki) corpus** — License: **VarDial research license**  
+  Citation: Öztürk Başaran et al., 2020, Zazagorani (Zazaki) corpus.  
+  URL: *project/corpus page if available*  
+  Accessed: 2025-09-19
+
+**Ethics & Compliance.** Bu projede kişisel veri toplanmamıştır. Tüm veri kullanımları ilgili lisans koşullarına uygundur (CC0 / CC BY-SA / VarDial). Toplanan ve paylaşılan türetilmiş çıktılar (raporlar, grafikler) lisans koşullarına saygı gösterir ve kaynak atıfları sağlanmıştır.
+
+**Provenance.** Ham kaynak tanımları ve yolları için `sources.json` dosyasına bakınız (versiyonlar, dump adları, yerel dosya yolları).
+ 
