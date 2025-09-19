@@ -73,3 +73,8 @@ data/interim/asr_post/
 # --- Parquet & local caches (outside data/ for safety) ---
 *.parquet
 *.log
+
+reports/exports/sentences*
+reports/sprint4_exports_and*
+*.zip
+*.bxt
