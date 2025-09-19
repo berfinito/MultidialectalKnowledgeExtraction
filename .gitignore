@@ -74,7 +74,10 @@ data/interim/asr_post/
 *.parquet
 *.log
 
-reports/exports/sentences*
-reports/sprint4_exports_and*
+reports/deliverable_large_plus_medium*
+reports/deliverable_medium*
+reports/sprint4_exports_and_report*
+reports/thesis_bundle_ml*
+reports/exports/*
 *.zip
 *.bxt
